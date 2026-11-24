@@ -1,1 +1,2 @@
 source_id,name,provider,url,data_type,coverage,frequency,access,licence_notes,local_path,last_pulled,owner,notes
+S-001,IDX historical prices (saham MCP),saham MCP connector,,Prices and volume,958 IDX tickers,~Weekly sampling,MCP tool (local),Unverified; cross-check against IDX before use in backtests,,2026-11-24,Claude Code,Dataset last updated 2026-11-07; used for the indicative liquidity screen

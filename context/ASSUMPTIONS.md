@@ -4,7 +4,8 @@ Every assumption used in models, valuations or backtests goes here with its sour
 
 | ID | Area | Assumption | Value | Source / basis | Date set | Changes |
 |---|---|---|---|---|---|---|
-| — | — | _No assumptions recorded yet. The analysis has not started._ | — | — | — | — |
+| A-001 | Quant | Liquidity threshold for the core universe (approx. average daily traded value) | ≥ IDR 1.5bn | Judgement; screen in `research/industry/2026-11-24_universe_screen.md` (S-001) | 2026-11-24 | — |
+| A-002 | Quant | Liquidity band for the extended universe | IDR 0.25–1.5bn | Same as A-001 | 2026-11-24 | — |
 
 ## Areas to cover
 

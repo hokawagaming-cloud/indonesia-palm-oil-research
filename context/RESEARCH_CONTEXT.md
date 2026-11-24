@@ -12,22 +12,36 @@ Identify underappreciated investment opportunities in Indonesian palm oil equiti
 - **Sector:** Upstream plantations (primary), integrated upstream/downstream producers, and possibly downstream refiners and biodiesel names.
 - **Horizon:** To be defined (see Open questions).
 
-## Candidate universe (to be confirmed)
+## Stock universe (confirmed 2026-11-24, D-002)
 
-| Ticker | Company | Notes |
-|---|---|---|
-| AALI | Astra Agro Lestari | |
-| LSIP | PP London Sumatra Indonesia | |
-| SIMP | Salim Ivomas Pratama | |
-| SSMS | Sawit Sumber Mas Sarana | |
-| TAPG | Triputra Agro Persada | |
-| DSNG | Dharma Satya Nusantara | |
-| SGRO | Sampoerna Agro | |
-| BWPT | Eagle High Plantations | |
-| TBLA | Tunas Baru Lampung | |
-| ANJT | Austindo Nusantara Jaya | |
+Source: [`research/industry/2026-11-24_universe_screen.md`](../research/industry/2026-11-24_universe_screen.md).
 
-This list is a starting point only. Screening criteria (liquidity, free float, palm oil revenue share) will decide the final universe.
+**Core (9): quant signals, backtests and full fundamental coverage**
+
+| Ticker | Company |
+|---|---|
+| DSNG | Dharma Satya Nusantara |
+| SSMS | Sawit Sumber Mas Sarana |
+| TAPG | Triputra Agro Persada |
+| STAA | Sumber Tani Agung Resources |
+| LSIP | PP London Sumatra Indonesia |
+| MGRO | Mahkota Group |
+| NSSS | Nusantara Sawit Sejahtera |
+| GZCO | Gozco Plantations |
+| AALI | Astra Agro Lestari |
+
+**Extended (6): fundamental coverage only, flagged for liquidity**
+
+| Ticker | Company |
+|---|---|
+| ANJT | Austindo Nusantara Jaya |
+| TBLA | Tunas Baru Lampung |
+| SIMP | Salim Ivomas Pratama |
+| BWPT | Eagle High Plantations |
+| CSRA | Cisadane Sawit Raya |
+| PSGO | Palma Serasih |
+
+**Screening rules:** core = approx. ≥ IDR 1.5bn average daily traded value; extended = IDR 0.25–1.5bn; below that, excluded (SGRO, SMAR, TLDN, FAPA, CBUT, JAWA, UNSP, PGUN). Names are reviewed at each rebalance. A name can move between tiers once free float and palm-revenue share are verified from filings.
 
 ## Key research questions
 
