@@ -43,6 +43,7 @@ jv_q3 = Q3["share_of_profit_jv"] + Q3["share_of_profit_associates"]
 other_op_q3 = Q3["profit_before_tax"] - (Q3["gross_profit"] + Q3["selling_marketing_exp"] + Q3["general_admin_exp"]
                                          + Q3["finance_income"] + Q3["finance_costs"] + jv_q3)
 NM9 = 3505.620  # 9M26 profit to owners (OBS, 9M26 FS)
+Q4_25_OTHER_OP = -71.8  # DER: Q4'25 PBT - (GP + selling + G&A + finance net + JV share 241.2); FY25 other items -131.3 vs 9M25 -59.5
 INPUTS = [  # name, value, tag, note
     ("q3_cpo_sales_kt", 187.5, "BRK", "KBV p1"), ("q3_cpo_asp", 15565, "BRK", "KBV p1"),
     ("q3_pk_sales_kt", 34.2, "BRK", "KBV p1"), ("q3_pk_asp", 13402, "BRK", "KBV p1"),
@@ -71,11 +72,11 @@ INPUTS.append(("carrying_cost_to_asp", COST_TO_ASP, "EST", "unit carrying cost /
 
 SCEN = {  # all EST unless stated
     "bear": dict(harvest=0.95, inv_release=0.0, asp_vs_q3=-0.10, pk_asp_vs_q3=-0.12, fert_q4=340, ffb_price_pass=0.5,
-                 jv_assoc=240, note="sales from production 5% below Q3 (company FY26F guidance implies Q4 group CPO 259kt vs 271kt in Q3); no inventory release; CPO ASP -10%; full fertiliser catch-up; JV at the Q4'25 level"),
+                 jv_assoc=240, other_op=-150, note="other operating items 2x Q4'25 (-150bn); sales from production 5% below Q3 (company FY26F guidance implies Q4 group CPO 259kt vs 271kt in Q3); no inventory release; CPO ASP -10%; full fertiliser catch-up; JV at the Q4'25 level"),
     "base": dict(harvest=1.00, inv_release=0.5, asp_vs_q3=-0.055, pk_asp_vs_q3=-0.05, fert_q4=230, ffb_price_pass=0.5,
-                 jv_assoc=310, note="sales from production flat QoQ; half of the 9M finished-goods build sold; CPO ASP -5.5% (KPBN tenders Q4-to-date vs Q3, secondary, S-023); fertiliser ~+155bn QoQ"),
+                 jv_assoc=310, other_op=Q4_25_OTHER_OP, note="other operating items at the Q4'25 level (-72bn, year-end items); sales from production flat QoQ; half of the 9M finished-goods build sold; CPO ASP -5.5% (KPBN tenders Q4-to-date vs Q3, secondary, S-023); fertiliser ~+155bn QoQ"),
     "bull": dict(harvest=1.08, inv_release=1.0, asp_vs_q3=-0.02, pk_asp_vs_q3=0.00, fert_q4=150, ffb_price_pass=0.5,
-                 jv_assoc=360, note="Q4 seasonal uplift as in 2025 (group CPO Q4/Q3 = 1.10); full inventory release; ASP -2% (Nov charge cut offsets most of the HRef fall: reference netback -1.3 USD/t); moderate catch-up"),
+                 jv_assoc=360, other_op=6.1, note="other operating items at the Q3'26 level (+6bn); Q4 seasonal uplift as in 2025 (group CPO Q4/Q3 = 1.10); full inventory release; ASP -2% (Nov charge cut offsets most of the HRef fall: reference netback -1.3 USD/t); moderate catch-up"),
 }
 
 
@@ -90,7 +91,7 @@ def run(s: dict) -> dict:
     cpo_prod_kt, pk_prod_kt = I["q3_cpo_sales_kt"] * h, I["q3_pk_sales_kt"] * h
     rev_prod = cpo_prod_kt * asp["cpo"] / 1e3 + pk_prod_kt * asp["pk"] / 1e3 + I["q3_other_revenue_bn"] * h * other_price_factor
     cogs_ex_fert_q3 = -Q3["cost_of_sales"] - I["q3_fertilizer_bn"]
-    cogs_prod = cogs_ex_fert_q3 * h * (1 + s["ffb_price_pass"] * s["asp_vs_q3"]) + s["fert_q4"]
+    cogs_prod = cogs_ex_fert_q3 * h * (1 + s["ffb_price_pass"] * s["asp_vs_q3"]) + s["fert_q4"] + s.get("ffb_cost_extra", 0.0)
     # 2) inventory release, product by product, at carrying value
     rel_val = {p: I["fg_inventory_build_bn"] * FG_SHARE[p] * s["inv_release"] for p in FG_SHARE}
     rel_rev = {p: rel_val[p] / COST_TO_ASP * (asp[p] / (I["q3_cpo_asp"] if p == "cpo" else I["q3_pk_asp"]) if p in asp else other_price_factor)
@@ -101,8 +102,9 @@ def run(s: dict) -> dict:
     cogs = cogs_prod + sum(rel_val.values())
     gp = rev - cogs
     selling = Q3["selling_marketing_exp"] * (cpo_prod_kt + pk_prod_kt + rel_kt["cpo"] + rel_kt["pk"]) / (I["q3_cpo_sales_kt"] + I["q3_pk_sales_kt"])
-    pbt = gp + selling + Q3["general_admin_exp"] + I["q3_other_operating_net_bn"] + Q3["finance_income"] + Q3["finance_costs"] + s["jv_assoc"]
-    tax = I["q3_tax_rate_ex_jv"] * (pbt - s["jv_assoc"])
+    other_op = s.get("other_op", I["q3_other_operating_net_bn"])
+    pbt = gp + selling + Q3["general_admin_exp"] * s.get("ga_factor", 1.0) + other_op + Q3["finance_income"] + Q3["finance_costs"] + s["jv_assoc"]
+    tax = s.get("tax_rate", I["q3_tax_rate_ex_jv"]) * (pbt - s["jv_assoc"])
     np_ = (pbt - tax) * (1 - I["q3_nci_share"])
     return {"cpo_sales_kt": cpo_prod_kt + rel_kt["cpo"], "cpo_from_inventory_kt": rel_kt["cpo"], "pk_sales_kt": pk_prod_kt + rel_kt["pk"],
             "cpo_asp": asp["cpo"], "revenue": rev, "revenue_from_inventory": sum(rel_rev.values()),

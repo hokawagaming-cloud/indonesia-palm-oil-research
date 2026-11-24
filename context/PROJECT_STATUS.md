@@ -4,12 +4,10 @@ _Last updated: 2026-11-24_
 
 ## Current phase
 
-**Phase II — audit remediation (2026-11-24).**
-- Audit findings A (PIT leakage), B (inventory double-counting) and E (netback) are fixed or verified.
-- C (expectations) is refreshed with dated snapshots.
-- D (DSNG) is partially verified.
-- The levy/duty reconstruction is complete for Oct 2017 onward.
-- No rating or valuation has been produced. The Q4 2026 nowcast is exploratory.
+**Phase III — Expectations gap and predictive validation: first pass done (2026-11-24).**
+- Verdict D-020: **no BUY**. TAPG stays primary coverage, on watch.
+- Models are EXPLORATORY (PIT n = 2), with a forward-testing journal open.
+- See `research/company/TAPG/2026-11-24_IC_memo.md`.
 
 ## Done
 
@@ -67,6 +65,16 @@ _Last updated: 2026-11-24_
   - DSNG check: `research/challengers/2026-11-24_dsng_inventory_check.md`.
   - Tests: 26 passing.
 
+- [x] **Phase III (2026-11-24):**
+  - Astra files reconciled (D-019): DSNG 23→52kt inventory VERIFIED; S&P snapshot verified and deduplicated.
+  - Strict AR vintage rule (D-017).
+  - Q4 joint downside: no combination without an extreme driver reaches the consensus-implied 720bn; all drivers stressed gives ≈ 728bn. Base revised to 1,209bn (D-018).
+  - FY27 model: base 4,062bn vs consensus 4,473bn.
+  - Reverse valuation: the price implies ≈ 4.1tn sustainable profit.
+  - PIT validation n = 2 (exploratory); forecast journal (26 entries); catalyst register (9 entries).
+  - DSNG assessment: catalyst already in consensus.
+  - IC memo. Tests: 30 passing.
+
 ## Not resolved (sources tried and failed)
 
 | Need | Tried | Why it failed |
@@ -81,11 +89,11 @@ _Last updated: 2026-11-24_
 
 ## Next
 
-- [ ] DSNG: dated consensus, unit margin, event study (peer index ex-DSNG); find the newsletter with the 23k/52k figures.
-- [ ] STAA: light challenger screen.
-- [ ] TAPG: identify the cause of the post-9M underperformance (earnings-call notes, broker revisions after 29 Oct).
-- [ ] HRef gaps (44 months, mostly 2015 to Sep 2017): fill from primary decrees if needed for the pre-2018 backtest.
-- [ ] **User action:** TAPG newsletters (S-033) to date quarterly ops originally and extend sales/cost history.
+- [ ] Track catalysts C-002 (consensus revisions), C-003 (Dec HRef, levy/duty), C-004 (KPBN Q4); re-run the nowcast when they print.
+- [ ] Obtain original-vintage TAPG interims 2021–2025 and newsletters (S-033) for real PIT validation (target ≥ 12 quarters).
+- [ ] Pin down the fertiliser level (FY25/FY26): the key Q4 and FY27 swing factor.
+- [ ] Investigate the sector-wide post-9M underperformance (TAPG and DSNG both ≈ −13% vs the remaining peers): which names outperformed, and why.
+- [ ] STAA assessment (bulletin S-042 downloaded); DSNG reverse valuation and cost model.
 - [ ] Decide D-004; cross-check Yahoo prices; verify A-013 deadlines.
 
 ## Blockers

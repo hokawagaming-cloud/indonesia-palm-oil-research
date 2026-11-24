@@ -1,0 +1,17 @@
+driver,level,value,delta_q4_np
+harvest,stressed,0.9,-57.6
+harvest,extreme,0.9,-115.1
+asp_vs_q3,stressed,-0.1,-102.0
+asp_vs_q3,extreme,-0.1,-215.4
+fert_q4,stressed,340.0,-82.9
+fert_q4,extreme,450.0,-165.8
+ffb_cost_extra,stressed,75.0,-56.5
+ffb_cost_extra,extreme,150.0,-113.0
+inv_release,stressed,0.2,-41.4
+inv_release,extreme,0.0,-82.8
+jv_assoc,stressed,240.0,-67.3
+jv_assoc,extreme,180.0,-124.9
+other_op,stressed,-150.0,-58.8
+other_op,extreme,-250.0,-134.1
+tax_rate,stressed,0.2,-39.4
+tax_rate,extreme,0.3,-74.2

@@ -26,6 +26,10 @@ Every assumption used in models, valuations or backtests goes here with its sour
 | A-021 | Nowcast | Product allocation and carrying cost of the finished-goods build | Allocated by Q3 2026 revenue mix (CPO 81%, PK 13%, other 6%); unit carrying cost = 0.578 × ASP for every product (from A-020) | Judgement; replaces the earlier all-CPO treatment (D-015) | 2026-11-24 | — |
 | A-022 | Quant | Event-study specification | Market model on IHSG and on PIT core peers ex-TAPG; estimation days −260..−11; CAR windows [0,0], [0,1], [0,5], [0,10]; abnormal volume vs days −60..−11 | Standard; untuned | 2026-11-24 | — |
 | A-023 | Nowcast | Q4 2026 base CPO ASP change vs Q3 | −5.5% (KPBN tender average Q4-to-date vs Q3; few observations, secondary); bear −10%, bull −2% | S-023 snapshot; netback analysis | 2026-11-24 | Base was −4% before 2026-11-24 |
+| A-024 | Valuation | Reverse valuation | ke 11–14% (central 12.5%), g 0–4% (central 2%), FCFE conversion 0.80–0.90 (central 0.85) | Judgement for an IDR large-cap plantation; risk-free and ERP not separately sourced | 2026-11-24 | — |
+| A-025 | FY27 model | Drivers | Group CPO FY26 1,016kt (guidance); FY27 production bear −12% / base −7.5% / bull 0%; consolidated share 68.4%; seasonality = 2025 quarters; world CPO USD 1,000/1,100/1,200; USDIDR 18,000; HRef = 0.873 × WB; basis −53 IDR/kg; fertiliser FY26 ≈ 692bn (from a broker FY25 ≈ 800bn), FY27 × 1.25 (bull × 1.10); non-fertiliser COGS 50% price pass-through + 3–5% inflation; JV scales with TAPG gross profit | `quant/tapg_fy2027_model.py` docstring; mixed OBS/BRK/GUID/EST | 2026-11-24 | — |
+| A-026 | Nowcast | Joint downside grid levels | See `quant/tapg_q4_downside.py` (plausible / stressed / extreme per driver) | Evidence-anchored judgement | 2026-11-24 | — |
+| A-027 | Challenger | DSNG inventory release profit | 29kt × ASP 15,520 × 9M EBITDA margin 32%, 22% tax | Rough proxy; DSNG cost not modelled | 2026-11-24 | — |
 | A-008 | Backtest | Backtest start | 2016-01 or the first month all required inputs exist, whichever is later | User mandate (D-003); see the Phase I audit | 2026-11-24 | — |
 
 ## Still to set (before the first backtest)

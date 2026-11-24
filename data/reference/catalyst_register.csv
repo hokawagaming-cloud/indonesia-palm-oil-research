@@ -1,0 +1,10 @@
+id,company,catalyst,expected_timing,type,what_to_measure,linked_file,source,status,registered
+C-001,TAPG,FY2026 audited FS (Q4 2026 resolves),by ~2027-03-31 (FY2025 filed 2026-03-16 20:23),earnings,"Q4 profit vs consensus-implied ~714-720bn; our bear/base/bull 765/1,209/1,651bn",forecast_journal.csv,IDX announcements (S-027),open,2026-11-24
+C-002,TAPG,Analyst revisions after 9M26 call (KBV said forecast under review),Nov-Dec 2026,expectations,S&P FY26 EPS 212.9 (1 up-revision in last 7d); watch FY27 225.3,TAPG_expectations_snapshots.csv,Yahoo/StockAnalysis (S-036/S-040),open,2026-11-24
+C-003,Sector,Kemendag Dec-2026 CPO reference price and levy/duty,late Nov 2026,policy,duty/levy band for Dec; netback cushion,cpo_levy_duty_monthly.csv,Kemendag decree (S-035),open,2026-11-24
+C-004,Sector,KPBN domestic tenders Q4,daily,price,Q4 ASP vs Q3 (base -5.5%),cpo_netback_monthly.csv,S-023 (secondary),open,2026-11-24
+C-005,Sector,ENSO / rainfall (FY27 volume),monthly,weather,ONI 2.46 ASO-26; JJAS-26 rainfall -65% C. Kalimantan,macro_monthly.csv; chirps_monthly_regions.csv,NOAA S-006; CHIRPS S-007,open,2026-11-24
+C-006,TAPG,"Public expose FY2026 (FY27 guidance: production, fertiliser)",~Mar 2027,guidance,"mgmt FY27 production -5 to -10%, fertiliser +25% (via broker S-045)",fy2027_model.md,IDX (S-027),open,2026-11-24
+C-007,TAPG,"Investor newsletter Q4 2026 (ops: FFB, CPO, sales, fertiliser)",Jan-Feb 2027 (unverified),operations,"inventory release, Q4 sales volume",TAPG_quarterly_ops.csv,S-033 (host blocked),open,2026-11-24
+C-008,DSNG,Shipment normalisation / Q4 2026 results,Q4 sales; FY results ~Mar 2027,earnings,52kt CPO inventory release vs consensus-implied Q4 ~796bn,dsng_catalyst_assessment.md,S-041,open,2026-11-24
+C-009,TAPG,Interim dividend payment,2026-11-27,capital return,IDR 70/share (ex 11 Nov),TAPG_corporate_actions.csv,KSEI S-044,scheduled,2026-11-24

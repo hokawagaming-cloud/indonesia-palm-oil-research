@@ -1,0 +1,17 @@
+item,method,evaluation,n,MAE_bn,RMSE_bn,bias_bn,MAPE
+profit_attrib_owners,last_q,PIT,2,362.744,413.313,-362.744,0.272
+profit_attrib_owners,price_last,PIT,2,315.123,352.309,-315.123,0.235
+profit_attrib_owners,seasonal,PIT,0,,,,
+profit_attrib_owners,price_seas,PIT,0,,,,
+revenue,last_q,PIT,2,548.637,637.225,-548.637,0.161
+revenue,price_last,PIT,2,390.965,432.405,-390.965,0.114
+revenue,seasonal,PIT,0,,,,
+revenue,price_seas,PIT,0,,,,
+profit_attrib_owners,last_q,hindsight,6,204.289,270.611,-109.999,0.192
+profit_attrib_owners,price_last,hindsight,6,208.814,265.711,-82.283,0.208
+profit_attrib_owners,seasonal,hindsight,3,318.993,366.957,-275.329,0.244
+profit_attrib_owners,price_seas,hindsight,3,162.271,173.623,-94.906,0.137
+revenue,last_q,hindsight,6,458.585,525.632,-161.569,0.154
+revenue,price_last,hindsight,6,531.127,584.840,-72.934,0.185
+revenue,seasonal,hindsight,3,498.171,587.555,-412.929,0.147
+revenue,price_seas,hindsight,3,301.787,311.323,133.777,0.097

@@ -66,6 +66,15 @@ Find **earnings surprises and underappreciated catalysts** in Indonesian palm oi
 - Exploratory scenario nowcasts (D-013) may be run before validation, but must tag every input (OBS/BRK/GUID/DER/EST) and report break-even sensitivities rather than point claims.
 - Fit on 2021–2024 and validate out of sample on 2025–2026. Until quarterly volumes exist, only naive benchmarks are reported, labelled as such.
 
+## 5d. Expectations-gap workflow (Phase III)
+
+1. Our forecast (scenarios with tagged inputs), challenged by a joint downside grid (`quant/tapg_q4_downside.py`).
+2. Dated consensus on a stated basis (`TAPG_expectations_snapshots.csv`, D-016), with duplicate vendor feeds counted once (D-019).
+3. Market-implied sustainable earnings (`valuation/reverse_valuation.py`).
+4. Price-in evidence (`quant/tapg_price_in.py`): never read as mispricing on its own.
+5. PIT validation against naive benchmarks (`quant/forecast_validation.py`), cut off at the target's original publication date. Below about 12 PIT observations a model stays EXPLORATORY and is forward-tested via `forecast_journal.csv`.
+6. Catalysts tracked in `catalyst_register.csv`.
+
 ## 6. Data integrity rules
 
 - No fabricated or interpolated data presented as observed. Gaps stay gaps and are documented.
@@ -78,7 +87,8 @@ Find **earnings surprises and underappreciated catalysts** in Indonesian palm oi
 |---|---|---|
 | 0 | Workspace setup | Done |
 | I | Data availability audit | Done for TAPG; other 14 names pending |
-| II | TAPG fundamental data completion and preliminary quant | In progress |
+| II | TAPG fundamental data completion and preliminary quant | Done (audit remediated) |
+| III | Expectations gap and predictive validation | First pass done (IC memo 2026-11-24); forward-testing journal open |
 | III | Driver research (macro, industry, company) | Not started |
 | IV | Signal design and backtests | Not started |
 | V | Synthesis: catalysts and theses | Not started |
