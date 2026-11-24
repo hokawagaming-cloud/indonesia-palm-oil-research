@@ -4,10 +4,9 @@ _Last updated: 2026-11-24_
 
 ## Current phase
 
-**Phase V — Predictive alpha discovery and monitoring (started 2026-11-24).** Decision: **NO TRADE** (D-022, D-025).
-- **TAPG:** WATCH / NO BUY; entry trigger ≈ IDR 1,525 (D-024).
-- **LSIP:** selected for deeper research only.
-- **Monitoring:** run `quant/tapg_monitor.py` after refreshing prices, macro data and levy/duty.
+**Phase VI — LSIP Stage 1 complete (2026-11-25).** Research gate **NOT PASSED (borderline)** (D-027); Stage 2 withheld. Overall decision remains **NO TRADE**.
+- **TAPG:** WATCH / NO BUY, monitored via `quant/tapg_monitor.py` (trigger about IDR 1,525).
+- **LSIP:** WATCH; re-test on C-019/C-020/C-021.
 
 ## Done
 
@@ -91,6 +90,14 @@ _Last updated: 2026-11-24_
   - Universe screen: consensus covers 8 of 17 names; consensus-implied Q4 is weak across LSIP, TAPG and AALI; LSIP selected for research.
   - Journal 32 rows; catalysts 18. Tests 32 passing.
 
+- [x] **LSIP Stage 1 (2026-11-25):**
+  - 10 primary documents inventoried with IDX timestamps.
+  - Q1-Q3 2026 and Q4 2025 quarters reconstructed; Q3 gross-profit bridge (operational: volume at flat cost, inventory build, fertiliser deferral).
+  - Q4 nowcast 238 / 468 / 654bn vs consensus-implied 360bn.
+  - Cash 8.5tn verified (7.8% at a related-party bank); excess about 6.3tn.
+  - Buyback: +6.4% EPS accretion if fully executed; execution unverified.
+  - Gate 17.9% vs 17.5% (P = 51%): not passed. Tests 35 passing.
+
 ## Not resolved (sources tried and failed)
 
 | Need | Tried | Why it failed |
@@ -105,7 +112,7 @@ _Last updated: 2026-11-24_
 
 ## Next
 
-- [ ] **LSIP deeper research (C-016):** fetch the 9M26 FS; explain the Q3 gross-profit jump; verify net cash; payout policy and parent context; cash-adjusted valuation; expectations gap.
+- [ ] LSIP re-test triggers: buyback execution report (C-019, early Jan 2027), FY26 results (C-020, late Feb 2027), AGM payout (C-021). Stage 2 only if the gate passes robustly.
 - [ ] Run `tapg_monitor.py` on each data refresh (December HRef decree, monthly WB prices, consensus). Re-evaluate when the trigger hits or assumptions change.
 - [ ] FY2026 results (~Feb–Mar 2027): first expectation-adjusted surprise test across names (C-017); resolve the forecast journal.
 - [ ] Map name-level ENSO exposure from primary sources (estate provinces) before using rainfall as a cross-sectional indicator.

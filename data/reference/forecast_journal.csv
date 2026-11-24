@@ -31,3 +31,8 @@ made_on,model_commit,target,scenario,value_idr_bn,status,resolves_with,actual_id
 2026-11-24,external,STAA 2026Q4 profit to owners,"consensus (S&P, 1 analyst)",469.0,open,STAA FY2026 FS (~Mar 2027),,
 2026-11-24,pre-fix-D018,TAPG 2026Q4 profit to owners,base,1267.8,superseded: other operating items at Q3 level (D-018),"FY2026 audited FS (IDX, expected by ~31 Mar 2027)",,restored 2026-11-24: dropped by a dedupe-key bug in forecast_validation.journal (fixed)
 2026-11-24,2d7b08b+phase5,"TAPG 12m total return from IDR 1,710 (prob-weighted)",expected (forward dividends),,open,price + dividends at 2027-11-24,,"+4.8%; entry < IDR 1,525 (17.5% hurdle); P(E[r]>hurdle)=2% under Dirichlet weight uncertainty"
+2026-11-25,ca40d81+lsip-s1,LSIP 2026Q4 profit to owners,bear,237.7,open,LSIP FY2026 FS (~late Feb 2027),,
+2026-11-25,ca40d81+lsip-s1,LSIP 2026Q4 profit to owners,base,468.1,open,LSIP FY2026 FS (~late Feb 2027),,
+2026-11-25,ca40d81+lsip-s1,LSIP 2026Q4 profit to owners,bull,654.3,open,LSIP FY2026 FS (~late Feb 2027),,
+2026-11-25,external,LSIP 2026Q4 profit to owners,"consensus (S&P, 5 analysts)",360.2,open,LSIP FY2026 FS (~late Feb 2027),,
+2026-11-25,ca40d81+lsip-s1,"LSIP 12m total return from IDR 1,570",expected,,open,price + dividends at 2027-11-25,,+17.9%; P(>17.5%)=51%; gate NOT passed (borderline)

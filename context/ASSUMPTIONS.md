@@ -34,6 +34,8 @@ Every assumption used in models, valuations or backtests goes here with its sour
 | A-029 | Allocation | Uniform challenger valuation rule | bear 0.8 × last FY profit; base = average(last FY, consensus FY26); bull = consensus FY27; FCFE conversion TAPG 0.85 / DSNG 0.80 / STAA 0.70; ke 12.5%, g 2%; weights 30 / 50 / 20 | Judgement; consensus-anchored so the names are comparable | 2026-11-24 | — |
 | A-030 | Valuation | TAPG forward dividend capacity | payout 85% of forward EPS; FY26 interims already paid IDR 130 (60 + 70); interims ≈ 64% of the annual payout | KBV FY26F payout; OBS dividends (S-020/S-044) | 2026-11-24 | Replaces trailing dividends 160/200/230 in A-028 |
 | A-031 | Valuation | Scenario-weight uncertainty | Dirichlet with concentration 10 around 30/50/20 | Judgement (weak confidence) | 2026-11-24 | — |
+| A-032 | LSIP | Valuation frame and gate inputs | Price = (cash in 12m x credit + EV/NP multiple x profit)/shares + dividend; credit 100% (sensitivity 80%); multiples 0.3/1.0/2.0x; profit 1.8/2.2/2.4tn; 30/50/20 weights; 12m cash generation 1.8tn; payout 30%; buyback 750bn at 1,570 | Calibrated to FY2025 year-end and current prices (OBS); scenario values EST | 2026-11-25 | — |
+| A-033 | LSIP | Q4 2026 nowcast | Relative to Q3: volume 0.85/0.95/1.00, price -10/-5/-2%, Q3 inventory release 0/50/100%, fertiliser catch-up 120/60/20bn; tax 16.9% (9M DER) | Judgement | 2026-11-25 | — |
 | A-008 | Backtest | Backtest start | 2016-01 or the first month all required inputs exist, whichever is later | User mandate (D-003); see the Phase I audit | 2026-11-24 | — |
 
 ## Still to set (before the first backtest)

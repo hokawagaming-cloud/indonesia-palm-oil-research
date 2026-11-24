@@ -25,6 +25,16 @@ META = {  # filename -> (document, reporting period, source URL as known)
     "ajaib_TAPG_company_update_20260505.pdf": ("Ajaib TAPG Company Update (broker)", "1Q26 (published 2026-05-05)", "https://storage.googleapis.com/storage-ajaib-prd-platform-pdf/Company%20Update%20-%20TAPG%20%2820260505%29.pdf"),
     "phintraco_TAPG_initiation_20250708.pdf": ("Phintraco TAPG initiation (broker)", "FY2024 base (published 2025-07-08)", "https://phintracosekuritas.com/wp-content/uploads/2025/07/PHINTAS-Initiate-Report-TAPG_20250708-EN.pdf"),
     "idx_public_expose_FY2025_20260316.pdf": ("TAPG Public Expose FY2025 (IDX filing)", "FY2021-FY2025, FY2026F", "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_EREP/202603/d03bdcd902_0ec945e3ed.pdf"),
+    "LSIP_bilingual_30_Sep_2026_Released.pdf": ("LSIP interim FS 30 Sep 2026 (bilingual)", "9M 2026", "user download (londonsumatra.com / IDX); IDX 2026-10-30 19:45"),
+    "LSIP_bilingual_30_Jun_2026_Released.pdf": ("LSIP interim FS 30 Jun 2026 (bilingual)", "H1 2026", "user download; IDX 2026-07-31 16:22"),
+    "LSIP_bilingual_31 des_2025_released.pdf": ("LSIP audited FS 31 Dec 2025 (bilingual)", "FY2025", "user download; IDX 2026-02-27"),
+    "pp london sumatra indonesia_bilingual_31 des_2024_released.pdf": ("LSIP audited FS 31 Dec 2024 (bilingual)", "FY2024", "user download; IDX 2025-02-28"),
+    "Lonsum Highlights 9M26.pdf": ("LSIP 9M26 highlights", "9M 2026", "user download; IDX 2026-10-30 20:01"),
+    "Lonsum Highlights 1Q2026.pdf": ("LSIP 1Q26 highlights", "Q1 2026", "user download; IDX 2026-04-30 20:00"),
+    "Lonsum Highlights FY25.pdf": ("LSIP FY25 highlights", "FY2025", "user download; IDX 2026-02-27 16:31"),
+    "Lonsum Highlights FY24.pdf": ("LSIP FY24 highlights", "FY2024", "user download; IDX 2025-02-28 17:19"),
+    "LSIP_KI_Rencana Pembelian Kembali Saham 2026.pdf": ("LSIP buyback disclosure (POJK 13/2023)", "Oct-Dec 2026 programme", "user download; IDX 2026-10-23 18:51"),
+    "Sustainability Report LSIP 2025.pdf": ("LSIP Sustainability Report 2025", "FY2025", "user download; IDX 2026-04-30 19:50 (with AR)"),
 }
 
 
