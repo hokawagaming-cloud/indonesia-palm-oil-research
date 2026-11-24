@@ -11,7 +11,9 @@ Each row is one VINTAGE: (item, reporting_period, source document). Fields:
   original_publication_date   date the period's OWN original filing became available
                               (A-018 timestamp); that filing may not be in hand
   original_filing_in_hand     whether the value we hold comes from that original filing
-  vintage_available_from      availability of the document that provides THIS value
+  vintage_available_from      availability of the document that provides THIS value (STRICT:
+                              for annual-report PDFs, the AR's own IDX date, not the earlier
+                              standalone FS filing; the lenient date is kept separately)
   revision_date               availability date of a vintage whose value differs from
                               the earlier vintage (empty if no revision)
   earliest_verified_availability  first date on which the value WE HOLD is verifiably
@@ -49,12 +51,22 @@ def _dates() -> pd.DataFrame:
     return d[d.disclosure.isin(["interim FS", "audited FS"])].set_index("period")
 
 
+def _ar_dates() -> pd.Series:
+    """Availability of the annual-report PDF itself (strict rule, D-017, from the Astra audit):
+    the audited FS we hold is the copy inside the AR, published after the standalone FS filing."""
+    d = pd.read_csv(REF / "TAPG_disclosure_dates.csv")
+    return d[d.disclosure == "annual report (operational tables)"].set_index("period")["available_from"]
+
+
 def build_vintages() -> pd.DataFrame:
     st = pd.read_csv(REF / "TAPG_statements_extracted.csv")
     st = st[st.status == "extracted"].copy()
     dates = _dates()
     st["vintage_role"] = [("current" if DOC_PERIOD[d][0] == p else "comparative") for d, p in zip(st.source_doc, st.period)]
-    st["vintage_available_from"] = [dates.at[DOC_PERIOD[d][0], "available_from"] for d in st.source_doc]
+    st["vintage_available_from_lenient"] = [dates.at[DOC_PERIOD[d][0], "available_from"] for d in st.source_doc]
+    ar = _ar_dates()
+    st["vintage_available_from"] = [ar[DOC_PERIOD[d][0]] if d.startswith(("AR", "TAPG_-_AR")) else dates.at[DOC_PERIOD[d][0], "available_from"]
+                                    for d in st.source_doc]  # STRICT (default)
     st["vintage_basis"] = [dates.at[DOC_PERIOD[d][0], "basis"].split(":")[0] for d in st.source_doc]
     st["original_publication_date"] = [dates.at[p, "available_from"] if p in dates.index else None for p in st.period]
     st["original_filing_in_hand"] = st.vintage_role.eq("current")
@@ -70,7 +82,7 @@ def build_vintages() -> pd.DataFrame:
         out.append(g)
     v = pd.concat(out)
     cols = ["item", "period", "period_end", "months", "value", "unit", "source_doc", "pdf_page", "vintage_role",
-            "original_publication_date", "original_filing_in_hand", "vintage_available_from", "vintage_basis",
+            "original_publication_date", "original_filing_in_hand", "vintage_available_from", "vintage_available_from_lenient", "vintage_basis",
             "revision_date", "revision_vs_first_vintage", "earliest_verified_availability", "basis"]
     v = v.rename(columns={"period": "period"})[cols].rename(columns={"period": "reporting_period"})
     return v

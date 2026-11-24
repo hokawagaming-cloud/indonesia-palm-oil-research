@@ -1,0 +1,10 @@
+astra_id,astra_name,register_id,action,independent_verification
+S-034,GIMNI CPO reference-price history,S-038,"added as SECONDARY context; not used (primary Kemendag decrees S-035 already cover 99/143 months)","not re-fetched; Astra classification kept"
+S-035,Kemendag 2026 CPO reference-price press releases,S-039,"added as PRIMARY press releases; values already covered by decrees S-035","2026 HRef values in cpo_reference_prices.csv (decrees) match press values reported elsewhere; Astra's per-release URL file was not provided"
+S-036,Kemenkeu PMK 9/2026 metadata,S-034 (merged),"merged into existing S-034 (PMK texts); supports L19 effective 1 Mar 2026","consistent with levy_regimes.csv L19 (PMK 9/2026, 12.5%, effective 2026-03-01)"
+S-037,S&P Global estimates via StockAnalysis,S-040,"added; DEDUPLICATED with S-036 (Yahoo): identical S&P Global numbers, not independent","VERIFIED 2026-11-24: page shows EPS 212.87/225.31, revenue 12.53T/13.12T, net income FY26E 4.22T, 4 forecasters, 5 target-price analysts, PT avg 2,362; EPS labelled 'non-GAAP adjusted' while FY25 base 186 = reported EPS -> basis unreconciled"
+S-038,DSNG Investor Newsletter Vol 63 Oct 2026,S-041,added as PRIMARY company,"VERIFIED: PDF (created 2026-10-30) states CPO inventory ~23kt end-Jun-26 -> 52kt end-Sep-26; Q3 sales -20.4% QoQ; shipment delays and vessel congestion"
+S-039,STAA Investor Bulletin 9M26,S-042,added as PRIMARY company,"downloaded 2026-11-24 (1.3MB PDF); figures not yet re-extracted"
+S-040,STAA financial highlights page,S-043,added as PRIMARY company (dynamic page),not re-fetched
+S-041,KSEI TAPG interim dividend notice,S-044,added as PRIMARY CSD,"VERIFIED: cum 10 Nov, ex 11 Nov, recording 12 Nov, payment 27 Nov 2026 (IDR 70/share per S-020)"
+S-042,Indo Premier pre-results outlook (excerpt),S-045,"added as BROKER excerpt; FY26 4,750bn kept but flagged 'not independently recovered' (Astra) -> excluded from like-for-like consensus","partially: Kontan 8 Oct 2026 article (fetched earlier) quotes FY26 NP 4.75tn and mgmt FY27 production -5 to -10%, fertiliser +25%"

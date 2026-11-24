@@ -35,7 +35,13 @@ def test_asof_returns_vintage_known_at_the_time():
     v = _v()
     assert np.isnan(pit_panel.asof(v, "finance_costs", "FY2022", "2023-01-01"))
     assert pit_panel.asof(v, "finance_costs", "FY2022", "2023-12-31") == -380151      # original AR2022
-    assert pit_panel.asof(v, "finance_costs", "FY2022", "2024-03-13") == -347594      # restated in AR2023
+    assert pit_panel.asof(v, "finance_costs", "FY2022", "2024-03-13") == -380151      # strict: AR2023 PDF not yet public
+    assert pit_panel.asof(v, "finance_costs", "FY2022", "2024-04-01") == -347594      # restated in AR2023 (AR filed 28 Mar 13:27)
+
+
+def test_strict_never_earlier_than_lenient():
+    v = _v()
+    assert (pd.to_datetime(v.vintage_available_from) >= pd.to_datetime(v.vintage_available_from_lenient)).all()
 
 
 def test_derived_quarters_not_available_before_inputs():

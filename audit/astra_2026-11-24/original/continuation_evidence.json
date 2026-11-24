@@ -1,0 +1,48 @@
+{
+  "as_of": "2026-11-24",
+  "retrieval_method": "Public web retrieval; source URLs opened or indexed excerpts inspected on 2026-11-24. Direct local HTTP downloads failed DNS. No full-source archive is claimed.",
+  "sources": {
+    "S-034": {"name": "GIMNI CPO reference-price history", "url": "https://gimni.org/harga-cpo?range=60", "classification": "SECONDARY_COMPILATION_NOT_HISTORICAL_PIT", "note": "Reference price observations only; do not reuse its month-start levy as a monthly average. Historical release dates not verified."},
+    "S-035": {"name": "Kemendag 2026 CPO reference-price press releases", "url": "https://www.kemendag.go.id/berita/siaran-pers", "classification": "PRIMARY_PRESS_RELEASE", "note": "Individual URLs in cpo_reference_prices.csv. March release's 10% levy conflicts with PMK 9/2026; keep reference price and use legal schedule separately."},
+    "S-036": {"name": "Kemenkeu PMK 9/2026 metadata and summary", "url": "https://jdih.kemenkeu.go.id/dok/pmk-9-tahun-2026", "classification": "PRIMARY_METADATA", "note": "Metadata effective 1 March 2026; summary CPO 12.5%. Abstract says promulgation date; complete signed annex still required for archive. Supports inherited L19 effective date."},
+    "S-037": {"name": "TAPG S&P Global estimates displayed by StockAnalysis", "url": "https://stockanalysis.com/quote/idx/TAPG/forecast/", "classification": "SECONDARY_CURRENT_SNAPSHOT", "note": "Captured 24 Nov 2026. Four financial forecast contributors; five target-price analysts. EPS non-GAAP adjusted; constituent revision dates unknown. Not an archived consensus history."},
+    "S-038": {"name": "DSNG Investor Newsletter Vol 63 October 2026", "url": "https://dsn.co.id/wp-content/uploads/2026/10/Final-IN-9M-2026.pdf", "classification": "PRIMARY_COMPANY", "note": "Web PDF read pages 1-3; original publication day not verified; first_seen 24 Nov 2026. Profit attribution to owners not established from newsletter."},
+    "S-039": {"name": "STAA Investor Bulletin 9M26", "url": "https://www.sta.co.id/news_pdf/1793267061_Investor_Bulletin_9M26.pdf", "classification": "PRIMARY_COMPANY", "note": "October bulletin; price explicitly as of 29 Oct. Publication timestamp unknown; first_seen 24 Nov 2026. All bulletin financial values rounded."},
+    "S-040": {"name": "STAA official financial highlights", "url": "https://www.sta.co.id/page/financial-highlights/id", "classification": "PRIMARY_COMPANY_DYNAMIC_PAGE", "note": "Current 9M26 figures and FY25 comparatives; first_seen 24 Nov 2026. Annualization footnote applies to starred ratios; flow data are nine-month values corroborated by S-039."},
+    "S-041": {"name": "KSEI TAPG interim dividend notice", "url": "https://web.ksei.co.id/Announcement/Files/TAPG_DIV_20261112_ENG.pdf", "classification": "PRIMARY_CSD", "note": "Dated 3 Nov 2026; ex-date 11 Nov; IDR70/share; payment 27 Nov. Confirms S-020 event used in return bridge."},
+    "S-042": {"name": "Indo Premier TAPG pre-results outlook", "url": "https://www.indopremier.com/module/newsDetail.php?group_news=IPOTNEWS&halaman=1&jdl=TAPG___Expecting_strong_3Q26F_earnings__risk_remain_on_FY27F&name=&news_id=248276&q=%28TAPG%29%2C+TAPG%2C&search=y_general&taging_subtype=TAPG", "classification": "BROKER_SEARCH_EXCERPT_ONLY", "note": "7 Oct 2026 16:39 WIB. Open redirected; indexed excerpt supports reported management yield -5 to -10% and fertilizer +25% FY27, not verified company guidance. FY26 4750bn inherited from old memo is not independently recovered and excluded from like-for-like consensus."}
+  },
+  "expectations": [
+    {"id": "KBV_20261029_FY26_NP", "source_id": "S-028", "provider": "KB Valbury", "document_date": "2026-10-29", "first_seen": "2026-10-29", "forecast_period": "FY2026", "metric": "net_profit_owners", "value": 4118, "unit": "IDR bn", "basis": "broker net profit; owners mapping consistent with reported 9M figure", "status": "UNDER_REVIEW_NOT_FRESH_CONSENSUS", "eligible_for_gap": true},
+    {"id": "ALD_BBG_20261029_FY26_NP", "source_id": "S-029", "provider": "Bloomberg via Aldiracita", "document_date": "2026-10-29", "first_seen": "2026-10-29", "forecast_period": "FY2026", "metric": "net_profit_owners", "value": 4122, "unit": "IDR bn", "basis": "consensus cited in earnings flash; constituents and update dates unknown", "status": "STALE_RISK", "eligible_for_gap": true},
+    {"id": "SP_20261124_FY26_NI", "source_id": "S-037", "provider": "S&P Global via StockAnalysis", "document_date": null, "first_seen": "2026-11-24", "forecast_period": "FY2026", "metric": "net_income", "value": 4220, "unit": "IDR bn", "basis": "rounded aggregate; attribution and adjustment reconciliation unavailable", "status": "CURRENT_SNAPSHOT_BASIS_UNRECONCILED", "eligible_for_gap": false},
+    {"id": "SP_20261124_FY26_EPS", "source_id": "S-037", "provider": "S&P Global via StockAnalysis", "document_date": null, "first_seen": "2026-11-24", "forecast_period": "FY2026", "metric": "adjusted_eps", "value": 212.87, "unit": "IDR/share", "basis": "non-GAAP adjusted EPS", "status": "CURRENT_SNAPSHOT_NOT_REPORTED_EPS", "eligible_for_gap": false},
+    {"id": "SP_20261124_FY27_EPS", "source_id": "S-037", "provider": "S&P Global via StockAnalysis", "document_date": null, "first_seen": "2026-11-24", "forecast_period": "FY2027", "metric": "adjusted_eps", "value": 225.31, "unit": "IDR/share", "basis": "non-GAAP adjusted EPS", "status": "CURRENT_SNAPSHOT_NOT_REPORTED_EPS", "eligible_for_gap": false},
+    {"id": "SP_20261124_FY26_REV", "source_id": "S-037", "provider": "S&P Global via StockAnalysis", "document_date": null, "first_seen": "2026-11-24", "forecast_period": "FY2026", "metric": "revenue", "value": 12530, "unit": "IDR bn", "basis": "rounded current revenue forecast", "status": "CURRENT_SNAPSHOT", "eligible_for_gap": true},
+    {"id": "SP_20261124_FY27_REV", "source_id": "S-037", "provider": "S&P Global via StockAnalysis", "document_date": null, "first_seen": "2026-11-24", "forecast_period": "FY2027", "metric": "revenue", "value": 13120, "unit": "IDR bn", "basis": "rounded current revenue forecast", "status": "CURRENT_SNAPSHOT", "eligible_for_gap": true}
+  ],
+  "inventory": {
+    "source_id": "S-025", "scope": "consolidated", "unit": "IDR bn",
+    "finished_goods_dec25": 288.121, "finished_goods_jun26": 525.178, "finished_goods_sep26": 663.960,
+    "cogm_h1_26": 3681.115, "cogm_9m26": 5652.386,
+    "purchased_fg_h1_26": 0, "purchased_fg_9m26": 53.441,
+    "cogs_h1_26": 3444.058, "cogs_9m26": 5329.988,
+    "citation": "FinancialStatement-2026-II-TAPG.pdf and FinancialStatement-2026-III-TAPG.pdf pp66,77-78; units IDR million converted to billion; cash/earnings are not identical"
+  },
+  "shares": {"TAPG_bn": 19.85254, "source_id": "S-025", "citation": "FinancialStatement-2026-III-TAPG.pdf p39; weighted average 19852540000; assume same diluted forward count A-025"},
+  "peer_observations": [
+    {"ticker":"DSNG", "period":"9M2026", "metric":"revenue", "value":9109.809, "unit":"IDR bn", "source_id":"S-038", "scope":"consolidated"},
+    {"ticker":"DSNG", "period":"9M2026", "metric":"profit_attribution_unverified", "value":1441.702, "unit":"IDR bn", "source_id":"S-038", "scope":"newsletter profit; owners attribution pending"},
+    {"ticker":"DSNG", "period":"9M2026", "metric":"ebitda", "value":2949.803, "unit":"IDR bn", "source_id":"S-038", "scope":"company defined"},
+    {"ticker":"DSNG", "period":"2026Q3", "metric":"cpo_sales", "value":127.084, "unit":"kt", "source_id":"S-038", "scope":"company palm operations"},
+    {"ticker":"DSNG", "period":"2026Q3", "metric":"cpo_asp", "value":15520, "unit":"IDR/kg", "source_id":"S-038", "scope":"company palm operations"},
+    {"ticker":"DSNG", "period":"2026-06-30", "metric":"cpo_inventory_approx", "value":23, "unit":"kt", "source_id":"S-038", "scope":"company palm operations"},
+    {"ticker":"DSNG", "period":"2026-09-30", "metric":"cpo_inventory_approx", "value":52, "unit":"kt", "source_id":"S-038", "scope":"company palm operations"},
+    {"ticker":"STAA", "period":"9M2026", "metric":"revenue", "value":11130.083, "unit":"IDR bn", "source_id":"S-040", "scope":"consolidated"},
+    {"ticker":"STAA", "period":"9M2026", "metric":"profit_attrib_owners", "value":1478.926, "unit":"IDR bn", "source_id":"S-040", "scope":"consolidated owners"},
+    {"ticker":"STAA", "period":"9M2026", "metric":"refined_product_sales", "value":374.052, "unit":"kt", "source_id":"S-039", "scope":"consolidated product sales"},
+    {"ticker":"STAA", "period":"2026Q3", "metric":"refined_product_sales", "value":159.805, "unit":"kt", "source_id":"S-039", "scope":"consolidated product sales"},
+    {"ticker":"STAA", "period":"2026Q3", "metric":"profit_attrib_owners_rounded", "value":722, "unit":"IDR bn", "source_id":"S-039", "scope":"consolidated owners"},
+    {"ticker":"STAA", "period":"2026Q3", "metric":"revenue_rounded", "value":5060, "unit":"IDR bn", "source_id":"S-039", "scope":"consolidated"}
+  ]
+}

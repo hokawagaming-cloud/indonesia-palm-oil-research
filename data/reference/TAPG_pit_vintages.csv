@@ -1,373 +1,373 @@
-item,reporting_period,period_end,months,value,unit,source_doc,pdf_page,vintage_role,original_publication_date,original_filing_in_hand,vintage_available_from,vintage_basis,revision_date,revision_vs_first_vintage,earliest_verified_availability,basis
-capex_fixed_assets,9M 2025,2025-09-30,9.0,-457577.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,26.0,comparative,2025-10-29,False,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
-capex_fixed_assets,9M 2026,2026-09-30,9.0,-522242.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,26.0,current,2026-10-29,True,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
-capex_fixed_assets,FY2020,2020-12-31,12.0,-427222.0,IDR mn,AR 2021.pdf,213.0,comparative,2021-04-01,False,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-capex_fixed_assets,FY2021,2021-12-31,12.0,-455163.0,IDR mn,AR 2021.pdf,213.0,current,2022-04-01,True,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited
-capex_fixed_assets,FY2021,2021-12-31,12.0,-455163.0,IDR mn,AR_2022.pdf,238.0,comparative,2022-04-01,False,2023-04-03,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-capex_fixed_assets,FY2022,2022-12-31,12.0,-738152.0,IDR mn,AR_2022.pdf,238.0,current,2023-04-03,True,2023-04-03,ASSUMPTION,,0.0,2023-04-03,audited
-capex_fixed_assets,FY2022,2022-12-31,12.0,-738152.0,IDR mn,AR_2023.pdf,232.0,comparative,2023-04-03,False,2024-03-13,EVIDENCE,,0.0,2023-04-03,audited (comparative)
-capex_fixed_assets,FY2023,2023-12-31,12.0,-802438.0,IDR mn,AR_2023.pdf,232.0,current,2024-03-13,True,2024-03-13,EVIDENCE,,0.0,2024-03-13,audited
-capex_fixed_assets,FY2023,2023-12-31,12.0,-802438.0,IDR mn,AR_2024.pdf,232.0,comparative,2024-03-13,False,2025-02-28,EVIDENCE,,0.0,2024-03-13,audited (comparative)
-capex_fixed_assets,FY2024,2024-12-31,12.0,-587641.0,IDR mn,AR_2024.pdf,232.0,current,2025-02-28,True,2025-02-28,EVIDENCE,,0.0,2025-02-28,audited
-capex_fixed_assets,FY2024,2024-12-31,12.0,-587641.0,IDR mn,TAPG_-_AR_2025.pdf,247.0,comparative,2025-02-28,False,2026-03-17,EVIDENCE,,0.0,2025-02-28,audited (comparative)
-capex_fixed_assets,FY2025,2025-12-31,12.0,-622694.0,IDR mn,TAPG_-_AR_2025.pdf,247.0,current,2026-03-17,True,2026-03-17,EVIDENCE,,0.0,2026-03-17,audited
-capex_fixed_assets,H1 2025,2025-06-30,6.0,-247260.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,26.0,comparative,2025-07-28,False,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
-capex_fixed_assets,H1 2026,2026-06-30,6.0,-324269.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,26.0,current,2026-07-30,True,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
-capex_fixed_assets,Q1 2025,2025-03-31,3.0,-133809.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,26.0,comparative,2025-04-30,False,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
-capex_fixed_assets,Q1 2026,2026-03-31,3.0,-137562.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,26.0,current,2026-04-28,True,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
-cash,9M 2026,2026-09-30,0.0,1937038.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,4.0,current,2026-10-29,True,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
-cash,FY2020,2020-12-31,12.0,1489961.0,IDR mn,AR 2021.pdf,207.0,comparative,2021-04-01,False,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-cash,FY2021,2021-12-31,12.0,1280238.0,IDR mn,AR 2021.pdf,207.0,current,2022-04-01,True,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited
-cash,FY2021,2021-12-31,12.0,1280238.0,IDR mn,AR_2022.pdf,232.0,comparative,2022-04-01,False,2023-04-03,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-cash,FY2022,2022-12-31,12.0,1957773.0,IDR mn,AR_2022.pdf,232.0,current,2023-04-03,True,2023-04-03,ASSUMPTION,,0.0,2023-04-03,audited
-cash,FY2022,2022-12-31,12.0,1957773.0,IDR mn,AR_2023.pdf,226.0,comparative,2023-04-03,False,2024-03-13,EVIDENCE,,0.0,2023-04-03,audited (comparative)
-cash,FY2023,2023-12-31,12.0,1006796.0,IDR mn,AR_2023.pdf,226.0,current,2024-03-13,True,2024-03-13,EVIDENCE,,0.0,2024-03-13,audited
-cash,FY2023,2023-12-31,12.0,1006796.0,IDR mn,AR_2024.pdf,226.0,comparative,2024-03-13,False,2025-02-28,EVIDENCE,,0.0,2024-03-13,audited (comparative)
-cash,FY2024,2024-12-31,12.0,1309216.0,IDR mn,AR_2024.pdf,226.0,current,2025-02-28,True,2025-02-28,EVIDENCE,,0.0,2025-02-28,audited
-cash,FY2024,2024-12-31,12.0,1309216.0,IDR mn,TAPG_-_AR_2025.pdf,241.0,comparative,2025-02-28,False,2026-03-17,EVIDENCE,,0.0,2025-02-28,audited (comparative)
-cash,FY2025,2025-12-31,12.0,1651433.0,IDR mn,TAPG_-_AR_2025.pdf,241.0,current,2026-03-17,True,2026-03-17,EVIDENCE,,0.0,2026-03-17,audited
-cash,FY2025,2025-12-31,0.0,1651433.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,4.0,comparative,2026-03-17,False,2026-04-28,EVIDENCE,,0.0,2026-03-17,audited (comparative in interim)
-cash,FY2025,2025-12-31,0.0,1651433.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,4.0,comparative,2026-03-17,False,2026-07-30,EVIDENCE,,0.0,2026-03-17,audited (comparative in interim)
-cash,FY2025,2025-12-31,0.0,1651433.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,4.0,comparative,2026-03-17,False,2026-10-29,EVIDENCE,,0.0,2026-03-17,audited (comparative in interim)
-cash,H1 2026,2026-06-30,0.0,1706296.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,4.0,current,2026-07-30,True,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
-cash,Q1 2026,2026-03-31,0.0,2797577.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,4.0,current,2026-04-28,True,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
-cfo,9M 2025,2025-09-30,9.0,2241586.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,26.0,comparative,2025-10-29,False,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
-cfo,9M 2026,2026-09-30,9.0,2947167.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,26.0,current,2026-10-29,True,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
-cfo,FY2020,2020-12-31,12.0,1551861.0,IDR mn,AR 2021.pdf,213.0,comparative,2021-04-01,False,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-cfo,FY2021,2021-12-31,12.0,1455015.0,IDR mn,AR 2021.pdf,213.0,current,2022-04-01,True,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited
-cfo,FY2021,2021-12-31,12.0,1455015.0,IDR mn,AR_2022.pdf,238.0,comparative,2022-04-01,False,2023-04-03,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-cfo,FY2022,2022-12-31,12.0,3175480.0,IDR mn,AR_2022.pdf,238.0,current,2023-04-03,True,2023-04-03,ASSUMPTION,,0.0,2023-04-03,audited
-cfo,FY2022,2022-12-31,12.0,3175480.0,IDR mn,AR_2023.pdf,232.0,comparative,2023-04-03,False,2024-03-13,EVIDENCE,,0.0,2023-04-03,audited (comparative)
-cfo,FY2023,2023-12-31,12.0,1569363.0,IDR mn,AR_2023.pdf,232.0,current,2024-03-13,True,2024-03-13,EVIDENCE,,0.0,2024-03-13,audited
-cfo,FY2023,2023-12-31,12.0,1569363.0,IDR mn,AR_2024.pdf,232.0,comparative,2024-03-13,False,2025-02-28,EVIDENCE,,0.0,2024-03-13,audited (comparative)
-cfo,FY2024,2024-12-31,12.0,3239185.0,IDR mn,AR_2024.pdf,232.0,current,2025-02-28,True,2025-02-28,EVIDENCE,,0.0,2025-02-28,audited
-cfo,FY2024,2024-12-31,12.0,3239185.0,IDR mn,TAPG_-_AR_2025.pdf,247.0,comparative,2025-02-28,False,2026-03-17,EVIDENCE,,0.0,2025-02-28,audited (comparative)
-cfo,FY2025,2025-12-31,12.0,3431453.0,IDR mn,TAPG_-_AR_2025.pdf,247.0,current,2026-03-17,True,2026-03-17,EVIDENCE,,0.0,2026-03-17,audited
-cfo,H1 2025,2025-06-30,6.0,1341854.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,26.0,comparative,2025-07-28,False,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
-cfo,H1 2026,2026-06-30,6.0,1619127.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,26.0,current,2026-07-30,True,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
-cfo,Q1 2025,2025-03-31,3.0,773621.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,26.0,comparative,2025-04-30,False,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
-cfo,Q1 2026,2026-03-31,3.0,654283.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,26.0,current,2026-04-28,True,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
-cost_of_sales,9M 2025,2025-09-30,9.0,-5080910.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,comparative,2025-10-29,False,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
-cost_of_sales,9M 2026,2026-09-30,9.0,-5329988.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,current,2026-10-29,True,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
-cost_of_sales,FY2020,2020-12-31,12.0,-3872987.0,IDR mn,AR 2021.pdf,210.0,comparative,2021-04-01,False,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-cost_of_sales,FY2021,2021-12-31,12.0,-4662334.0,IDR mn,AR 2021.pdf,210.0,current,2022-04-01,True,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited
-cost_of_sales,FY2021,2021-12-31,12.0,-4662334.0,IDR mn,AR_2022.pdf,235.0,comparative,2022-04-01,False,2023-04-03,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-cost_of_sales,FY2022,2022-12-31,12.0,-5629777.0,IDR mn,AR_2022.pdf,235.0,current,2023-04-03,True,2023-04-03,ASSUMPTION,,0.0,2023-04-03,audited
-cost_of_sales,FY2022,2022-12-31,12.0,-5629777.0,IDR mn,AR_2023.pdf,229.0,comparative,2023-04-03,False,2024-03-13,EVIDENCE,,0.0,2023-04-03,audited (comparative)
-cost_of_sales,FY2023,2023-12-31,12.0,-6108590.0,IDR mn,AR_2023.pdf,229.0,current,2024-03-13,True,2024-03-13,EVIDENCE,,0.0,2024-03-13,audited
-cost_of_sales,FY2023,2023-12-31,12.0,-6108590.0,IDR mn,AR_2024.pdf,229.0,comparative,2024-03-13,False,2025-02-28,EVIDENCE,,0.0,2024-03-13,audited (comparative)
-cost_of_sales,FY2024,2024-12-31,12.0,-5948685.0,IDR mn,AR_2024.pdf,229.0,current,2025-02-28,True,2025-02-28,EVIDENCE,,0.0,2025-02-28,audited
-cost_of_sales,FY2024,2024-12-31,12.0,-5948685.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,comparative,2025-02-28,False,2026-03-17,EVIDENCE,,0.0,2025-02-28,audited (comparative)
-cost_of_sales,FY2025,2025-12-31,12.0,-6904581.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,current,2026-03-17,True,2026-03-17,EVIDENCE,,0.0,2026-03-17,audited
-cost_of_sales,H1 2025,2025-06-30,6.0,-3472270.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,comparative,2025-07-28,False,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
-cost_of_sales,H1 2026,2026-06-30,6.0,-3444058.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,current,2026-07-30,True,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
-cost_of_sales,Q1 2025,2025-03-31,3.0,-1708314.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,comparative,2025-04-30,False,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
-cost_of_sales,Q1 2026,2026-03-31,3.0,-1636028.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,current,2026-04-28,True,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
-dividends_paid,9M 2025,2025-09-30,9.0,-2382995.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,31.0,comparative,2025-10-29,False,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
-dividends_paid,9M 2026,2026-09-30,9.0,-3103473.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,31.0,current,2026-10-29,True,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
-dividends_paid,FY2020,2020-12-31,12.0,0.0,IDR mn,AR 2021.pdf,214.0,comparative,2021-04-01,False,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-dividends_paid,FY2021,2021-12-31,12.0,-299972.0,IDR mn,AR 2021.pdf,214.0,current,2022-04-01,True,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited
-dividends_paid,FY2021,2021-12-31,12.0,-299972.0,IDR mn,AR_2022.pdf,239.0,comparative,2022-04-01,False,2023-04-03,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-dividends_paid,FY2022,2022-12-31,12.0,-496314.0,IDR mn,AR_2022.pdf,239.0,current,2023-04-03,True,2023-04-03,ASSUMPTION,,0.0,2023-04-03,audited
-dividends_paid,FY2022,2022-12-31,12.0,-496314.0,IDR mn,AR_2023.pdf,233.0,comparative,2023-04-03,False,2024-03-13,EVIDENCE,,0.0,2023-04-03,audited (comparative)
-dividends_paid,FY2023,2023-12-31,12.0,-754397.0,IDR mn,AR_2023.pdf,233.0,current,2024-03-13,True,2024-03-13,EVIDENCE,,0.0,2024-03-13,audited
-dividends_paid,FY2023,2023-12-31,12.0,-754397.0,IDR mn,AR_2024.pdf,233.0,comparative,2024-03-13,False,2025-02-28,EVIDENCE,,0.0,2024-03-13,audited (comparative)
-dividends_paid,FY2024,2024-12-31,12.0,-3315374.0,IDR mn,AR_2024.pdf,233.0,current,2025-02-28,True,2025-02-28,EVIDENCE,,0.0,2025-02-28,audited
-dividends_paid,FY2024,2024-12-31,12.0,-3315374.0,IDR mn,TAPG_-_AR_2025.pdf,248.0,comparative,2025-02-28,False,2026-03-17,EVIDENCE,,0.0,2025-02-28,audited (comparative)
-dividends_paid,FY2025,2025-12-31,12.0,-3275669.0,IDR mn,TAPG_-_AR_2025.pdf,248.0,current,2026-03-17,True,2026-03-17,EVIDENCE,,0.0,2026-03-17,audited
-dividends_paid,H1 2025,2025-06-30,6.0,-1570640.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,31.0,comparative,2025-07-28,False,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
-dividends_paid,H1 2026,2026-06-30,6.0,-1872419.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,31.0,current,2026-07-30,True,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
-dividends_paid,Q1 2025,2025-03-31,3.0,-0.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,31.0,comparative,2025-04-30,False,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
-dividends_paid,Q1 2026,2026-03-31,3.0,-0.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,31.0,current,2026-04-28,True,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
-dividends_received_jv,9M 2025,2025-09-30,9.0,958807.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,29.0,comparative,2025-10-29,False,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
-dividends_received_jv,9M 2026,2026-09-30,9.0,900000.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,29.0,current,2026-10-29,True,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
-dividends_received_jv,FY2020,2020-12-31,12.0,50000.0,IDR mn,AR 2021.pdf,213.0,comparative,2021-04-01,False,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-dividends_received_jv,FY2021,2021-12-31,12.0,150000.0,IDR mn,AR 2021.pdf,213.0,current,2022-04-01,True,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited
-dividends_received_jv,FY2021,2021-12-31,12.0,150000.0,IDR mn,AR_2022.pdf,238.0,comparative,2022-04-01,False,2023-04-03,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-dividends_received_jv,FY2022,2022-12-31,12.0,150000.0,IDR mn,AR_2022.pdf,238.0,current,2023-04-03,True,2023-04-03,ASSUMPTION,,0.0,2023-04-03,audited
-dividends_received_jv,FY2022,2022-12-31,12.0,150000.0,IDR mn,AR_2023.pdf,232.0,comparative,2023-04-03,False,2024-03-13,EVIDENCE,,0.0,2023-04-03,audited (comparative)
-dividends_received_jv,FY2023,2023-12-31,12.0,300000.0,IDR mn,AR_2023.pdf,232.0,current,2024-03-13,True,2024-03-13,EVIDENCE,,0.0,2024-03-13,audited
-dividends_received_jv,FY2023,2023-12-31,12.0,300000.0,IDR mn,AR_2024.pdf,232.0,comparative,2024-03-13,False,2025-02-28,EVIDENCE,,0.0,2024-03-13,audited (comparative)
-dividends_received_jv,FY2024,2024-12-31,12.0,1170000.0,IDR mn,AR_2024.pdf,232.0,current,2025-02-28,True,2025-02-28,EVIDENCE,,0.0,2025-02-28,audited
-dividends_received_jv,FY2024,2024-12-31,12.0,1170000.0,IDR mn,TAPG_-_AR_2025.pdf,247.0,comparative,2025-02-28,False,2026-03-17,EVIDENCE,,0.0,2025-02-28,audited (comparative)
-dividends_received_jv,FY2025,2025-12-31,12.0,958807.0,IDR mn,TAPG_-_AR_2025.pdf,247.0,current,2026-03-17,True,2026-03-17,EVIDENCE,,0.0,2026-03-17,audited
-dividends_received_jv,H1 2025,2025-06-30,6.0,504577.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,29.0,comparative,2025-07-28,False,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
-dividends_received_jv,H1 2026,2026-06-30,6.0,450000.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,29.0,current,2026-07-30,True,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
-dividends_received_jv,Q1 2025,2025-03-31,3.0,500000.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,29.0,comparative,2025-04-30,False,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
-dividends_received_jv,Q1 2026,2026-03-31,3.0,450000.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,29.0,current,2026-04-28,True,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
-finance_costs,9M 2025,2025-09-30,9.0,-39490.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,comparative,2025-10-29,False,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
-finance_costs,9M 2026,2026-09-30,9.0,-47990.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,current,2026-10-29,True,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
-finance_costs,FY2020,2020-12-31,12.0,-381508.0,IDR mn,AR 2021.pdf,210.0,comparative,2021-04-01,False,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-finance_costs,FY2021,2021-12-31,12.0,-197064.0,IDR mn,AR 2021.pdf,210.0,current,2022-04-01,True,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited
-finance_costs,FY2021,2021-12-31,12.0,-197064.0,IDR mn,AR_2022.pdf,235.0,comparative,2022-04-01,False,2023-04-03,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-finance_costs,FY2022,2022-12-31,12.0,-380151.0,IDR mn,AR_2022.pdf,235.0,current,2023-04-03,True,2023-04-03,ASSUMPTION,,0.0,2023-04-03,audited
-finance_costs,FY2022,2022-12-31,12.0,-347594.0,IDR mn,AR_2023.pdf,229.0,comparative,2023-04-03,False,2024-03-13,EVIDENCE,2024-03-13,32557.0,2023-04-03,audited (comparative)
-finance_costs,FY2023,2023-12-31,12.0,-152924.0,IDR mn,AR_2023.pdf,229.0,current,2024-03-13,True,2024-03-13,EVIDENCE,,0.0,2024-03-13,audited
-finance_costs,FY2023,2023-12-31,12.0,-152924.0,IDR mn,AR_2024.pdf,229.0,comparative,2024-03-13,False,2025-02-28,EVIDENCE,,0.0,2024-03-13,audited (comparative)
-finance_costs,FY2024,2024-12-31,12.0,-75443.0,IDR mn,AR_2024.pdf,229.0,current,2025-02-28,True,2025-02-28,EVIDENCE,,0.0,2025-02-28,audited
-finance_costs,FY2024,2024-12-31,12.0,-75443.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,comparative,2025-02-28,False,2026-03-17,EVIDENCE,,0.0,2025-02-28,audited (comparative)
-finance_costs,FY2025,2025-12-31,12.0,-56860.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,current,2026-03-17,True,2026-03-17,EVIDENCE,,0.0,2026-03-17,audited
-finance_costs,H1 2025,2025-06-30,6.0,-36968.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,comparative,2025-07-28,False,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
-finance_costs,H1 2026,2026-06-30,6.0,-31368.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,current,2026-07-30,True,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
-finance_costs,Q1 2025,2025-03-31,3.0,-14507.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,comparative,2025-04-30,False,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
-finance_costs,Q1 2026,2026-03-31,3.0,-15648.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,current,2026-04-28,True,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
-finance_income,9M 2025,2025-09-30,9.0,68379.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,comparative,2025-10-29,False,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
-finance_income,9M 2026,2026-09-30,9.0,123449.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,current,2026-10-29,True,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
-finance_income,FY2020,2020-12-31,12.0,39949.0,IDR mn,AR 2021.pdf,210.0,comparative,2021-04-01,False,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-finance_income,FY2021,2021-12-31,12.0,20992.0,IDR mn,AR 2021.pdf,210.0,current,2022-04-01,True,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited
-finance_income,FY2021,2021-12-31,12.0,20992.0,IDR mn,AR_2022.pdf,235.0,comparative,2022-04-01,False,2023-04-03,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-finance_income,FY2022,2022-12-31,12.0,69469.0,IDR mn,AR_2022.pdf,235.0,current,2023-04-03,True,2023-04-03,ASSUMPTION,,0.0,2023-04-03,audited
-finance_income,FY2022,2022-12-31,12.0,36912.0,IDR mn,AR_2023.pdf,229.0,comparative,2023-04-03,False,2024-03-13,EVIDENCE,2024-03-13,-32557.0,2023-04-03,audited (comparative)
-finance_income,FY2023,2023-12-31,12.0,77998.0,IDR mn,AR_2023.pdf,229.0,current,2024-03-13,True,2024-03-13,EVIDENCE,,0.0,2024-03-13,audited
-finance_income,FY2023,2023-12-31,12.0,77998.0,IDR mn,AR_2024.pdf,229.0,comparative,2024-03-13,False,2025-02-28,EVIDENCE,,0.0,2024-03-13,audited (comparative)
-finance_income,FY2024,2024-12-31,12.0,63966.0,IDR mn,AR_2024.pdf,229.0,current,2025-02-28,True,2025-02-28,EVIDENCE,,0.0,2025-02-28,audited
-finance_income,FY2024,2024-12-31,12.0,63966.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,comparative,2025-02-28,False,2026-03-17,EVIDENCE,,0.0,2025-02-28,audited (comparative)
-finance_income,FY2025,2025-12-31,12.0,108038.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,current,2026-03-17,True,2026-03-17,EVIDENCE,,0.0,2026-03-17,audited
-finance_income,H1 2025,2025-06-30,6.0,45867.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,comparative,2025-07-28,False,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
-finance_income,H1 2026,2026-06-30,6.0,84100.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,current,2026-07-30,True,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
-finance_income,Q1 2025,2025-03-31,3.0,20643.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,comparative,2025-04-30,False,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
-finance_income,Q1 2026,2026-03-31,3.0,33781.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,current,2026-04-28,True,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
-fixed_assets_net,FY2020,2020-12-31,12.0,7202247.0,IDR mn,AR 2021.pdf,207.0,comparative,2021-04-01,False,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-fixed_assets_net,FY2021,2021-12-31,12.0,7118593.0,IDR mn,AR 2021.pdf,207.0,current,2022-04-01,True,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited
-fixed_assets_net,FY2021,2021-12-31,12.0,7118593.0,IDR mn,AR_2022.pdf,232.0,comparative,2022-04-01,False,2023-04-03,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-fixed_assets_net,FY2022,2022-12-31,12.0,7292712.0,IDR mn,AR_2022.pdf,232.0,current,2023-04-03,True,2023-04-03,ASSUMPTION,,0.0,2023-04-03,audited
-fixed_assets_net,FY2022,2022-12-31,12.0,7292712.0,IDR mn,AR_2023.pdf,226.0,comparative,2023-04-03,False,2024-03-13,EVIDENCE,,0.0,2023-04-03,audited (comparative)
-fixed_assets_net,FY2023,2023-12-31,12.0,7482594.0,IDR mn,AR_2023.pdf,226.0,current,2024-03-13,True,2024-03-13,EVIDENCE,,0.0,2024-03-13,audited
-fixed_assets_net,FY2023,2023-12-31,12.0,7482594.0,IDR mn,AR_2024.pdf,226.0,comparative,2024-03-13,False,2025-02-28,EVIDENCE,,0.0,2024-03-13,audited (comparative)
-fixed_assets_net,FY2024,2024-12-31,12.0,7388269.0,IDR mn,AR_2024.pdf,226.0,current,2025-02-28,True,2025-02-28,EVIDENCE,,0.0,2025-02-28,audited
-fixed_assets_net,FY2024,2024-12-31,12.0,7388269.0,IDR mn,TAPG_-_AR_2025.pdf,241.0,comparative,2025-02-28,False,2026-03-17,EVIDENCE,,0.0,2025-02-28,audited (comparative)
-fixed_assets_net,FY2025,2025-12-31,12.0,7244013.0,IDR mn,TAPG_-_AR_2025.pdf,241.0,current,2026-03-17,True,2026-03-17,EVIDENCE,,0.0,2026-03-17,audited
-fv_change_biological_assets,FY2020,2020-12-31,12.0,61996.0,IDR mn,AR 2021.pdf,210.0,comparative,2021-04-01,False,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-fv_change_biological_assets,FY2021,2021-12-31,12.0,101038.0,IDR mn,AR 2021.pdf,210.0,current,2022-04-01,True,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited
-fv_change_biological_assets,FY2021,2021-12-31,12.0,101038.0,IDR mn,AR_2022.pdf,235.0,comparative,2022-04-01,False,2023-04-03,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-fv_change_biological_assets,FY2022,2022-12-31,12.0,-122888.0,IDR mn,AR_2022.pdf,235.0,current,2023-04-03,True,2023-04-03,ASSUMPTION,,0.0,2023-04-03,audited
-fv_change_biological_assets,FY2023,2023-12-31,12.0,-19721.0,IDR mn,AR_2024.pdf,229.0,comparative,2024-03-13,False,2025-02-28,EVIDENCE,,0.0,2025-02-28,audited (comparative)
-fv_change_biological_assets,FY2024,2024-12-31,12.0,208408.0,IDR mn,AR_2024.pdf,229.0,current,2025-02-28,True,2025-02-28,EVIDENCE,,0.0,2025-02-28,audited
-fv_change_biological_assets,FY2024,2024-12-31,12.0,208408.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,comparative,2025-02-28,False,2026-03-17,EVIDENCE,,0.0,2025-02-28,audited (comparative)
-fv_change_biological_assets,FY2025,2025-12-31,12.0,-42622.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,current,2026-03-17,True,2026-03-17,EVIDENCE,,0.0,2026-03-17,audited
-general_admin_exp,9M 2025,2025-09-30,9.0,-385883.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,comparative,2025-10-29,False,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
-general_admin_exp,9M 2026,2026-09-30,9.0,-427464.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,current,2026-10-29,True,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
-general_admin_exp,FY2020,2020-12-31,12.0,-301774.0,IDR mn,AR 2021.pdf,210.0,comparative,2021-04-01,False,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-general_admin_exp,FY2021,2021-12-31,12.0,-361294.0,IDR mn,AR 2021.pdf,210.0,current,2022-04-01,True,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited
-general_admin_exp,FY2021,2021-12-31,12.0,-361294.0,IDR mn,AR_2022.pdf,235.0,comparative,2022-04-01,False,2023-04-03,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-general_admin_exp,FY2022,2022-12-31,12.0,-400921.0,IDR mn,AR_2022.pdf,235.0,current,2023-04-03,True,2023-04-03,ASSUMPTION,,0.0,2023-04-03,audited
-general_admin_exp,FY2022,2022-12-31,12.0,-400921.0,IDR mn,AR_2023.pdf,229.0,comparative,2023-04-03,False,2024-03-13,EVIDENCE,,0.0,2023-04-03,audited (comparative)
-general_admin_exp,FY2023,2023-12-31,12.0,-569876.0,IDR mn,AR_2023.pdf,229.0,current,2024-03-13,True,2024-03-13,EVIDENCE,,0.0,2024-03-13,audited
-general_admin_exp,FY2023,2023-12-31,12.0,-569876.0,IDR mn,AR_2024.pdf,229.0,comparative,2024-03-13,False,2025-02-28,EVIDENCE,,0.0,2024-03-13,audited (comparative)
-general_admin_exp,FY2024,2024-12-31,12.0,-612598.0,IDR mn,AR_2024.pdf,229.0,current,2025-02-28,True,2025-02-28,EVIDENCE,,0.0,2025-02-28,audited
-general_admin_exp,FY2024,2024-12-31,12.0,-612598.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,comparative,2025-02-28,False,2026-03-17,EVIDENCE,,0.0,2025-02-28,audited (comparative)
-general_admin_exp,FY2025,2025-12-31,12.0,-533741.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,current,2026-03-17,True,2026-03-17,EVIDENCE,,0.0,2026-03-17,audited
-general_admin_exp,H1 2025,2025-06-30,6.0,-267503.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,comparative,2025-07-28,False,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
-general_admin_exp,H1 2026,2026-06-30,6.0,-275194.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,current,2026-07-30,True,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
-general_admin_exp,Q1 2025,2025-03-31,3.0,-128866.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,comparative,2025-04-30,False,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
-general_admin_exp,Q1 2026,2026-03-31,3.0,-130892.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,current,2026-04-28,True,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
-gross_profit,9M 2025,2025-09-30,9.0,3126925.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,comparative,2025-10-29,False,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
-gross_profit,9M 2026,2026-09-30,9.0,4116633.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,current,2026-10-29,True,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
-gross_profit,FY2020,2020-12-31,12.0,1392798.0,IDR mn,AR 2021.pdf,210.0,comparative,2021-04-01,False,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-gross_profit,FY2021,2021-12-31,12.0,1615789.0,IDR mn,AR 2021.pdf,210.0,current,2022-04-01,True,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited
-gross_profit,FY2021,2021-12-31,12.0,1615789.0,IDR mn,AR_2022.pdf,235.0,comparative,2022-04-01,False,2023-04-03,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-gross_profit,FY2022,2022-12-31,12.0,3715864.0,IDR mn,AR_2022.pdf,235.0,current,2023-04-03,True,2023-04-03,ASSUMPTION,,0.0,2023-04-03,audited
-gross_profit,FY2022,2022-12-31,12.0,3715864.0,IDR mn,AR_2023.pdf,229.0,comparative,2023-04-03,False,2024-03-13,EVIDENCE,,0.0,2023-04-03,audited (comparative)
-gross_profit,FY2023,2023-12-31,12.0,2217297.0,IDR mn,AR_2023.pdf,229.0,current,2024-03-13,True,2024-03-13,EVIDENCE,,0.0,2024-03-13,audited
-gross_profit,FY2023,2023-12-31,12.0,2217297.0,IDR mn,AR_2024.pdf,229.0,comparative,2024-03-13,False,2025-02-28,EVIDENCE,,0.0,2024-03-13,audited (comparative)
-gross_profit,FY2024,2024-12-31,12.0,3722778.0,IDR mn,AR_2024.pdf,229.0,current,2025-02-28,True,2025-02-28,EVIDENCE,,0.0,2025-02-28,audited
-gross_profit,FY2024,2024-12-31,12.0,3722778.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,comparative,2025-02-28,False,2026-03-17,EVIDENCE,,0.0,2025-02-28,audited (comparative)
-gross_profit,FY2025,2025-12-31,12.0,4497617.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,current,2026-03-17,True,2026-03-17,EVIDENCE,,0.0,2026-03-17,audited
-gross_profit,H1 2025,2025-06-30,6.0,2036119.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,comparative,2025-07-28,False,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
-gross_profit,H1 2026,2026-06-30,6.0,2413092.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,current,2026-07-30,True,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
-gross_profit,Q1 2025,2025-03-31,3.0,911746.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,comparative,2025-04-30,False,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
-gross_profit,Q1 2026,2026-03-31,3.0,856169.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,current,2026-04-28,True,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
-income_tax_expense,9M 2025,2025-09-30,9.0,-547270.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,comparative,2025-10-29,False,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
-income_tax_expense,9M 2026,2026-09-30,9.0,-738063.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,current,2026-10-29,True,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
-income_tax_expense,FY2020,2020-12-31,12.0,-138149.0,IDR mn,AR 2021.pdf,210.0,comparative,2021-04-01,False,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-income_tax_expense,FY2021,2021-12-31,12.0,-222517.0,IDR mn,AR 2021.pdf,210.0,current,2022-04-01,True,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited
-income_tax_expense,FY2021,2021-12-31,12.0,-222517.0,IDR mn,AR_2022.pdf,235.0,comparative,2022-04-01,False,2023-04-03,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-income_tax_expense,FY2022,2022-12-31,12.0,-600536.0,IDR mn,AR_2022.pdf,235.0,current,2023-04-03,True,2023-04-03,ASSUMPTION,,0.0,2023-04-03,audited
-income_tax_expense,FY2022,2022-12-31,12.0,-600536.0,IDR mn,AR_2023.pdf,229.0,comparative,2023-04-03,False,2024-03-13,EVIDENCE,,0.0,2023-04-03,audited (comparative)
-income_tax_expense,FY2023,2023-12-31,12.0,-279840.0,IDR mn,AR_2023.pdf,229.0,current,2024-03-13,True,2024-03-13,EVIDENCE,,0.0,2024-03-13,audited
-income_tax_expense,FY2023,2023-12-31,12.0,-279840.0,IDR mn,AR_2024.pdf,229.0,comparative,2024-03-13,False,2025-02-28,EVIDENCE,,0.0,2024-03-13,audited (comparative)
-income_tax_expense,FY2024,2024-12-31,12.0,-686305.0,IDR mn,AR_2024.pdf,229.0,current,2025-02-28,True,2025-02-28,EVIDENCE,,0.0,2025-02-28,audited
-income_tax_expense,FY2024,2024-12-31,12.0,-686305.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,comparative,2025-02-28,False,2026-03-17,EVIDENCE,,0.0,2025-02-28,audited (comparative)
-income_tax_expense,FY2025,2025-12-31,12.0,-815974.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,current,2026-03-17,True,2026-03-17,EVIDENCE,,0.0,2026-03-17,audited
-income_tax_expense,H1 2025,2025-06-30,6.0,-344640.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,comparative,2025-07-28,False,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
-income_tax_expense,H1 2026,2026-06-30,6.0,-419070.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,current,2026-07-30,True,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
-income_tax_expense,Q1 2025,2025-03-31,3.0,-155360.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,comparative,2025-04-30,False,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
-income_tax_expense,Q1 2026,2026-03-31,3.0,-147859.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,current,2026-04-28,True,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
-investment_in_associates,FY2023,2023-12-31,12.0,0.0,IDR mn,AR_2024.pdf,226.0,comparative,2024-03-13,False,2025-02-28,EVIDENCE,,0.0,2025-02-28,audited (comparative)
-investment_in_associates,FY2024,2024-12-31,12.0,57283.0,IDR mn,AR_2024.pdf,226.0,current,2025-02-28,True,2025-02-28,EVIDENCE,,0.0,2025-02-28,audited
-investment_in_associates,FY2024,2024-12-31,12.0,57283.0,IDR mn,TAPG_-_AR_2025.pdf,241.0,comparative,2025-02-28,False,2026-03-17,EVIDENCE,,0.0,2025-02-28,audited (comparative)
-investment_in_associates,FY2025,2025-12-31,12.0,53023.0,IDR mn,TAPG_-_AR_2025.pdf,241.0,current,2026-03-17,True,2026-03-17,EVIDENCE,,0.0,2026-03-17,audited
-investment_in_jv,FY2020,2020-12-31,12.0,1845549.0,IDR mn,AR 2021.pdf,207.0,comparative,2021-04-01,False,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-investment_in_jv,FY2021,2021-12-31,12.0,2048895.0,IDR mn,AR 2021.pdf,207.0,current,2022-04-01,True,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited
-investment_in_jv,FY2021,2021-12-31,12.0,2048895.0,IDR mn,AR_2022.pdf,232.0,comparative,2022-04-01,False,2023-04-03,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-investment_in_jv,FY2022,2022-12-31,12.0,2871438.0,IDR mn,AR_2022.pdf,232.0,current,2023-04-03,True,2023-04-03,ASSUMPTION,,0.0,2023-04-03,audited
-investment_in_jv,FY2022,2022-12-31,12.0,2871438.0,IDR mn,AR_2023.pdf,226.0,comparative,2023-04-03,False,2024-03-13,EVIDENCE,,0.0,2023-04-03,audited (comparative)
-investment_in_jv,FY2023,2023-12-31,12.0,3214873.0,IDR mn,AR_2023.pdf,226.0,current,2024-03-13,True,2024-03-13,EVIDENCE,,0.0,2024-03-13,audited
-investment_in_jv,FY2023,2023-12-31,12.0,3214873.0,IDR mn,AR_2024.pdf,226.0,comparative,2024-03-13,False,2025-02-28,EVIDENCE,,0.0,2024-03-13,audited (comparative)
-investment_in_jv,FY2024,2024-12-31,12.0,2944729.0,IDR mn,AR_2024.pdf,226.0,current,2025-02-28,True,2025-02-28,EVIDENCE,,0.0,2025-02-28,audited
-investment_in_jv,FY2024,2024-12-31,12.0,2944729.0,IDR mn,TAPG_-_AR_2025.pdf,241.0,comparative,2025-02-28,False,2026-03-17,EVIDENCE,,0.0,2025-02-28,audited (comparative)
-investment_in_jv,FY2025,2025-12-31,12.0,2640217.0,IDR mn,TAPG_-_AR_2025.pdf,241.0,current,2026-03-17,True,2026-03-17,EVIDENCE,,0.0,2026-03-17,audited
-operating_profit,FY2020,2020-12-31,12.0,1007383.0,IDR mn,AR 2021.pdf,210.0,comparative,2021-04-01,False,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-operating_profit,FY2021,2021-12-31,12.0,1248668.0,IDR mn,AR 2021.pdf,210.0,current,2022-04-01,True,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited
-operating_profit,FY2021,2021-12-31,12.0,1248668.0,IDR mn,AR_2022.pdf,235.0,comparative,2022-04-01,False,2023-04-03,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-operating_profit,FY2022,2022-12-31,12.0,3031586.0,IDR mn,AR_2022.pdf,235.0,current,2023-04-03,True,2023-04-03,ASSUMPTION,,0.0,2023-04-03,audited
-operating_profit,FY2022,2022-12-31,12.0,3031586.0,IDR mn,AR_2023.pdf,229.0,comparative,2023-04-03,False,2024-03-13,EVIDENCE,,0.0,2023-04-03,audited (comparative)
-operating_profit,FY2023,2023-12-31,12.0,1372731.0,IDR mn,AR_2023.pdf,229.0,current,2024-03-13,True,2024-03-13,EVIDENCE,,0.0,2024-03-13,audited
-operating_profit,FY2023,2023-12-31,12.0,1372731.0,IDR mn,AR_2024.pdf,229.0,comparative,2024-03-13,False,2025-02-28,EVIDENCE,,0.0,2024-03-13,audited (comparative)
-operating_profit,FY2024,2024-12-31,12.0,3044614.0,IDR mn,AR_2024.pdf,229.0,current,2025-02-28,True,2025-02-28,EVIDENCE,,0.0,2025-02-28,audited
-operating_profit,FY2024,2024-12-31,12.0,3044614.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,comparative,2025-02-28,False,2026-03-17,EVIDENCE,,0.0,2025-02-28,audited (comparative)
-operating_profit,FY2025,2025-12-31,12.0,3543254.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,current,2026-03-17,True,2026-03-17,EVIDENCE,,0.0,2026-03-17,audited
-other_operating_expense,FY2020,2020-12-31,12.0,-24970.0,IDR mn,AR 2021.pdf,210.0,comparative,2021-04-01,False,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-other_operating_expense,FY2021,2021-12-31,12.0,-15889.0,IDR mn,AR 2021.pdf,210.0,current,2022-04-01,True,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited
-other_operating_expense,FY2021,2021-12-31,12.0,-15889.0,IDR mn,AR_2022.pdf,235.0,comparative,2022-04-01,False,2023-04-03,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-other_operating_expense,FY2022,2022-12-31,12.0,-29038.0,IDR mn,AR_2022.pdf,235.0,current,2023-04-03,True,2023-04-03,ASSUMPTION,,0.0,2023-04-03,audited
-other_operating_expense,FY2022,2022-12-31,12.0,-29038.0,IDR mn,AR_2023.pdf,229.0,comparative,2023-04-03,False,2024-03-13,EVIDENCE,,0.0,2023-04-03,audited (comparative)
-other_operating_expense,FY2023,2023-12-31,12.0,-71916.0,IDR mn,AR_2023.pdf,229.0,current,2024-03-13,True,2024-03-13,EVIDENCE,,0.0,2024-03-13,audited
-other_operating_expense,FY2023,2023-12-31,12.0,-71916.0,IDR mn,AR_2024.pdf,229.0,comparative,2024-03-13,False,2025-02-28,EVIDENCE,,0.0,2024-03-13,audited (comparative)
-other_operating_expense,FY2024,2024-12-31,12.0,-40840.0,IDR mn,AR_2024.pdf,229.0,current,2025-02-28,True,2025-02-28,EVIDENCE,,0.0,2025-02-28,audited
-other_operating_expense,FY2024,2024-12-31,12.0,-40840.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,comparative,2025-02-28,False,2026-03-17,EVIDENCE,,0.0,2025-02-28,audited (comparative)
-other_operating_expense,FY2025,2025-12-31,12.0,-164999.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,current,2026-03-17,True,2026-03-17,EVIDENCE,,0.0,2026-03-17,audited
-other_operating_income,FY2020,2020-12-31,12.0,73270.0,IDR mn,AR 2021.pdf,210.0,comparative,2021-04-01,False,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-other_operating_income,FY2021,2021-12-31,12.0,77228.0,IDR mn,AR 2021.pdf,210.0,current,2022-04-01,True,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited
-other_operating_income,FY2021,2021-12-31,12.0,77228.0,IDR mn,AR_2022.pdf,235.0,comparative,2022-04-01,False,2023-04-03,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-other_operating_income,FY2022,2022-12-31,12.0,152601.0,IDR mn,AR_2022.pdf,235.0,current,2023-04-03,True,2023-04-03,ASSUMPTION,,0.0,2023-04-03,audited
-other_operating_income,FY2022,2022-12-31,12.0,152601.0,IDR mn,AR_2023.pdf,229.0,comparative,2023-04-03,False,2024-03-13,EVIDENCE,,0.0,2023-04-03,audited (comparative)
-other_operating_income,FY2023,2023-12-31,12.0,122101.0,IDR mn,AR_2023.pdf,229.0,current,2024-03-13,True,2024-03-13,EVIDENCE,,0.0,2024-03-13,audited
-other_operating_income,FY2023,2023-12-31,12.0,122101.0,IDR mn,AR_2024.pdf,229.0,comparative,2024-03-13,False,2025-02-28,EVIDENCE,,0.0,2024-03-13,audited (comparative)
-other_operating_income,FY2024,2024-12-31,12.0,48510.0,IDR mn,AR_2024.pdf,229.0,current,2025-02-28,True,2025-02-28,EVIDENCE,,0.0,2025-02-28,audited
-other_operating_income,FY2024,2024-12-31,12.0,48510.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,comparative,2025-02-28,False,2026-03-17,EVIDENCE,,0.0,2025-02-28,audited (comparative)
-other_operating_income,FY2025,2025-12-31,12.0,76327.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,current,2026-03-17,True,2026-03-17,EVIDENCE,,0.0,2026-03-17,audited
-profit_attrib_owners,9M 2025,2025-09-30,9.0,2679633.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,20.0,comparative,2025-10-29,False,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
-profit_attrib_owners,9M 2026,2026-09-30,9.0,3505620.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,20.0,current,2026-10-29,True,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
-profit_attrib_owners,FY2020,2020-12-31,12.0,911068.0,IDR mn,AR 2021.pdf,211.0,comparative,2021-04-01,False,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-profit_attrib_owners,FY2021,2021-12-31,12.0,1159036.0,IDR mn,AR 2021.pdf,211.0,current,2022-04-01,True,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited
-profit_attrib_owners,FY2021,2021-12-31,12.0,1159036.0,IDR mn,AR_2022.pdf,236.0,comparative,2022-04-01,False,2023-04-03,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-profit_attrib_owners,FY2022,2022-12-31,12.0,2981120.0,IDR mn,AR_2022.pdf,236.0,current,2023-04-03,True,2023-04-03,ASSUMPTION,,0.0,2023-04-03,audited
-profit_attrib_owners,FY2022,2022-12-31,12.0,2981120.0,IDR mn,AR_2023.pdf,230.0,comparative,2023-04-03,False,2024-03-13,EVIDENCE,,0.0,2023-04-03,audited (comparative)
-profit_attrib_owners,FY2023,2023-12-31,12.0,1608217.0,IDR mn,AR_2023.pdf,230.0,current,2024-03-13,True,2024-03-13,EVIDENCE,,0.0,2024-03-13,audited
-profit_attrib_owners,FY2023,2023-12-31,12.0,1608217.0,IDR mn,AR_2024.pdf,230.0,comparative,2024-03-13,False,2025-02-28,EVIDENCE,,0.0,2024-03-13,audited (comparative)
-profit_attrib_owners,FY2024,2024-12-31,12.0,3120276.0,IDR mn,AR_2024.pdf,230.0,current,2025-02-28,True,2025-02-28,EVIDENCE,,0.0,2025-02-28,audited
-profit_attrib_owners,FY2024,2024-12-31,12.0,3120276.0,IDR mn,TAPG_-_AR_2025.pdf,245.0,comparative,2025-02-28,False,2026-03-17,EVIDENCE,,0.0,2025-02-28,audited (comparative)
-profit_attrib_owners,FY2025,2025-12-31,12.0,3702266.0,IDR mn,TAPG_-_AR_2025.pdf,245.0,current,2026-03-17,True,2026-03-17,EVIDENCE,,0.0,2026-03-17,audited
-profit_attrib_owners,H1 2025,2025-06-30,6.0,1694119.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,20.0,comparative,2025-07-28,False,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
-profit_attrib_owners,H1 2026,2026-06-30,6.0,2040370.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,20.0,current,2026-07-30,True,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
-profit_attrib_owners,Q1 2025,2025-03-31,3.0,805258.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,20.0,comparative,2025-04-30,False,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
-profit_attrib_owners,Q1 2026,2026-03-31,3.0,739762.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,20.0,current,2026-04-28,True,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
-profit_before_tax,9M 2025,2025-09-30,9.0,3326954.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,comparative,2025-10-29,False,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
-profit_before_tax,9M 2026,2026-09-30,9.0,4382744.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,current,2026-10-29,True,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
-profit_before_tax,FY2020,2020-12-31,12.0,1070884.0,IDR mn,AR 2021.pdf,210.0,comparative,2021-04-01,False,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-profit_before_tax,FY2021,2021-12-31,12.0,1421264.0,IDR mn,AR 2021.pdf,210.0,current,2022-04-01,True,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited
-profit_before_tax,FY2021,2021-12-31,12.0,1421264.0,IDR mn,AR_2022.pdf,235.0,comparative,2022-04-01,False,2023-04-03,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-profit_before_tax,FY2022,2022-12-31,12.0,3689281.0,IDR mn,AR_2022.pdf,235.0,current,2023-04-03,True,2023-04-03,ASSUMPTION,,0.0,2023-04-03,audited
-profit_before_tax,FY2022,2022-12-31,12.0,3689281.0,IDR mn,AR_2023.pdf,229.0,comparative,2023-04-03,False,2024-03-13,EVIDENCE,,0.0,2023-04-03,audited (comparative)
-profit_before_tax,FY2023,2023-12-31,12.0,1941098.0,IDR mn,AR_2023.pdf,229.0,current,2024-03-13,True,2024-03-13,EVIDENCE,,0.0,2024-03-13,audited
-profit_before_tax,FY2023,2023-12-31,12.0,1941098.0,IDR mn,AR_2024.pdf,229.0,comparative,2024-03-13,False,2025-02-28,EVIDENCE,,0.0,2024-03-13,audited (comparative)
-profit_before_tax,FY2024,2024-12-31,12.0,3926904.0,IDR mn,AR_2024.pdf,229.0,current,2025-02-28,True,2025-02-28,EVIDENCE,,0.0,2025-02-28,audited
-profit_before_tax,FY2024,2024-12-31,12.0,3926904.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,comparative,2025-02-28,False,2026-03-17,EVIDENCE,,0.0,2025-02-28,audited (comparative)
-profit_before_tax,FY2025,2025-12-31,12.0,4661321.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,current,2026-03-17,True,2026-03-17,EVIDENCE,,0.0,2026-03-17,audited
-profit_before_tax,H1 2025,2025-06-30,6.0,2102122.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,comparative,2025-07-28,False,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
-profit_before_tax,H1 2026,2026-06-30,6.0,2539041.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,current,2026-07-30,True,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
-profit_before_tax,Q1 2025,2025-03-31,3.0,990238.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,comparative,2025-04-30,False,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
-profit_before_tax,Q1 2026,2026-03-31,3.0,915122.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,current,2026-04-28,True,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
-profit_for_year,9M 2025,2025-09-30,9.0,2779684.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,comparative,2025-10-29,False,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
-profit_for_year,9M 2026,2026-09-30,9.0,3644681.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,current,2026-10-29,True,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
-profit_for_year,FY2020,2020-12-31,12.0,932735.0,IDR mn,AR 2021.pdf,210.0,comparative,2021-04-01,False,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-profit_for_year,FY2021,2021-12-31,12.0,1198747.0,IDR mn,AR 2021.pdf,210.0,current,2022-04-01,True,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited
-profit_for_year,FY2021,2021-12-31,12.0,1198747.0,IDR mn,AR_2022.pdf,235.0,comparative,2022-04-01,False,2023-04-03,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-profit_for_year,FY2022,2022-12-31,12.0,3088745.0,IDR mn,AR_2022.pdf,235.0,current,2023-04-03,True,2023-04-03,ASSUMPTION,,0.0,2023-04-03,audited
-profit_for_year,FY2022,2022-12-31,12.0,3088745.0,IDR mn,AR_2023.pdf,229.0,comparative,2023-04-03,False,2024-03-13,EVIDENCE,,0.0,2023-04-03,audited (comparative)
-profit_for_year,FY2023,2023-12-31,12.0,1661258.0,IDR mn,AR_2023.pdf,229.0,current,2024-03-13,True,2024-03-13,EVIDENCE,,0.0,2024-03-13,audited
-profit_for_year,FY2023,2023-12-31,12.0,1661258.0,IDR mn,AR_2024.pdf,229.0,comparative,2024-03-13,False,2025-02-28,EVIDENCE,,0.0,2024-03-13,audited (comparative)
-profit_for_year,FY2024,2024-12-31,12.0,3240599.0,IDR mn,AR_2024.pdf,229.0,current,2025-02-28,True,2025-02-28,EVIDENCE,,0.0,2025-02-28,audited
-profit_for_year,FY2024,2024-12-31,12.0,3240599.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,comparative,2025-02-28,False,2026-03-17,EVIDENCE,,0.0,2025-02-28,audited (comparative)
-profit_for_year,FY2025,2025-12-31,12.0,3845347.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,current,2026-03-17,True,2026-03-17,EVIDENCE,,0.0,2026-03-17,audited
-profit_for_year,H1 2025,2025-06-30,6.0,1757482.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,comparative,2025-07-28,False,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
-profit_for_year,H1 2026,2026-06-30,6.0,2119971.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,current,2026-07-30,True,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
-profit_for_year,Q1 2025,2025-03-31,3.0,834878.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,comparative,2025-04-30,False,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
-profit_for_year,Q1 2026,2026-03-31,3.0,767263.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,current,2026-04-28,True,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
-revenue,9M 2025,2025-09-30,9.0,8207835.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,comparative,2025-10-29,False,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
-revenue,9M 2026,2026-09-30,9.0,9446621.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,current,2026-10-29,True,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
-revenue,FY2020,2020-12-31,12.0,5265785.0,IDR mn,AR 2021.pdf,210.0,comparative,2021-04-01,False,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-revenue,FY2021,2021-12-31,12.0,6278123.0,IDR mn,AR 2021.pdf,210.0,current,2022-04-01,True,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited
-revenue,FY2021,2021-12-31,12.0,6278123.0,IDR mn,AR_2022.pdf,235.0,comparative,2022-04-01,False,2023-04-03,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-revenue,FY2022,2022-12-31,12.0,9345641.0,IDR mn,AR_2022.pdf,235.0,current,2023-04-03,True,2023-04-03,ASSUMPTION,,0.0,2023-04-03,audited
-revenue,FY2022,2022-12-31,12.0,9345641.0,IDR mn,AR_2023.pdf,229.0,comparative,2023-04-03,False,2024-03-13,EVIDENCE,,0.0,2023-04-03,audited (comparative)
-revenue,FY2023,2023-12-31,12.0,8325887.0,IDR mn,AR_2023.pdf,229.0,current,2024-03-13,True,2024-03-13,EVIDENCE,,0.0,2024-03-13,audited
-revenue,FY2023,2023-12-31,12.0,8325887.0,IDR mn,AR_2024.pdf,229.0,comparative,2024-03-13,False,2025-02-28,EVIDENCE,,0.0,2024-03-13,audited (comparative)
-revenue,FY2024,2024-12-31,12.0,9671463.0,IDR mn,AR_2024.pdf,229.0,current,2025-02-28,True,2025-02-28,EVIDENCE,,0.0,2025-02-28,audited
-revenue,FY2024,2024-12-31,12.0,9671463.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,comparative,2025-02-28,False,2026-03-17,EVIDENCE,,0.0,2025-02-28,audited (comparative)
-revenue,FY2025,2025-12-31,12.0,11402198.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,current,2026-03-17,True,2026-03-17,EVIDENCE,,0.0,2026-03-17,audited
-revenue,H1 2025,2025-06-30,6.0,5508389.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,comparative,2025-07-28,False,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
-revenue,H1 2026,2026-06-30,6.0,5857150.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,current,2026-07-30,True,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
-revenue,Q1 2025,2025-03-31,3.0,2620060.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,comparative,2025-04-30,False,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
-revenue,Q1 2026,2026-03-31,3.0,2492197.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,current,2026-04-28,True,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
-selling_marketing_exp,9M 2025,2025-09-30,9.0,-209238.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,comparative,2025-10-29,False,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
-selling_marketing_exp,9M 2026,2026-09-30,9.0,-256203.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,current,2026-10-29,True,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
-selling_marketing_exp,FY2020,2020-12-31,12.0,-193937.0,IDR mn,AR 2021.pdf,210.0,comparative,2021-04-01,False,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-selling_marketing_exp,FY2021,2021-12-31,12.0,-168204.0,IDR mn,AR 2021.pdf,210.0,current,2022-04-01,True,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited
-selling_marketing_exp,FY2021,2021-12-31,12.0,-168204.0,IDR mn,AR_2022.pdf,235.0,comparative,2022-04-01,False,2023-04-03,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-selling_marketing_exp,FY2022,2022-12-31,12.0,-284032.0,IDR mn,AR_2022.pdf,235.0,current,2023-04-03,True,2023-04-03,ASSUMPTION,,0.0,2023-04-03,audited
-selling_marketing_exp,FY2022,2022-12-31,12.0,-284032.0,IDR mn,AR_2023.pdf,229.0,comparative,2023-04-03,False,2024-03-13,EVIDENCE,,0.0,2023-04-03,audited (comparative)
-selling_marketing_exp,FY2023,2023-12-31,12.0,-305154.0,IDR mn,AR_2023.pdf,229.0,current,2024-03-13,True,2024-03-13,EVIDENCE,,0.0,2024-03-13,audited
-selling_marketing_exp,FY2023,2023-12-31,12.0,-305154.0,IDR mn,AR_2024.pdf,229.0,comparative,2024-03-13,False,2025-02-28,EVIDENCE,,0.0,2024-03-13,audited (comparative)
-selling_marketing_exp,FY2024,2024-12-31,12.0,-281644.0,IDR mn,AR_2024.pdf,229.0,current,2025-02-28,True,2025-02-28,EVIDENCE,,0.0,2025-02-28,audited
-selling_marketing_exp,FY2024,2024-12-31,12.0,-281644.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,comparative,2025-02-28,False,2026-03-17,EVIDENCE,,0.0,2025-02-28,audited (comparative)
-selling_marketing_exp,FY2025,2025-12-31,12.0,-289328.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,current,2026-03-17,True,2026-03-17,EVIDENCE,,0.0,2026-03-17,audited
-selling_marketing_exp,H1 2025,2025-06-30,6.0,-143199.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,comparative,2025-07-28,False,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
-selling_marketing_exp,H1 2026,2026-06-30,6.0,-153486.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,current,2026-07-30,True,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
-selling_marketing_exp,Q1 2025,2025-03-31,3.0,-68098.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,comparative,2025-04-30,False,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
-selling_marketing_exp,Q1 2026,2026-03-31,3.0,-69723.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,current,2026-04-28,True,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
-share_of_profit_associates,9M 2025,2025-09-30,9.0,-13885.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,comparative,2025-10-29,False,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
-share_of_profit_associates,9M 2026,2026-09-30,9.0,-38013.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,current,2026-10-29,True,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
-share_of_profit_associates,H1 2025,2025-06-30,6.0,-8209.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,comparative,2025-07-28,False,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
-share_of_profit_associates,H1 2026,2026-06-30,6.0,-21956.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,current,2026-07-30,True,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
-share_of_profit_associates,Q1 2025,2025-03-31,3.0,-659.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,comparative,2025-04-30,False,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
-share_of_profit_associates,Q1 2026,2026-03-31,3.0,-13261.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,current,2026-04-28,True,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
-share_of_profit_jv,9M 2025,2025-09-30,9.0,839609.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,comparative,2025-10-29,False,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
-share_of_profit_jv,9M 2026,2026-09-30,9.0,956891.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,current,2026-10-29,True,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
-share_of_profit_jv,H1 2025,2025-06-30,6.0,540210.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,comparative,2025-07-28,False,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
-share_of_profit_jv,H1 2026,2026-06-30,6.0,574518.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,current,2026-07-30,True,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
-share_of_profit_jv,Q1 2025,2025-03-31,3.0,260441.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,comparative,2025-04-30,False,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
-share_of_profit_jv,Q1 2026,2026-03-31,3.0,242313.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,current,2026-04-28,True,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
-share_of_profit_jv_associates,FY2020,2020-12-31,12.0,405060.0,IDR mn,AR 2021.pdf,210.0,comparative,2021-04-01,False,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-share_of_profit_jv_associates,FY2021,2021-12-31,12.0,348668.0,IDR mn,AR 2021.pdf,210.0,current,2022-04-01,True,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited
-share_of_profit_jv_associates,FY2021,2021-12-31,12.0,348668.0,IDR mn,AR_2022.pdf,235.0,comparative,2022-04-01,False,2023-04-03,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-share_of_profit_jv_associates,FY2022,2022-12-31,12.0,968377.0,IDR mn,AR_2022.pdf,235.0,current,2023-04-03,True,2023-04-03,ASSUMPTION,,0.0,2023-04-03,audited
-share_of_profit_jv_associates,FY2022,2022-12-31,12.0,968377.0,IDR mn,AR_2023.pdf,229.0,comparative,2023-04-03,False,2024-03-13,EVIDENCE,,0.0,2023-04-03,audited (comparative)
-share_of_profit_jv_associates,FY2023,2023-12-31,12.0,643293.0,IDR mn,AR_2023.pdf,229.0,current,2024-03-13,True,2024-03-13,EVIDENCE,,0.0,2024-03-13,audited
-share_of_profit_jv_associates,FY2023,2023-12-31,12.0,643293.0,IDR mn,AR_2024.pdf,229.0,comparative,2024-03-13,False,2025-02-28,EVIDENCE,,0.0,2024-03-13,audited (comparative)
-share_of_profit_jv_associates,FY2024,2024-12-31,12.0,893767.0,IDR mn,AR_2024.pdf,229.0,current,2025-02-28,True,2025-02-28,EVIDENCE,,0.0,2025-02-28,audited
-share_of_profit_jv_associates,FY2024,2024-12-31,12.0,893767.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,comparative,2025-02-28,False,2026-03-17,EVIDENCE,,0.0,2025-02-28,audited (comparative)
-share_of_profit_jv_associates,FY2025,2025-12-31,12.0,1066889.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,current,2026-03-17,True,2026-03-17,EVIDENCE,,0.0,2026-03-17,audited
-total_assets,9M 2026,2026-09-30,0.0,15461290.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,8.0,current,2026-10-29,True,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
-total_assets,FY2020,2020-12-31,12.0,12323970.0,IDR mn,AR 2021.pdf,207.0,comparative,2021-04-01,False,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-total_assets,FY2021,2021-12-31,12.0,12446326.0,IDR mn,AR 2021.pdf,207.0,current,2022-04-01,True,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited
-total_assets,FY2021,2021-12-31,12.0,12446326.0,IDR mn,AR_2022.pdf,232.0,comparative,2022-04-01,False,2023-04-03,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-total_assets,FY2022,2022-12-31,12.0,14526124.0,IDR mn,AR_2022.pdf,232.0,current,2023-04-03,True,2023-04-03,ASSUMPTION,,0.0,2023-04-03,audited
-total_assets,FY2022,2022-12-31,12.0,14526124.0,IDR mn,AR_2023.pdf,226.0,comparative,2023-04-03,False,2024-03-13,EVIDENCE,,0.0,2023-04-03,audited (comparative)
-total_assets,FY2023,2023-12-31,12.0,13867387.0,IDR mn,AR_2023.pdf,226.0,current,2024-03-13,True,2024-03-13,EVIDENCE,,0.0,2024-03-13,audited
-total_assets,FY2023,2023-12-31,12.0,13867387.0,IDR mn,AR_2024.pdf,226.0,comparative,2024-03-13,False,2025-02-28,EVIDENCE,,0.0,2024-03-13,audited (comparative)
-total_assets,FY2024,2024-12-31,12.0,14307265.0,IDR mn,AR_2024.pdf,226.0,current,2025-02-28,True,2025-02-28,EVIDENCE,,0.0,2025-02-28,audited
-total_assets,FY2024,2024-12-31,12.0,14307265.0,IDR mn,TAPG_-_AR_2025.pdf,241.0,comparative,2025-02-28,False,2026-03-17,EVIDENCE,,0.0,2025-02-28,audited (comparative)
-total_assets,FY2025,2025-12-31,12.0,14696563.0,IDR mn,TAPG_-_AR_2025.pdf,241.0,current,2026-03-17,True,2026-03-17,EVIDENCE,,0.0,2026-03-17,audited
-total_assets,FY2025,2025-12-31,0.0,14696563.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,8.0,comparative,2026-03-17,False,2026-04-28,EVIDENCE,,0.0,2026-03-17,audited (comparative in interim)
-total_assets,FY2025,2025-12-31,0.0,14696563.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,8.0,comparative,2026-03-17,False,2026-07-30,EVIDENCE,,0.0,2026-03-17,audited (comparative in interim)
-total_assets,FY2025,2025-12-31,0.0,14696563.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,8.0,comparative,2026-03-17,False,2026-10-29,EVIDENCE,,0.0,2026-03-17,audited (comparative in interim)
-total_assets,H1 2026,2026-06-30,0.0,14823740.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,8.0,current,2026-07-30,True,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
-total_assets,Q1 2026,2026-03-31,0.0,15403824.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,8.0,current,2026-04-28,True,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
-total_equity,9M 2026,2026-09-30,0.0,12228199.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,17.0,current,2026-10-29,True,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
-total_equity,FY2020,2020-12-31,12.0,6656282.0,IDR mn,AR 2021.pdf,209.0,comparative,2021-04-01,False,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-total_equity,FY2021,2021-12-31,12.0,7796011.0,IDR mn,AR 2021.pdf,209.0,current,2022-04-01,True,2022-04-01,ASSUMPTION,,0.0,2022-04-01,audited
-total_equity,FY2021,2021-12-31,12.0,7796011.0,IDR mn,AR_2022.pdf,234.0,comparative,2022-04-01,False,2023-04-03,ASSUMPTION,,0.0,2022-04-01,audited (comparative)
-total_equity,FY2022,2022-12-31,12.0,10412744.0,IDR mn,AR_2022.pdf,234.0,current,2023-04-03,True,2023-04-03,ASSUMPTION,,0.0,2023-04-03,audited
-total_equity,FY2022,2022-12-31,12.0,10412744.0,IDR mn,AR_2023.pdf,228.0,comparative,2023-04-03,False,2024-03-13,EVIDENCE,,0.0,2023-04-03,audited (comparative)
-total_equity,FY2023,2023-12-31,12.0,11339540.0,IDR mn,AR_2023.pdf,228.0,current,2024-03-13,True,2024-03-13,EVIDENCE,,0.0,2024-03-13,audited
-total_equity,FY2023,2023-12-31,12.0,11339540.0,IDR mn,AR_2024.pdf,228.0,comparative,2024-03-13,False,2025-02-28,EVIDENCE,,0.0,2024-03-13,audited (comparative)
-total_equity,FY2024,2024-12-31,12.0,11276429.0,IDR mn,AR_2024.pdf,228.0,current,2025-02-28,True,2025-02-28,EVIDENCE,,0.0,2025-02-28,audited
-total_equity,FY2024,2024-12-31,12.0,11276429.0,IDR mn,TAPG_-_AR_2025.pdf,243.0,comparative,2025-02-28,False,2026-03-17,EVIDENCE,,0.0,2025-02-28,audited (comparative)
-total_equity,FY2025,2025-12-31,12.0,11687485.0,IDR mn,TAPG_-_AR_2025.pdf,243.0,current,2026-03-17,True,2026-03-17,EVIDENCE,,0.0,2026-03-17,audited
-total_equity,FY2025,2025-12-31,0.0,11687485.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,17.0,comparative,2026-03-17,False,2026-04-28,EVIDENCE,,0.0,2026-03-17,audited (comparative in interim)
-total_equity,FY2025,2025-12-31,0.0,11687485.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,17.0,comparative,2026-03-17,False,2026-07-30,EVIDENCE,,0.0,2026-03-17,audited (comparative in interim)
-total_equity,FY2025,2025-12-31,0.0,11687485.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,17.0,comparative,2026-03-17,False,2026-10-29,EVIDENCE,,0.0,2026-03-17,audited (comparative in interim)
-total_equity,H1 2026,2026-06-30,0.0,11933750.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,17.0,current,2026-07-30,True,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
-total_equity,Q1 2026,2026-03-31,0.0,12454507.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,17.0,current,2026-04-28,True,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
+item,reporting_period,period_end,months,value,unit,source_doc,pdf_page,vintage_role,original_publication_date,original_filing_in_hand,vintage_available_from,vintage_available_from_lenient,vintage_basis,revision_date,revision_vs_first_vintage,earliest_verified_availability,basis
+capex_fixed_assets,9M 2025,2025-09-30,9.0,-457577.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,26.0,comparative,2025-10-29,False,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
+capex_fixed_assets,9M 2026,2026-09-30,9.0,-522242.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,26.0,current,2026-10-29,True,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
+capex_fixed_assets,FY2020,2020-12-31,12.0,-427222.0,IDR mn,AR 2021.pdf,213.0,comparative,2021-04-01,False,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+capex_fixed_assets,FY2021,2021-12-31,12.0,-455163.0,IDR mn,AR 2021.pdf,213.0,current,2022-04-01,True,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited
+capex_fixed_assets,FY2021,2021-12-31,12.0,-455163.0,IDR mn,AR_2022.pdf,238.0,comparative,2022-04-01,False,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+capex_fixed_assets,FY2022,2022-12-31,12.0,-738152.0,IDR mn,AR_2022.pdf,238.0,current,2023-04-03,True,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2023-05-01,audited
+capex_fixed_assets,FY2022,2022-12-31,12.0,-738152.0,IDR mn,AR_2023.pdf,232.0,comparative,2023-04-03,False,2024-04-01,2024-03-13,EVIDENCE,,0.0,2023-05-01,audited (comparative)
+capex_fixed_assets,FY2023,2023-12-31,12.0,-802438.0,IDR mn,AR_2023.pdf,232.0,current,2024-03-13,True,2024-04-01,2024-03-13,EVIDENCE,,0.0,2024-04-01,audited
+capex_fixed_assets,FY2023,2023-12-31,12.0,-802438.0,IDR mn,AR_2024.pdf,232.0,comparative,2024-03-13,False,2025-03-27,2025-02-28,EVIDENCE,,0.0,2024-04-01,audited (comparative)
+capex_fixed_assets,FY2024,2024-12-31,12.0,-587641.0,IDR mn,AR_2024.pdf,232.0,current,2025-02-28,True,2025-03-27,2025-02-28,EVIDENCE,,0.0,2025-03-27,audited
+capex_fixed_assets,FY2024,2024-12-31,12.0,-587641.0,IDR mn,TAPG_-_AR_2025.pdf,247.0,comparative,2025-02-28,False,2026-04-01,2026-03-17,EVIDENCE,,0.0,2025-03-27,audited (comparative)
+capex_fixed_assets,FY2025,2025-12-31,12.0,-622694.0,IDR mn,TAPG_-_AR_2025.pdf,247.0,current,2026-03-17,True,2026-04-01,2026-03-17,EVIDENCE,,0.0,2026-04-01,audited
+capex_fixed_assets,H1 2025,2025-06-30,6.0,-247260.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,26.0,comparative,2025-07-28,False,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
+capex_fixed_assets,H1 2026,2026-06-30,6.0,-324269.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,26.0,current,2026-07-30,True,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
+capex_fixed_assets,Q1 2025,2025-03-31,3.0,-133809.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,26.0,comparative,2025-04-30,False,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
+capex_fixed_assets,Q1 2026,2026-03-31,3.0,-137562.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,26.0,current,2026-04-28,True,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
+cash,9M 2026,2026-09-30,0.0,1937038.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,4.0,current,2026-10-29,True,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
+cash,FY2020,2020-12-31,12.0,1489961.0,IDR mn,AR 2021.pdf,207.0,comparative,2021-04-01,False,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+cash,FY2021,2021-12-31,12.0,1280238.0,IDR mn,AR 2021.pdf,207.0,current,2022-04-01,True,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited
+cash,FY2021,2021-12-31,12.0,1280238.0,IDR mn,AR_2022.pdf,232.0,comparative,2022-04-01,False,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+cash,FY2022,2022-12-31,12.0,1957773.0,IDR mn,AR_2022.pdf,232.0,current,2023-04-03,True,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2023-05-01,audited
+cash,FY2022,2022-12-31,12.0,1957773.0,IDR mn,AR_2023.pdf,226.0,comparative,2023-04-03,False,2024-04-01,2024-03-13,EVIDENCE,,0.0,2023-05-01,audited (comparative)
+cash,FY2023,2023-12-31,12.0,1006796.0,IDR mn,AR_2023.pdf,226.0,current,2024-03-13,True,2024-04-01,2024-03-13,EVIDENCE,,0.0,2024-04-01,audited
+cash,FY2023,2023-12-31,12.0,1006796.0,IDR mn,AR_2024.pdf,226.0,comparative,2024-03-13,False,2025-03-27,2025-02-28,EVIDENCE,,0.0,2024-04-01,audited (comparative)
+cash,FY2024,2024-12-31,12.0,1309216.0,IDR mn,AR_2024.pdf,226.0,current,2025-02-28,True,2025-03-27,2025-02-28,EVIDENCE,,0.0,2025-03-27,audited
+cash,FY2024,2024-12-31,12.0,1309216.0,IDR mn,TAPG_-_AR_2025.pdf,241.0,comparative,2025-02-28,False,2026-04-01,2026-03-17,EVIDENCE,,0.0,2025-03-27,audited (comparative)
+cash,FY2025,2025-12-31,12.0,1651433.0,IDR mn,TAPG_-_AR_2025.pdf,241.0,current,2026-03-17,True,2026-04-01,2026-03-17,EVIDENCE,,0.0,2026-04-01,audited
+cash,FY2025,2025-12-31,0.0,1651433.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,4.0,comparative,2026-03-17,False,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-01,audited (comparative in interim)
+cash,FY2025,2025-12-31,0.0,1651433.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,4.0,comparative,2026-03-17,False,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-04-01,audited (comparative in interim)
+cash,FY2025,2025-12-31,0.0,1651433.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,4.0,comparative,2026-03-17,False,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-04-01,audited (comparative in interim)
+cash,H1 2026,2026-06-30,0.0,1706296.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,4.0,current,2026-07-30,True,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
+cash,Q1 2026,2026-03-31,0.0,2797577.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,4.0,current,2026-04-28,True,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
+cfo,9M 2025,2025-09-30,9.0,2241586.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,26.0,comparative,2025-10-29,False,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
+cfo,9M 2026,2026-09-30,9.0,2947167.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,26.0,current,2026-10-29,True,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
+cfo,FY2020,2020-12-31,12.0,1551861.0,IDR mn,AR 2021.pdf,213.0,comparative,2021-04-01,False,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+cfo,FY2021,2021-12-31,12.0,1455015.0,IDR mn,AR 2021.pdf,213.0,current,2022-04-01,True,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited
+cfo,FY2021,2021-12-31,12.0,1455015.0,IDR mn,AR_2022.pdf,238.0,comparative,2022-04-01,False,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+cfo,FY2022,2022-12-31,12.0,3175480.0,IDR mn,AR_2022.pdf,238.0,current,2023-04-03,True,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2023-05-01,audited
+cfo,FY2022,2022-12-31,12.0,3175480.0,IDR mn,AR_2023.pdf,232.0,comparative,2023-04-03,False,2024-04-01,2024-03-13,EVIDENCE,,0.0,2023-05-01,audited (comparative)
+cfo,FY2023,2023-12-31,12.0,1569363.0,IDR mn,AR_2023.pdf,232.0,current,2024-03-13,True,2024-04-01,2024-03-13,EVIDENCE,,0.0,2024-04-01,audited
+cfo,FY2023,2023-12-31,12.0,1569363.0,IDR mn,AR_2024.pdf,232.0,comparative,2024-03-13,False,2025-03-27,2025-02-28,EVIDENCE,,0.0,2024-04-01,audited (comparative)
+cfo,FY2024,2024-12-31,12.0,3239185.0,IDR mn,AR_2024.pdf,232.0,current,2025-02-28,True,2025-03-27,2025-02-28,EVIDENCE,,0.0,2025-03-27,audited
+cfo,FY2024,2024-12-31,12.0,3239185.0,IDR mn,TAPG_-_AR_2025.pdf,247.0,comparative,2025-02-28,False,2026-04-01,2026-03-17,EVIDENCE,,0.0,2025-03-27,audited (comparative)
+cfo,FY2025,2025-12-31,12.0,3431453.0,IDR mn,TAPG_-_AR_2025.pdf,247.0,current,2026-03-17,True,2026-04-01,2026-03-17,EVIDENCE,,0.0,2026-04-01,audited
+cfo,H1 2025,2025-06-30,6.0,1341854.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,26.0,comparative,2025-07-28,False,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
+cfo,H1 2026,2026-06-30,6.0,1619127.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,26.0,current,2026-07-30,True,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
+cfo,Q1 2025,2025-03-31,3.0,773621.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,26.0,comparative,2025-04-30,False,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
+cfo,Q1 2026,2026-03-31,3.0,654283.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,26.0,current,2026-04-28,True,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
+cost_of_sales,9M 2025,2025-09-30,9.0,-5080910.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,comparative,2025-10-29,False,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
+cost_of_sales,9M 2026,2026-09-30,9.0,-5329988.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,current,2026-10-29,True,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
+cost_of_sales,FY2020,2020-12-31,12.0,-3872987.0,IDR mn,AR 2021.pdf,210.0,comparative,2021-04-01,False,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+cost_of_sales,FY2021,2021-12-31,12.0,-4662334.0,IDR mn,AR 2021.pdf,210.0,current,2022-04-01,True,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited
+cost_of_sales,FY2021,2021-12-31,12.0,-4662334.0,IDR mn,AR_2022.pdf,235.0,comparative,2022-04-01,False,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+cost_of_sales,FY2022,2022-12-31,12.0,-5629777.0,IDR mn,AR_2022.pdf,235.0,current,2023-04-03,True,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2023-05-01,audited
+cost_of_sales,FY2022,2022-12-31,12.0,-5629777.0,IDR mn,AR_2023.pdf,229.0,comparative,2023-04-03,False,2024-04-01,2024-03-13,EVIDENCE,,0.0,2023-05-01,audited (comparative)
+cost_of_sales,FY2023,2023-12-31,12.0,-6108590.0,IDR mn,AR_2023.pdf,229.0,current,2024-03-13,True,2024-04-01,2024-03-13,EVIDENCE,,0.0,2024-04-01,audited
+cost_of_sales,FY2023,2023-12-31,12.0,-6108590.0,IDR mn,AR_2024.pdf,229.0,comparative,2024-03-13,False,2025-03-27,2025-02-28,EVIDENCE,,0.0,2024-04-01,audited (comparative)
+cost_of_sales,FY2024,2024-12-31,12.0,-5948685.0,IDR mn,AR_2024.pdf,229.0,current,2025-02-28,True,2025-03-27,2025-02-28,EVIDENCE,,0.0,2025-03-27,audited
+cost_of_sales,FY2024,2024-12-31,12.0,-5948685.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,comparative,2025-02-28,False,2026-04-01,2026-03-17,EVIDENCE,,0.0,2025-03-27,audited (comparative)
+cost_of_sales,FY2025,2025-12-31,12.0,-6904581.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,current,2026-03-17,True,2026-04-01,2026-03-17,EVIDENCE,,0.0,2026-04-01,audited
+cost_of_sales,H1 2025,2025-06-30,6.0,-3472270.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,comparative,2025-07-28,False,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
+cost_of_sales,H1 2026,2026-06-30,6.0,-3444058.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,current,2026-07-30,True,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
+cost_of_sales,Q1 2025,2025-03-31,3.0,-1708314.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,comparative,2025-04-30,False,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
+cost_of_sales,Q1 2026,2026-03-31,3.0,-1636028.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,current,2026-04-28,True,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
+dividends_paid,9M 2025,2025-09-30,9.0,-2382995.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,31.0,comparative,2025-10-29,False,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
+dividends_paid,9M 2026,2026-09-30,9.0,-3103473.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,31.0,current,2026-10-29,True,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
+dividends_paid,FY2020,2020-12-31,12.0,0.0,IDR mn,AR 2021.pdf,214.0,comparative,2021-04-01,False,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+dividends_paid,FY2021,2021-12-31,12.0,-299972.0,IDR mn,AR 2021.pdf,214.0,current,2022-04-01,True,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited
+dividends_paid,FY2021,2021-12-31,12.0,-299972.0,IDR mn,AR_2022.pdf,239.0,comparative,2022-04-01,False,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+dividends_paid,FY2022,2022-12-31,12.0,-496314.0,IDR mn,AR_2022.pdf,239.0,current,2023-04-03,True,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2023-05-01,audited
+dividends_paid,FY2022,2022-12-31,12.0,-496314.0,IDR mn,AR_2023.pdf,233.0,comparative,2023-04-03,False,2024-04-01,2024-03-13,EVIDENCE,,0.0,2023-05-01,audited (comparative)
+dividends_paid,FY2023,2023-12-31,12.0,-754397.0,IDR mn,AR_2023.pdf,233.0,current,2024-03-13,True,2024-04-01,2024-03-13,EVIDENCE,,0.0,2024-04-01,audited
+dividends_paid,FY2023,2023-12-31,12.0,-754397.0,IDR mn,AR_2024.pdf,233.0,comparative,2024-03-13,False,2025-03-27,2025-02-28,EVIDENCE,,0.0,2024-04-01,audited (comparative)
+dividends_paid,FY2024,2024-12-31,12.0,-3315374.0,IDR mn,AR_2024.pdf,233.0,current,2025-02-28,True,2025-03-27,2025-02-28,EVIDENCE,,0.0,2025-03-27,audited
+dividends_paid,FY2024,2024-12-31,12.0,-3315374.0,IDR mn,TAPG_-_AR_2025.pdf,248.0,comparative,2025-02-28,False,2026-04-01,2026-03-17,EVIDENCE,,0.0,2025-03-27,audited (comparative)
+dividends_paid,FY2025,2025-12-31,12.0,-3275669.0,IDR mn,TAPG_-_AR_2025.pdf,248.0,current,2026-03-17,True,2026-04-01,2026-03-17,EVIDENCE,,0.0,2026-04-01,audited
+dividends_paid,H1 2025,2025-06-30,6.0,-1570640.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,31.0,comparative,2025-07-28,False,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
+dividends_paid,H1 2026,2026-06-30,6.0,-1872419.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,31.0,current,2026-07-30,True,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
+dividends_paid,Q1 2025,2025-03-31,3.0,-0.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,31.0,comparative,2025-04-30,False,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
+dividends_paid,Q1 2026,2026-03-31,3.0,-0.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,31.0,current,2026-04-28,True,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
+dividends_received_jv,9M 2025,2025-09-30,9.0,958807.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,29.0,comparative,2025-10-29,False,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
+dividends_received_jv,9M 2026,2026-09-30,9.0,900000.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,29.0,current,2026-10-29,True,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
+dividends_received_jv,FY2020,2020-12-31,12.0,50000.0,IDR mn,AR 2021.pdf,213.0,comparative,2021-04-01,False,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+dividends_received_jv,FY2021,2021-12-31,12.0,150000.0,IDR mn,AR 2021.pdf,213.0,current,2022-04-01,True,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited
+dividends_received_jv,FY2021,2021-12-31,12.0,150000.0,IDR mn,AR_2022.pdf,238.0,comparative,2022-04-01,False,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+dividends_received_jv,FY2022,2022-12-31,12.0,150000.0,IDR mn,AR_2022.pdf,238.0,current,2023-04-03,True,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2023-05-01,audited
+dividends_received_jv,FY2022,2022-12-31,12.0,150000.0,IDR mn,AR_2023.pdf,232.0,comparative,2023-04-03,False,2024-04-01,2024-03-13,EVIDENCE,,0.0,2023-05-01,audited (comparative)
+dividends_received_jv,FY2023,2023-12-31,12.0,300000.0,IDR mn,AR_2023.pdf,232.0,current,2024-03-13,True,2024-04-01,2024-03-13,EVIDENCE,,0.0,2024-04-01,audited
+dividends_received_jv,FY2023,2023-12-31,12.0,300000.0,IDR mn,AR_2024.pdf,232.0,comparative,2024-03-13,False,2025-03-27,2025-02-28,EVIDENCE,,0.0,2024-04-01,audited (comparative)
+dividends_received_jv,FY2024,2024-12-31,12.0,1170000.0,IDR mn,AR_2024.pdf,232.0,current,2025-02-28,True,2025-03-27,2025-02-28,EVIDENCE,,0.0,2025-03-27,audited
+dividends_received_jv,FY2024,2024-12-31,12.0,1170000.0,IDR mn,TAPG_-_AR_2025.pdf,247.0,comparative,2025-02-28,False,2026-04-01,2026-03-17,EVIDENCE,,0.0,2025-03-27,audited (comparative)
+dividends_received_jv,FY2025,2025-12-31,12.0,958807.0,IDR mn,TAPG_-_AR_2025.pdf,247.0,current,2026-03-17,True,2026-04-01,2026-03-17,EVIDENCE,,0.0,2026-04-01,audited
+dividends_received_jv,H1 2025,2025-06-30,6.0,504577.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,29.0,comparative,2025-07-28,False,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
+dividends_received_jv,H1 2026,2026-06-30,6.0,450000.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,29.0,current,2026-07-30,True,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
+dividends_received_jv,Q1 2025,2025-03-31,3.0,500000.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,29.0,comparative,2025-04-30,False,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
+dividends_received_jv,Q1 2026,2026-03-31,3.0,450000.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,29.0,current,2026-04-28,True,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
+finance_costs,9M 2025,2025-09-30,9.0,-39490.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,comparative,2025-10-29,False,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
+finance_costs,9M 2026,2026-09-30,9.0,-47990.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,current,2026-10-29,True,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
+finance_costs,FY2020,2020-12-31,12.0,-381508.0,IDR mn,AR 2021.pdf,210.0,comparative,2021-04-01,False,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+finance_costs,FY2021,2021-12-31,12.0,-197064.0,IDR mn,AR 2021.pdf,210.0,current,2022-04-01,True,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited
+finance_costs,FY2021,2021-12-31,12.0,-197064.0,IDR mn,AR_2022.pdf,235.0,comparative,2022-04-01,False,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+finance_costs,FY2022,2022-12-31,12.0,-380151.0,IDR mn,AR_2022.pdf,235.0,current,2023-04-03,True,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2023-05-01,audited
+finance_costs,FY2022,2022-12-31,12.0,-347594.0,IDR mn,AR_2023.pdf,229.0,comparative,2023-04-03,False,2024-04-01,2024-03-13,EVIDENCE,2024-04-01,32557.0,2023-05-01,audited (comparative)
+finance_costs,FY2023,2023-12-31,12.0,-152924.0,IDR mn,AR_2023.pdf,229.0,current,2024-03-13,True,2024-04-01,2024-03-13,EVIDENCE,,0.0,2024-04-01,audited
+finance_costs,FY2023,2023-12-31,12.0,-152924.0,IDR mn,AR_2024.pdf,229.0,comparative,2024-03-13,False,2025-03-27,2025-02-28,EVIDENCE,,0.0,2024-04-01,audited (comparative)
+finance_costs,FY2024,2024-12-31,12.0,-75443.0,IDR mn,AR_2024.pdf,229.0,current,2025-02-28,True,2025-03-27,2025-02-28,EVIDENCE,,0.0,2025-03-27,audited
+finance_costs,FY2024,2024-12-31,12.0,-75443.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,comparative,2025-02-28,False,2026-04-01,2026-03-17,EVIDENCE,,0.0,2025-03-27,audited (comparative)
+finance_costs,FY2025,2025-12-31,12.0,-56860.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,current,2026-03-17,True,2026-04-01,2026-03-17,EVIDENCE,,0.0,2026-04-01,audited
+finance_costs,H1 2025,2025-06-30,6.0,-36968.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,comparative,2025-07-28,False,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
+finance_costs,H1 2026,2026-06-30,6.0,-31368.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,current,2026-07-30,True,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
+finance_costs,Q1 2025,2025-03-31,3.0,-14507.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,comparative,2025-04-30,False,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
+finance_costs,Q1 2026,2026-03-31,3.0,-15648.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,current,2026-04-28,True,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
+finance_income,9M 2025,2025-09-30,9.0,68379.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,comparative,2025-10-29,False,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
+finance_income,9M 2026,2026-09-30,9.0,123449.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,current,2026-10-29,True,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
+finance_income,FY2020,2020-12-31,12.0,39949.0,IDR mn,AR 2021.pdf,210.0,comparative,2021-04-01,False,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+finance_income,FY2021,2021-12-31,12.0,20992.0,IDR mn,AR 2021.pdf,210.0,current,2022-04-01,True,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited
+finance_income,FY2021,2021-12-31,12.0,20992.0,IDR mn,AR_2022.pdf,235.0,comparative,2022-04-01,False,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+finance_income,FY2022,2022-12-31,12.0,69469.0,IDR mn,AR_2022.pdf,235.0,current,2023-04-03,True,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2023-05-01,audited
+finance_income,FY2022,2022-12-31,12.0,36912.0,IDR mn,AR_2023.pdf,229.0,comparative,2023-04-03,False,2024-04-01,2024-03-13,EVIDENCE,2024-04-01,-32557.0,2023-05-01,audited (comparative)
+finance_income,FY2023,2023-12-31,12.0,77998.0,IDR mn,AR_2023.pdf,229.0,current,2024-03-13,True,2024-04-01,2024-03-13,EVIDENCE,,0.0,2024-04-01,audited
+finance_income,FY2023,2023-12-31,12.0,77998.0,IDR mn,AR_2024.pdf,229.0,comparative,2024-03-13,False,2025-03-27,2025-02-28,EVIDENCE,,0.0,2024-04-01,audited (comparative)
+finance_income,FY2024,2024-12-31,12.0,63966.0,IDR mn,AR_2024.pdf,229.0,current,2025-02-28,True,2025-03-27,2025-02-28,EVIDENCE,,0.0,2025-03-27,audited
+finance_income,FY2024,2024-12-31,12.0,63966.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,comparative,2025-02-28,False,2026-04-01,2026-03-17,EVIDENCE,,0.0,2025-03-27,audited (comparative)
+finance_income,FY2025,2025-12-31,12.0,108038.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,current,2026-03-17,True,2026-04-01,2026-03-17,EVIDENCE,,0.0,2026-04-01,audited
+finance_income,H1 2025,2025-06-30,6.0,45867.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,comparative,2025-07-28,False,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
+finance_income,H1 2026,2026-06-30,6.0,84100.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,current,2026-07-30,True,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
+finance_income,Q1 2025,2025-03-31,3.0,20643.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,comparative,2025-04-30,False,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
+finance_income,Q1 2026,2026-03-31,3.0,33781.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,current,2026-04-28,True,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
+fixed_assets_net,FY2020,2020-12-31,12.0,7202247.0,IDR mn,AR 2021.pdf,207.0,comparative,2021-04-01,False,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+fixed_assets_net,FY2021,2021-12-31,12.0,7118593.0,IDR mn,AR 2021.pdf,207.0,current,2022-04-01,True,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited
+fixed_assets_net,FY2021,2021-12-31,12.0,7118593.0,IDR mn,AR_2022.pdf,232.0,comparative,2022-04-01,False,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+fixed_assets_net,FY2022,2022-12-31,12.0,7292712.0,IDR mn,AR_2022.pdf,232.0,current,2023-04-03,True,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2023-05-01,audited
+fixed_assets_net,FY2022,2022-12-31,12.0,7292712.0,IDR mn,AR_2023.pdf,226.0,comparative,2023-04-03,False,2024-04-01,2024-03-13,EVIDENCE,,0.0,2023-05-01,audited (comparative)
+fixed_assets_net,FY2023,2023-12-31,12.0,7482594.0,IDR mn,AR_2023.pdf,226.0,current,2024-03-13,True,2024-04-01,2024-03-13,EVIDENCE,,0.0,2024-04-01,audited
+fixed_assets_net,FY2023,2023-12-31,12.0,7482594.0,IDR mn,AR_2024.pdf,226.0,comparative,2024-03-13,False,2025-03-27,2025-02-28,EVIDENCE,,0.0,2024-04-01,audited (comparative)
+fixed_assets_net,FY2024,2024-12-31,12.0,7388269.0,IDR mn,AR_2024.pdf,226.0,current,2025-02-28,True,2025-03-27,2025-02-28,EVIDENCE,,0.0,2025-03-27,audited
+fixed_assets_net,FY2024,2024-12-31,12.0,7388269.0,IDR mn,TAPG_-_AR_2025.pdf,241.0,comparative,2025-02-28,False,2026-04-01,2026-03-17,EVIDENCE,,0.0,2025-03-27,audited (comparative)
+fixed_assets_net,FY2025,2025-12-31,12.0,7244013.0,IDR mn,TAPG_-_AR_2025.pdf,241.0,current,2026-03-17,True,2026-04-01,2026-03-17,EVIDENCE,,0.0,2026-04-01,audited
+fv_change_biological_assets,FY2020,2020-12-31,12.0,61996.0,IDR mn,AR 2021.pdf,210.0,comparative,2021-04-01,False,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+fv_change_biological_assets,FY2021,2021-12-31,12.0,101038.0,IDR mn,AR 2021.pdf,210.0,current,2022-04-01,True,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited
+fv_change_biological_assets,FY2021,2021-12-31,12.0,101038.0,IDR mn,AR_2022.pdf,235.0,comparative,2022-04-01,False,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+fv_change_biological_assets,FY2022,2022-12-31,12.0,-122888.0,IDR mn,AR_2022.pdf,235.0,current,2023-04-03,True,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2023-05-01,audited
+fv_change_biological_assets,FY2023,2023-12-31,12.0,-19721.0,IDR mn,AR_2024.pdf,229.0,comparative,2024-03-13,False,2025-03-27,2025-02-28,EVIDENCE,,0.0,2025-03-27,audited (comparative)
+fv_change_biological_assets,FY2024,2024-12-31,12.0,208408.0,IDR mn,AR_2024.pdf,229.0,current,2025-02-28,True,2025-03-27,2025-02-28,EVIDENCE,,0.0,2025-03-27,audited
+fv_change_biological_assets,FY2024,2024-12-31,12.0,208408.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,comparative,2025-02-28,False,2026-04-01,2026-03-17,EVIDENCE,,0.0,2025-03-27,audited (comparative)
+fv_change_biological_assets,FY2025,2025-12-31,12.0,-42622.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,current,2026-03-17,True,2026-04-01,2026-03-17,EVIDENCE,,0.0,2026-04-01,audited
+general_admin_exp,9M 2025,2025-09-30,9.0,-385883.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,comparative,2025-10-29,False,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
+general_admin_exp,9M 2026,2026-09-30,9.0,-427464.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,current,2026-10-29,True,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
+general_admin_exp,FY2020,2020-12-31,12.0,-301774.0,IDR mn,AR 2021.pdf,210.0,comparative,2021-04-01,False,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+general_admin_exp,FY2021,2021-12-31,12.0,-361294.0,IDR mn,AR 2021.pdf,210.0,current,2022-04-01,True,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited
+general_admin_exp,FY2021,2021-12-31,12.0,-361294.0,IDR mn,AR_2022.pdf,235.0,comparative,2022-04-01,False,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+general_admin_exp,FY2022,2022-12-31,12.0,-400921.0,IDR mn,AR_2022.pdf,235.0,current,2023-04-03,True,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2023-05-01,audited
+general_admin_exp,FY2022,2022-12-31,12.0,-400921.0,IDR mn,AR_2023.pdf,229.0,comparative,2023-04-03,False,2024-04-01,2024-03-13,EVIDENCE,,0.0,2023-05-01,audited (comparative)
+general_admin_exp,FY2023,2023-12-31,12.0,-569876.0,IDR mn,AR_2023.pdf,229.0,current,2024-03-13,True,2024-04-01,2024-03-13,EVIDENCE,,0.0,2024-04-01,audited
+general_admin_exp,FY2023,2023-12-31,12.0,-569876.0,IDR mn,AR_2024.pdf,229.0,comparative,2024-03-13,False,2025-03-27,2025-02-28,EVIDENCE,,0.0,2024-04-01,audited (comparative)
+general_admin_exp,FY2024,2024-12-31,12.0,-612598.0,IDR mn,AR_2024.pdf,229.0,current,2025-02-28,True,2025-03-27,2025-02-28,EVIDENCE,,0.0,2025-03-27,audited
+general_admin_exp,FY2024,2024-12-31,12.0,-612598.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,comparative,2025-02-28,False,2026-04-01,2026-03-17,EVIDENCE,,0.0,2025-03-27,audited (comparative)
+general_admin_exp,FY2025,2025-12-31,12.0,-533741.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,current,2026-03-17,True,2026-04-01,2026-03-17,EVIDENCE,,0.0,2026-04-01,audited
+general_admin_exp,H1 2025,2025-06-30,6.0,-267503.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,comparative,2025-07-28,False,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
+general_admin_exp,H1 2026,2026-06-30,6.0,-275194.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,current,2026-07-30,True,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
+general_admin_exp,Q1 2025,2025-03-31,3.0,-128866.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,comparative,2025-04-30,False,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
+general_admin_exp,Q1 2026,2026-03-31,3.0,-130892.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,current,2026-04-28,True,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
+gross_profit,9M 2025,2025-09-30,9.0,3126925.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,comparative,2025-10-29,False,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
+gross_profit,9M 2026,2026-09-30,9.0,4116633.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,current,2026-10-29,True,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
+gross_profit,FY2020,2020-12-31,12.0,1392798.0,IDR mn,AR 2021.pdf,210.0,comparative,2021-04-01,False,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+gross_profit,FY2021,2021-12-31,12.0,1615789.0,IDR mn,AR 2021.pdf,210.0,current,2022-04-01,True,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited
+gross_profit,FY2021,2021-12-31,12.0,1615789.0,IDR mn,AR_2022.pdf,235.0,comparative,2022-04-01,False,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+gross_profit,FY2022,2022-12-31,12.0,3715864.0,IDR mn,AR_2022.pdf,235.0,current,2023-04-03,True,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2023-05-01,audited
+gross_profit,FY2022,2022-12-31,12.0,3715864.0,IDR mn,AR_2023.pdf,229.0,comparative,2023-04-03,False,2024-04-01,2024-03-13,EVIDENCE,,0.0,2023-05-01,audited (comparative)
+gross_profit,FY2023,2023-12-31,12.0,2217297.0,IDR mn,AR_2023.pdf,229.0,current,2024-03-13,True,2024-04-01,2024-03-13,EVIDENCE,,0.0,2024-04-01,audited
+gross_profit,FY2023,2023-12-31,12.0,2217297.0,IDR mn,AR_2024.pdf,229.0,comparative,2024-03-13,False,2025-03-27,2025-02-28,EVIDENCE,,0.0,2024-04-01,audited (comparative)
+gross_profit,FY2024,2024-12-31,12.0,3722778.0,IDR mn,AR_2024.pdf,229.0,current,2025-02-28,True,2025-03-27,2025-02-28,EVIDENCE,,0.0,2025-03-27,audited
+gross_profit,FY2024,2024-12-31,12.0,3722778.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,comparative,2025-02-28,False,2026-04-01,2026-03-17,EVIDENCE,,0.0,2025-03-27,audited (comparative)
+gross_profit,FY2025,2025-12-31,12.0,4497617.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,current,2026-03-17,True,2026-04-01,2026-03-17,EVIDENCE,,0.0,2026-04-01,audited
+gross_profit,H1 2025,2025-06-30,6.0,2036119.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,comparative,2025-07-28,False,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
+gross_profit,H1 2026,2026-06-30,6.0,2413092.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,current,2026-07-30,True,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
+gross_profit,Q1 2025,2025-03-31,3.0,911746.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,comparative,2025-04-30,False,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
+gross_profit,Q1 2026,2026-03-31,3.0,856169.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,current,2026-04-28,True,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
+income_tax_expense,9M 2025,2025-09-30,9.0,-547270.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,comparative,2025-10-29,False,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
+income_tax_expense,9M 2026,2026-09-30,9.0,-738063.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,current,2026-10-29,True,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
+income_tax_expense,FY2020,2020-12-31,12.0,-138149.0,IDR mn,AR 2021.pdf,210.0,comparative,2021-04-01,False,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+income_tax_expense,FY2021,2021-12-31,12.0,-222517.0,IDR mn,AR 2021.pdf,210.0,current,2022-04-01,True,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited
+income_tax_expense,FY2021,2021-12-31,12.0,-222517.0,IDR mn,AR_2022.pdf,235.0,comparative,2022-04-01,False,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+income_tax_expense,FY2022,2022-12-31,12.0,-600536.0,IDR mn,AR_2022.pdf,235.0,current,2023-04-03,True,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2023-05-01,audited
+income_tax_expense,FY2022,2022-12-31,12.0,-600536.0,IDR mn,AR_2023.pdf,229.0,comparative,2023-04-03,False,2024-04-01,2024-03-13,EVIDENCE,,0.0,2023-05-01,audited (comparative)
+income_tax_expense,FY2023,2023-12-31,12.0,-279840.0,IDR mn,AR_2023.pdf,229.0,current,2024-03-13,True,2024-04-01,2024-03-13,EVIDENCE,,0.0,2024-04-01,audited
+income_tax_expense,FY2023,2023-12-31,12.0,-279840.0,IDR mn,AR_2024.pdf,229.0,comparative,2024-03-13,False,2025-03-27,2025-02-28,EVIDENCE,,0.0,2024-04-01,audited (comparative)
+income_tax_expense,FY2024,2024-12-31,12.0,-686305.0,IDR mn,AR_2024.pdf,229.0,current,2025-02-28,True,2025-03-27,2025-02-28,EVIDENCE,,0.0,2025-03-27,audited
+income_tax_expense,FY2024,2024-12-31,12.0,-686305.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,comparative,2025-02-28,False,2026-04-01,2026-03-17,EVIDENCE,,0.0,2025-03-27,audited (comparative)
+income_tax_expense,FY2025,2025-12-31,12.0,-815974.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,current,2026-03-17,True,2026-04-01,2026-03-17,EVIDENCE,,0.0,2026-04-01,audited
+income_tax_expense,H1 2025,2025-06-30,6.0,-344640.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,comparative,2025-07-28,False,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
+income_tax_expense,H1 2026,2026-06-30,6.0,-419070.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,current,2026-07-30,True,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
+income_tax_expense,Q1 2025,2025-03-31,3.0,-155360.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,comparative,2025-04-30,False,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
+income_tax_expense,Q1 2026,2026-03-31,3.0,-147859.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,current,2026-04-28,True,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
+investment_in_associates,FY2023,2023-12-31,12.0,0.0,IDR mn,AR_2024.pdf,226.0,comparative,2024-03-13,False,2025-03-27,2025-02-28,EVIDENCE,,0.0,2025-03-27,audited (comparative)
+investment_in_associates,FY2024,2024-12-31,12.0,57283.0,IDR mn,AR_2024.pdf,226.0,current,2025-02-28,True,2025-03-27,2025-02-28,EVIDENCE,,0.0,2025-03-27,audited
+investment_in_associates,FY2024,2024-12-31,12.0,57283.0,IDR mn,TAPG_-_AR_2025.pdf,241.0,comparative,2025-02-28,False,2026-04-01,2026-03-17,EVIDENCE,,0.0,2025-03-27,audited (comparative)
+investment_in_associates,FY2025,2025-12-31,12.0,53023.0,IDR mn,TAPG_-_AR_2025.pdf,241.0,current,2026-03-17,True,2026-04-01,2026-03-17,EVIDENCE,,0.0,2026-04-01,audited
+investment_in_jv,FY2020,2020-12-31,12.0,1845549.0,IDR mn,AR 2021.pdf,207.0,comparative,2021-04-01,False,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+investment_in_jv,FY2021,2021-12-31,12.0,2048895.0,IDR mn,AR 2021.pdf,207.0,current,2022-04-01,True,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited
+investment_in_jv,FY2021,2021-12-31,12.0,2048895.0,IDR mn,AR_2022.pdf,232.0,comparative,2022-04-01,False,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+investment_in_jv,FY2022,2022-12-31,12.0,2871438.0,IDR mn,AR_2022.pdf,232.0,current,2023-04-03,True,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2023-05-01,audited
+investment_in_jv,FY2022,2022-12-31,12.0,2871438.0,IDR mn,AR_2023.pdf,226.0,comparative,2023-04-03,False,2024-04-01,2024-03-13,EVIDENCE,,0.0,2023-05-01,audited (comparative)
+investment_in_jv,FY2023,2023-12-31,12.0,3214873.0,IDR mn,AR_2023.pdf,226.0,current,2024-03-13,True,2024-04-01,2024-03-13,EVIDENCE,,0.0,2024-04-01,audited
+investment_in_jv,FY2023,2023-12-31,12.0,3214873.0,IDR mn,AR_2024.pdf,226.0,comparative,2024-03-13,False,2025-03-27,2025-02-28,EVIDENCE,,0.0,2024-04-01,audited (comparative)
+investment_in_jv,FY2024,2024-12-31,12.0,2944729.0,IDR mn,AR_2024.pdf,226.0,current,2025-02-28,True,2025-03-27,2025-02-28,EVIDENCE,,0.0,2025-03-27,audited
+investment_in_jv,FY2024,2024-12-31,12.0,2944729.0,IDR mn,TAPG_-_AR_2025.pdf,241.0,comparative,2025-02-28,False,2026-04-01,2026-03-17,EVIDENCE,,0.0,2025-03-27,audited (comparative)
+investment_in_jv,FY2025,2025-12-31,12.0,2640217.0,IDR mn,TAPG_-_AR_2025.pdf,241.0,current,2026-03-17,True,2026-04-01,2026-03-17,EVIDENCE,,0.0,2026-04-01,audited
+operating_profit,FY2020,2020-12-31,12.0,1007383.0,IDR mn,AR 2021.pdf,210.0,comparative,2021-04-01,False,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+operating_profit,FY2021,2021-12-31,12.0,1248668.0,IDR mn,AR 2021.pdf,210.0,current,2022-04-01,True,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited
+operating_profit,FY2021,2021-12-31,12.0,1248668.0,IDR mn,AR_2022.pdf,235.0,comparative,2022-04-01,False,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+operating_profit,FY2022,2022-12-31,12.0,3031586.0,IDR mn,AR_2022.pdf,235.0,current,2023-04-03,True,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2023-05-01,audited
+operating_profit,FY2022,2022-12-31,12.0,3031586.0,IDR mn,AR_2023.pdf,229.0,comparative,2023-04-03,False,2024-04-01,2024-03-13,EVIDENCE,,0.0,2023-05-01,audited (comparative)
+operating_profit,FY2023,2023-12-31,12.0,1372731.0,IDR mn,AR_2023.pdf,229.0,current,2024-03-13,True,2024-04-01,2024-03-13,EVIDENCE,,0.0,2024-04-01,audited
+operating_profit,FY2023,2023-12-31,12.0,1372731.0,IDR mn,AR_2024.pdf,229.0,comparative,2024-03-13,False,2025-03-27,2025-02-28,EVIDENCE,,0.0,2024-04-01,audited (comparative)
+operating_profit,FY2024,2024-12-31,12.0,3044614.0,IDR mn,AR_2024.pdf,229.0,current,2025-02-28,True,2025-03-27,2025-02-28,EVIDENCE,,0.0,2025-03-27,audited
+operating_profit,FY2024,2024-12-31,12.0,3044614.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,comparative,2025-02-28,False,2026-04-01,2026-03-17,EVIDENCE,,0.0,2025-03-27,audited (comparative)
+operating_profit,FY2025,2025-12-31,12.0,3543254.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,current,2026-03-17,True,2026-04-01,2026-03-17,EVIDENCE,,0.0,2026-04-01,audited
+other_operating_expense,FY2020,2020-12-31,12.0,-24970.0,IDR mn,AR 2021.pdf,210.0,comparative,2021-04-01,False,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+other_operating_expense,FY2021,2021-12-31,12.0,-15889.0,IDR mn,AR 2021.pdf,210.0,current,2022-04-01,True,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited
+other_operating_expense,FY2021,2021-12-31,12.0,-15889.0,IDR mn,AR_2022.pdf,235.0,comparative,2022-04-01,False,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+other_operating_expense,FY2022,2022-12-31,12.0,-29038.0,IDR mn,AR_2022.pdf,235.0,current,2023-04-03,True,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2023-05-01,audited
+other_operating_expense,FY2022,2022-12-31,12.0,-29038.0,IDR mn,AR_2023.pdf,229.0,comparative,2023-04-03,False,2024-04-01,2024-03-13,EVIDENCE,,0.0,2023-05-01,audited (comparative)
+other_operating_expense,FY2023,2023-12-31,12.0,-71916.0,IDR mn,AR_2023.pdf,229.0,current,2024-03-13,True,2024-04-01,2024-03-13,EVIDENCE,,0.0,2024-04-01,audited
+other_operating_expense,FY2023,2023-12-31,12.0,-71916.0,IDR mn,AR_2024.pdf,229.0,comparative,2024-03-13,False,2025-03-27,2025-02-28,EVIDENCE,,0.0,2024-04-01,audited (comparative)
+other_operating_expense,FY2024,2024-12-31,12.0,-40840.0,IDR mn,AR_2024.pdf,229.0,current,2025-02-28,True,2025-03-27,2025-02-28,EVIDENCE,,0.0,2025-03-27,audited
+other_operating_expense,FY2024,2024-12-31,12.0,-40840.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,comparative,2025-02-28,False,2026-04-01,2026-03-17,EVIDENCE,,0.0,2025-03-27,audited (comparative)
+other_operating_expense,FY2025,2025-12-31,12.0,-164999.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,current,2026-03-17,True,2026-04-01,2026-03-17,EVIDENCE,,0.0,2026-04-01,audited
+other_operating_income,FY2020,2020-12-31,12.0,73270.0,IDR mn,AR 2021.pdf,210.0,comparative,2021-04-01,False,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+other_operating_income,FY2021,2021-12-31,12.0,77228.0,IDR mn,AR 2021.pdf,210.0,current,2022-04-01,True,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited
+other_operating_income,FY2021,2021-12-31,12.0,77228.0,IDR mn,AR_2022.pdf,235.0,comparative,2022-04-01,False,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+other_operating_income,FY2022,2022-12-31,12.0,152601.0,IDR mn,AR_2022.pdf,235.0,current,2023-04-03,True,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2023-05-01,audited
+other_operating_income,FY2022,2022-12-31,12.0,152601.0,IDR mn,AR_2023.pdf,229.0,comparative,2023-04-03,False,2024-04-01,2024-03-13,EVIDENCE,,0.0,2023-05-01,audited (comparative)
+other_operating_income,FY2023,2023-12-31,12.0,122101.0,IDR mn,AR_2023.pdf,229.0,current,2024-03-13,True,2024-04-01,2024-03-13,EVIDENCE,,0.0,2024-04-01,audited
+other_operating_income,FY2023,2023-12-31,12.0,122101.0,IDR mn,AR_2024.pdf,229.0,comparative,2024-03-13,False,2025-03-27,2025-02-28,EVIDENCE,,0.0,2024-04-01,audited (comparative)
+other_operating_income,FY2024,2024-12-31,12.0,48510.0,IDR mn,AR_2024.pdf,229.0,current,2025-02-28,True,2025-03-27,2025-02-28,EVIDENCE,,0.0,2025-03-27,audited
+other_operating_income,FY2024,2024-12-31,12.0,48510.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,comparative,2025-02-28,False,2026-04-01,2026-03-17,EVIDENCE,,0.0,2025-03-27,audited (comparative)
+other_operating_income,FY2025,2025-12-31,12.0,76327.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,current,2026-03-17,True,2026-04-01,2026-03-17,EVIDENCE,,0.0,2026-04-01,audited
+profit_attrib_owners,9M 2025,2025-09-30,9.0,2679633.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,20.0,comparative,2025-10-29,False,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
+profit_attrib_owners,9M 2026,2026-09-30,9.0,3505620.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,20.0,current,2026-10-29,True,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
+profit_attrib_owners,FY2020,2020-12-31,12.0,911068.0,IDR mn,AR 2021.pdf,211.0,comparative,2021-04-01,False,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+profit_attrib_owners,FY2021,2021-12-31,12.0,1159036.0,IDR mn,AR 2021.pdf,211.0,current,2022-04-01,True,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited
+profit_attrib_owners,FY2021,2021-12-31,12.0,1159036.0,IDR mn,AR_2022.pdf,236.0,comparative,2022-04-01,False,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+profit_attrib_owners,FY2022,2022-12-31,12.0,2981120.0,IDR mn,AR_2022.pdf,236.0,current,2023-04-03,True,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2023-05-01,audited
+profit_attrib_owners,FY2022,2022-12-31,12.0,2981120.0,IDR mn,AR_2023.pdf,230.0,comparative,2023-04-03,False,2024-04-01,2024-03-13,EVIDENCE,,0.0,2023-05-01,audited (comparative)
+profit_attrib_owners,FY2023,2023-12-31,12.0,1608217.0,IDR mn,AR_2023.pdf,230.0,current,2024-03-13,True,2024-04-01,2024-03-13,EVIDENCE,,0.0,2024-04-01,audited
+profit_attrib_owners,FY2023,2023-12-31,12.0,1608217.0,IDR mn,AR_2024.pdf,230.0,comparative,2024-03-13,False,2025-03-27,2025-02-28,EVIDENCE,,0.0,2024-04-01,audited (comparative)
+profit_attrib_owners,FY2024,2024-12-31,12.0,3120276.0,IDR mn,AR_2024.pdf,230.0,current,2025-02-28,True,2025-03-27,2025-02-28,EVIDENCE,,0.0,2025-03-27,audited
+profit_attrib_owners,FY2024,2024-12-31,12.0,3120276.0,IDR mn,TAPG_-_AR_2025.pdf,245.0,comparative,2025-02-28,False,2026-04-01,2026-03-17,EVIDENCE,,0.0,2025-03-27,audited (comparative)
+profit_attrib_owners,FY2025,2025-12-31,12.0,3702266.0,IDR mn,TAPG_-_AR_2025.pdf,245.0,current,2026-03-17,True,2026-04-01,2026-03-17,EVIDENCE,,0.0,2026-04-01,audited
+profit_attrib_owners,H1 2025,2025-06-30,6.0,1694119.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,20.0,comparative,2025-07-28,False,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
+profit_attrib_owners,H1 2026,2026-06-30,6.0,2040370.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,20.0,current,2026-07-30,True,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
+profit_attrib_owners,Q1 2025,2025-03-31,3.0,805258.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,20.0,comparative,2025-04-30,False,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
+profit_attrib_owners,Q1 2026,2026-03-31,3.0,739762.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,20.0,current,2026-04-28,True,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
+profit_before_tax,9M 2025,2025-09-30,9.0,3326954.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,comparative,2025-10-29,False,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
+profit_before_tax,9M 2026,2026-09-30,9.0,4382744.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,current,2026-10-29,True,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
+profit_before_tax,FY2020,2020-12-31,12.0,1070884.0,IDR mn,AR 2021.pdf,210.0,comparative,2021-04-01,False,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+profit_before_tax,FY2021,2021-12-31,12.0,1421264.0,IDR mn,AR 2021.pdf,210.0,current,2022-04-01,True,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited
+profit_before_tax,FY2021,2021-12-31,12.0,1421264.0,IDR mn,AR_2022.pdf,235.0,comparative,2022-04-01,False,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+profit_before_tax,FY2022,2022-12-31,12.0,3689281.0,IDR mn,AR_2022.pdf,235.0,current,2023-04-03,True,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2023-05-01,audited
+profit_before_tax,FY2022,2022-12-31,12.0,3689281.0,IDR mn,AR_2023.pdf,229.0,comparative,2023-04-03,False,2024-04-01,2024-03-13,EVIDENCE,,0.0,2023-05-01,audited (comparative)
+profit_before_tax,FY2023,2023-12-31,12.0,1941098.0,IDR mn,AR_2023.pdf,229.0,current,2024-03-13,True,2024-04-01,2024-03-13,EVIDENCE,,0.0,2024-04-01,audited
+profit_before_tax,FY2023,2023-12-31,12.0,1941098.0,IDR mn,AR_2024.pdf,229.0,comparative,2024-03-13,False,2025-03-27,2025-02-28,EVIDENCE,,0.0,2024-04-01,audited (comparative)
+profit_before_tax,FY2024,2024-12-31,12.0,3926904.0,IDR mn,AR_2024.pdf,229.0,current,2025-02-28,True,2025-03-27,2025-02-28,EVIDENCE,,0.0,2025-03-27,audited
+profit_before_tax,FY2024,2024-12-31,12.0,3926904.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,comparative,2025-02-28,False,2026-04-01,2026-03-17,EVIDENCE,,0.0,2025-03-27,audited (comparative)
+profit_before_tax,FY2025,2025-12-31,12.0,4661321.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,current,2026-03-17,True,2026-04-01,2026-03-17,EVIDENCE,,0.0,2026-04-01,audited
+profit_before_tax,H1 2025,2025-06-30,6.0,2102122.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,comparative,2025-07-28,False,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
+profit_before_tax,H1 2026,2026-06-30,6.0,2539041.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,current,2026-07-30,True,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
+profit_before_tax,Q1 2025,2025-03-31,3.0,990238.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,comparative,2025-04-30,False,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
+profit_before_tax,Q1 2026,2026-03-31,3.0,915122.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,current,2026-04-28,True,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
+profit_for_year,9M 2025,2025-09-30,9.0,2779684.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,comparative,2025-10-29,False,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
+profit_for_year,9M 2026,2026-09-30,9.0,3644681.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,current,2026-10-29,True,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
+profit_for_year,FY2020,2020-12-31,12.0,932735.0,IDR mn,AR 2021.pdf,210.0,comparative,2021-04-01,False,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+profit_for_year,FY2021,2021-12-31,12.0,1198747.0,IDR mn,AR 2021.pdf,210.0,current,2022-04-01,True,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited
+profit_for_year,FY2021,2021-12-31,12.0,1198747.0,IDR mn,AR_2022.pdf,235.0,comparative,2022-04-01,False,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+profit_for_year,FY2022,2022-12-31,12.0,3088745.0,IDR mn,AR_2022.pdf,235.0,current,2023-04-03,True,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2023-05-01,audited
+profit_for_year,FY2022,2022-12-31,12.0,3088745.0,IDR mn,AR_2023.pdf,229.0,comparative,2023-04-03,False,2024-04-01,2024-03-13,EVIDENCE,,0.0,2023-05-01,audited (comparative)
+profit_for_year,FY2023,2023-12-31,12.0,1661258.0,IDR mn,AR_2023.pdf,229.0,current,2024-03-13,True,2024-04-01,2024-03-13,EVIDENCE,,0.0,2024-04-01,audited
+profit_for_year,FY2023,2023-12-31,12.0,1661258.0,IDR mn,AR_2024.pdf,229.0,comparative,2024-03-13,False,2025-03-27,2025-02-28,EVIDENCE,,0.0,2024-04-01,audited (comparative)
+profit_for_year,FY2024,2024-12-31,12.0,3240599.0,IDR mn,AR_2024.pdf,229.0,current,2025-02-28,True,2025-03-27,2025-02-28,EVIDENCE,,0.0,2025-03-27,audited
+profit_for_year,FY2024,2024-12-31,12.0,3240599.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,comparative,2025-02-28,False,2026-04-01,2026-03-17,EVIDENCE,,0.0,2025-03-27,audited (comparative)
+profit_for_year,FY2025,2025-12-31,12.0,3845347.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,current,2026-03-17,True,2026-04-01,2026-03-17,EVIDENCE,,0.0,2026-04-01,audited
+profit_for_year,H1 2025,2025-06-30,6.0,1757482.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,comparative,2025-07-28,False,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
+profit_for_year,H1 2026,2026-06-30,6.0,2119971.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,current,2026-07-30,True,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
+profit_for_year,Q1 2025,2025-03-31,3.0,834878.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,comparative,2025-04-30,False,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
+profit_for_year,Q1 2026,2026-03-31,3.0,767263.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,current,2026-04-28,True,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
+revenue,9M 2025,2025-09-30,9.0,8207835.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,comparative,2025-10-29,False,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
+revenue,9M 2026,2026-09-30,9.0,9446621.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,current,2026-10-29,True,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
+revenue,FY2020,2020-12-31,12.0,5265785.0,IDR mn,AR 2021.pdf,210.0,comparative,2021-04-01,False,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+revenue,FY2021,2021-12-31,12.0,6278123.0,IDR mn,AR 2021.pdf,210.0,current,2022-04-01,True,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited
+revenue,FY2021,2021-12-31,12.0,6278123.0,IDR mn,AR_2022.pdf,235.0,comparative,2022-04-01,False,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+revenue,FY2022,2022-12-31,12.0,9345641.0,IDR mn,AR_2022.pdf,235.0,current,2023-04-03,True,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2023-05-01,audited
+revenue,FY2022,2022-12-31,12.0,9345641.0,IDR mn,AR_2023.pdf,229.0,comparative,2023-04-03,False,2024-04-01,2024-03-13,EVIDENCE,,0.0,2023-05-01,audited (comparative)
+revenue,FY2023,2023-12-31,12.0,8325887.0,IDR mn,AR_2023.pdf,229.0,current,2024-03-13,True,2024-04-01,2024-03-13,EVIDENCE,,0.0,2024-04-01,audited
+revenue,FY2023,2023-12-31,12.0,8325887.0,IDR mn,AR_2024.pdf,229.0,comparative,2024-03-13,False,2025-03-27,2025-02-28,EVIDENCE,,0.0,2024-04-01,audited (comparative)
+revenue,FY2024,2024-12-31,12.0,9671463.0,IDR mn,AR_2024.pdf,229.0,current,2025-02-28,True,2025-03-27,2025-02-28,EVIDENCE,,0.0,2025-03-27,audited
+revenue,FY2024,2024-12-31,12.0,9671463.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,comparative,2025-02-28,False,2026-04-01,2026-03-17,EVIDENCE,,0.0,2025-03-27,audited (comparative)
+revenue,FY2025,2025-12-31,12.0,11402198.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,current,2026-03-17,True,2026-04-01,2026-03-17,EVIDENCE,,0.0,2026-04-01,audited
+revenue,H1 2025,2025-06-30,6.0,5508389.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,comparative,2025-07-28,False,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
+revenue,H1 2026,2026-06-30,6.0,5857150.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,current,2026-07-30,True,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
+revenue,Q1 2025,2025-03-31,3.0,2620060.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,comparative,2025-04-30,False,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
+revenue,Q1 2026,2026-03-31,3.0,2492197.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,current,2026-04-28,True,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
+selling_marketing_exp,9M 2025,2025-09-30,9.0,-209238.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,comparative,2025-10-29,False,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
+selling_marketing_exp,9M 2026,2026-09-30,9.0,-256203.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,current,2026-10-29,True,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
+selling_marketing_exp,FY2020,2020-12-31,12.0,-193937.0,IDR mn,AR 2021.pdf,210.0,comparative,2021-04-01,False,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+selling_marketing_exp,FY2021,2021-12-31,12.0,-168204.0,IDR mn,AR 2021.pdf,210.0,current,2022-04-01,True,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited
+selling_marketing_exp,FY2021,2021-12-31,12.0,-168204.0,IDR mn,AR_2022.pdf,235.0,comparative,2022-04-01,False,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+selling_marketing_exp,FY2022,2022-12-31,12.0,-284032.0,IDR mn,AR_2022.pdf,235.0,current,2023-04-03,True,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2023-05-01,audited
+selling_marketing_exp,FY2022,2022-12-31,12.0,-284032.0,IDR mn,AR_2023.pdf,229.0,comparative,2023-04-03,False,2024-04-01,2024-03-13,EVIDENCE,,0.0,2023-05-01,audited (comparative)
+selling_marketing_exp,FY2023,2023-12-31,12.0,-305154.0,IDR mn,AR_2023.pdf,229.0,current,2024-03-13,True,2024-04-01,2024-03-13,EVIDENCE,,0.0,2024-04-01,audited
+selling_marketing_exp,FY2023,2023-12-31,12.0,-305154.0,IDR mn,AR_2024.pdf,229.0,comparative,2024-03-13,False,2025-03-27,2025-02-28,EVIDENCE,,0.0,2024-04-01,audited (comparative)
+selling_marketing_exp,FY2024,2024-12-31,12.0,-281644.0,IDR mn,AR_2024.pdf,229.0,current,2025-02-28,True,2025-03-27,2025-02-28,EVIDENCE,,0.0,2025-03-27,audited
+selling_marketing_exp,FY2024,2024-12-31,12.0,-281644.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,comparative,2025-02-28,False,2026-04-01,2026-03-17,EVIDENCE,,0.0,2025-03-27,audited (comparative)
+selling_marketing_exp,FY2025,2025-12-31,12.0,-289328.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,current,2026-03-17,True,2026-04-01,2026-03-17,EVIDENCE,,0.0,2026-04-01,audited
+selling_marketing_exp,H1 2025,2025-06-30,6.0,-143199.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,comparative,2025-07-28,False,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
+selling_marketing_exp,H1 2026,2026-06-30,6.0,-153486.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,current,2026-07-30,True,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
+selling_marketing_exp,Q1 2025,2025-03-31,3.0,-68098.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,comparative,2025-04-30,False,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
+selling_marketing_exp,Q1 2026,2026-03-31,3.0,-69723.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,current,2026-04-28,True,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
+share_of_profit_associates,9M 2025,2025-09-30,9.0,-13885.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,comparative,2025-10-29,False,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
+share_of_profit_associates,9M 2026,2026-09-30,9.0,-38013.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,current,2026-10-29,True,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
+share_of_profit_associates,H1 2025,2025-06-30,6.0,-8209.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,comparative,2025-07-28,False,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
+share_of_profit_associates,H1 2026,2026-06-30,6.0,-21956.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,current,2026-07-30,True,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
+share_of_profit_associates,Q1 2025,2025-03-31,3.0,-659.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,comparative,2025-04-30,False,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
+share_of_profit_associates,Q1 2026,2026-03-31,3.0,-13261.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,current,2026-04-28,True,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
+share_of_profit_jv,9M 2025,2025-09-30,9.0,839609.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,comparative,2025-10-29,False,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
+share_of_profit_jv,9M 2026,2026-09-30,9.0,956891.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,current,2026-10-29,True,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
+share_of_profit_jv,H1 2025,2025-06-30,6.0,540210.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,comparative,2025-07-28,False,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
+share_of_profit_jv,H1 2026,2026-06-30,6.0,574518.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,current,2026-07-30,True,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
+share_of_profit_jv,Q1 2025,2025-03-31,3.0,260441.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,comparative,2025-04-30,False,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
+share_of_profit_jv,Q1 2026,2026-03-31,3.0,242313.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,current,2026-04-28,True,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
+share_of_profit_jv_associates,FY2020,2020-12-31,12.0,405060.0,IDR mn,AR 2021.pdf,210.0,comparative,2021-04-01,False,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+share_of_profit_jv_associates,FY2021,2021-12-31,12.0,348668.0,IDR mn,AR 2021.pdf,210.0,current,2022-04-01,True,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited
+share_of_profit_jv_associates,FY2021,2021-12-31,12.0,348668.0,IDR mn,AR_2022.pdf,235.0,comparative,2022-04-01,False,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+share_of_profit_jv_associates,FY2022,2022-12-31,12.0,968377.0,IDR mn,AR_2022.pdf,235.0,current,2023-04-03,True,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2023-05-01,audited
+share_of_profit_jv_associates,FY2022,2022-12-31,12.0,968377.0,IDR mn,AR_2023.pdf,229.0,comparative,2023-04-03,False,2024-04-01,2024-03-13,EVIDENCE,,0.0,2023-05-01,audited (comparative)
+share_of_profit_jv_associates,FY2023,2023-12-31,12.0,643293.0,IDR mn,AR_2023.pdf,229.0,current,2024-03-13,True,2024-04-01,2024-03-13,EVIDENCE,,0.0,2024-04-01,audited
+share_of_profit_jv_associates,FY2023,2023-12-31,12.0,643293.0,IDR mn,AR_2024.pdf,229.0,comparative,2024-03-13,False,2025-03-27,2025-02-28,EVIDENCE,,0.0,2024-04-01,audited (comparative)
+share_of_profit_jv_associates,FY2024,2024-12-31,12.0,893767.0,IDR mn,AR_2024.pdf,229.0,current,2025-02-28,True,2025-03-27,2025-02-28,EVIDENCE,,0.0,2025-03-27,audited
+share_of_profit_jv_associates,FY2024,2024-12-31,12.0,893767.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,comparative,2025-02-28,False,2026-04-01,2026-03-17,EVIDENCE,,0.0,2025-03-27,audited (comparative)
+share_of_profit_jv_associates,FY2025,2025-12-31,12.0,1066889.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,current,2026-03-17,True,2026-04-01,2026-03-17,EVIDENCE,,0.0,2026-04-01,audited
+total_assets,9M 2026,2026-09-30,0.0,15461290.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,8.0,current,2026-10-29,True,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
+total_assets,FY2020,2020-12-31,12.0,12323970.0,IDR mn,AR 2021.pdf,207.0,comparative,2021-04-01,False,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+total_assets,FY2021,2021-12-31,12.0,12446326.0,IDR mn,AR 2021.pdf,207.0,current,2022-04-01,True,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited
+total_assets,FY2021,2021-12-31,12.0,12446326.0,IDR mn,AR_2022.pdf,232.0,comparative,2022-04-01,False,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+total_assets,FY2022,2022-12-31,12.0,14526124.0,IDR mn,AR_2022.pdf,232.0,current,2023-04-03,True,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2023-05-01,audited
+total_assets,FY2022,2022-12-31,12.0,14526124.0,IDR mn,AR_2023.pdf,226.0,comparative,2023-04-03,False,2024-04-01,2024-03-13,EVIDENCE,,0.0,2023-05-01,audited (comparative)
+total_assets,FY2023,2023-12-31,12.0,13867387.0,IDR mn,AR_2023.pdf,226.0,current,2024-03-13,True,2024-04-01,2024-03-13,EVIDENCE,,0.0,2024-04-01,audited
+total_assets,FY2023,2023-12-31,12.0,13867387.0,IDR mn,AR_2024.pdf,226.0,comparative,2024-03-13,False,2025-03-27,2025-02-28,EVIDENCE,,0.0,2024-04-01,audited (comparative)
+total_assets,FY2024,2024-12-31,12.0,14307265.0,IDR mn,AR_2024.pdf,226.0,current,2025-02-28,True,2025-03-27,2025-02-28,EVIDENCE,,0.0,2025-03-27,audited
+total_assets,FY2024,2024-12-31,12.0,14307265.0,IDR mn,TAPG_-_AR_2025.pdf,241.0,comparative,2025-02-28,False,2026-04-01,2026-03-17,EVIDENCE,,0.0,2025-03-27,audited (comparative)
+total_assets,FY2025,2025-12-31,12.0,14696563.0,IDR mn,TAPG_-_AR_2025.pdf,241.0,current,2026-03-17,True,2026-04-01,2026-03-17,EVIDENCE,,0.0,2026-04-01,audited
+total_assets,FY2025,2025-12-31,0.0,14696563.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,8.0,comparative,2026-03-17,False,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-01,audited (comparative in interim)
+total_assets,FY2025,2025-12-31,0.0,14696563.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,8.0,comparative,2026-03-17,False,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-04-01,audited (comparative in interim)
+total_assets,FY2025,2025-12-31,0.0,14696563.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,8.0,comparative,2026-03-17,False,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-04-01,audited (comparative in interim)
+total_assets,H1 2026,2026-06-30,0.0,14823740.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,8.0,current,2026-07-30,True,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
+total_assets,Q1 2026,2026-03-31,0.0,15403824.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,8.0,current,2026-04-28,True,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
+total_equity,9M 2026,2026-09-30,0.0,12228199.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,17.0,current,2026-10-29,True,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-10-29,unaudited interim
+total_equity,FY2020,2020-12-31,12.0,6656282.0,IDR mn,AR 2021.pdf,209.0,comparative,2021-04-01,False,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+total_equity,FY2021,2021-12-31,12.0,7796011.0,IDR mn,AR 2021.pdf,209.0,current,2022-04-01,True,2022-05-02,2022-04-01,ASSUMPTION,,0.0,2022-05-02,audited
+total_equity,FY2021,2021-12-31,12.0,7796011.0,IDR mn,AR_2022.pdf,234.0,comparative,2022-04-01,False,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2022-05-02,audited (comparative)
+total_equity,FY2022,2022-12-31,12.0,10412744.0,IDR mn,AR_2022.pdf,234.0,current,2023-04-03,True,2023-05-01,2023-04-03,ASSUMPTION,,0.0,2023-05-01,audited
+total_equity,FY2022,2022-12-31,12.0,10412744.0,IDR mn,AR_2023.pdf,228.0,comparative,2023-04-03,False,2024-04-01,2024-03-13,EVIDENCE,,0.0,2023-05-01,audited (comparative)
+total_equity,FY2023,2023-12-31,12.0,11339540.0,IDR mn,AR_2023.pdf,228.0,current,2024-03-13,True,2024-04-01,2024-03-13,EVIDENCE,,0.0,2024-04-01,audited
+total_equity,FY2023,2023-12-31,12.0,11339540.0,IDR mn,AR_2024.pdf,228.0,comparative,2024-03-13,False,2025-03-27,2025-02-28,EVIDENCE,,0.0,2024-04-01,audited (comparative)
+total_equity,FY2024,2024-12-31,12.0,11276429.0,IDR mn,AR_2024.pdf,228.0,current,2025-02-28,True,2025-03-27,2025-02-28,EVIDENCE,,0.0,2025-03-27,audited
+total_equity,FY2024,2024-12-31,12.0,11276429.0,IDR mn,TAPG_-_AR_2025.pdf,243.0,comparative,2025-02-28,False,2026-04-01,2026-03-17,EVIDENCE,,0.0,2025-03-27,audited (comparative)
+total_equity,FY2025,2025-12-31,12.0,11687485.0,IDR mn,TAPG_-_AR_2025.pdf,243.0,current,2026-03-17,True,2026-04-01,2026-03-17,EVIDENCE,,0.0,2026-04-01,audited
+total_equity,FY2025,2025-12-31,0.0,11687485.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,17.0,comparative,2026-03-17,False,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-01,audited (comparative in interim)
+total_equity,FY2025,2025-12-31,0.0,11687485.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,17.0,comparative,2026-03-17,False,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-04-01,audited (comparative in interim)
+total_equity,FY2025,2025-12-31,0.0,11687485.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,17.0,comparative,2026-03-17,False,2026-10-29,2026-10-29,EVIDENCE,,0.0,2026-04-01,audited (comparative in interim)
+total_equity,H1 2026,2026-06-30,0.0,11933750.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,17.0,current,2026-07-30,True,2026-07-30,2026-07-30,EVIDENCE,,0.0,2026-07-30,unaudited interim
+total_equity,Q1 2026,2026-03-31,0.0,12454507.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,17.0,current,2026-04-28,True,2026-04-28,2026-04-28,EVIDENCE,,0.0,2026-04-28,unaudited interim
