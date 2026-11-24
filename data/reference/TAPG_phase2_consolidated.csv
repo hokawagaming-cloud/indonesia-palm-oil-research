@@ -1,0 +1,277 @@
+item,period,fiscal_year,value,unit,source_doc,pdf_page,basis,note
+fa_additions_mature_oil_palm,FY2021,2021,0.0,IDR mn,AR 2021.pdf,270,audited,"class: plantation (bearer plants); row tokens ['5.543.815', '-', '7.516', '16.104', '5.552.403']"
+fa_ending_cost_mature_oil_palm,FY2021,2021,5552403.0,IDR mn,AR 2021.pdf,270,audited,
+fa_additions_mature_rubber,FY2021,2021,0.0,IDR mn,AR 2021.pdf,270,audited,"class: plantation (bearer plants); row tokens ['11.296', '-', '1.913', '58.069', '67.452']"
+fa_ending_cost_mature_rubber,FY2021,2021,67452.0,IDR mn,AR 2021.pdf,270,audited,
+fa_additions_immature_oil_palm,FY2021,2021,75481.0,IDR mn,AR 2021.pdf,270,audited,"class: plantation (bearer plants); row tokens ['244.646', '75.481', '-', '(14.304)', '305.823']"
+fa_ending_cost_immature_oil_palm,FY2021,2021,305823.0,IDR mn,AR 2021.pdf,270,audited,
+fa_additions_immature_rubber,FY2021,2021,9105.0,IDR mn,AR 2021.pdf,270,audited,"class: plantation (bearer plants); row tokens ['85.126', '9.105', '-', '(57.112)', '37.119']"
+fa_ending_cost_immature_rubber,FY2021,2021,37119.0,IDR mn,AR 2021.pdf,270,audited,
+fa_additions_nursery,FY2021,2021,9676.0,IDR mn,AR 2021.pdf,270,audited,"class: plantation (bearer plants); row tokens ['38.793', '9.676', '2.783', '(2.757)', '42.929']"
+fa_ending_cost_nursery,FY2021,2021,42929.0,IDR mn,AR 2021.pdf,270,audited,
+fa_additions_land,FY2021,2021,1982.0,IDR mn,AR 2021.pdf,270,audited,"class: land; row tokens ['469.353', '1.982', '-', '-', '471.335']"
+fa_ending_cost_land,FY2021,2021,471335.0,IDR mn,AR 2021.pdf,270,audited,
+fa_additions_buildings_infrastructure,FY2021,2021,31139.0,IDR mn,AR 2021.pdf,270,audited,"class: buildings & infrastructure (estates and mills, not split); row tokens ['1.751.586', '31.139', '-', '105.664', '1.888.389']"
+fa_ending_cost_buildings_infrastructure,FY2021,2021,1888389.0,IDR mn,AR 2021.pdf,270,audited,
+fa_additions_machinery_installations,FY2021,2021,37533.0,IDR mn,AR 2021.pdf,270,audited,"class: machinery & installations (mill-heavy, not split); row tokens ['1.042.437', '37.533', '175', '44.279', '1.124.074']"
+fa_ending_cost_machinery_installations,FY2021,2021,1124074.0,IDR mn,AR 2021.pdf,270,audited,
+fa_additions_vehicles_heavy_equipment,FY2021,2021,43218.0,IDR mn,AR 2021.pdf,270,audited,"class: vehicles & heavy equipment; row tokens ['683.075', '43.218', '15.930', '65', '710.428']"
+fa_ending_cost_vehicles_heavy_equipment,FY2021,2021,710428.0,IDR mn,AR 2021.pdf,270,audited,
+fa_additions_equipment_furniture,FY2021,2021,11765.0,IDR mn,AR 2021.pdf,270,audited,"class: other; row tokens ['139.730', '11.765', '173', '1.197', '152.519']"
+fa_ending_cost_equipment_furniture,FY2021,2021,152519.0,IDR mn,AR 2021.pdf,270,audited,
+fa_additions_construction_in_progress,FY2021,2021,256308.0,IDR mn,AR 2021.pdf,270,audited,"class: construction in progress (unallocated); row tokens ['190.737', '256.308', '-', '(151.205)', '295.840']"
+fa_ending_cost_construction_in_progress,FY2021,2021,295840.0,IDR mn,AR 2021.pdf,270,audited,
+fa_additions_total_cost,FY2021,2021,476207.0,IDR mn,AR 2021.pdf,270,audited,"class: total; row tokens ['10.200.594', '476.207', '28.490', '-', '10.648.311']"
+fa_ending_cost_total_cost,FY2021,2021,10648311.0,IDR mn,AR 2021.pdf,270,audited,
+fa_additions_mature_oil_palm,FY2020,2020,0.0,IDR mn,AR 2021.pdf,271,audited,"class: plantation (bearer plants); row tokens ['5.300.083', '-', '3.790', '247.522', '5.543.815']"
+fa_ending_cost_mature_oil_palm,FY2020,2020,5543815.0,IDR mn,AR 2021.pdf,271,audited,
+fa_additions_mature_rubber,FY2020,2020,0.0,IDR mn,AR 2021.pdf,271,audited,"class: plantation (bearer plants); row tokens ['3.774', '-', '338', '7.860', '11.296']"
+fa_ending_cost_mature_rubber,FY2020,2020,11296.0,IDR mn,AR 2021.pdf,271,audited,
+fa_additions_immature_oil_palm,FY2020,2020,79266.0,IDR mn,AR 2021.pdf,271,audited,"class: plantation (bearer plants); row tokens ['412.739', '79.266', '1.295', '(246.064)', '244.646']"
+fa_ending_cost_immature_oil_palm,FY2020,2020,244646.0,IDR mn,AR 2021.pdf,271,audited,
+fa_additions_immature_rubber,FY2020,2020,13540.0,IDR mn,AR 2021.pdf,271,audited,"class: plantation (bearer plants); row tokens ['78.208', '13.540', '(6.622)', '85.126']"
+fa_ending_cost_immature_rubber,FY2020,2020,85126.0,IDR mn,AR 2021.pdf,271,audited,
+fa_additions_nursery,FY2020,2020,12860.0,IDR mn,AR 2021.pdf,271,audited,"class: plantation (bearer plants); row tokens ['31.598', '12.860', '2.969', '(2.696)', '38.793']"
+fa_ending_cost_nursery,FY2020,2020,38793.0,IDR mn,AR 2021.pdf,271,audited,
+fa_additions_land,FY2020,2020,5788.0,IDR mn,AR 2021.pdf,271,audited,"class: land; row tokens ['463.565', '5.788', '-', '-', '469.353']"
+fa_ending_cost_land,FY2020,2020,469353.0,IDR mn,AR 2021.pdf,271,audited,
+fa_additions_buildings_infrastructure,FY2020,2020,49648.0,IDR mn,AR 2021.pdf,271,audited,"class: buildings & infrastructure (estates and mills, not split); row tokens ['1.508.751', '49.648', '5', '193.192', '1.751.586']"
+fa_ending_cost_buildings_infrastructure,FY2020,2020,1751586.0,IDR mn,AR 2021.pdf,271,audited,
+fa_additions_machinery_installations,FY2020,2020,28595.0,IDR mn,AR 2021.pdf,271,audited,"class: machinery & installations (mill-heavy, not split); row tokens ['855.019', '28.595', '373', '159.196', '1.042.437']"
+fa_ending_cost_machinery_installations,FY2020,2020,1042437.0,IDR mn,AR 2021.pdf,271,audited,
+fa_additions_vehicles_heavy_equipment,FY2020,2020,36076.0,IDR mn,AR 2021.pdf,271,audited,"class: vehicles & heavy equipment; row tokens ['645.638', '36.076', '14.402', '15.763', '683.075']"
+fa_ending_cost_vehicles_heavy_equipment,FY2020,2020,683075.0,IDR mn,AR 2021.pdf,271,audited,
+fa_additions_equipment_furniture,FY2020,2020,13805.0,IDR mn,AR 2021.pdf,271,audited,"class: other; row tokens ['123.198', '13.805', '316', '3.043', '139.730']"
+fa_ending_cost_equipment_furniture,FY2020,2020,139730.0,IDR mn,AR 2021.pdf,271,audited,
+fa_additions_construction_in_progress,FY2020,2020,219514.0,IDR mn,AR 2021.pdf,271,audited,"class: construction in progress (unallocated); row tokens ['332.484', '219.514', '-', '(361.261)', '190.737']"
+fa_ending_cost_construction_in_progress,FY2020,2020,190737.0,IDR mn,AR 2021.pdf,271,audited,
+fa_additions_total_cost,FY2020,2020,459092.0,IDR mn,AR 2021.pdf,271,audited,"class: total; row tokens ['9.764.990', '459.092', '23.488', '-', '10.200.594']"
+fa_ending_cost_total_cost,FY2020,2020,10200594.0,IDR mn,AR 2021.pdf,271,audited,
+fa_additions_mature_oil_palm,FY2022,2022,0.0,IDR mn,AR_2022.pdf,295,audited,"class: plantation (bearer plants); row tokens ['5.552.403', '-', '9.810', '105.476', '5.648.069']"
+fa_ending_cost_mature_oil_palm,FY2022,2022,5648069.0,IDR mn,AR_2022.pdf,295,audited,
+fa_additions_mature_rubber,FY2022,2022,0.0,IDR mn,AR_2022.pdf,295,audited,"class: plantation (bearer plants); row tokens ['67.452', '-', '-', '24.627', '92.079']"
+fa_ending_cost_mature_rubber,FY2022,2022,92079.0,IDR mn,AR_2022.pdf,295,audited,
+fa_additions_immature_oil_palm,FY2022,2022,94900.0,IDR mn,AR_2022.pdf,295,audited,"class: plantation (bearer plants); row tokens ['305.823', '94.900', '-', '(100.759)', '299.964']"
+fa_ending_cost_immature_oil_palm,FY2022,2022,299964.0,IDR mn,AR_2022.pdf,295,audited,
+fa_additions_immature_rubber,FY2022,2022,10148.0,IDR mn,AR_2022.pdf,295,audited,"class: plantation (bearer plants); row tokens ['37.119', '10.148', '-', '(24.174)', '23.093']"
+fa_ending_cost_immature_rubber,FY2022,2022,23093.0,IDR mn,AR_2022.pdf,295,audited,
+fa_additions_nursery,FY2022,2022,9019.0,IDR mn,AR_2022.pdf,295,audited,"class: plantation (bearer plants); row tokens ['42.929', '9.019', '7.962', '(5.170)', '38.816']"
+fa_ending_cost_nursery,FY2022,2022,38816.0,IDR mn,AR_2022.pdf,295,audited,
+fa_additions_land,FY2022,2022,1692.0,IDR mn,AR_2022.pdf,295,audited,"class: land; row tokens ['471.335', '1.692', '-', '-', '473.027']"
+fa_ending_cost_land,FY2022,2022,473027.0,IDR mn,AR_2022.pdf,295,audited,
+fa_additions_buildings_infrastructure,FY2022,2022,49496.0,IDR mn,AR_2022.pdf,295,audited,"class: buildings & infrastructure (estates and mills, not split); row tokens ['1.888.389', '49.496', '-', '179.949', '2.117.834']"
+fa_ending_cost_buildings_infrastructure,FY2022,2022,2117834.0,IDR mn,AR_2022.pdf,295,audited,
+fa_additions_machinery_installations,FY2022,2022,48421.0,IDR mn,AR_2022.pdf,295,audited,"class: machinery & installations (mill-heavy, not split); row tokens ['1.124.074', '48.421', '312', '215.830', '1.388.013']"
+fa_ending_cost_machinery_installations,FY2022,2022,1388013.0,IDR mn,AR_2022.pdf,295,audited,
+fa_additions_vehicles_heavy_equipment,FY2022,2022,231505.0,IDR mn,AR_2022.pdf,295,audited,"class: vehicles & heavy equipment; row tokens ['710.428', '231.505', '22.605', '4.790', '924.118']"
+fa_ending_cost_vehicles_heavy_equipment,FY2022,2022,924118.0,IDR mn,AR_2022.pdf,295,audited,
+fa_additions_equipment_furniture,FY2022,2022,15411.0,IDR mn,AR_2022.pdf,295,audited,"class: other; row tokens ['152.519', '15.411', '132', '5.326', '173.124']"
+fa_ending_cost_equipment_furniture,FY2022,2022,173124.0,IDR mn,AR_2022.pdf,295,audited,
+fa_additions_construction_in_progress,FY2022,2022,296404.0,IDR mn,AR_2022.pdf,295,audited,"class: construction in progress (unallocated); row tokens ['295.840', '296.404', '-', '(405.895)', '186.349']"
+fa_ending_cost_construction_in_progress,FY2022,2022,186349.0,IDR mn,AR_2022.pdf,295,audited,
+fa_additions_total_cost,FY2022,2022,756996.0,IDR mn,AR_2022.pdf,295,audited,"class: total; row tokens ['10.648.311', '756.996', '40.821', '-', '11.364.486']"
+fa_ending_cost_total_cost,FY2022,2022,11364486.0,IDR mn,AR_2022.pdf,295,audited,
+fa_additions_mature_oil_palm,FY2021,2021,0.0,IDR mn,AR_2022.pdf,296,audited,"class: plantation (bearer plants); row tokens ['5.543.815', '-', '7.516', '16.104', '5.552.403']"
+fa_ending_cost_mature_oil_palm,FY2021,2021,5552403.0,IDR mn,AR_2022.pdf,296,audited,
+fa_additions_mature_rubber,FY2021,2021,0.0,IDR mn,AR_2022.pdf,296,audited,"class: plantation (bearer plants); row tokens ['11.296', '-', '1.913', '58.069', '67.452']"
+fa_ending_cost_mature_rubber,FY2021,2021,67452.0,IDR mn,AR_2022.pdf,296,audited,
+fa_additions_immature_oil_palm,FY2021,2021,75481.0,IDR mn,AR_2022.pdf,296,audited,"class: plantation (bearer plants); row tokens ['244.646', '75.481', '-', '(14.304)', '305.823']"
+fa_ending_cost_immature_oil_palm,FY2021,2021,305823.0,IDR mn,AR_2022.pdf,296,audited,
+fa_additions_immature_rubber,FY2021,2021,9105.0,IDR mn,AR_2022.pdf,296,audited,"class: plantation (bearer plants); row tokens ['85.126', '9.105', '-', '(57.112)', '37.119']"
+fa_ending_cost_immature_rubber,FY2021,2021,37119.0,IDR mn,AR_2022.pdf,296,audited,
+fa_additions_nursery,FY2021,2021,9676.0,IDR mn,AR_2022.pdf,296,audited,"class: plantation (bearer plants); row tokens ['38.793', '9.676', '2.783', '(2.757)', '42.929']"
+fa_ending_cost_nursery,FY2021,2021,42929.0,IDR mn,AR_2022.pdf,296,audited,
+fa_additions_land,FY2021,2021,1982.0,IDR mn,AR_2022.pdf,296,audited,"class: land; row tokens ['469.353', '1.982', '-', '-', '471.335']"
+fa_ending_cost_land,FY2021,2021,471335.0,IDR mn,AR_2022.pdf,296,audited,
+fa_additions_buildings_infrastructure,FY2021,2021,31139.0,IDR mn,AR_2022.pdf,296,audited,"class: buildings & infrastructure (estates and mills, not split); row tokens ['1.751.586', '31.139', '-', '105.664', '1.888.389']"
+fa_ending_cost_buildings_infrastructure,FY2021,2021,1888389.0,IDR mn,AR_2022.pdf,296,audited,
+fa_additions_machinery_installations,FY2021,2021,37533.0,IDR mn,AR_2022.pdf,296,audited,"class: machinery & installations (mill-heavy, not split); row tokens ['1.042.437', '37.533', '175', '44.279', '1.124.074']"
+fa_ending_cost_machinery_installations,FY2021,2021,1124074.0,IDR mn,AR_2022.pdf,296,audited,
+fa_additions_vehicles_heavy_equipment,FY2021,2021,43218.0,IDR mn,AR_2022.pdf,296,audited,"class: vehicles & heavy equipment; row tokens ['683.075', '43.218', '15.930', '65', '710.428']"
+fa_ending_cost_vehicles_heavy_equipment,FY2021,2021,710428.0,IDR mn,AR_2022.pdf,296,audited,
+fa_additions_equipment_furniture,FY2021,2021,11765.0,IDR mn,AR_2022.pdf,296,audited,"class: other; row tokens ['139.730', '11.765', '173', '1.197', '152.519']"
+fa_ending_cost_equipment_furniture,FY2021,2021,152519.0,IDR mn,AR_2022.pdf,296,audited,
+fa_additions_construction_in_progress,FY2021,2021,256308.0,IDR mn,AR_2022.pdf,296,audited,"class: construction in progress (unallocated); row tokens ['190.737', '256.308', '-', '(151.205)', '295.840']"
+fa_ending_cost_construction_in_progress,FY2021,2021,295840.0,IDR mn,AR_2022.pdf,296,audited,
+fa_additions_total_cost,FY2021,2021,476207.0,IDR mn,AR_2022.pdf,296,audited,"class: total; row tokens ['10.200.594', '476.207', '28.490', '-', '10.648.311']"
+fa_ending_cost_total_cost,FY2021,2021,10648311.0,IDR mn,AR_2022.pdf,296,audited,
+fa_additions_mature_oil_palm,FY2023,2023,0.0,IDR mn,AR_2023.pdf,287,audited,"class: plantation (bearer plants); row tokens ['5.648.069', '-', '29.165', '146.696', '5.765.600']"
+fa_ending_cost_mature_oil_palm,FY2023,2023,5765600.0,IDR mn,AR_2023.pdf,287,audited,
+fa_additions_mature_rubber,FY2023,2023,0.0,IDR mn,AR_2023.pdf,287,audited,"class: plantation (bearer plants); row tokens ['92.079', '-', '-', '-', '92.079']"
+fa_ending_cost_mature_rubber,FY2023,2023,92079.0,IDR mn,AR_2023.pdf,287,audited,
+fa_additions_immature_oil_palm,FY2023,2023,105655.0,IDR mn,AR_2023.pdf,287,audited,"class: plantation (bearer plants); row tokens ['299.964', '105.655', '-', '(140.831)', '264.788']"
+fa_ending_cost_immature_oil_palm,FY2023,2023,264788.0,IDR mn,AR_2023.pdf,287,audited,
+fa_additions_immature_rubber,FY2023,2023,9295.0,IDR mn,AR_2023.pdf,287,audited,"class: plantation (bearer plants); row tokens ['23.093', '9.295', '-', '-', '32.388']"
+fa_ending_cost_immature_rubber,FY2023,2023,32388.0,IDR mn,AR_2023.pdf,287,audited,
+fa_additions_nursery,FY2023,2023,3284.0,IDR mn,AR_2023.pdf,287,audited,"class: plantation (bearer plants); row tokens ['38.816', '3.284', '-', '(5.865)', '36.235']"
+fa_ending_cost_nursery,FY2023,2023,36235.0,IDR mn,AR_2023.pdf,287,audited,
+fa_additions_land,FY2023,2023,1450.0,IDR mn,AR_2023.pdf,287,audited,"class: land; row tokens ['473.027', '1.450', '4.553', '-', '469.924']"
+fa_ending_cost_land,FY2023,2023,469924.0,IDR mn,AR_2023.pdf,287,audited,
+fa_additions_buildings_infrastructure,FY2023,2023,83147.0,IDR mn,AR_2023.pdf,287,audited,"class: buildings & infrastructure (estates and mills, not split); row tokens ['2.117.834', '83.147', '526', '155.477', '2.355.932']"
+fa_ending_cost_buildings_infrastructure,FY2023,2023,2355932.0,IDR mn,AR_2023.pdf,287,audited,
+fa_additions_machinery_installations,FY2023,2023,41686.0,IDR mn,AR_2023.pdf,287,audited,"class: machinery & installations (mill-heavy, not split); row tokens ['1.388.013', '41.686', '382', '136.940', '1.566.257']"
+fa_ending_cost_machinery_installations,FY2023,2023,1566257.0,IDR mn,AR_2023.pdf,287,audited,
+fa_additions_vehicles_heavy_equipment,FY2023,2023,291376.0,IDR mn,AR_2023.pdf,287,audited,"class: vehicles & heavy equipment; row tokens ['924.118', '291.376', '17.974', '1.763', '1.199.283']"
+fa_ending_cost_vehicles_heavy_equipment,FY2023,2023,1199283.0,IDR mn,AR_2023.pdf,287,audited,
+fa_additions_equipment_furniture,FY2023,2023,30457.0,IDR mn,AR_2023.pdf,287,audited,"class: other; row tokens ['173.124', '30.457', '4.701', '6.876', '205.756']"
+fa_ending_cost_equipment_furniture,FY2023,2023,205756.0,IDR mn,AR_2023.pdf,287,audited,
+fa_additions_construction_in_progress,FY2023,2023,292474.0,IDR mn,AR_2023.pdf,287,audited,"class: construction in progress (unallocated); row tokens ['186.349', '292.474', '-', '(301.056)', '177.767']"
+fa_ending_cost_construction_in_progress,FY2023,2023,177767.0,IDR mn,AR_2023.pdf,287,audited,
+fa_additions_total_cost,FY2023,2023,858824.0,IDR mn,AR_2023.pdf,287,audited,"class: total; row tokens ['11.364.486', '858.824', '57.301', '-', '12.166.009']"
+fa_ending_cost_total_cost,FY2023,2023,12166009.0,IDR mn,AR_2023.pdf,287,audited,
+fa_additions_mature_oil_palm,FY2022,2022,0.0,IDR mn,AR_2023.pdf,287,audited,"class: plantation (bearer plants); row tokens ['5.552.403', '-', '9.810', '105.476', '5.648.069']"
+fa_ending_cost_mature_oil_palm,FY2022,2022,5648069.0,IDR mn,AR_2023.pdf,287,audited,
+fa_additions_mature_rubber,FY2022,2022,0.0,IDR mn,AR_2023.pdf,287,audited,"class: plantation (bearer plants); row tokens ['67.452', '-', '-', '24.627', '92.079']"
+fa_ending_cost_mature_rubber,FY2022,2022,92079.0,IDR mn,AR_2023.pdf,287,audited,
+fa_additions_immature_oil_palm,FY2022,2022,94900.0,IDR mn,AR_2023.pdf,287,audited,"class: plantation (bearer plants); row tokens ['305.823', '94.900', '-', '(100.759)', '299.964']"
+fa_ending_cost_immature_oil_palm,FY2022,2022,299964.0,IDR mn,AR_2023.pdf,287,audited,
+fa_additions_immature_rubber,FY2022,2022,10148.0,IDR mn,AR_2023.pdf,287,audited,"class: plantation (bearer plants); row tokens ['37.119', '10.148', '-', '(24.174)', '23.093']"
+fa_ending_cost_immature_rubber,FY2022,2022,23093.0,IDR mn,AR_2023.pdf,287,audited,
+fa_additions_nursery,FY2022,2022,9019.0,IDR mn,AR_2023.pdf,287,audited,"class: plantation (bearer plants); row tokens ['42.929', '9.019', '7.962', '(5.170)', '38.816']"
+fa_ending_cost_nursery,FY2022,2022,38816.0,IDR mn,AR_2023.pdf,287,audited,
+fa_additions_land,FY2022,2022,1692.0,IDR mn,AR_2023.pdf,287,audited,"class: land; row tokens ['471.335', '1.692', '-', '-', '473.027']"
+fa_ending_cost_land,FY2022,2022,473027.0,IDR mn,AR_2023.pdf,287,audited,
+fa_additions_buildings_infrastructure,FY2022,2022,49496.0,IDR mn,AR_2023.pdf,287,audited,"class: buildings & infrastructure (estates and mills, not split); row tokens ['1.888.389', '49.496', '-', '179.949', '2.117.834']"
+fa_ending_cost_buildings_infrastructure,FY2022,2022,2117834.0,IDR mn,AR_2023.pdf,287,audited,
+fa_additions_machinery_installations,FY2022,2022,48421.0,IDR mn,AR_2023.pdf,287,audited,"class: machinery & installations (mill-heavy, not split); row tokens ['1.124.074', '48.421', '312', '215.830', '1.388.013']"
+fa_ending_cost_machinery_installations,FY2022,2022,1388013.0,IDR mn,AR_2023.pdf,287,audited,
+fa_additions_vehicles_heavy_equipment,FY2022,2022,231505.0,IDR mn,AR_2023.pdf,287,audited,"class: vehicles & heavy equipment; row tokens ['710.428', '231.505', '22.605', '4.790', '924.118']"
+fa_ending_cost_vehicles_heavy_equipment,FY2022,2022,924118.0,IDR mn,AR_2023.pdf,287,audited,
+fa_additions_equipment_furniture,FY2022,2022,15411.0,IDR mn,AR_2023.pdf,287,audited,"class: other; row tokens ['152.519', '15.411', '132', '5.326', '173.124']"
+fa_ending_cost_equipment_furniture,FY2022,2022,173124.0,IDR mn,AR_2023.pdf,287,audited,
+fa_additions_construction_in_progress,FY2022,2022,296404.0,IDR mn,AR_2023.pdf,287,audited,"class: construction in progress (unallocated); row tokens ['295.840', '296.404', '-', '(405.895)', '186.349']"
+fa_ending_cost_construction_in_progress,FY2022,2022,186349.0,IDR mn,AR_2023.pdf,287,audited,
+fa_additions_total_cost,FY2022,2022,756996.0,IDR mn,AR_2023.pdf,287,audited,"class: total; row tokens ['10.648.311', '756.996', '40.821', '-', '11.364.486']"
+fa_ending_cost_total_cost,FY2022,2022,11364486.0,IDR mn,AR_2023.pdf,287,audited,
+fa_additions_mature_oil_palm,FY2024,2024,0.0,IDR mn,AR_2024.pdf,287,audited,"class: plantation (bearer plants); row tokens ['5.765.600', '-', '23.562', '73.396', '5.815.434']"
+fa_ending_cost_mature_oil_palm,FY2024,2024,5815434.0,IDR mn,AR_2024.pdf,287,audited,
+fa_additions_mature_rubber,FY2024,2024,0.0,IDR mn,AR_2024.pdf,287,audited,"class: plantation (bearer plants); row tokens ['92.079', '-', '-', '3.532', '95.611']"
+fa_ending_cost_mature_rubber,FY2024,2024,95611.0,IDR mn,AR_2024.pdf,287,audited,
+fa_additions_immature_oil_palm,FY2024,2024,91469.0,IDR mn,AR_2024.pdf,287,audited,"class: plantation (bearer plants); row tokens ['264.788', '91.469', '-', '(72.030)', '284.227']"
+fa_ending_cost_immature_oil_palm,FY2024,2024,284227.0,IDR mn,AR_2024.pdf,287,audited,
+fa_additions_immature_rubber,FY2024,2024,7515.0,IDR mn,AR_2024.pdf,287,audited,"class: plantation (bearer plants); row tokens ['32.388', '7.515', '-', '(3.370)', '36.533']"
+fa_ending_cost_immature_rubber,FY2024,2024,36533.0,IDR mn,AR_2024.pdf,287,audited,
+fa_additions_nursery,FY2024,2024,9585.0,IDR mn,AR_2024.pdf,287,audited,"class: plantation (bearer plants); row tokens ['36.235', '9.585', '-', '(1.528)', '44.292']"
+fa_ending_cost_nursery,FY2024,2024,44292.0,IDR mn,AR_2024.pdf,287,audited,
+fa_additions_land,FY2024,2024,5855.0,IDR mn,AR_2024.pdf,287,audited,"class: land; row tokens ['469.924', '5.855', '-', '-', '475.779']"
+fa_ending_cost_land,FY2024,2024,475779.0,IDR mn,AR_2024.pdf,287,audited,
+fa_additions_buildings_infrastructure,FY2024,2024,138857.0,IDR mn,AR_2024.pdf,287,audited,"class: buildings & infrastructure (estates and mills, not split); row tokens ['2.355.932', '138.857', '-', '76.528', '2.571.317']"
+fa_ending_cost_buildings_infrastructure,FY2024,2024,2571317.0,IDR mn,AR_2024.pdf,287,audited,
+fa_additions_machinery_installations,FY2024,2024,36468.0,IDR mn,AR_2024.pdf,287,audited,"class: machinery & installations (mill-heavy, not split); row tokens ['1.566.257', '36.468', '1.783', '61.277', '1.662.219']"
+fa_ending_cost_machinery_installations,FY2024,2024,1662219.0,IDR mn,AR_2024.pdf,287,audited,
+fa_additions_vehicles_heavy_equipment,FY2024,2024,78724.0,IDR mn,AR_2024.pdf,287,audited,"class: vehicles & heavy equipment; row tokens ['1.199.283', '78.724', '52.910', '179', '1.225.276']"
+fa_ending_cost_vehicles_heavy_equipment,FY2024,2024,1225276.0,IDR mn,AR_2024.pdf,287,audited,
+fa_additions_equipment_furniture,FY2024,2024,31941.0,IDR mn,AR_2024.pdf,287,audited,"class: other; row tokens ['205.756', '31.941', '2.698', '(781)', '234.218']"
+fa_ending_cost_equipment_furniture,FY2024,2024,234218.0,IDR mn,AR_2024.pdf,287,audited,
+fa_additions_construction_in_progress,FY2024,2024,202748.0,IDR mn,AR_2024.pdf,287,audited,"class: construction in progress (unallocated); row tokens ['177.767', '202.748', '-', '(137.203)', '243.312']"
+fa_ending_cost_construction_in_progress,FY2024,2024,243312.0,IDR mn,AR_2024.pdf,287,audited,
+fa_additions_total_cost,FY2024,2024,603162.0,IDR mn,AR_2024.pdf,287,audited,"class: total; row tokens ['12.166.009', '603.162', '80.953', '-', '12.688.218']"
+fa_ending_cost_total_cost,FY2024,2024,12688218.0,IDR mn,AR_2024.pdf,287,audited,
+fa_additions_mature_oil_palm,FY2023,2023,0.0,IDR mn,AR_2024.pdf,287,audited,"class: plantation (bearer plants); row tokens ['5.648.069', '-', '29.165', '146.696', '5.765.600']"
+fa_ending_cost_mature_oil_palm,FY2023,2023,5765600.0,IDR mn,AR_2024.pdf,287,audited,
+fa_additions_mature_rubber,FY2023,2023,0.0,IDR mn,AR_2024.pdf,287,audited,"class: plantation (bearer plants); row tokens ['92.079', '-', '-', '-', '92.079']"
+fa_ending_cost_mature_rubber,FY2023,2023,92079.0,IDR mn,AR_2024.pdf,287,audited,
+fa_additions_immature_oil_palm,FY2023,2023,105655.0,IDR mn,AR_2024.pdf,287,audited,"class: plantation (bearer plants); row tokens ['299.964', '105.655', '-', '(140.831)', '264.788']"
+fa_ending_cost_immature_oil_palm,FY2023,2023,264788.0,IDR mn,AR_2024.pdf,287,audited,
+fa_additions_immature_rubber,FY2023,2023,9295.0,IDR mn,AR_2024.pdf,287,audited,"class: plantation (bearer plants); row tokens ['23.093', '9.295', '-', '-', '32.388']"
+fa_ending_cost_immature_rubber,FY2023,2023,32388.0,IDR mn,AR_2024.pdf,287,audited,
+fa_additions_nursery,FY2023,2023,3284.0,IDR mn,AR_2024.pdf,287,audited,"class: plantation (bearer plants); row tokens ['38.816', '3.284', '-', '(5.865)', '36.235']"
+fa_ending_cost_nursery,FY2023,2023,36235.0,IDR mn,AR_2024.pdf,287,audited,
+fa_additions_land,FY2023,2023,1450.0,IDR mn,AR_2024.pdf,287,audited,"class: land; row tokens ['473.027', '1.450', '4.553', '-', '469.924']"
+fa_ending_cost_land,FY2023,2023,469924.0,IDR mn,AR_2024.pdf,287,audited,
+fa_additions_buildings_infrastructure,FY2023,2023,83147.0,IDR mn,AR_2024.pdf,287,audited,"class: buildings & infrastructure (estates and mills, not split); row tokens ['2.117.834', '83.147', '526', '155.477', '2.355.932']"
+fa_ending_cost_buildings_infrastructure,FY2023,2023,2355932.0,IDR mn,AR_2024.pdf,287,audited,
+fa_additions_machinery_installations,FY2023,2023,41686.0,IDR mn,AR_2024.pdf,287,audited,"class: machinery & installations (mill-heavy, not split); row tokens ['1.388.013', '41.686', '382', '136.940', '1.566.257']"
+fa_ending_cost_machinery_installations,FY2023,2023,1566257.0,IDR mn,AR_2024.pdf,287,audited,
+fa_additions_vehicles_heavy_equipment,FY2023,2023,291376.0,IDR mn,AR_2024.pdf,287,audited,"class: vehicles & heavy equipment; row tokens ['924.118', '291.376', '17.974', '1.763', '1.199.283']"
+fa_ending_cost_vehicles_heavy_equipment,FY2023,2023,1199283.0,IDR mn,AR_2024.pdf,287,audited,
+fa_additions_equipment_furniture,FY2023,2023,30457.0,IDR mn,AR_2024.pdf,287,audited,"class: other; row tokens ['173.124', '30.457', '4.701', '6.876', '205.756']"
+fa_ending_cost_equipment_furniture,FY2023,2023,205756.0,IDR mn,AR_2024.pdf,287,audited,
+fa_additions_construction_in_progress,FY2023,2023,292474.0,IDR mn,AR_2024.pdf,287,audited,"class: construction in progress (unallocated); row tokens ['186.349', '292.474', '-', '(301.056)', '177.767']"
+fa_ending_cost_construction_in_progress,FY2023,2023,177767.0,IDR mn,AR_2024.pdf,287,audited,
+fa_additions_total_cost,FY2023,2023,858824.0,IDR mn,AR_2024.pdf,287,audited,"class: total; row tokens ['11.364.486', '858.824', '57.301', '-', '12.166.009']"
+fa_ending_cost_total_cost,FY2023,2023,12166009.0,IDR mn,AR_2024.pdf,287,audited,
+fa_additions_mature_oil_palm,FY2025,2025,0.0,IDR mn,TAPG_-_AR_2025.pdf,299,audited,"class: plantation (bearer plants); row tokens ['5.815.434', '-', '152.623', '99.096', '5.761.907']"
+fa_ending_cost_mature_oil_palm,FY2025,2025,5761907.0,IDR mn,TAPG_-_AR_2025.pdf,299,audited,
+fa_additions_mature_rubber,FY2025,2025,0.0,IDR mn,TAPG_-_AR_2025.pdf,299,audited,"class: plantation (bearer plants); row tokens ['95.611', '-', '1.842', '2.904', '96.673']"
+fa_ending_cost_mature_rubber,FY2025,2025,96673.0,IDR mn,TAPG_-_AR_2025.pdf,299,audited,
+fa_additions_immature_oil_palm,FY2025,2025,105929.0,IDR mn,TAPG_-_AR_2025.pdf,299,audited,"class: plantation (bearer plants); row tokens ['284.227', '105.929', '-', '(95.527)', '294.629']"
+fa_ending_cost_immature_oil_palm,FY2025,2025,294629.0,IDR mn,TAPG_-_AR_2025.pdf,299,audited,
+fa_additions_immature_rubber,FY2025,2025,6375.0,IDR mn,TAPG_-_AR_2025.pdf,299,audited,"class: plantation (bearer plants); row tokens ['36.533', '6.375', '579', '(2.904)', '39.425']"
+fa_ending_cost_immature_rubber,FY2025,2025,39425.0,IDR mn,TAPG_-_AR_2025.pdf,299,audited,
+fa_additions_nursery,FY2025,2025,14615.0,IDR mn,TAPG_-_AR_2025.pdf,299,audited,"class: plantation (bearer plants); row tokens ['44.292', '14.615', '9.461', '(3.569)', '45.877']"
+fa_ending_cost_nursery,FY2025,2025,45877.0,IDR mn,TAPG_-_AR_2025.pdf,299,audited,
+fa_additions_land,FY2025,2025,18224.0,IDR mn,TAPG_-_AR_2025.pdf,299,audited,"class: land; row tokens ['475.779', '18.224', '-', '-', '494.003']"
+fa_ending_cost_land,FY2025,2025,494003.0,IDR mn,TAPG_-_AR_2025.pdf,299,audited,
+fa_additions_buildings_infrastructure,FY2025,2025,54129.0,IDR mn,TAPG_-_AR_2025.pdf,299,audited,"class: buildings & infrastructure (estates and mills, not split); row tokens ['2.571.317', '54.129', '1.298', '117.970', '2.742.118']"
+fa_ending_cost_buildings_infrastructure,FY2025,2025,2742118.0,IDR mn,TAPG_-_AR_2025.pdf,299,audited,
+fa_additions_machinery_installations,FY2025,2025,38813.0,IDR mn,TAPG_-_AR_2025.pdf,299,audited,"class: machinery & installations (mill-heavy, not split); row tokens ['1.662.219', '38.813', '3.747', '23.759', '1.721.044']"
+fa_ending_cost_machinery_installations,FY2025,2025,1721044.0,IDR mn,TAPG_-_AR_2025.pdf,299,audited,
+fa_additions_vehicles_heavy_equipment,FY2025,2025,81877.0,IDR mn,TAPG_-_AR_2025.pdf,299,audited,"class: vehicles & heavy equipment; row tokens ['1.225.276', '81.877', '76.664', '-', '1.230.489']"
+fa_ending_cost_vehicles_heavy_equipment,FY2025,2025,1230489.0,IDR mn,TAPG_-_AR_2025.pdf,299,audited,
+fa_additions_equipment_furniture,FY2025,2025,22542.0,IDR mn,TAPG_-_AR_2025.pdf,299,audited,"class: other; row tokens ['234.218', '22.542', '767', '497', '256.490']"
+fa_ending_cost_equipment_furniture,FY2025,2025,256490.0,IDR mn,TAPG_-_AR_2025.pdf,299,audited,
+fa_additions_construction_in_progress,FY2025,2025,305404.0,IDR mn,TAPG_-_AR_2025.pdf,299,audited,"class: construction in progress (unallocated); row tokens ['243.312', '305.404', '-', '(142.226)', '406.490']"
+fa_ending_cost_construction_in_progress,FY2025,2025,406490.0,IDR mn,TAPG_-_AR_2025.pdf,299,audited,
+fa_additions_total_cost,FY2025,2025,647908.0,IDR mn,TAPG_-_AR_2025.pdf,299,audited,"class: total; row tokens ['12.688.218', '647.908', '246.981', '-', '13.089.145']"
+fa_ending_cost_total_cost,FY2025,2025,13089145.0,IDR mn,TAPG_-_AR_2025.pdf,299,audited,
+fa_additions_mature_oil_palm,FY2024,2024,0.0,IDR mn,TAPG_-_AR_2025.pdf,300,audited,"class: plantation (bearer plants); row tokens ['5.765.600', '-', '23.562', '73.396', '5.815.434']"
+fa_ending_cost_mature_oil_palm,FY2024,2024,5815434.0,IDR mn,TAPG_-_AR_2025.pdf,300,audited,
+fa_additions_mature_rubber,FY2024,2024,0.0,IDR mn,TAPG_-_AR_2025.pdf,300,audited,"class: plantation (bearer plants); row tokens ['92.079', '-', '-', '3.532', '95.611']"
+fa_ending_cost_mature_rubber,FY2024,2024,95611.0,IDR mn,TAPG_-_AR_2025.pdf,300,audited,
+fa_additions_immature_oil_palm,FY2024,2024,91469.0,IDR mn,TAPG_-_AR_2025.pdf,300,audited,"class: plantation (bearer plants); row tokens ['264.788', '91.469', '-', '(72.030)', '284.227']"
+fa_ending_cost_immature_oil_palm,FY2024,2024,284227.0,IDR mn,TAPG_-_AR_2025.pdf,300,audited,
+fa_additions_immature_rubber,FY2024,2024,7515.0,IDR mn,TAPG_-_AR_2025.pdf,300,audited,"class: plantation (bearer plants); row tokens ['32.388', '7.515', '-', '(3.370)', '36.533']"
+fa_ending_cost_immature_rubber,FY2024,2024,36533.0,IDR mn,TAPG_-_AR_2025.pdf,300,audited,
+fa_additions_nursery,FY2024,2024,9585.0,IDR mn,TAPG_-_AR_2025.pdf,300,audited,"class: plantation (bearer plants); row tokens ['36.235', '9.585', '-', '(1.528)', '44.292']"
+fa_ending_cost_nursery,FY2024,2024,44292.0,IDR mn,TAPG_-_AR_2025.pdf,300,audited,
+fa_additions_land,FY2024,2024,5855.0,IDR mn,TAPG_-_AR_2025.pdf,300,audited,"class: land; row tokens ['469.924', '5.855', '-', '-', '475.779']"
+fa_ending_cost_land,FY2024,2024,475779.0,IDR mn,TAPG_-_AR_2025.pdf,300,audited,
+fa_additions_buildings_infrastructure,FY2024,2024,138857.0,IDR mn,TAPG_-_AR_2025.pdf,300,audited,"class: buildings & infrastructure (estates and mills, not split); row tokens ['2.355.932', '138.857', '-', '76.528', '2.571.317']"
+fa_ending_cost_buildings_infrastructure,FY2024,2024,2571317.0,IDR mn,TAPG_-_AR_2025.pdf,300,audited,
+fa_additions_machinery_installations,FY2024,2024,36468.0,IDR mn,TAPG_-_AR_2025.pdf,300,audited,"class: machinery & installations (mill-heavy, not split); row tokens ['1.566.257', '36.468', '1.783', '61.277', '1.662.219']"
+fa_ending_cost_machinery_installations,FY2024,2024,1662219.0,IDR mn,TAPG_-_AR_2025.pdf,300,audited,
+fa_additions_vehicles_heavy_equipment,FY2024,2024,78724.0,IDR mn,TAPG_-_AR_2025.pdf,300,audited,"class: vehicles & heavy equipment; row tokens ['1.199.283', '78.724', '52.910', '179', '1.225.276']"
+fa_ending_cost_vehicles_heavy_equipment,FY2024,2024,1225276.0,IDR mn,TAPG_-_AR_2025.pdf,300,audited,
+fa_additions_equipment_furniture,FY2024,2024,31941.0,IDR mn,TAPG_-_AR_2025.pdf,300,audited,"class: other; row tokens ['205.756', '31.941', '2.698', '(781)', '234.218']"
+fa_ending_cost_equipment_furniture,FY2024,2024,234218.0,IDR mn,TAPG_-_AR_2025.pdf,300,audited,
+fa_additions_construction_in_progress,FY2024,2024,202748.0,IDR mn,TAPG_-_AR_2025.pdf,300,audited,"class: construction in progress (unallocated); row tokens ['177.767', '202.748', '-', '(137.203)', '243.312']"
+fa_ending_cost_construction_in_progress,FY2024,2024,243312.0,IDR mn,TAPG_-_AR_2025.pdf,300,audited,
+fa_additions_total_cost,FY2024,2024,603162.0,IDR mn,TAPG_-_AR_2025.pdf,300,audited,"class: total; row tokens ['12.166.009', '603.162', '80.953', '-', '12.688.218']"
+fa_ending_cost_total_cost,FY2024,2024,12688218.0,IDR mn,TAPG_-_AR_2025.pdf,300,audited,
+cogs_upkeep,FY2021,2021,676129.0,IDR mn,AR 2021.pdf,314,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+cogs_upkeep,FY2020,2020,756017.0,IDR mn,AR 2021.pdf,314,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+cogs_upkeep,FY2022,2022,941410.0,IDR mn,AR_2022.pdf,338,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+cogs_harvesting,FY2021,2021,406488.0,IDR mn,AR 2021.pdf,314,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+cogs_harvesting,FY2020,2020,388325.0,IDR mn,AR 2021.pdf,314,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+cogs_harvesting,FY2022,2022,554874.0,IDR mn,AR_2022.pdf,338,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+cogs_indirect_allocation_ffb,FY2021,2021,425179.0,IDR mn,AR 2021.pdf,314,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+cogs_indirect_allocation_ffb,FY2020,2020,405375.0,IDR mn,AR 2021.pdf,314,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+cogs_indirect_allocation_ffb,FY2022,2022,507016.0,IDR mn,AR_2022.pdf,338,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+cogs_depreciation_ffb,FY2021,2021,402335.0,IDR mn,AR 2021.pdf,314,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+cogs_depreciation_ffb,FY2020,2020,385698.0,IDR mn,AR 2021.pdf,314,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+cogs_depreciation_ffb,FY2022,2022,392984.0,IDR mn,AR_2022.pdf,338,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+cogs_ffb_production_cost,FY2021,2021,1910131.0,IDR mn,AR 2021.pdf,314,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+cogs_ffb_production_cost,FY2020,2020,1935415.0,IDR mn,AR 2021.pdf,314,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+cogs_ffb_production_cost,FY2022,2022,2396284.0,IDR mn,AR_2022.pdf,338,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+cogs_ffb_purchases,FY2021,2021,2357621.0,IDR mn,AR 2021.pdf,314,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+cogs_ffb_purchases,FY2020,2020,1641547.0,IDR mn,AR 2021.pdf,314,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+cogs_ffb_purchases,FY2022,2022,2851365.0,IDR mn,AR_2022.pdf,338,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+cogs_cpo_pk_processing,FY2021,2021,114593.0,IDR mn,AR 2021.pdf,314,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+cogs_cpo_pk_processing,FY2020,2020,105744.0,IDR mn,AR 2021.pdf,314,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+cogs_cpo_pk_processing,FY2022,2022,156350.0,IDR mn,AR_2022.pdf,338,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+cogs_mill_depreciation,FY2021,2021,128608.0,IDR mn,AR 2021.pdf,314,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+cogs_mill_depreciation,FY2020,2020,122549.0,IDR mn,AR 2021.pdf,314,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+cogs_mill_depreciation,FY2022,2022,154918.0,IDR mn,AR_2022.pdf,338,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+cogs_mill_indirect_allocation,FY2021,2021,62447.0,IDR mn,AR 2021.pdf,314,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+cogs_mill_indirect_allocation,FY2020,2020,64980.0,IDR mn,AR 2021.pdf,314,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+cogs_mill_indirect_allocation,FY2022,2022,76216.0,IDR mn,AR_2022.pdf,338,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+cogs_cost_of_goods_manufactured,FY2021,2021,4513423.0,IDR mn,AR 2021.pdf,314,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+cogs_cost_of_goods_manufactured,FY2020,2020,3820568.0,IDR mn,AR 2021.pdf,314,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+cogs_cost_of_goods_manufactured,FY2022,2022,5620309.0,IDR mn,AR_2022.pdf,338,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+cogs_cpo_purchases,FY2021,2021,115888.0,IDR mn,AR 2021.pdf,314,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+cogs_cpo_purchases,FY2020,2020,0.0,IDR mn,AR 2021.pdf,314,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+cogs_cpo_purchases,FY2022,2022,53507.0,IDR mn,AR_2022.pdf,338,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+cogs_total,FY2021,2021,4662334.0,IDR mn,AR 2021.pdf,315,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+cogs_total,FY2020,2020,3872987.0,IDR mn,AR 2021.pdf,315,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+cogs_total,FY2022,2022,5629777.0,IDR mn,AR_2022.pdf,339,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB

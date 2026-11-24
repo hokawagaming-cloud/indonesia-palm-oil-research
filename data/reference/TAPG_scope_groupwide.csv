@@ -1,0 +1,231 @@
+scope,item,period,value,unit,source_doc,pdf_page,basis,note
+groupwide,age_0_3_ha_nucleus,FY2021,7791.0,ha,AR 2021.pdf,93.0,annual report,
+groupwide,age_0_3_ha_nucleus,FY2022,8100.0,ha,AR_2022.pdf,100.0,annual report,AR2022 prints this table rounded to the nearest 100 ha
+groupwide,age_0_3_ha_nucleus,FY2023,7164.0,ha,AR_2023.pdf,96.0,annual report,
+groupwide,age_0_3_ha_nucleus,FY2024,7416.0,ha,AR_2024.pdf,96.0,annual report,
+groupwide,age_0_3_ha_nucleus,FY2025,7613.0,ha,TAPG_-_AR_2025.pdf,100.0,annual report,
+groupwide,age_0_3_ha_nucleus_plasma,FY2021,10950.0,ha,AR 2021.pdf,93.0,annual report,
+groupwide,age_0_3_ha_nucleus_plasma,FY2022,11200.0,ha,AR_2022.pdf,100.0,annual report,AR2022 prints this table rounded to the nearest 100 ha
+groupwide,age_0_3_ha_nucleus_plasma,FY2023,10263.0,ha,AR_2023.pdf,96.0,annual report,
+groupwide,age_0_3_ha_nucleus_plasma,FY2024,10649.0,ha,AR_2024.pdf,96.0,annual report,
+groupwide,age_0_3_ha_nucleus_plasma,FY2025,11059.0,ha,TAPG_-_AR_2025.pdf,100.0,annual report,
+groupwide,age_4_6_ha_nucleus,FY2021,8171.0,ha,AR 2021.pdf,93.0,annual report,
+groupwide,age_4_6_ha_nucleus,FY2022,4100.0,ha,AR_2022.pdf,100.0,annual report,AR2022 prints this table rounded to the nearest 100 ha
+groupwide,age_4_6_ha_nucleus,FY2023,3880.0,ha,AR_2023.pdf,96.0,annual report,
+groupwide,age_4_6_ha_nucleus,FY2024,4375.0,ha,AR_2024.pdf,96.0,annual report,
+groupwide,age_4_6_ha_nucleus,FY2025,4853.0,ha,TAPG_-_AR_2025.pdf,100.0,annual report,
+groupwide,age_4_6_ha_nucleus_plasma,FY2021,10652.0,ha,AR 2021.pdf,93.0,annual report,
+groupwide,age_4_6_ha_nucleus_plasma,FY2022,6600.0,ha,AR_2022.pdf,100.0,annual report,AR2022 prints this table rounded to the nearest 100 ha
+groupwide,age_4_6_ha_nucleus_plasma,FY2023,6590.0,ha,AR_2023.pdf,96.0,annual report,
+groupwide,age_4_6_ha_nucleus_plasma,FY2024,6942.0,ha,AR_2024.pdf,96.0,annual report,
+groupwide,age_4_6_ha_nucleus_plasma,FY2025,7059.0,ha,TAPG_-_AR_2025.pdf,100.0,annual report,
+groupwide,age_7_20_ha_nucleus,FY2021,113221.0,ha,AR 2021.pdf,93.0,annual report,
+groupwide,age_7_20_ha_nucleus,FY2022,118000.0,ha,AR_2022.pdf,100.0,annual report,AR2022 prints this table rounded to the nearest 100 ha
+groupwide,age_7_20_ha_nucleus,FY2023,118186.0,ha,AR_2023.pdf,96.0,annual report,
+groupwide,age_7_20_ha_nucleus,FY2024,117008.0,ha,AR_2024.pdf,96.0,annual report,
+groupwide,age_7_20_ha_nucleus,FY2025,115804.0,ha,TAPG_-_AR_2025.pdf,100.0,annual report,
+groupwide,age_7_20_ha_nucleus_plasma,FY2021,125341.0,ha,AR 2021.pdf,93.0,annual report,
+groupwide,age_7_20_ha_nucleus_plasma,FY2022,131100.0,ha,AR_2022.pdf,100.0,annual report,AR2022 prints this table rounded to the nearest 100 ha
+groupwide,age_7_20_ha_nucleus_plasma,FY2023,132063.0,ha,AR_2023.pdf,96.0,annual report,
+groupwide,age_7_20_ha_nucleus_plasma,FY2024,131939.0,ha,AR_2024.pdf,96.0,annual report,
+groupwide,age_7_20_ha_nucleus_plasma,FY2025,132054.0,ha,TAPG_-_AR_2025.pdf,100.0,annual report,
+groupwide,age_gt20_ha_nucleus,FY2021,8551.0,ha,AR 2021.pdf,93.0,annual report,
+groupwide,age_gt20_ha_nucleus,FY2022,8200.0,ha,AR_2022.pdf,100.0,annual report,AR2022 prints this table rounded to the nearest 100 ha
+groupwide,age_gt20_ha_nucleus,FY2023,7155.0,ha,AR_2023.pdf,96.0,annual report,
+groupwide,age_gt20_ha_nucleus,FY2024,6796.0,ha,AR_2024.pdf,96.0,annual report,
+groupwide,age_gt20_ha_nucleus,FY2025,4544.0,ha,TAPG_-_AR_2025.pdf,100.0,annual report,
+groupwide,age_gt20_ha_nucleus_plasma,FY2021,13200.0,ha,AR 2021.pdf,93.0,annual report,
+groupwide,age_gt20_ha_nucleus_plasma,FY2022,12500.0,ha,AR_2022.pdf,100.0,annual report,AR2022 prints this table rounded to the nearest 100 ha
+groupwide,age_gt20_ha_nucleus_plasma,FY2023,11628.0,ha,AR_2023.pdf,96.0,annual report,
+groupwide,age_gt20_ha_nucleus_plasma,FY2024,11268.0,ha,AR_2024.pdf,96.0,annual report,
+groupwide,age_gt20_ha_nucleus_plasma,FY2025,9535.0,ha,TAPG_-_AR_2025.pdf,100.0,annual report,
+groupwide,age_total_ha_nucleus,FY2021,137734.0,ha,AR 2021.pdf,93.0,annual report,
+groupwide,age_total_ha_nucleus,FY2022,138400.0,ha,AR_2022.pdf,100.0,annual report,AR2022 prints this table rounded to the nearest 100 ha
+groupwide,age_total_ha_nucleus,FY2023,136385.0,ha,AR_2023.pdf,96.0,annual report,
+groupwide,age_total_ha_nucleus,FY2024,135594.0,ha,AR_2024.pdf,96.0,annual report,
+groupwide,age_total_ha_nucleus,FY2025,132814.0,ha,TAPG_-_AR_2025.pdf,100.0,annual report,
+groupwide,age_total_ha_nucleus_plasma,FY2021,160143.0,ha,AR 2021.pdf,93.0,annual report,
+groupwide,age_total_ha_nucleus_plasma,FY2022,161400.0,ha,AR_2022.pdf,100.0,annual report,AR2022 prints this table rounded to the nearest 100 ha
+groupwide,age_total_ha_nucleus_plasma,FY2023,160544.0,ha,AR_2023.pdf,96.0,annual report,
+groupwide,age_total_ha_nucleus_plasma,FY2024,160798.0,ha,AR_2024.pdf,96.0,annual report,
+groupwide,age_total_ha_nucleus_plasma,FY2025,159707.0,ha,TAPG_-_AR_2025.pdf,100.0,annual report,
+groupwide,avg_ffb_yield,FY2019,20.5,t/ha,AR 2021.pdf,11.0,annual report highlights,incl. associates
+groupwide,avg_ffb_yield,FY2020,20.2,t/ha,AR_2022.pdf,11.0,annual report highlights,incl. associates
+groupwide,avg_ffb_yield,FY2021,20.3,t/ha,AR_2023.pdf,11.0,annual report highlights,incl. associates
+groupwide,avg_ffb_yield,FY2022,24.5,t/ha,AR_2024.pdf,11.0,annual report highlights,incl. associates
+groupwide,avg_ffb_yield,FY2023,23.6,t/ha,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates
+groupwide,avg_ffb_yield,FY2024,23.0,t/ha,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates
+groupwide,avg_ffb_yield,FY2025,24.3,t/ha,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates
+groupwide,cpo_production,FY2019,846.0,thousand t,AR 2021.pdf,11.0,annual report highlights,incl. associates
+groupwide,cpo_production,FY2020,841.0,thousand t,AR_2022.pdf,11.0,annual report highlights,incl. associates
+groupwide,cpo_production,FY2021,850.0,thousand t,AR_2023.pdf,11.0,annual report highlights,incl. associates
+groupwide,cpo_production,FY2022,999.0,thousand t,AR_2024.pdf,11.0,annual report highlights,incl. associates
+groupwide,cpo_production,FY2023,978.0,thousand t,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates
+groupwide,cpo_production,FY2024,916.0,thousand t,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates
+groupwide,cpo_production,FY2025,953.0,thousand t,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates
+groupwide,derived_change_gt20yr_ha_nucleus,FY2022,-351.0,ha,derived,0.0,derived,"year-on-year change in >20-year area (net of trees ageing in and of replanting/clearing); DERIVED, not a disclosed replanting figure"
+groupwide,derived_change_gt20yr_ha_nucleus,FY2023,-1045.0,ha,derived,0.0,derived,"year-on-year change in >20-year area (net of trees ageing in and of replanting/clearing); DERIVED, not a disclosed replanting figure"
+groupwide,derived_change_gt20yr_ha_nucleus,FY2024,-359.0,ha,derived,0.0,derived,"year-on-year change in >20-year area (net of trees ageing in and of replanting/clearing); DERIVED, not a disclosed replanting figure"
+groupwide,derived_change_gt20yr_ha_nucleus,FY2025,-2252.0,ha,derived,0.0,derived,"year-on-year change in >20-year area (net of trees ageing in and of replanting/clearing); DERIVED, not a disclosed replanting figure"
+groupwide,derived_change_gt20yr_ha_nucleus_plasma,FY2022,-700.0,ha,derived,0.0,derived,"year-on-year change in >20-year area (net of trees ageing in and of replanting/clearing); DERIVED, not a disclosed replanting figure"
+groupwide,derived_change_gt20yr_ha_nucleus_plasma,FY2023,-872.0,ha,derived,0.0,derived,"year-on-year change in >20-year area (net of trees ageing in and of replanting/clearing); DERIVED, not a disclosed replanting figure"
+groupwide,derived_change_gt20yr_ha_nucleus_plasma,FY2024,-360.0,ha,derived,0.0,derived,"year-on-year change in >20-year area (net of trees ageing in and of replanting/clearing); DERIVED, not a disclosed replanting figure"
+groupwide,derived_change_gt20yr_ha_nucleus_plasma,FY2025,-1733.0,ha,derived,0.0,derived,"year-on-year change in >20-year area (net of trees ageing in and of replanting/clearing); DERIVED, not a disclosed replanting figure"
+groupwide,ffb_harvested_nucleus,FY2019,2637.0,thousand t,AR 2021.pdf,11.0,annual report highlights,incl. associates
+groupwide,ffb_harvested_nucleus,FY2020,2646.0,thousand t,AR_2022.pdf,11.0,annual report highlights,incl. associates
+groupwide,ffb_harvested_nucleus,FY2021,2640.0,thousand t,AR_2023.pdf,11.0,annual report highlights,incl. associates
+groupwide,ffb_harvested_nucleus,FY2022,3200.0,thousand t,AR_2024.pdf,11.0,annual report highlights,incl. associates
+groupwide,ffb_harvested_nucleus,FY2023,3050.0,thousand t,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates
+groupwide,ffb_harvested_nucleus,FY2024,2946.0,thousand t,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates
+groupwide,ffb_harvested_nucleus,FY2025,3040.0,thousand t,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates
+groupwide,ffb_harvested_plasma,FY2019,302.0,thousand t,AR 2021.pdf,11.0,annual report highlights,incl. associates
+groupwide,ffb_harvested_plasma,FY2020,279.0,thousand t,AR_2022.pdf,11.0,annual report highlights,incl. associates
+groupwide,ffb_harvested_plasma,FY2021,303.0,thousand t,AR_2023.pdf,11.0,annual report highlights,incl. associates
+groupwide,ffb_harvested_plasma,FY2022,354.0,thousand t,AR_2024.pdf,11.0,annual report highlights,incl. associates
+groupwide,ffb_harvested_plasma,FY2023,348.0,thousand t,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates
+groupwide,ffb_harvested_plasma,FY2024,330.0,thousand t,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates
+groupwide,ffb_harvested_plasma,FY2025,384.0,thousand t,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates
+groupwide,ffb_harvested_total,FY2019,2939.0,thousand t,AR 2021.pdf,11.0,annual report highlights,incl. associates
+groupwide,ffb_harvested_total,FY2020,2925.0,thousand t,AR_2022.pdf,11.0,annual report highlights,incl. associates
+groupwide,ffb_harvested_total,FY2021,2943.0,thousand t,AR_2023.pdf,11.0,annual report highlights,incl. associates
+groupwide,ffb_harvested_total,FY2022,3554.0,thousand t,AR_2024.pdf,11.0,annual report highlights,incl. associates
+groupwide,ffb_harvested_total,FY2023,3399.0,thousand t,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates
+groupwide,ffb_harvested_total,FY2024,3276.0,thousand t,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates
+groupwide,ffb_harvested_total,FY2025,3425.0,thousand t,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates
+groupwide,ffb_nucleus_central_kalimantan_kt,FY2019,1691.458,thousand t,AR 2021.pdf,92.0,annual report MD&A,"printed in tonnes, converted; incl. associates"
+groupwide,ffb_nucleus_central_kalimantan_kt,FY2020,1731.0,thousand t,AR_2022.pdf,99.0,annual report MD&A,printed in thousand t; incl. associates
+groupwide,ffb_nucleus_central_kalimantan_kt,FY2021,1723.0,thousand t,AR_2023.pdf,95.0,annual report MD&A,printed in thousand t; incl. associates
+groupwide,ffb_nucleus_central_kalimantan_kt,FY2022,2059.0,thousand t,AR_2024.pdf,96.0,annual report MD&A,printed in thousand t; incl. associates
+groupwide,ffb_nucleus_central_kalimantan_kt,FY2023,1918.0,thousand t,TAPG_-_AR_2025.pdf,99.0,annual report MD&A,printed in thousand t; incl. associates
+groupwide,ffb_nucleus_central_kalimantan_kt,FY2024,1801.0,thousand t,TAPG_-_AR_2025.pdf,99.0,annual report MD&A,printed in thousand t; incl. associates
+groupwide,ffb_nucleus_central_kalimantan_kt,FY2025,1810.0,thousand t,TAPG_-_AR_2025.pdf,99.0,annual report MD&A,printed in thousand t; incl. associates
+groupwide,ffb_nucleus_east_kalimantan_kt,FY2019,862.294,thousand t,AR 2021.pdf,92.0,annual report MD&A,"printed in tonnes, converted; incl. associates"
+groupwide,ffb_nucleus_east_kalimantan_kt,FY2020,840.0,thousand t,AR_2022.pdf,99.0,annual report MD&A,printed in thousand t; incl. associates
+groupwide,ffb_nucleus_east_kalimantan_kt,FY2021,849.0,thousand t,AR_2023.pdf,95.0,annual report MD&A,printed in thousand t; incl. associates
+groupwide,ffb_nucleus_east_kalimantan_kt,FY2022,1081.0,thousand t,AR_2024.pdf,96.0,annual report MD&A,printed in thousand t; incl. associates
+groupwide,ffb_nucleus_east_kalimantan_kt,FY2023,1080.0,thousand t,TAPG_-_AR_2025.pdf,99.0,annual report MD&A,printed in thousand t; incl. associates
+groupwide,ffb_nucleus_east_kalimantan_kt,FY2024,1083.0,thousand t,TAPG_-_AR_2025.pdf,99.0,annual report MD&A,printed in thousand t; incl. associates
+groupwide,ffb_nucleus_east_kalimantan_kt,FY2025,1143.0,thousand t,TAPG_-_AR_2025.pdf,99.0,annual report MD&A,printed in thousand t; incl. associates
+groupwide,ffb_nucleus_sumatra_kt,FY2019,82.792,thousand t,AR 2021.pdf,92.0,annual report MD&A,"printed in tonnes, converted; incl. associates"
+groupwide,ffb_nucleus_sumatra_kt,FY2020,75.0,thousand t,AR_2022.pdf,99.0,annual report MD&A,printed in thousand t; incl. associates
+groupwide,ffb_nucleus_sumatra_kt,FY2021,68.0,thousand t,AR_2023.pdf,95.0,annual report MD&A,printed in thousand t; incl. associates
+groupwide,ffb_nucleus_sumatra_kt,FY2022,60.0,thousand t,AR_2024.pdf,96.0,annual report MD&A,printed in thousand t; incl. associates
+groupwide,ffb_nucleus_sumatra_kt,FY2023,52.0,thousand t,TAPG_-_AR_2025.pdf,99.0,annual report MD&A,printed in thousand t; incl. associates
+groupwide,ffb_nucleus_sumatra_kt,FY2024,63.0,thousand t,TAPG_-_AR_2025.pdf,99.0,annual report MD&A,printed in thousand t; incl. associates
+groupwide,ffb_nucleus_sumatra_kt,FY2025,87.0,thousand t,TAPG_-_AR_2025.pdf,99.0,annual report MD&A,printed in thousand t; incl. associates
+groupwide,ffb_nucleus_total_kt,FY2019,2636.544,thousand t,AR 2021.pdf,92.0,annual report MD&A,"printed in tonnes, converted; incl. associates"
+groupwide,ffb_nucleus_total_kt,FY2020,2646.0,thousand t,AR_2022.pdf,99.0,annual report MD&A,printed in thousand t; incl. associates
+groupwide,ffb_nucleus_total_kt,FY2021,2640.0,thousand t,AR_2023.pdf,95.0,annual report MD&A,printed in thousand t; incl. associates
+groupwide,ffb_nucleus_total_kt,FY2022,3200.0,thousand t,AR_2024.pdf,96.0,annual report MD&A,printed in thousand t; incl. associates
+groupwide,ffb_nucleus_total_kt,FY2023,3050.0,thousand t,TAPG_-_AR_2025.pdf,99.0,annual report MD&A,printed in thousand t; incl. associates
+groupwide,ffb_nucleus_total_kt,FY2024,2946.0,thousand t,TAPG_-_AR_2025.pdf,99.0,annual report MD&A,printed in thousand t; incl. associates
+groupwide,ffb_nucleus_total_kt,FY2025,3040.0,thousand t,TAPG_-_AR_2025.pdf,99.0,annual report MD&A,printed in thousand t; incl. associates
+groupwide,ffb_processed_nucleus_kt,FY2022,3199.0,thousand t,AR_2024.pdf,97.0,annual report,
+groupwide,ffb_processed_nucleus_kt,FY2023,3058.0,thousand t,TAPG_-_AR_2025.pdf,100.0,annual report,
+groupwide,ffb_processed_nucleus_kt,FY2024,2957.0,thousand t,TAPG_-_AR_2025.pdf,100.0,annual report,
+groupwide,ffb_processed_nucleus_kt,FY2025,3031.0,thousand t,TAPG_-_AR_2025.pdf,100.0,annual report,
+groupwide,ffb_processed_plasma_kt,FY2022,325.0,thousand t,AR_2024.pdf,97.0,annual report,
+groupwide,ffb_processed_plasma_kt,FY2023,325.0,thousand t,TAPG_-_AR_2025.pdf,100.0,annual report,
+groupwide,ffb_processed_plasma_kt,FY2024,326.0,thousand t,TAPG_-_AR_2025.pdf,100.0,annual report,
+groupwide,ffb_processed_plasma_kt,FY2025,400.0,thousand t,TAPG_-_AR_2025.pdf,100.0,annual report,
+groupwide,ffb_processed_third_party_kt,FY2022,892.0,thousand t,AR_2024.pdf,97.0,annual report,
+groupwide,ffb_processed_third_party_kt,FY2023,820.0,thousand t,TAPG_-_AR_2025.pdf,100.0,annual report,
+groupwide,ffb_processed_third_party_kt,FY2024,679.0,thousand t,TAPG_-_AR_2025.pdf,100.0,annual report,
+groupwide,ffb_processed_third_party_kt,FY2025,659.0,thousand t,TAPG_-_AR_2025.pdf,100.0,annual report,
+groupwide,ffb_processed_total,FY2019,3614.0,thousand t,AR 2021.pdf,11.0,annual report highlights,incl. associates
+groupwide,ffb_processed_total,FY2020,3645.0,thousand t,AR_2022.pdf,11.0,annual report highlights,incl. associates
+groupwide,ffb_processed_total,FY2021,3687.0,thousand t,AR_2023.pdf,11.0,annual report highlights,incl. associates
+groupwide,ffb_processed_total,FY2022,4416.0,thousand t,AR_2024.pdf,11.0,annual report highlights,incl. associates
+groupwide,ffb_processed_total,FY2023,4203.0,thousand t,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates
+groupwide,ffb_processed_total,FY2024,3962.0,thousand t,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates
+groupwide,ffb_processed_total,FY2025,4089.0,thousand t,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates
+groupwide,ffb_processed_total_kt,FY2023,4203.0,thousand t,TAPG_-_AR_2025.pdf,100.0,annual report,
+groupwide,ffb_processed_total_kt,FY2024,3962.0,thousand t,TAPG_-_AR_2025.pdf,100.0,annual report,
+groupwide,ffb_processed_total_kt,FY2025,4089.0,thousand t,TAPG_-_AR_2025.pdf,100.0,annual report,
+groupwide,immature_ha_nucleus_central_kalimantan,FY2021,4139.0,ha,AR 2021.pdf,93.0,annual report,
+groupwide,immature_ha_nucleus_central_kalimantan,FY2022,4000.0,ha,AR_2022.pdf,100.0,annual report,rounded to nearest 100 ha
+groupwide,immature_ha_nucleus_central_kalimantan,FY2023,3639.0,ha,AR_2023.pdf,96.0,annual report,
+groupwide,immature_ha_nucleus_central_kalimantan,FY2024,4280.0,ha,AR_2024.pdf,97.0,annual report,
+groupwide,immature_ha_nucleus_central_kalimantan,FY2025,5128.0,ha,TAPG_-_AR_2025.pdf,100.0,annual report,
+groupwide,immature_ha_nucleus_east_kalimantan,FY2021,1146.0,ha,AR 2021.pdf,93.0,annual report,
+groupwide,immature_ha_nucleus_east_kalimantan,FY2022,600.0,ha,AR_2022.pdf,100.0,annual report,rounded to nearest 100 ha
+groupwide,immature_ha_nucleus_east_kalimantan,FY2023,133.0,ha,AR_2023.pdf,96.0,annual report,
+groupwide,immature_ha_nucleus_east_kalimantan,FY2024,64.0,ha,AR_2024.pdf,97.0,annual report,
+groupwide,immature_ha_nucleus_east_kalimantan,FY2025,313.0,ha,TAPG_-_AR_2025.pdf,100.0,annual report,
+groupwide,immature_ha_nucleus_sumatra,FY2021,2506.0,ha,AR 2021.pdf,93.0,annual report,
+groupwide,immature_ha_nucleus_sumatra,FY2022,3500.0,ha,AR_2022.pdf,100.0,annual report,rounded to nearest 100 ha
+groupwide,immature_ha_nucleus_sumatra,FY2023,3392.0,ha,AR_2023.pdf,96.0,annual report,
+groupwide,immature_ha_nucleus_sumatra,FY2024,3072.0,ha,AR_2024.pdf,97.0,annual report,
+groupwide,immature_ha_nucleus_sumatra,FY2025,2172.0,ha,TAPG_-_AR_2025.pdf,100.0,annual report,
+groupwide,immature_ha_nucleus_total,FY2021,7791.0,ha,AR 2021.pdf,93.0,annual report,
+groupwide,immature_ha_nucleus_total,FY2022,8100.0,ha,AR_2022.pdf,100.0,annual report,rounded to nearest 100 ha
+groupwide,immature_ha_nucleus_total,FY2023,7164.0,ha,AR_2023.pdf,96.0,annual report,
+groupwide,immature_ha_nucleus_total,FY2024,7416.0,ha,AR_2024.pdf,97.0,annual report,
+groupwide,immature_ha_nucleus_total,FY2025,7613.0,ha,TAPG_-_AR_2025.pdf,100.0,annual report,
+groupwide,ker_pk,FY2019,4.8,%,AR 2021.pdf,11.0,annual report highlights,incl. associates
+groupwide,ker_pk,FY2020,4.8,%,AR_2022.pdf,11.0,annual report highlights,incl. associates
+groupwide,ker_pk,FY2021,4.7,%,AR_2022.pdf,11.0,annual report highlights,incl. associates
+groupwide,ker_pk,FY2022,4.8,%,AR_2024.pdf,11.0,annual report highlights,incl. associates
+groupwide,ker_pk,FY2023,4.9,%,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates
+groupwide,ker_pk,FY2024,4.9,%,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates
+groupwide,ker_pk,FY2025,4.9,%,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates
+groupwide,mature_ha_nucleus_central_kalimantan,FY2021,77916.0,ha,AR 2021.pdf,93.0,annual report,
+groupwide,mature_ha_nucleus_central_kalimantan,FY2022,78800.0,ha,AR_2022.pdf,100.0,annual report,rounded to nearest 100 ha
+groupwide,mature_ha_nucleus_central_kalimantan,FY2023,77619.0,ha,AR_2023.pdf,96.0,annual report,
+groupwide,mature_ha_nucleus_central_kalimantan,FY2024,76288.0,ha,AR_2024.pdf,97.0,annual report,
+groupwide,mature_ha_nucleus_central_kalimantan,FY2025,73927.0,ha,TAPG_-_AR_2025.pdf,100.0,annual report,
+groupwide,mature_ha_nucleus_east_kalimantan,FY2021,48593.0,ha,AR 2021.pdf,93.0,annual report,
+groupwide,mature_ha_nucleus_east_kalimantan,FY2022,49200.0,ha,AR_2022.pdf,100.0,annual report,rounded to nearest 100 ha
+groupwide,mature_ha_nucleus_east_kalimantan,FY2023,49479.0,ha,AR_2023.pdf,96.0,annual report,
+groupwide,mature_ha_nucleus_east_kalimantan,FY2024,49384.0,ha,AR_2024.pdf,97.0,annual report,
+groupwide,mature_ha_nucleus_east_kalimantan,FY2025,48070.0,ha,TAPG_-_AR_2025.pdf,100.0,annual report,
+groupwide,mature_ha_nucleus_sumatra,FY2021,3434.0,ha,AR 2021.pdf,93.0,annual report,
+groupwide,mature_ha_nucleus_sumatra,FY2022,2300.0,ha,AR_2022.pdf,100.0,annual report,rounded to nearest 100 ha
+groupwide,mature_ha_nucleus_sumatra,FY2023,2123.0,ha,AR_2023.pdf,96.0,annual report,
+groupwide,mature_ha_nucleus_sumatra,FY2024,2506.0,ha,AR_2024.pdf,97.0,annual report,
+groupwide,mature_ha_nucleus_sumatra,FY2025,3204.0,ha,TAPG_-_AR_2025.pdf,100.0,annual report,
+groupwide,mature_ha_nucleus_total,FY2021,129943.0,ha,AR 2021.pdf,93.0,annual report,
+groupwide,mature_ha_nucleus_total,FY2022,130300.0,ha,AR_2022.pdf,100.0,annual report,rounded to nearest 100 ha
+groupwide,mature_ha_nucleus_total,FY2023,129221.0,ha,AR_2023.pdf,96.0,annual report,
+groupwide,mature_ha_nucleus_total,FY2024,128178.0,ha,AR_2024.pdf,97.0,annual report,
+groupwide,mature_ha_nucleus_total,FY2025,125201.0,ha,TAPG_-_AR_2025.pdf,100.0,annual report,
+groupwide,oer_cpo,FY2019,23.4,%,AR 2021.pdf,11.0,annual report highlights,incl. associates
+groupwide,oer_cpo,FY2020,23.1,%,AR_2022.pdf,11.0,annual report highlights,incl. associates
+groupwide,oer_cpo,FY2021,23.0,%,AR_2023.pdf,11.0,annual report highlights,incl. associates
+groupwide,oer_cpo,FY2022,22.6,%,AR_2024.pdf,11.0,annual report highlights,incl. associates
+groupwide,oer_cpo,FY2023,23.3,%,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates
+groupwide,oer_cpo,FY2024,23.1,%,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates
+groupwide,oer_cpo,FY2025,23.3,%,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates
+groupwide,pk_production,FY2019,174.0,thousand t,AR 2021.pdf,11.0,annual report highlights,incl. associates
+groupwide,pk_production,FY2020,175.0,thousand t,AR_2022.pdf,11.0,annual report highlights,incl. associates
+groupwide,pk_production,FY2021,174.0,thousand t,AR_2023.pdf,11.0,annual report highlights,incl. associates
+groupwide,pk_production,FY2022,210.0,thousand t,AR_2024.pdf,11.0,annual report highlights,incl. associates
+groupwide,pk_production,FY2023,208.0,thousand t,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates
+groupwide,pk_production,FY2024,193.0,thousand t,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates
+groupwide,pk_production,FY2025,202.0,thousand t,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates
+groupwide,pko_production,FY2021,,thousand t,AR_2023.pdf,11.0,annual report highlights,incl. associates
+groupwide,pko_production,FY2022,,thousand t,AR_2024.pdf,11.0,annual report highlights,incl. associates
+groupwide,pko_production,FY2023,6.5,thousand t,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates
+groupwide,pko_production,FY2024,20.3,thousand t,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates
+groupwide,pko_production,FY2025,22.1,thousand t,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates
+groupwide,planted_nucleus_oilpalm,FY2019,136.9,thousand ha,AR 2021.pdf,11.0,annual report highlights,incl. associates
+groupwide,planted_nucleus_oilpalm,FY2020,137.3,thousand ha,AR_2022.pdf,11.0,annual report highlights,incl. associates
+groupwide,planted_nucleus_oilpalm,FY2021,137.7,thousand ha,AR_2023.pdf,11.0,annual report highlights,incl. associates
+groupwide,planted_nucleus_oilpalm,FY2022,138.4,thousand ha,AR_2024.pdf,11.0,annual report highlights,incl. associates
+groupwide,planted_nucleus_oilpalm,FY2023,136.4,thousand ha,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates
+groupwide,planted_nucleus_oilpalm,FY2024,135.6,thousand ha,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates
+groupwide,planted_nucleus_oilpalm,FY2025,132.8,thousand ha,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates
+groupwide,planted_plasma_oilpalm,FY2019,21.0,thousand ha,AR 2021.pdf,11.0,annual report highlights,incl. associates
+groupwide,planted_plasma_oilpalm,FY2020,21.4,thousand ha,AR_2022.pdf,11.0,annual report highlights,incl. associates
+groupwide,planted_plasma_oilpalm,FY2021,22.4,thousand ha,AR_2023.pdf,11.0,annual report highlights,incl. associates
+groupwide,planted_plasma_oilpalm,FY2022,23.0,thousand ha,AR_2024.pdf,11.0,annual report highlights,incl. associates
+groupwide,planted_plasma_oilpalm,FY2023,24.1,thousand ha,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates
+groupwide,planted_plasma_oilpalm,FY2024,25.2,thousand ha,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates
+groupwide,planted_plasma_oilpalm,FY2025,26.9,thousand ha,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates
+groupwide,planted_total_oilpalm,FY2019,157.9,thousand ha,AR 2021.pdf,11.0,annual report highlights,incl. associates
+groupwide,planted_total_oilpalm,FY2020,158.7,thousand ha,AR_2022.pdf,11.0,annual report highlights,incl. associates
+groupwide,planted_total_oilpalm,FY2021,160.1,thousand ha,AR_2023.pdf,11.0,annual report highlights,incl. associates
+groupwide,planted_total_oilpalm,FY2022,161.4,thousand ha,AR_2024.pdf,11.0,annual report highlights,incl. associates
+groupwide,planted_total_oilpalm,FY2023,160.5,thousand ha,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates
+groupwide,planted_total_oilpalm,FY2024,160.8,thousand ha,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates
+groupwide,planted_total_oilpalm,FY2025,159.7,thousand ha,TAPG_-_AR_2025.pdf,14.0,annual report highlights,incl. associates

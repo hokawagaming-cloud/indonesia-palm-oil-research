@@ -1,0 +1,40 @@
+check,fiscal_year,lhs,rhs,result,detail
+fixed-asset additions by class sum to total additions,2021,476207.0,476207.0,PASS,AR 2021.pdf
+fixed-asset additions by class sum to total additions,2020,459092.0,459092.0,PASS,AR 2021.pdf
+fixed-asset additions by class sum to total additions,2022,756996.0,756996.0,PASS,AR_2022.pdf
+fixed-asset additions by class sum to total additions,2021,476207.0,476207.0,PASS,AR_2022.pdf
+fixed-asset additions by class sum to total additions,2023,858824.0,858824.0,PASS,AR_2023.pdf
+fixed-asset additions by class sum to total additions,2022,756996.0,756996.0,PASS,AR_2023.pdf
+fixed-asset additions by class sum to total additions,2024,603162.0,603162.0,PASS,AR_2024.pdf
+fixed-asset additions by class sum to total additions,2023,858824.0,858824.0,PASS,AR_2024.pdf
+fixed-asset additions by class sum to total additions,2025,647908.0,647908.0,PASS,TAPG_-_AR_2025.pdf
+fixed-asset additions by class sum to total additions,2024,603162.0,603162.0,PASS,TAPG_-_AR_2025.pdf
+FFB regions sum to total,2021,2640.399,2640.4,PASS,AR 2021.pdf
+FFB regions sum to total,2020,2646.225,2646.224,PASS,AR 2021.pdf
+FFB regions sum to total,2019,2636.544,2636.544,PASS,AR 2021.pdf
+FFB regions sum to total,2022,3200.0,3200.0,PASS,AR_2022.pdf
+FFB regions sum to total,2021,2640.0,2640.0,PASS,AR_2022.pdf
+FFB regions sum to total,2020,2646.0,2646.0,PASS,AR_2022.pdf
+FFB regions sum to total,2023,3050.0,3050.0,PASS,AR_2023.pdf
+FFB regions sum to total,2022,3200.0,3200.0,PASS,AR_2023.pdf
+FFB regions sum to total,2021,2640.0,2640.0,PASS,AR_2023.pdf
+FFB regions sum to total,2024,2947.0,2946.0,PASS,AR_2024.pdf
+FFB regions sum to total,2023,3050.0,3050.0,PASS,AR_2024.pdf
+FFB regions sum to total,2022,3200.0,3200.0,PASS,AR_2024.pdf
+FFB regions sum to total,2025,3040.0,3040.0,PASS,TAPG_-_AR_2025.pdf
+FFB regions sum to total,2024,2947.0,2946.0,PASS,TAPG_-_AR_2025.pdf
+FFB regions sum to total,2023,3050.0,3050.0,PASS,TAPG_-_AR_2025.pdf
+FFB production cost components sum,2020,1935415.0,1935415.0,PASS,
+FFB production cost components sum,2021,1910131.0,1910131.0,PASS,
+FFB production cost components sum,2022,2396284.0,2396284.0,PASS,
+AR2021 vs AR2022 FY2021 FFB purchases,2021,2357621.0,2357621.0,PASS,"both documents print 2,357,621"
+USTP profit x 50% = TAPG share of USTP profit,2021,344792.0,344792.0,PASS,
+USTP profit x 50% = TAPG share of USTP profit,2022,958570.0,958570.0,PASS,
+USTP profit x 50% = TAPG share of USTP profit,2023,637054.0,637054.0,PASS,
+USTP profit x 50% = TAPG share of USTP profit,2024,886733.5,886734.0,PASS,
+USTP profit x 50% = TAPG share of USTP profit,2025,1059744.0,1059744.0,PASS,
+2025 JV dividends: cash + in-kind = declared (no receivable),2025,1373042.0,1373042.0,PASS,difference vs cash flow explained by non-cash securities dividend
+USTP dividend declared vs all-JV cash received,2021,147820.0,150000.0,INFO,"difference 2,180 = other small JVs (1% or less stakes); no receivable disclosed"
+USTP dividend declared vs all-JV cash received,2022,148297.0,150000.0,INFO,"difference 1,703 = other small JVs (1% or less stakes); no receivable disclosed"
+USTP dividend declared vs all-JV cash received,2023,296596.0,300000.0,INFO,"difference 3,404 = other small JVs (1% or less stakes); no receivable disclosed"
+USTP dividend declared vs all-JV cash received,2024,1161629.0,1170000.0,INFO,"difference 8,371 = other small JVs (1% or less stakes); no receivable disclosed"

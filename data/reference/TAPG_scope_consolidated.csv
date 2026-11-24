@@ -1,0 +1,530 @@
+scope,item,period,value,unit,source_doc,pdf_page,basis,note
+consolidated,asp_cpo_idr_per_kg,FY2020,8298.0,IDR/kg,AR 2021.pdf,97.0,annual report,
+consolidated,asp_cpo_idr_per_kg,FY2021,9274.0,IDR/kg,AR 2021.pdf,97.0,annual report,
+consolidated,asp_cpo_idr_per_kg,FY2022,12211.0,IDR/kg,AR_2022.pdf,104.0,annual report,
+consolidated,asp_cpo_idr_per_kg,FY2023,11115.0,IDR/kg,AR_2023.pdf,100.0,annual report,
+consolidated,asp_cpo_idr_per_kg,FY2024,13156.0,IDR/kg,AR_2024.pdf,101.0,annual report,
+consolidated,asp_cpo_idr_per_kg,FY2025,14220.0,IDR/kg,TAPG_-_AR_2025.pdf,104.0,annual report,
+consolidated,asp_ffb_idr_per_kg,FY2020,1618.0,IDR/kg,AR 2021.pdf,97.0,annual report,
+consolidated,asp_ffb_idr_per_kg,FY2021,2171.0,IDR/kg,AR 2021.pdf,97.0,annual report,
+consolidated,asp_ffb_idr_per_kg,FY2022,3202.0,IDR/kg,AR_2022.pdf,104.0,annual report,
+consolidated,asp_pk_idr_per_kg,FY2020,4424.0,IDR/kg,AR 2021.pdf,97.0,annual report,
+consolidated,asp_pk_idr_per_kg,FY2021,7236.0,IDR/kg,AR 2021.pdf,97.0,annual report,
+consolidated,asp_pk_idr_per_kg,FY2022,8209.0,IDR/kg,AR_2022.pdf,104.0,annual report,
+consolidated,asp_pk_idr_per_kg,FY2023,5392.0,IDR/kg,AR_2023.pdf,100.0,annual report,
+consolidated,asp_pk_idr_per_kg,FY2024,7891.0,IDR/kg,AR_2024.pdf,101.0,annual report,
+consolidated,asp_pk_idr_per_kg,FY2025,11967.0,IDR/kg,TAPG_-_AR_2025.pdf,104.0,annual report,
+consolidated,asp_pko_idr_per_kg,FY2023,10985.0,IDR/kg,AR_2024.pdf,101.0,annual report,
+consolidated,asp_pko_idr_per_kg,FY2024,19101.0,IDR/kg,AR_2024.pdf,101.0,annual report,
+consolidated,asp_pko_idr_per_kg,FY2025,26212.0,IDR/kg,TAPG_-_AR_2025.pdf,104.0,annual report,
+consolidated,asp_rubber_rss_idr_per_kg,FY2020,21948.0,IDR/kg,AR 2021.pdf,97.0,annual report,
+consolidated,asp_rubber_rss_idr_per_kg,FY2021,25259.0,IDR/kg,AR 2021.pdf,97.0,annual report,
+consolidated,asp_rubber_rss_idr_per_kg,FY2022,24037.0,IDR/kg,AR_2022.pdf,104.0,annual report,
+consolidated,asp_rubber_rss_idr_per_kg,FY2023,22287.0,IDR/kg,AR_2023.pdf,100.0,annual report,
+consolidated,asp_rubber_rss_idr_per_kg,FY2024,32528.0,IDR/kg,AR_2024.pdf,101.0,annual report,
+consolidated,asp_rubber_rss_idr_per_kg,FY2025,33117.0,IDR/kg,TAPG_-_AR_2025.pdf,104.0,annual report,
+consolidated,asp_rubber_slab_idr_per_kg,FY2020,15690.0,IDR/kg,AR 2021.pdf,97.0,annual report,
+consolidated,asp_rubber_slab_idr_per_kg,FY2021,20466.0,IDR/kg,AR 2021.pdf,97.0,annual report,
+consolidated,asp_rubber_slab_idr_per_kg,FY2022,20969.0,IDR/kg,AR_2022.pdf,104.0,annual report,
+consolidated,asp_rubber_slab_idr_per_kg,FY2023,19103.0,IDR/kg,AR_2023.pdf,100.0,annual report,
+consolidated,asp_rubber_slab_idr_per_kg,FY2024,25111.0,IDR/kg,AR_2024.pdf,101.0,annual report,
+consolidated,asp_rubber_slab_idr_per_kg,FY2025,27713.0,IDR/kg,TAPG_-_AR_2025.pdf,104.0,annual report,
+consolidated,capex_fixed_assets,9M 2025,-457577.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,26.0,unaudited interim,Board of Directors' statement date
+consolidated,capex_fixed_assets,9M 2026,-522242.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,26.0,unaudited interim,Board of Directors' statement date
+consolidated,capex_fixed_assets,FY2020,-427222.0,IDR mn,AR 2021.pdf,213.0,audited (comparative),FS authorised-for-issue date (Directors)
+consolidated,capex_fixed_assets,FY2021,-455163.0,IDR mn,AR_2022.pdf,238.0,audited (comparative),auditor report date
+consolidated,capex_fixed_assets,FY2022,-738152.0,IDR mn,AR_2023.pdf,232.0,audited (comparative),auditor report date
+consolidated,capex_fixed_assets,FY2023,-802438.0,IDR mn,AR_2024.pdf,232.0,audited (comparative),auditor report date
+consolidated,capex_fixed_assets,FY2024,-587641.0,IDR mn,TAPG_-_AR_2025.pdf,247.0,audited (comparative),auditor report date
+consolidated,capex_fixed_assets,FY2025,-622694.0,IDR mn,TAPG_-_AR_2025.pdf,247.0,audited,auditor report date
+consolidated,capex_fixed_assets,H1 2025,-247260.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,26.0,unaudited interim,Board of Directors' statement date
+consolidated,capex_fixed_assets,H1 2026,-324269.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,26.0,unaudited interim,Board of Directors' statement date
+consolidated,capex_fixed_assets,Q1 2025,-133809.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,26.0,unaudited interim,Board of Directors' statement date
+consolidated,capex_fixed_assets,Q1 2026,-137562.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,26.0,unaudited interim,Board of Directors' statement date
+consolidated,cash,9M 2026,1937038.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,4.0,unaudited interim,Board of Directors' statement date
+consolidated,cash,FY2020,1489961.0,IDR mn,AR 2021.pdf,207.0,audited (comparative),FS authorised-for-issue date (Directors)
+consolidated,cash,FY2021,1280238.0,IDR mn,AR_2022.pdf,232.0,audited (comparative),auditor report date
+consolidated,cash,FY2022,1957773.0,IDR mn,AR_2023.pdf,226.0,audited (comparative),auditor report date
+consolidated,cash,FY2023,1006796.0,IDR mn,AR_2024.pdf,226.0,audited (comparative),auditor report date
+consolidated,cash,FY2024,1309216.0,IDR mn,TAPG_-_AR_2025.pdf,241.0,audited (comparative),auditor report date
+consolidated,cash,FY2025,1651433.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,4.0,audited (comparative in interim),Board of Directors' statement date
+consolidated,cash,H1 2026,1706296.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,4.0,unaudited interim,Board of Directors' statement date
+consolidated,cash,Q1 2026,2797577.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,4.0,unaudited interim,Board of Directors' statement date
+consolidated,cfo,9M 2025,2241586.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,26.0,unaudited interim,Board of Directors' statement date
+consolidated,cfo,9M 2026,2947167.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,26.0,unaudited interim,Board of Directors' statement date
+consolidated,cfo,FY2020,1551861.0,IDR mn,AR 2021.pdf,213.0,audited (comparative),FS authorised-for-issue date (Directors)
+consolidated,cfo,FY2021,1455015.0,IDR mn,AR_2022.pdf,238.0,audited (comparative),auditor report date
+consolidated,cfo,FY2022,3175480.0,IDR mn,AR_2023.pdf,232.0,audited (comparative),auditor report date
+consolidated,cfo,FY2023,1569363.0,IDR mn,AR_2024.pdf,232.0,audited (comparative),auditor report date
+consolidated,cfo,FY2024,3239185.0,IDR mn,TAPG_-_AR_2025.pdf,247.0,audited (comparative),auditor report date
+consolidated,cfo,FY2025,3431453.0,IDR mn,TAPG_-_AR_2025.pdf,247.0,audited,auditor report date
+consolidated,cfo,H1 2025,1341854.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,26.0,unaudited interim,Board of Directors' statement date
+consolidated,cfo,H1 2026,1619127.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,26.0,unaudited interim,Board of Directors' statement date
+consolidated,cfo,Q1 2025,773621.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,26.0,unaudited interim,Board of Directors' statement date
+consolidated,cfo,Q1 2026,654283.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,26.0,unaudited interim,Board of Directors' statement date
+consolidated,cogs_cost_of_goods_manufactured,FY2020,3820568.0,IDR mn,AR 2021.pdf,314.0,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+consolidated,cogs_cost_of_goods_manufactured,FY2021,4513423.0,IDR mn,AR 2021.pdf,314.0,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+consolidated,cogs_cost_of_goods_manufactured,FY2022,5620309.0,IDR mn,AR_2022.pdf,338.0,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+consolidated,cogs_cpo_pk_processing,FY2020,105744.0,IDR mn,AR 2021.pdf,314.0,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+consolidated,cogs_cpo_pk_processing,FY2021,114593.0,IDR mn,AR 2021.pdf,314.0,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+consolidated,cogs_cpo_pk_processing,FY2022,156350.0,IDR mn,AR_2022.pdf,338.0,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+consolidated,cogs_cpo_purchases,FY2020,0.0,IDR mn,AR 2021.pdf,314.0,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+consolidated,cogs_cpo_purchases,FY2021,115888.0,IDR mn,AR 2021.pdf,314.0,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+consolidated,cogs_cpo_purchases,FY2022,53507.0,IDR mn,AR_2022.pdf,338.0,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+consolidated,cogs_depreciation_ffb,FY2020,385698.0,IDR mn,AR 2021.pdf,314.0,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+consolidated,cogs_depreciation_ffb,FY2021,402335.0,IDR mn,AR 2021.pdf,314.0,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+consolidated,cogs_depreciation_ffb,FY2022,392984.0,IDR mn,AR_2022.pdf,338.0,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+consolidated,cogs_ffb_production_cost,FY2020,1935415.0,IDR mn,AR 2021.pdf,314.0,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+consolidated,cogs_ffb_production_cost,FY2021,1910131.0,IDR mn,AR 2021.pdf,314.0,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+consolidated,cogs_ffb_production_cost,FY2022,2396284.0,IDR mn,AR_2022.pdf,338.0,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+consolidated,cogs_ffb_purchases,FY2020,1641547.0,IDR mn,AR 2021.pdf,314.0,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+consolidated,cogs_ffb_purchases,FY2021,2357621.0,IDR mn,AR 2021.pdf,314.0,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+consolidated,cogs_ffb_purchases,FY2022,2851365.0,IDR mn,AR_2022.pdf,338.0,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+consolidated,cogs_harvesting,FY2020,388325.0,IDR mn,AR 2021.pdf,314.0,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+consolidated,cogs_harvesting,FY2021,406488.0,IDR mn,AR 2021.pdf,314.0,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+consolidated,cogs_harvesting,FY2022,554874.0,IDR mn,AR_2022.pdf,338.0,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+consolidated,cogs_indirect_allocation_ffb,FY2020,405375.0,IDR mn,AR 2021.pdf,314.0,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+consolidated,cogs_indirect_allocation_ffb,FY2021,425179.0,IDR mn,AR 2021.pdf,314.0,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+consolidated,cogs_indirect_allocation_ffb,FY2022,507016.0,IDR mn,AR_2022.pdf,338.0,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+consolidated,cogs_mill_depreciation,FY2020,122549.0,IDR mn,AR 2021.pdf,314.0,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+consolidated,cogs_mill_depreciation,FY2021,128608.0,IDR mn,AR 2021.pdf,314.0,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+consolidated,cogs_mill_depreciation,FY2022,154918.0,IDR mn,AR_2022.pdf,338.0,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+consolidated,cogs_mill_indirect_allocation,FY2020,64980.0,IDR mn,AR 2021.pdf,314.0,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+consolidated,cogs_mill_indirect_allocation,FY2021,62447.0,IDR mn,AR 2021.pdf,314.0,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+consolidated,cogs_mill_indirect_allocation,FY2022,76216.0,IDR mn,AR_2022.pdf,338.0,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+consolidated,cogs_palm_depreciation,FY2022,547902.0,IDR mn,AR_2023.pdf,325.0,annual report,
+consolidated,cogs_palm_depreciation,FY2023,619611.0,IDR mn,AR_2023.pdf,325.0,annual report,
+consolidated,cogs_palm_depreciation,FY2024,650363.0,IDR mn,TAPG_-_AR_2025.pdf,337.0,annual report,
+consolidated,cogs_palm_depreciation,FY2025,683230.0,IDR mn,TAPG_-_AR_2025.pdf,337.0,annual report,
+consolidated,cogs_palm_direct_labour,FY2022,628117.0,IDR mn,AR_2023.pdf,325.0,annual report,
+consolidated,cogs_palm_direct_labour,FY2023,693806.0,IDR mn,AR_2023.pdf,325.0,annual report,
+consolidated,cogs_palm_direct_labour,FY2024,689826.0,IDR mn,TAPG_-_AR_2025.pdf,337.0,annual report,
+consolidated,cogs_palm_direct_labour,FY2025,731697.0,IDR mn,TAPG_-_AR_2025.pdf,337.0,annual report,
+consolidated,cogs_palm_materials_processing,FY2022,3876917.0,IDR mn,AR_2023.pdf,325.0,annual report,raw & supporting materials incl. purchased FFB and processing; not split further
+consolidated,cogs_palm_materials_processing,FY2023,3946612.0,IDR mn,AR_2023.pdf,325.0,annual report,raw & supporting materials incl. purchased FFB and processing; not split further
+consolidated,cogs_palm_materials_processing,FY2024,3842031.0,IDR mn,TAPG_-_AR_2025.pdf,337.0,annual report,raw & supporting materials incl. purchased FFB and processing; not split further
+consolidated,cogs_palm_materials_processing,FY2025,4439387.0,IDR mn,TAPG_-_AR_2025.pdf,337.0,annual report,raw & supporting materials incl. purchased FFB and processing; not split further
+consolidated,cogs_palm_overhead,FY2022,583232.0,IDR mn,AR_2023.pdf,325.0,annual report,
+consolidated,cogs_palm_overhead,FY2023,710428.0,IDR mn,AR_2023.pdf,325.0,annual report,
+consolidated,cogs_palm_overhead,FY2024,742111.0,IDR mn,TAPG_-_AR_2025.pdf,337.0,annual report,
+consolidated,cogs_palm_overhead,FY2025,870294.0,IDR mn,TAPG_-_AR_2025.pdf,337.0,annual report,
+consolidated,cogs_palm_production_cost,FY2024,5924331.0,IDR mn,TAPG_-_AR_2025.pdf,337.0,annual report,
+consolidated,cogs_palm_production_cost,FY2025,6724608.0,IDR mn,TAPG_-_AR_2025.pdf,337.0,annual report,
+consolidated,cogs_palm_total,FY2024,5920116.0,IDR mn,TAPG_-_AR_2025.pdf,337.0,annual report,
+consolidated,cogs_palm_total,FY2025,6876533.0,IDR mn,TAPG_-_AR_2025.pdf,337.0,annual report,
+consolidated,cogs_total,FY2020,3872987.0,IDR mn,AR 2021.pdf,315.0,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+consolidated,cogs_total,FY2021,4662334.0,IDR mn,AR 2021.pdf,315.0,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+consolidated,cogs_total,FY2022,5629777.0,IDR mn,AR_2022.pdf,339.0,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+consolidated,cogs_upkeep,FY2020,756017.0,IDR mn,AR 2021.pdf,314.0,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+consolidated,cogs_upkeep,FY2021,676129.0,IDR mn,AR 2021.pdf,314.0,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+consolidated,cogs_upkeep,FY2022,941410.0,IDR mn,AR_2022.pdf,338.0,audited,old presentation (to FY2022); FFB purchases cover plasma and third-party FFB
+consolidated,cost_of_sales,9M 2025,-5080910.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,cost_of_sales,9M 2026,-5329988.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,cost_of_sales,FY2020,-3872987.0,IDR mn,AR 2021.pdf,210.0,audited (comparative),FS authorised-for-issue date (Directors)
+consolidated,cost_of_sales,FY2021,-4662334.0,IDR mn,AR_2022.pdf,235.0,audited (comparative),auditor report date
+consolidated,cost_of_sales,FY2022,-5629777.0,IDR mn,AR_2023.pdf,229.0,audited (comparative),auditor report date
+consolidated,cost_of_sales,FY2023,-6108590.0,IDR mn,AR_2024.pdf,229.0,audited (comparative),auditor report date
+consolidated,cost_of_sales,FY2024,-5948685.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,audited (comparative),auditor report date
+consolidated,cost_of_sales,FY2025,-6904581.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,audited,auditor report date
+consolidated,cost_of_sales,H1 2025,-3472270.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,cost_of_sales,H1 2026,-3444058.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,cost_of_sales,Q1 2025,-1708314.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,cost_of_sales,Q1 2026,-1636028.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,dividends_paid,9M 2025,-2382995.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,31.0,unaudited interim,Board of Directors' statement date
+consolidated,dividends_paid,9M 2026,-3103473.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,31.0,unaudited interim,Board of Directors' statement date
+consolidated,dividends_paid,FY2020,0.0,IDR mn,AR 2021.pdf,214.0,audited (comparative),FS authorised-for-issue date (Directors)
+consolidated,dividends_paid,FY2021,-299972.0,IDR mn,AR_2022.pdf,239.0,audited (comparative),auditor report date
+consolidated,dividends_paid,FY2022,-496314.0,IDR mn,AR_2023.pdf,233.0,audited (comparative),auditor report date
+consolidated,dividends_paid,FY2023,-754397.0,IDR mn,AR_2024.pdf,233.0,audited (comparative),auditor report date
+consolidated,dividends_paid,FY2024,-3315374.0,IDR mn,TAPG_-_AR_2025.pdf,248.0,audited (comparative),auditor report date
+consolidated,dividends_paid,FY2025,-3275669.0,IDR mn,TAPG_-_AR_2025.pdf,248.0,audited,auditor report date
+consolidated,dividends_paid,H1 2025,-1570640.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,31.0,unaudited interim,Board of Directors' statement date
+consolidated,dividends_paid,H1 2026,-1872419.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,31.0,unaudited interim,Board of Directors' statement date
+consolidated,dividends_paid,Q1 2025,-0.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,31.0,unaudited interim,Board of Directors' statement date
+consolidated,dividends_paid,Q1 2026,-0.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,31.0,unaudited interim,Board of Directors' statement date
+consolidated,dividends_received_jv,9M 2025,958807.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,29.0,unaudited interim,Board of Directors' statement date
+consolidated,dividends_received_jv,9M 2026,900000.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,29.0,unaudited interim,Board of Directors' statement date
+consolidated,dividends_received_jv,FY2020,50000.0,IDR mn,AR 2021.pdf,213.0,audited (comparative),FS authorised-for-issue date (Directors)
+consolidated,dividends_received_jv,FY2021,150000.0,IDR mn,AR_2022.pdf,238.0,audited (comparative),auditor report date
+consolidated,dividends_received_jv,FY2022,150000.0,IDR mn,AR_2023.pdf,232.0,audited (comparative),auditor report date
+consolidated,dividends_received_jv,FY2023,300000.0,IDR mn,AR_2024.pdf,232.0,audited (comparative),auditor report date
+consolidated,dividends_received_jv,FY2024,1170000.0,IDR mn,TAPG_-_AR_2025.pdf,247.0,audited (comparative),auditor report date
+consolidated,dividends_received_jv,FY2025,958807.0,IDR mn,TAPG_-_AR_2025.pdf,247.0,audited,auditor report date
+consolidated,dividends_received_jv,H1 2025,504577.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,29.0,unaudited interim,Board of Directors' statement date
+consolidated,dividends_received_jv,H1 2026,450000.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,29.0,unaudited interim,Board of Directors' statement date
+consolidated,dividends_received_jv,Q1 2025,500000.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,29.0,unaudited interim,Board of Directors' statement date
+consolidated,dividends_received_jv,Q1 2026,450000.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,29.0,unaudited interim,Board of Directors' statement date
+consolidated,fa_additions_buildings_infrastructure,FY2020,49648.0,IDR mn,AR 2021.pdf,271.0,audited,"class: buildings & infrastructure (estates and mills, not split); row tokens ['1.508.751', '49.648', '5', '193.192', '1.751.586']"
+consolidated,fa_additions_buildings_infrastructure,FY2021,31139.0,IDR mn,AR_2022.pdf,296.0,audited,"class: buildings & infrastructure (estates and mills, not split); row tokens ['1.751.586', '31.139', '-', '105.664', '1.888.389']"
+consolidated,fa_additions_buildings_infrastructure,FY2022,49496.0,IDR mn,AR_2023.pdf,287.0,audited,"class: buildings & infrastructure (estates and mills, not split); row tokens ['1.888.389', '49.496', '-', '179.949', '2.117.834']"
+consolidated,fa_additions_buildings_infrastructure,FY2023,83147.0,IDR mn,AR_2024.pdf,287.0,audited,"class: buildings & infrastructure (estates and mills, not split); row tokens ['2.117.834', '83.147', '526', '155.477', '2.355.932']"
+consolidated,fa_additions_buildings_infrastructure,FY2024,138857.0,IDR mn,TAPG_-_AR_2025.pdf,300.0,audited,"class: buildings & infrastructure (estates and mills, not split); row tokens ['2.355.932', '138.857', '-', '76.528', '2.571.317']"
+consolidated,fa_additions_buildings_infrastructure,FY2025,54129.0,IDR mn,TAPG_-_AR_2025.pdf,299.0,audited,"class: buildings & infrastructure (estates and mills, not split); row tokens ['2.571.317', '54.129', '1.298', '117.970', '2.742.118']"
+consolidated,fa_additions_construction_in_progress,FY2020,219514.0,IDR mn,AR 2021.pdf,271.0,audited,"class: construction in progress (unallocated); row tokens ['332.484', '219.514', '-', '(361.261)', '190.737']"
+consolidated,fa_additions_construction_in_progress,FY2021,256308.0,IDR mn,AR_2022.pdf,296.0,audited,"class: construction in progress (unallocated); row tokens ['190.737', '256.308', '-', '(151.205)', '295.840']"
+consolidated,fa_additions_construction_in_progress,FY2022,296404.0,IDR mn,AR_2023.pdf,287.0,audited,"class: construction in progress (unallocated); row tokens ['295.840', '296.404', '-', '(405.895)', '186.349']"
+consolidated,fa_additions_construction_in_progress,FY2023,292474.0,IDR mn,AR_2024.pdf,287.0,audited,"class: construction in progress (unallocated); row tokens ['186.349', '292.474', '-', '(301.056)', '177.767']"
+consolidated,fa_additions_construction_in_progress,FY2024,202748.0,IDR mn,TAPG_-_AR_2025.pdf,300.0,audited,"class: construction in progress (unallocated); row tokens ['177.767', '202.748', '-', '(137.203)', '243.312']"
+consolidated,fa_additions_construction_in_progress,FY2025,305404.0,IDR mn,TAPG_-_AR_2025.pdf,299.0,audited,"class: construction in progress (unallocated); row tokens ['243.312', '305.404', '-', '(142.226)', '406.490']"
+consolidated,fa_additions_equipment_furniture,FY2020,13805.0,IDR mn,AR 2021.pdf,271.0,audited,"class: other; row tokens ['123.198', '13.805', '316', '3.043', '139.730']"
+consolidated,fa_additions_equipment_furniture,FY2021,11765.0,IDR mn,AR_2022.pdf,296.0,audited,"class: other; row tokens ['139.730', '11.765', '173', '1.197', '152.519']"
+consolidated,fa_additions_equipment_furniture,FY2022,15411.0,IDR mn,AR_2023.pdf,287.0,audited,"class: other; row tokens ['152.519', '15.411', '132', '5.326', '173.124']"
+consolidated,fa_additions_equipment_furniture,FY2023,30457.0,IDR mn,AR_2024.pdf,287.0,audited,"class: other; row tokens ['173.124', '30.457', '4.701', '6.876', '205.756']"
+consolidated,fa_additions_equipment_furniture,FY2024,31941.0,IDR mn,TAPG_-_AR_2025.pdf,300.0,audited,"class: other; row tokens ['205.756', '31.941', '2.698', '(781)', '234.218']"
+consolidated,fa_additions_equipment_furniture,FY2025,22542.0,IDR mn,TAPG_-_AR_2025.pdf,299.0,audited,"class: other; row tokens ['234.218', '22.542', '767', '497', '256.490']"
+consolidated,fa_additions_immature_oil_palm,FY2020,79266.0,IDR mn,AR 2021.pdf,271.0,audited,"class: plantation (bearer plants); row tokens ['412.739', '79.266', '1.295', '(246.064)', '244.646']"
+consolidated,fa_additions_immature_oil_palm,FY2021,75481.0,IDR mn,AR_2022.pdf,296.0,audited,"class: plantation (bearer plants); row tokens ['244.646', '75.481', '-', '(14.304)', '305.823']"
+consolidated,fa_additions_immature_oil_palm,FY2022,94900.0,IDR mn,AR_2023.pdf,287.0,audited,"class: plantation (bearer plants); row tokens ['305.823', '94.900', '-', '(100.759)', '299.964']"
+consolidated,fa_additions_immature_oil_palm,FY2023,105655.0,IDR mn,AR_2024.pdf,287.0,audited,"class: plantation (bearer plants); row tokens ['299.964', '105.655', '-', '(140.831)', '264.788']"
+consolidated,fa_additions_immature_oil_palm,FY2024,91469.0,IDR mn,TAPG_-_AR_2025.pdf,300.0,audited,"class: plantation (bearer plants); row tokens ['264.788', '91.469', '-', '(72.030)', '284.227']"
+consolidated,fa_additions_immature_oil_palm,FY2025,105929.0,IDR mn,TAPG_-_AR_2025.pdf,299.0,audited,"class: plantation (bearer plants); row tokens ['284.227', '105.929', '-', '(95.527)', '294.629']"
+consolidated,fa_additions_immature_rubber,FY2020,13540.0,IDR mn,AR 2021.pdf,271.0,audited,"class: plantation (bearer plants); row tokens ['78.208', '13.540', '(6.622)', '85.126']"
+consolidated,fa_additions_immature_rubber,FY2021,9105.0,IDR mn,AR_2022.pdf,296.0,audited,"class: plantation (bearer plants); row tokens ['85.126', '9.105', '-', '(57.112)', '37.119']"
+consolidated,fa_additions_immature_rubber,FY2022,10148.0,IDR mn,AR_2023.pdf,287.0,audited,"class: plantation (bearer plants); row tokens ['37.119', '10.148', '-', '(24.174)', '23.093']"
+consolidated,fa_additions_immature_rubber,FY2023,9295.0,IDR mn,AR_2024.pdf,287.0,audited,"class: plantation (bearer plants); row tokens ['23.093', '9.295', '-', '-', '32.388']"
+consolidated,fa_additions_immature_rubber,FY2024,7515.0,IDR mn,TAPG_-_AR_2025.pdf,300.0,audited,"class: plantation (bearer plants); row tokens ['32.388', '7.515', '-', '(3.370)', '36.533']"
+consolidated,fa_additions_immature_rubber,FY2025,6375.0,IDR mn,TAPG_-_AR_2025.pdf,299.0,audited,"class: plantation (bearer plants); row tokens ['36.533', '6.375', '579', '(2.904)', '39.425']"
+consolidated,fa_additions_land,FY2020,5788.0,IDR mn,AR 2021.pdf,271.0,audited,"class: land; row tokens ['463.565', '5.788', '-', '-', '469.353']"
+consolidated,fa_additions_land,FY2021,1982.0,IDR mn,AR_2022.pdf,296.0,audited,"class: land; row tokens ['469.353', '1.982', '-', '-', '471.335']"
+consolidated,fa_additions_land,FY2022,1692.0,IDR mn,AR_2023.pdf,287.0,audited,"class: land; row tokens ['471.335', '1.692', '-', '-', '473.027']"
+consolidated,fa_additions_land,FY2023,1450.0,IDR mn,AR_2024.pdf,287.0,audited,"class: land; row tokens ['473.027', '1.450', '4.553', '-', '469.924']"
+consolidated,fa_additions_land,FY2024,5855.0,IDR mn,TAPG_-_AR_2025.pdf,300.0,audited,"class: land; row tokens ['469.924', '5.855', '-', '-', '475.779']"
+consolidated,fa_additions_land,FY2025,18224.0,IDR mn,TAPG_-_AR_2025.pdf,299.0,audited,"class: land; row tokens ['475.779', '18.224', '-', '-', '494.003']"
+consolidated,fa_additions_machinery_installations,FY2020,28595.0,IDR mn,AR 2021.pdf,271.0,audited,"class: machinery & installations (mill-heavy, not split); row tokens ['855.019', '28.595', '373', '159.196', '1.042.437']"
+consolidated,fa_additions_machinery_installations,FY2021,37533.0,IDR mn,AR_2022.pdf,296.0,audited,"class: machinery & installations (mill-heavy, not split); row tokens ['1.042.437', '37.533', '175', '44.279', '1.124.074']"
+consolidated,fa_additions_machinery_installations,FY2022,48421.0,IDR mn,AR_2023.pdf,287.0,audited,"class: machinery & installations (mill-heavy, not split); row tokens ['1.124.074', '48.421', '312', '215.830', '1.388.013']"
+consolidated,fa_additions_machinery_installations,FY2023,41686.0,IDR mn,AR_2024.pdf,287.0,audited,"class: machinery & installations (mill-heavy, not split); row tokens ['1.388.013', '41.686', '382', '136.940', '1.566.257']"
+consolidated,fa_additions_machinery_installations,FY2024,36468.0,IDR mn,TAPG_-_AR_2025.pdf,300.0,audited,"class: machinery & installations (mill-heavy, not split); row tokens ['1.566.257', '36.468', '1.783', '61.277', '1.662.219']"
+consolidated,fa_additions_machinery_installations,FY2025,38813.0,IDR mn,TAPG_-_AR_2025.pdf,299.0,audited,"class: machinery & installations (mill-heavy, not split); row tokens ['1.662.219', '38.813', '3.747', '23.759', '1.721.044']"
+consolidated,fa_additions_mature_oil_palm,FY2020,0.0,IDR mn,AR 2021.pdf,271.0,audited,"class: plantation (bearer plants); row tokens ['5.300.083', '-', '3.790', '247.522', '5.543.815']"
+consolidated,fa_additions_mature_oil_palm,FY2021,0.0,IDR mn,AR_2022.pdf,296.0,audited,"class: plantation (bearer plants); row tokens ['5.543.815', '-', '7.516', '16.104', '5.552.403']"
+consolidated,fa_additions_mature_oil_palm,FY2022,0.0,IDR mn,AR_2023.pdf,287.0,audited,"class: plantation (bearer plants); row tokens ['5.552.403', '-', '9.810', '105.476', '5.648.069']"
+consolidated,fa_additions_mature_oil_palm,FY2023,0.0,IDR mn,AR_2024.pdf,287.0,audited,"class: plantation (bearer plants); row tokens ['5.648.069', '-', '29.165', '146.696', '5.765.600']"
+consolidated,fa_additions_mature_oil_palm,FY2024,0.0,IDR mn,TAPG_-_AR_2025.pdf,300.0,audited,"class: plantation (bearer plants); row tokens ['5.765.600', '-', '23.562', '73.396', '5.815.434']"
+consolidated,fa_additions_mature_oil_palm,FY2025,0.0,IDR mn,TAPG_-_AR_2025.pdf,299.0,audited,"class: plantation (bearer plants); row tokens ['5.815.434', '-', '152.623', '99.096', '5.761.907']"
+consolidated,fa_additions_mature_rubber,FY2020,0.0,IDR mn,AR 2021.pdf,271.0,audited,"class: plantation (bearer plants); row tokens ['3.774', '-', '338', '7.860', '11.296']"
+consolidated,fa_additions_mature_rubber,FY2021,0.0,IDR mn,AR_2022.pdf,296.0,audited,"class: plantation (bearer plants); row tokens ['11.296', '-', '1.913', '58.069', '67.452']"
+consolidated,fa_additions_mature_rubber,FY2022,0.0,IDR mn,AR_2023.pdf,287.0,audited,"class: plantation (bearer plants); row tokens ['67.452', '-', '-', '24.627', '92.079']"
+consolidated,fa_additions_mature_rubber,FY2023,0.0,IDR mn,AR_2024.pdf,287.0,audited,"class: plantation (bearer plants); row tokens ['92.079', '-', '-', '-', '92.079']"
+consolidated,fa_additions_mature_rubber,FY2024,0.0,IDR mn,TAPG_-_AR_2025.pdf,300.0,audited,"class: plantation (bearer plants); row tokens ['92.079', '-', '-', '3.532', '95.611']"
+consolidated,fa_additions_mature_rubber,FY2025,0.0,IDR mn,TAPG_-_AR_2025.pdf,299.0,audited,"class: plantation (bearer plants); row tokens ['95.611', '-', '1.842', '2.904', '96.673']"
+consolidated,fa_additions_nursery,FY2020,12860.0,IDR mn,AR 2021.pdf,271.0,audited,"class: plantation (bearer plants); row tokens ['31.598', '12.860', '2.969', '(2.696)', '38.793']"
+consolidated,fa_additions_nursery,FY2021,9676.0,IDR mn,AR_2022.pdf,296.0,audited,"class: plantation (bearer plants); row tokens ['38.793', '9.676', '2.783', '(2.757)', '42.929']"
+consolidated,fa_additions_nursery,FY2022,9019.0,IDR mn,AR_2023.pdf,287.0,audited,"class: plantation (bearer plants); row tokens ['42.929', '9.019', '7.962', '(5.170)', '38.816']"
+consolidated,fa_additions_nursery,FY2023,3284.0,IDR mn,AR_2024.pdf,287.0,audited,"class: plantation (bearer plants); row tokens ['38.816', '3.284', '-', '(5.865)', '36.235']"
+consolidated,fa_additions_nursery,FY2024,9585.0,IDR mn,TAPG_-_AR_2025.pdf,300.0,audited,"class: plantation (bearer plants); row tokens ['36.235', '9.585', '-', '(1.528)', '44.292']"
+consolidated,fa_additions_nursery,FY2025,14615.0,IDR mn,TAPG_-_AR_2025.pdf,299.0,audited,"class: plantation (bearer plants); row tokens ['44.292', '14.615', '9.461', '(3.569)', '45.877']"
+consolidated,fa_additions_total_cost,FY2020,459092.0,IDR mn,AR 2021.pdf,271.0,audited,"class: total; row tokens ['9.764.990', '459.092', '23.488', '-', '10.200.594']"
+consolidated,fa_additions_total_cost,FY2021,476207.0,IDR mn,AR_2022.pdf,296.0,audited,"class: total; row tokens ['10.200.594', '476.207', '28.490', '-', '10.648.311']"
+consolidated,fa_additions_total_cost,FY2022,756996.0,IDR mn,AR_2023.pdf,287.0,audited,"class: total; row tokens ['10.648.311', '756.996', '40.821', '-', '11.364.486']"
+consolidated,fa_additions_total_cost,FY2023,858824.0,IDR mn,AR_2024.pdf,287.0,audited,"class: total; row tokens ['11.364.486', '858.824', '57.301', '-', '12.166.009']"
+consolidated,fa_additions_total_cost,FY2024,603162.0,IDR mn,TAPG_-_AR_2025.pdf,300.0,audited,"class: total; row tokens ['12.166.009', '603.162', '80.953', '-', '12.688.218']"
+consolidated,fa_additions_total_cost,FY2025,647908.0,IDR mn,TAPG_-_AR_2025.pdf,299.0,audited,"class: total; row tokens ['12.688.218', '647.908', '246.981', '-', '13.089.145']"
+consolidated,fa_additions_vehicles_heavy_equipment,FY2020,36076.0,IDR mn,AR 2021.pdf,271.0,audited,"class: vehicles & heavy equipment; row tokens ['645.638', '36.076', '14.402', '15.763', '683.075']"
+consolidated,fa_additions_vehicles_heavy_equipment,FY2021,43218.0,IDR mn,AR_2022.pdf,296.0,audited,"class: vehicles & heavy equipment; row tokens ['683.075', '43.218', '15.930', '65', '710.428']"
+consolidated,fa_additions_vehicles_heavy_equipment,FY2022,231505.0,IDR mn,AR_2023.pdf,287.0,audited,"class: vehicles & heavy equipment; row tokens ['710.428', '231.505', '22.605', '4.790', '924.118']"
+consolidated,fa_additions_vehicles_heavy_equipment,FY2023,291376.0,IDR mn,AR_2024.pdf,287.0,audited,"class: vehicles & heavy equipment; row tokens ['924.118', '291.376', '17.974', '1.763', '1.199.283']"
+consolidated,fa_additions_vehicles_heavy_equipment,FY2024,78724.0,IDR mn,TAPG_-_AR_2025.pdf,300.0,audited,"class: vehicles & heavy equipment; row tokens ['1.199.283', '78.724', '52.910', '179', '1.225.276']"
+consolidated,fa_additions_vehicles_heavy_equipment,FY2025,81877.0,IDR mn,TAPG_-_AR_2025.pdf,299.0,audited,"class: vehicles & heavy equipment; row tokens ['1.225.276', '81.877', '76.664', '-', '1.230.489']"
+consolidated,fa_ending_cost_buildings_infrastructure,FY2020,1751586.0,IDR mn,AR 2021.pdf,271.0,audited,
+consolidated,fa_ending_cost_buildings_infrastructure,FY2021,1888389.0,IDR mn,AR_2022.pdf,296.0,audited,
+consolidated,fa_ending_cost_buildings_infrastructure,FY2022,2117834.0,IDR mn,AR_2023.pdf,287.0,audited,
+consolidated,fa_ending_cost_buildings_infrastructure,FY2023,2355932.0,IDR mn,AR_2024.pdf,287.0,audited,
+consolidated,fa_ending_cost_buildings_infrastructure,FY2024,2571317.0,IDR mn,TAPG_-_AR_2025.pdf,300.0,audited,
+consolidated,fa_ending_cost_buildings_infrastructure,FY2025,2742118.0,IDR mn,TAPG_-_AR_2025.pdf,299.0,audited,
+consolidated,fa_ending_cost_construction_in_progress,FY2020,190737.0,IDR mn,AR 2021.pdf,271.0,audited,
+consolidated,fa_ending_cost_construction_in_progress,FY2021,295840.0,IDR mn,AR_2022.pdf,296.0,audited,
+consolidated,fa_ending_cost_construction_in_progress,FY2022,186349.0,IDR mn,AR_2023.pdf,287.0,audited,
+consolidated,fa_ending_cost_construction_in_progress,FY2023,177767.0,IDR mn,AR_2024.pdf,287.0,audited,
+consolidated,fa_ending_cost_construction_in_progress,FY2024,243312.0,IDR mn,TAPG_-_AR_2025.pdf,300.0,audited,
+consolidated,fa_ending_cost_construction_in_progress,FY2025,406490.0,IDR mn,TAPG_-_AR_2025.pdf,299.0,audited,
+consolidated,fa_ending_cost_equipment_furniture,FY2020,139730.0,IDR mn,AR 2021.pdf,271.0,audited,
+consolidated,fa_ending_cost_equipment_furniture,FY2021,152519.0,IDR mn,AR_2022.pdf,296.0,audited,
+consolidated,fa_ending_cost_equipment_furniture,FY2022,173124.0,IDR mn,AR_2023.pdf,287.0,audited,
+consolidated,fa_ending_cost_equipment_furniture,FY2023,205756.0,IDR mn,AR_2024.pdf,287.0,audited,
+consolidated,fa_ending_cost_equipment_furniture,FY2024,234218.0,IDR mn,TAPG_-_AR_2025.pdf,300.0,audited,
+consolidated,fa_ending_cost_equipment_furniture,FY2025,256490.0,IDR mn,TAPG_-_AR_2025.pdf,299.0,audited,
+consolidated,fa_ending_cost_immature_oil_palm,FY2020,244646.0,IDR mn,AR 2021.pdf,271.0,audited,
+consolidated,fa_ending_cost_immature_oil_palm,FY2021,305823.0,IDR mn,AR_2022.pdf,296.0,audited,
+consolidated,fa_ending_cost_immature_oil_palm,FY2022,299964.0,IDR mn,AR_2023.pdf,287.0,audited,
+consolidated,fa_ending_cost_immature_oil_palm,FY2023,264788.0,IDR mn,AR_2024.pdf,287.0,audited,
+consolidated,fa_ending_cost_immature_oil_palm,FY2024,284227.0,IDR mn,TAPG_-_AR_2025.pdf,300.0,audited,
+consolidated,fa_ending_cost_immature_oil_palm,FY2025,294629.0,IDR mn,TAPG_-_AR_2025.pdf,299.0,audited,
+consolidated,fa_ending_cost_immature_rubber,FY2020,85126.0,IDR mn,AR 2021.pdf,271.0,audited,
+consolidated,fa_ending_cost_immature_rubber,FY2021,37119.0,IDR mn,AR_2022.pdf,296.0,audited,
+consolidated,fa_ending_cost_immature_rubber,FY2022,23093.0,IDR mn,AR_2023.pdf,287.0,audited,
+consolidated,fa_ending_cost_immature_rubber,FY2023,32388.0,IDR mn,AR_2024.pdf,287.0,audited,
+consolidated,fa_ending_cost_immature_rubber,FY2024,36533.0,IDR mn,TAPG_-_AR_2025.pdf,300.0,audited,
+consolidated,fa_ending_cost_immature_rubber,FY2025,39425.0,IDR mn,TAPG_-_AR_2025.pdf,299.0,audited,
+consolidated,fa_ending_cost_land,FY2020,469353.0,IDR mn,AR 2021.pdf,271.0,audited,
+consolidated,fa_ending_cost_land,FY2021,471335.0,IDR mn,AR_2022.pdf,296.0,audited,
+consolidated,fa_ending_cost_land,FY2022,473027.0,IDR mn,AR_2023.pdf,287.0,audited,
+consolidated,fa_ending_cost_land,FY2023,469924.0,IDR mn,AR_2024.pdf,287.0,audited,
+consolidated,fa_ending_cost_land,FY2024,475779.0,IDR mn,TAPG_-_AR_2025.pdf,300.0,audited,
+consolidated,fa_ending_cost_land,FY2025,494003.0,IDR mn,TAPG_-_AR_2025.pdf,299.0,audited,
+consolidated,fa_ending_cost_machinery_installations,FY2020,1042437.0,IDR mn,AR 2021.pdf,271.0,audited,
+consolidated,fa_ending_cost_machinery_installations,FY2021,1124074.0,IDR mn,AR_2022.pdf,296.0,audited,
+consolidated,fa_ending_cost_machinery_installations,FY2022,1388013.0,IDR mn,AR_2023.pdf,287.0,audited,
+consolidated,fa_ending_cost_machinery_installations,FY2023,1566257.0,IDR mn,AR_2024.pdf,287.0,audited,
+consolidated,fa_ending_cost_machinery_installations,FY2024,1662219.0,IDR mn,TAPG_-_AR_2025.pdf,300.0,audited,
+consolidated,fa_ending_cost_machinery_installations,FY2025,1721044.0,IDR mn,TAPG_-_AR_2025.pdf,299.0,audited,
+consolidated,fa_ending_cost_mature_oil_palm,FY2020,5543815.0,IDR mn,AR 2021.pdf,271.0,audited,
+consolidated,fa_ending_cost_mature_oil_palm,FY2021,5552403.0,IDR mn,AR_2022.pdf,296.0,audited,
+consolidated,fa_ending_cost_mature_oil_palm,FY2022,5648069.0,IDR mn,AR_2023.pdf,287.0,audited,
+consolidated,fa_ending_cost_mature_oil_palm,FY2023,5765600.0,IDR mn,AR_2024.pdf,287.0,audited,
+consolidated,fa_ending_cost_mature_oil_palm,FY2024,5815434.0,IDR mn,TAPG_-_AR_2025.pdf,300.0,audited,
+consolidated,fa_ending_cost_mature_oil_palm,FY2025,5761907.0,IDR mn,TAPG_-_AR_2025.pdf,299.0,audited,
+consolidated,fa_ending_cost_mature_rubber,FY2020,11296.0,IDR mn,AR 2021.pdf,271.0,audited,
+consolidated,fa_ending_cost_mature_rubber,FY2021,67452.0,IDR mn,AR_2022.pdf,296.0,audited,
+consolidated,fa_ending_cost_mature_rubber,FY2022,92079.0,IDR mn,AR_2023.pdf,287.0,audited,
+consolidated,fa_ending_cost_mature_rubber,FY2023,92079.0,IDR mn,AR_2024.pdf,287.0,audited,
+consolidated,fa_ending_cost_mature_rubber,FY2024,95611.0,IDR mn,TAPG_-_AR_2025.pdf,300.0,audited,
+consolidated,fa_ending_cost_mature_rubber,FY2025,96673.0,IDR mn,TAPG_-_AR_2025.pdf,299.0,audited,
+consolidated,fa_ending_cost_nursery,FY2020,38793.0,IDR mn,AR 2021.pdf,271.0,audited,
+consolidated,fa_ending_cost_nursery,FY2021,42929.0,IDR mn,AR_2022.pdf,296.0,audited,
+consolidated,fa_ending_cost_nursery,FY2022,38816.0,IDR mn,AR_2023.pdf,287.0,audited,
+consolidated,fa_ending_cost_nursery,FY2023,36235.0,IDR mn,AR_2024.pdf,287.0,audited,
+consolidated,fa_ending_cost_nursery,FY2024,44292.0,IDR mn,TAPG_-_AR_2025.pdf,300.0,audited,
+consolidated,fa_ending_cost_nursery,FY2025,45877.0,IDR mn,TAPG_-_AR_2025.pdf,299.0,audited,
+consolidated,fa_ending_cost_total_cost,FY2020,10200594.0,IDR mn,AR 2021.pdf,271.0,audited,
+consolidated,fa_ending_cost_total_cost,FY2021,10648311.0,IDR mn,AR_2022.pdf,296.0,audited,
+consolidated,fa_ending_cost_total_cost,FY2022,11364486.0,IDR mn,AR_2023.pdf,287.0,audited,
+consolidated,fa_ending_cost_total_cost,FY2023,12166009.0,IDR mn,AR_2024.pdf,287.0,audited,
+consolidated,fa_ending_cost_total_cost,FY2024,12688218.0,IDR mn,TAPG_-_AR_2025.pdf,300.0,audited,
+consolidated,fa_ending_cost_total_cost,FY2025,13089145.0,IDR mn,TAPG_-_AR_2025.pdf,299.0,audited,
+consolidated,fa_ending_cost_vehicles_heavy_equipment,FY2020,683075.0,IDR mn,AR 2021.pdf,271.0,audited,
+consolidated,fa_ending_cost_vehicles_heavy_equipment,FY2021,710428.0,IDR mn,AR_2022.pdf,296.0,audited,
+consolidated,fa_ending_cost_vehicles_heavy_equipment,FY2022,924118.0,IDR mn,AR_2023.pdf,287.0,audited,
+consolidated,fa_ending_cost_vehicles_heavy_equipment,FY2023,1199283.0,IDR mn,AR_2024.pdf,287.0,audited,
+consolidated,fa_ending_cost_vehicles_heavy_equipment,FY2024,1225276.0,IDR mn,TAPG_-_AR_2025.pdf,300.0,audited,
+consolidated,fa_ending_cost_vehicles_heavy_equipment,FY2025,1230489.0,IDR mn,TAPG_-_AR_2025.pdf,299.0,audited,
+consolidated,finance_costs,9M 2025,-39490.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,finance_costs,9M 2026,-47990.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,finance_costs,FY2020,-381508.0,IDR mn,AR 2021.pdf,210.0,audited (comparative),FS authorised-for-issue date (Directors)
+consolidated,finance_costs,FY2021,-197064.0,IDR mn,AR_2022.pdf,235.0,audited (comparative),auditor report date
+consolidated,finance_costs,FY2022,-347594.0,IDR mn,AR_2023.pdf,229.0,audited (comparative),auditor report date
+consolidated,finance_costs,FY2023,-152924.0,IDR mn,AR_2024.pdf,229.0,audited (comparative),auditor report date
+consolidated,finance_costs,FY2024,-75443.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,audited (comparative),auditor report date
+consolidated,finance_costs,FY2025,-56860.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,audited,auditor report date
+consolidated,finance_costs,H1 2025,-36968.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,finance_costs,H1 2026,-31368.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,finance_costs,Q1 2025,-14507.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,finance_costs,Q1 2026,-15648.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,finance_income,9M 2025,68379.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,finance_income,9M 2026,123449.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,finance_income,FY2020,39949.0,IDR mn,AR 2021.pdf,210.0,audited (comparative),FS authorised-for-issue date (Directors)
+consolidated,finance_income,FY2021,20992.0,IDR mn,AR_2022.pdf,235.0,audited (comparative),auditor report date
+consolidated,finance_income,FY2022,36912.0,IDR mn,AR_2023.pdf,229.0,audited (comparative),auditor report date
+consolidated,finance_income,FY2023,77998.0,IDR mn,AR_2024.pdf,229.0,audited (comparative),auditor report date
+consolidated,finance_income,FY2024,63966.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,audited (comparative),auditor report date
+consolidated,finance_income,FY2025,108038.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,audited,auditor report date
+consolidated,finance_income,H1 2025,45867.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,finance_income,H1 2026,84100.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,finance_income,Q1 2025,20643.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,finance_income,Q1 2026,33781.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,fixed_assets_net,FY2020,7202247.0,IDR mn,AR 2021.pdf,207.0,audited (comparative),FS authorised-for-issue date (Directors)
+consolidated,fixed_assets_net,FY2021,7118593.0,IDR mn,AR_2022.pdf,232.0,audited (comparative),auditor report date
+consolidated,fixed_assets_net,FY2022,7292712.0,IDR mn,AR_2023.pdf,226.0,audited (comparative),auditor report date
+consolidated,fixed_assets_net,FY2023,7482594.0,IDR mn,AR_2024.pdf,226.0,audited (comparative),auditor report date
+consolidated,fixed_assets_net,FY2024,7388269.0,IDR mn,TAPG_-_AR_2025.pdf,241.0,audited (comparative),auditor report date
+consolidated,fixed_assets_net,FY2025,7244013.0,IDR mn,TAPG_-_AR_2025.pdf,241.0,audited,auditor report date
+consolidated,fv_change_biological_assets,FY2020,61996.0,IDR mn,AR 2021.pdf,210.0,audited (comparative),FS authorised-for-issue date (Directors)
+consolidated,fv_change_biological_assets,FY2021,101038.0,IDR mn,AR_2022.pdf,235.0,audited (comparative),auditor report date
+consolidated,fv_change_biological_assets,FY2022,-122888.0,IDR mn,AR_2022.pdf,235.0,audited,auditor report date
+consolidated,fv_change_biological_assets,FY2023,-19721.0,IDR mn,AR_2024.pdf,229.0,audited (comparative),auditor report date
+consolidated,fv_change_biological_assets,FY2024,208408.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,audited (comparative),auditor report date
+consolidated,fv_change_biological_assets,FY2025,-42622.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,audited,auditor report date
+consolidated,general_admin_exp,9M 2025,-385883.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,general_admin_exp,9M 2026,-427464.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,general_admin_exp,FY2020,-301774.0,IDR mn,AR 2021.pdf,210.0,audited (comparative),FS authorised-for-issue date (Directors)
+consolidated,general_admin_exp,FY2021,-361294.0,IDR mn,AR_2022.pdf,235.0,audited (comparative),auditor report date
+consolidated,general_admin_exp,FY2022,-400921.0,IDR mn,AR_2023.pdf,229.0,audited (comparative),auditor report date
+consolidated,general_admin_exp,FY2023,-569876.0,IDR mn,AR_2024.pdf,229.0,audited (comparative),auditor report date
+consolidated,general_admin_exp,FY2024,-612598.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,audited (comparative),auditor report date
+consolidated,general_admin_exp,FY2025,-533741.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,audited,auditor report date
+consolidated,general_admin_exp,H1 2025,-267503.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,general_admin_exp,H1 2026,-275194.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,general_admin_exp,Q1 2025,-128866.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,general_admin_exp,Q1 2026,-130892.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,gross_profit,9M 2025,3126925.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,gross_profit,9M 2026,4116633.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,gross_profit,FY2020,1392798.0,IDR mn,AR 2021.pdf,210.0,audited (comparative),FS authorised-for-issue date (Directors)
+consolidated,gross_profit,FY2021,1615789.0,IDR mn,AR_2022.pdf,235.0,audited (comparative),auditor report date
+consolidated,gross_profit,FY2022,3715864.0,IDR mn,AR_2023.pdf,229.0,audited (comparative),auditor report date
+consolidated,gross_profit,FY2023,2217297.0,IDR mn,AR_2024.pdf,229.0,audited (comparative),auditor report date
+consolidated,gross_profit,FY2024,3722778.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,audited (comparative),auditor report date
+consolidated,gross_profit,FY2025,4497617.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,audited,auditor report date
+consolidated,gross_profit,H1 2025,2036119.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,gross_profit,H1 2026,2413092.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,gross_profit,Q1 2025,911746.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,gross_profit,Q1 2026,856169.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,income_tax_expense,9M 2025,-547270.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,income_tax_expense,9M 2026,-738063.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,income_tax_expense,FY2020,-138149.0,IDR mn,AR 2021.pdf,210.0,audited (comparative),FS authorised-for-issue date (Directors)
+consolidated,income_tax_expense,FY2021,-222517.0,IDR mn,AR_2022.pdf,235.0,audited (comparative),auditor report date
+consolidated,income_tax_expense,FY2022,-600536.0,IDR mn,AR_2023.pdf,229.0,audited (comparative),auditor report date
+consolidated,income_tax_expense,FY2023,-279840.0,IDR mn,AR_2024.pdf,229.0,audited (comparative),auditor report date
+consolidated,income_tax_expense,FY2024,-686305.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,audited (comparative),auditor report date
+consolidated,income_tax_expense,FY2025,-815974.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,audited,auditor report date
+consolidated,income_tax_expense,H1 2025,-344640.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,income_tax_expense,H1 2026,-419070.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,income_tax_expense,Q1 2025,-155360.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,income_tax_expense,Q1 2026,-147859.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,investment_in_associates,FY2023,0.0,IDR mn,AR_2024.pdf,226.0,audited (comparative),auditor report date
+consolidated,investment_in_associates,FY2024,57283.0,IDR mn,TAPG_-_AR_2025.pdf,241.0,audited (comparative),auditor report date
+consolidated,investment_in_associates,FY2025,53023.0,IDR mn,TAPG_-_AR_2025.pdf,241.0,audited,auditor report date
+consolidated,investment_in_jv,FY2020,1845549.0,IDR mn,AR 2021.pdf,207.0,audited (comparative),FS authorised-for-issue date (Directors)
+consolidated,investment_in_jv,FY2021,2048895.0,IDR mn,AR_2022.pdf,232.0,audited (comparative),auditor report date
+consolidated,investment_in_jv,FY2022,2871438.0,IDR mn,AR_2023.pdf,226.0,audited (comparative),auditor report date
+consolidated,investment_in_jv,FY2023,3214873.0,IDR mn,AR_2024.pdf,226.0,audited (comparative),auditor report date
+consolidated,investment_in_jv,FY2024,2944729.0,IDR mn,TAPG_-_AR_2025.pdf,241.0,audited (comparative),auditor report date
+consolidated,investment_in_jv,FY2025,2640217.0,IDR mn,TAPG_-_AR_2025.pdf,241.0,audited,auditor report date
+consolidated,operating_profit,FY2020,1007383.0,IDR mn,AR 2021.pdf,210.0,audited (comparative),FS authorised-for-issue date (Directors)
+consolidated,operating_profit,FY2021,1248668.0,IDR mn,AR_2022.pdf,235.0,audited (comparative),auditor report date
+consolidated,operating_profit,FY2022,3031586.0,IDR mn,AR_2023.pdf,229.0,audited (comparative),auditor report date
+consolidated,operating_profit,FY2023,1372731.0,IDR mn,AR_2024.pdf,229.0,audited (comparative),auditor report date
+consolidated,operating_profit,FY2024,3044614.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,audited (comparative),auditor report date
+consolidated,operating_profit,FY2025,3543254.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,audited,auditor report date
+consolidated,other_operating_expense,FY2020,-24970.0,IDR mn,AR 2021.pdf,210.0,audited (comparative),FS authorised-for-issue date (Directors)
+consolidated,other_operating_expense,FY2021,-15889.0,IDR mn,AR_2022.pdf,235.0,audited (comparative),auditor report date
+consolidated,other_operating_expense,FY2022,-29038.0,IDR mn,AR_2023.pdf,229.0,audited (comparative),auditor report date
+consolidated,other_operating_expense,FY2023,-71916.0,IDR mn,AR_2024.pdf,229.0,audited (comparative),auditor report date
+consolidated,other_operating_expense,FY2024,-40840.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,audited (comparative),auditor report date
+consolidated,other_operating_expense,FY2025,-164999.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,audited,auditor report date
+consolidated,other_operating_income,FY2020,73270.0,IDR mn,AR 2021.pdf,210.0,audited (comparative),FS authorised-for-issue date (Directors)
+consolidated,other_operating_income,FY2021,77228.0,IDR mn,AR_2022.pdf,235.0,audited (comparative),auditor report date
+consolidated,other_operating_income,FY2022,152601.0,IDR mn,AR_2023.pdf,229.0,audited (comparative),auditor report date
+consolidated,other_operating_income,FY2023,122101.0,IDR mn,AR_2024.pdf,229.0,audited (comparative),auditor report date
+consolidated,other_operating_income,FY2024,48510.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,audited (comparative),auditor report date
+consolidated,other_operating_income,FY2025,76327.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,audited,auditor report date
+consolidated,profit_attrib_owners,9M 2025,2679633.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,20.0,unaudited interim,Board of Directors' statement date
+consolidated,profit_attrib_owners,9M 2026,3505620.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,20.0,unaudited interim,Board of Directors' statement date
+consolidated,profit_attrib_owners,FY2020,911068.0,IDR mn,AR 2021.pdf,211.0,audited (comparative),FS authorised-for-issue date (Directors)
+consolidated,profit_attrib_owners,FY2021,1159036.0,IDR mn,AR_2022.pdf,236.0,audited (comparative),auditor report date
+consolidated,profit_attrib_owners,FY2022,2981120.0,IDR mn,AR_2023.pdf,230.0,audited (comparative),auditor report date
+consolidated,profit_attrib_owners,FY2023,1608217.0,IDR mn,AR_2024.pdf,230.0,audited (comparative),auditor report date
+consolidated,profit_attrib_owners,FY2024,3120276.0,IDR mn,TAPG_-_AR_2025.pdf,245.0,audited (comparative),auditor report date
+consolidated,profit_attrib_owners,FY2025,3702266.0,IDR mn,TAPG_-_AR_2025.pdf,245.0,audited,auditor report date
+consolidated,profit_attrib_owners,H1 2025,1694119.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,20.0,unaudited interim,Board of Directors' statement date
+consolidated,profit_attrib_owners,H1 2026,2040370.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,20.0,unaudited interim,Board of Directors' statement date
+consolidated,profit_attrib_owners,Q1 2025,805258.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,20.0,unaudited interim,Board of Directors' statement date
+consolidated,profit_attrib_owners,Q1 2026,739762.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,20.0,unaudited interim,Board of Directors' statement date
+consolidated,profit_before_tax,9M 2025,3326954.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,profit_before_tax,9M 2026,4382744.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,profit_before_tax,FY2020,1070884.0,IDR mn,AR 2021.pdf,210.0,audited (comparative),FS authorised-for-issue date (Directors)
+consolidated,profit_before_tax,FY2021,1421264.0,IDR mn,AR_2022.pdf,235.0,audited (comparative),auditor report date
+consolidated,profit_before_tax,FY2022,3689281.0,IDR mn,AR_2023.pdf,229.0,audited (comparative),auditor report date
+consolidated,profit_before_tax,FY2023,1941098.0,IDR mn,AR_2024.pdf,229.0,audited (comparative),auditor report date
+consolidated,profit_before_tax,FY2024,3926904.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,audited (comparative),auditor report date
+consolidated,profit_before_tax,FY2025,4661321.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,audited,auditor report date
+consolidated,profit_before_tax,H1 2025,2102122.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,profit_before_tax,H1 2026,2539041.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,profit_before_tax,Q1 2025,990238.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,profit_before_tax,Q1 2026,915122.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,profit_for_year,9M 2025,2779684.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,profit_for_year,9M 2026,3644681.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,profit_for_year,FY2020,932735.0,IDR mn,AR 2021.pdf,210.0,audited (comparative),FS authorised-for-issue date (Directors)
+consolidated,profit_for_year,FY2021,1198747.0,IDR mn,AR_2022.pdf,235.0,audited (comparative),auditor report date
+consolidated,profit_for_year,FY2022,3088745.0,IDR mn,AR_2023.pdf,229.0,audited (comparative),auditor report date
+consolidated,profit_for_year,FY2023,1661258.0,IDR mn,AR_2024.pdf,229.0,audited (comparative),auditor report date
+consolidated,profit_for_year,FY2024,3240599.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,audited (comparative),auditor report date
+consolidated,profit_for_year,FY2025,3845347.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,audited,auditor report date
+consolidated,profit_for_year,H1 2025,1757482.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,profit_for_year,H1 2026,2119971.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,profit_for_year,Q1 2025,834878.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,profit_for_year,Q1 2026,767263.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,revenue,9M 2025,8207835.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,revenue,9M 2026,9446621.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,revenue,FY2020,5265785.0,IDR mn,AR 2021.pdf,210.0,audited (comparative),FS authorised-for-issue date (Directors)
+consolidated,revenue,FY2021,6278123.0,IDR mn,AR_2022.pdf,235.0,audited (comparative),auditor report date
+consolidated,revenue,FY2022,9345641.0,IDR mn,AR_2023.pdf,229.0,audited (comparative),auditor report date
+consolidated,revenue,FY2023,8325887.0,IDR mn,AR_2024.pdf,229.0,audited (comparative),auditor report date
+consolidated,revenue,FY2024,9671463.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,audited (comparative),auditor report date
+consolidated,revenue,FY2025,11402198.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,audited,auditor report date
+consolidated,revenue,H1 2025,5508389.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,revenue,H1 2026,5857150.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,revenue,Q1 2025,2620060.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,revenue,Q1 2026,2492197.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,sales_volume_cpo_t,FY2020,567000.0,t,AR 2021.pdf,97.0,annual report,printed as 567 thousand t
+consolidated,sales_volume_cpo_t,FY2021,578000.0,t,AR 2021.pdf,97.0,annual report,printed as 578 thousand t
+consolidated,sales_volume_cpo_t,FY2022,666000.0,t,AR_2022.pdf,104.0,annual report,printed as 666 thousand t
+consolidated,sales_volume_cpo_t,FY2023,676987.0,t,AR_2024.pdf,101.0,annual report,table header says 'thousand tons' but values are tonnes
+consolidated,sales_volume_cpo_t,FY2024,636021.0,t,TAPG_-_AR_2025.pdf,104.0,annual report,
+consolidated,sales_volume_cpo_t,FY2025,658917.0,t,TAPG_-_AR_2025.pdf,104.0,annual report,
+consolidated,sales_volume_ffb_t,FY2021,34700.0,t,AR 2021.pdf,97.0,annual report,printed as 34.7 thousand t
+consolidated,sales_volume_ffb_t,FY2022,6500.0,t,AR_2022.pdf,104.0,annual report,printed as 6.5 thousand t
+consolidated,sales_volume_pk_t,FY2020,112000.0,t,AR 2021.pdf,97.0,annual report,printed as 112 thousand t
+consolidated,sales_volume_pk_t,FY2021,113000.0,t,AR 2021.pdf,97.0,annual report,printed as 113 thousand t
+consolidated,sales_volume_pk_t,FY2022,141000.0,t,AR_2022.pdf,104.0,annual report,printed as 141 thousand t; AR2023 p100 prints 142
+consolidated,sales_volume_pk_t,FY2023,129589.0,t,AR_2024.pdf,101.0,annual report,as above
+consolidated,sales_volume_pk_t,FY2024,110558.0,t,TAPG_-_AR_2025.pdf,104.0,annual report,
+consolidated,sales_volume_pk_t,FY2025,113364.0,t,TAPG_-_AR_2025.pdf,104.0,annual report,
+consolidated,sales_volume_pko_t,FY2023,6300.0,t,AR_2024.pdf,101.0,annual report,as above
+consolidated,sales_volume_pko_t,FY2024,19500.0,t,TAPG_-_AR_2025.pdf,104.0,annual report,
+consolidated,sales_volume_pko_t,FY2025,22399.0,t,TAPG_-_AR_2025.pdf,104.0,annual report,
+consolidated,seg_op_profit_palm,FY2024,3036382.0,IDR mn,TAPG_-_AR_2025.pdf,101.0,annual report,
+consolidated,seg_op_profit_palm,FY2025,3637063.0,IDR mn,TAPG_-_AR_2025.pdf,101.0,annual report,
+consolidated,seg_rev_cpo,FY2024,8367543.0,IDR mn,TAPG_-_AR_2025.pdf,101.0,annual report,
+consolidated,seg_rev_cpo,FY2025,9369969.0,IDR mn,TAPG_-_AR_2025.pdf,101.0,annual report,
+consolidated,seg_rev_ffb,FY2024,786.0,IDR mn,TAPG_-_AR_2025.pdf,101.0,annual report,
+consolidated,seg_rev_ffb,FY2025,36151.0,IDR mn,TAPG_-_AR_2025.pdf,101.0,annual report,
+consolidated,seg_rev_palm_total,FY2024,9640778.0,IDR mn,TAPG_-_AR_2025.pdf,101.0,annual report,
+consolidated,seg_rev_palm_total,FY2025,11378649.0,IDR mn,TAPG_-_AR_2025.pdf,101.0,annual report,
+consolidated,seg_rev_pk,FY2024,872463.0,IDR mn,TAPG_-_AR_2025.pdf,101.0,annual report,
+consolidated,seg_rev_pk,FY2025,1356630.0,IDR mn,TAPG_-_AR_2025.pdf,101.0,annual report,
+consolidated,seg_rev_pkm,FY2024,27508.0,IDR mn,TAPG_-_AR_2025.pdf,101.0,annual report,
+consolidated,seg_rev_pkm,FY2025,28777.0,IDR mn,TAPG_-_AR_2025.pdf,101.0,annual report,
+consolidated,seg_rev_pko,FY2024,372478.0,IDR mn,TAPG_-_AR_2025.pdf,101.0,annual report,
+consolidated,seg_rev_pko,FY2025,587121.0,IDR mn,TAPG_-_AR_2025.pdf,101.0,annual report,
+consolidated,seg_rev_rubber,FY2024,30685.0,IDR mn,TAPG_-_AR_2025.pdf,101.0,annual report,
+consolidated,seg_rev_rubber,FY2025,23549.0,IDR mn,TAPG_-_AR_2025.pdf,101.0,annual report,
+consolidated,selling_marketing_exp,9M 2025,-209238.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,selling_marketing_exp,9M 2026,-256203.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,selling_marketing_exp,FY2020,-193937.0,IDR mn,AR 2021.pdf,210.0,audited (comparative),FS authorised-for-issue date (Directors)
+consolidated,selling_marketing_exp,FY2021,-168204.0,IDR mn,AR_2022.pdf,235.0,audited (comparative),auditor report date
+consolidated,selling_marketing_exp,FY2022,-284032.0,IDR mn,AR_2023.pdf,229.0,audited (comparative),auditor report date
+consolidated,selling_marketing_exp,FY2023,-305154.0,IDR mn,AR_2024.pdf,229.0,audited (comparative),auditor report date
+consolidated,selling_marketing_exp,FY2024,-281644.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,audited (comparative),auditor report date
+consolidated,selling_marketing_exp,FY2025,-289328.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,audited,auditor report date
+consolidated,selling_marketing_exp,H1 2025,-143199.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,selling_marketing_exp,H1 2026,-153486.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,selling_marketing_exp,Q1 2025,-68098.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,selling_marketing_exp,Q1 2026,-69723.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,selling_transport_freight,FY2024,243100.0,IDR mn,TAPG_-_AR_2025.pdf,337.0,annual report,
+consolidated,selling_transport_freight,FY2025,246372.0,IDR mn,TAPG_-_AR_2025.pdf,337.0,annual report,
+consolidated,share_of_profit_associates,9M 2025,-13885.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,share_of_profit_associates,9M 2026,-38013.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,share_of_profit_associates,H1 2025,-8209.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,share_of_profit_associates,H1 2026,-21956.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,share_of_profit_associates,Q1 2025,-659.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,share_of_profit_associates,Q1 2026,-13261.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,share_of_profit_jv,9M 2025,839609.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,share_of_profit_jv,9M 2026,956891.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,share_of_profit_jv,H1 2025,540210.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,share_of_profit_jv,H1 2026,574518.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,share_of_profit_jv,Q1 2025,260441.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,share_of_profit_jv,Q1 2026,242313.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,18.0,unaudited interim,Board of Directors' statement date
+consolidated,share_of_profit_jv_associates,FY2020,405060.0,IDR mn,AR 2021.pdf,210.0,audited (comparative),FS authorised-for-issue date (Directors)
+consolidated,share_of_profit_jv_associates,FY2021,348668.0,IDR mn,AR_2022.pdf,235.0,audited (comparative),auditor report date
+consolidated,share_of_profit_jv_associates,FY2022,968377.0,IDR mn,AR_2023.pdf,229.0,audited (comparative),auditor report date
+consolidated,share_of_profit_jv_associates,FY2023,643293.0,IDR mn,AR_2024.pdf,229.0,audited (comparative),auditor report date
+consolidated,share_of_profit_jv_associates,FY2024,893767.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,audited (comparative),auditor report date
+consolidated,share_of_profit_jv_associates,FY2025,1066889.0,IDR mn,TAPG_-_AR_2025.pdf,244.0,audited,auditor report date
+consolidated,total_assets,9M 2026,15461290.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,8.0,unaudited interim,Board of Directors' statement date
+consolidated,total_assets,FY2020,12323970.0,IDR mn,AR 2021.pdf,207.0,audited (comparative),FS authorised-for-issue date (Directors)
+consolidated,total_assets,FY2021,12446326.0,IDR mn,AR_2022.pdf,232.0,audited (comparative),auditor report date
+consolidated,total_assets,FY2022,14526124.0,IDR mn,AR_2023.pdf,226.0,audited (comparative),auditor report date
+consolidated,total_assets,FY2023,13867387.0,IDR mn,AR_2024.pdf,226.0,audited (comparative),auditor report date
+consolidated,total_assets,FY2024,14307265.0,IDR mn,TAPG_-_AR_2025.pdf,241.0,audited (comparative),auditor report date
+consolidated,total_assets,FY2025,14696563.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,8.0,audited (comparative in interim),Board of Directors' statement date
+consolidated,total_assets,H1 2026,14823740.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,8.0,unaudited interim,Board of Directors' statement date
+consolidated,total_assets,Q1 2026,15403824.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,8.0,unaudited interim,Board of Directors' statement date
+consolidated,total_equity,9M 2026,12228199.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,17.0,unaudited interim,Board of Directors' statement date
+consolidated,total_equity,FY2020,6656282.0,IDR mn,AR 2021.pdf,209.0,audited (comparative),FS authorised-for-issue date (Directors)
+consolidated,total_equity,FY2021,7796011.0,IDR mn,AR_2022.pdf,234.0,audited (comparative),auditor report date
+consolidated,total_equity,FY2022,10412744.0,IDR mn,AR_2023.pdf,228.0,audited (comparative),auditor report date
+consolidated,total_equity,FY2023,11339540.0,IDR mn,AR_2024.pdf,228.0,audited (comparative),auditor report date
+consolidated,total_equity,FY2024,11276429.0,IDR mn,TAPG_-_AR_2025.pdf,243.0,audited (comparative),auditor report date
+consolidated,total_equity,FY2025,11687485.0,IDR mn,FinancialStatement-2026-III-TAPG.pdf,17.0,audited (comparative in interim),Board of Directors' statement date
+consolidated,total_equity,H1 2026,11933750.0,IDR mn,FinancialStatement-2026-II-TAPG.pdf,17.0,unaudited interim,Board of Directors' statement date
+consolidated,total_equity,Q1 2026,12454507.0,IDR mn,FinancialStatement-2026-I-TAPG.pdf,17.0,unaudited interim,Board of Directors' statement date

@@ -4,7 +4,7 @@ _Last updated: 2026-11-24_
 
 ## Current phase
 
-**Phase I — Data Availability Audit, round 3 (TAPG official documents extracted).** TAPG earnings nowcasting and financial modelling have **not** started; gaps G1–G10 are listed in `research/company/TAPG/2026-11-24_official_document_extraction.md`. No investment analysis, rankings or ratings have been produced.
+**Phase II — TAPG fundamental data completion and preliminary quant (in progress).** See `research/company/TAPG/2026-11-24_phase2_fundamental_completion.md`. Earnings nowcasting is **blocked** on quarterly operational data (G1). No investment analysis, rankings or ratings have been produced.
 
 ## Done
 
@@ -33,6 +33,15 @@ _Last updated: 2026-11-24_
   - `quant/reconcile_yahoo_tapg.py`: Yahoo matches official on 36/36 overlapping values.
   - Findings: FY2022 equity typo in the AR highlights; FY2022 finance-line reclassification; production is reported incl. associates while sales are consolidated; USTP JV is ~99% of JV profit and ~23% of FY2025 PBT.
 
+- [x] **Phase II (2026-11-24):**
+  - PDFs untracked from Git and all local copies kept (D-007); the PDFs remain in Git history. Manifest: `data/reference/document_manifest.csv`.
+  - Extracted: USTP standalone FY2020–25 (ties exactly to TAPG's 50% share); JV dividends incl. the FY2025 in-kind dividend of IDR 414bn (explains the declared vs cash gap); capex by asset class FY2020–25; nucleus FFB by region FY2019–25; COGS FY2020–22 incl. purchased FFB; subsidiary/estate table.
+  - Scope-separated datasets with a mixed-scope guard (D-008); USTP valuation-input module (no valuation yet).
+  - Disclosure-date table with evidence vs assumption labels (D-009, A-012/A-013).
+  - Preliminary quant: relative performance, rolling beta, CPO sensitivity, residual momentum, drawdowns, lead-lag (`quant_prelim_results.md`).
+  - Nowcast feasibility (`nowcast_feasibility.md`): feasible in structure, blocked on G1/G12 (D-010).
+  - Tests: 11 passing.
+
 ## Not resolved (sources tried and failed)
 
 | Need | Tried | Why it failed |
@@ -47,13 +56,13 @@ _Last updated: 2026-11-24_
 
 ## Next
 
-- [ ] Close the TAPG gaps that the supplied PDFs can fill: G3 USTP summarised financials, G4 capex split (note 12), G5 FFB by region and the earlier age profile, G6 COGS FY2020–21, G9 estate locations.
-- [ ] Find sources for G1 quarterly operational data, G2 unit cash cost and G10 long KPBN CPO history. These are needed before nowcasting.
-- [ ] Optional: the user supplies the Sustainability Report 2025 (G8).
-- [ ] **Decide D-004** (re-tiering on verified liquidity).
-- [ ] Cross-check Yahoo prices against an official source. Flags: IHSG fell 39% in 2026 YTD on S-002 (8,647 → 5,242), and some liquid names show zero-volume days that IHSG doesn't.
-- [ ] Compile the levy, duty and biodiesel regulation tables (S-010–S-012).
-- [ ] Next quant step with existing data: rainfall-lag and ENSO features (S-006/S-007) and the CPO monthly driver panel (S-003).
+- [ ] **User/source action:** quarterly production and sales volumes for TAPG 2021–2026, e.g. investor presentations, public expose materials or quarterly operational releases (G1).
+- [ ] Compile the export levy and duty schedule (PMK/Kepmendag, effective dates) into a dated table (G12). This is needed to model the domestic discount.
+- [ ] Verify the A-013 statutory deadlines against POJK text; look for IDX timestamps (G7).
+- [ ] Optional: history rewrite to purge the PDFs from Git, only with separate user approval (D-007).
+- [ ] Decide D-004 (re-tiering on verified liquidity).
+- [ ] Cross-check Yahoo prices (incl. the IHSG −39% 2026 YTD move) against an official source.
+- [ ] Repeat the Phase I/II extraction for the other 14 coverage names.
 
 ## Blockers
 

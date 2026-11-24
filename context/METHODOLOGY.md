@@ -1,6 +1,6 @@
 # Research Methodology
 
-_Finalised 2026-11-24 (D-003). Change only by logging a new decision in `DECISION_LOG.md`._
+_Finalised 2026-11-24 (D-003); amended 2026-11-24 (D-008, D-009, D-010). Change only by logging a new decision in `DECISION_LOG.md`._
 
 ## 1. Objective
 
@@ -46,6 +46,24 @@ Find **earnings surprises and underappreciated catalysts** in Indonesian palm oi
 - Survivorship: PIT universe as in §3. Delisted names need IDX price history (gap: GOLL, MAGP).
 - Backtests: include transaction costs and liquidity limits; report results gross and net; use walk-forward or holdout testing; no parameter tuning on the test period.
 
+## 5a. Reporting scope (D-008)
+
+- **Consolidated:** TAPG and subsidiaries. Covers the financial statements, realised ASP, sales volumes, cost notes and capex.
+- **Joint ventures:** USTP (50%) and small JVs, on a 100% basis, plus TAPG's equity-method share and dividends.
+- **Group-wide:** operational statistics reported "including associate companies" (area, age profile, FFB, CPO/PK output, yield, OER).
+- Ratios are computed **only within one scope** (enforced by `quant/tapg_scope.ratio`). The consolidated share of group-wide volumes is not disclosed, so consolidated unit costs per tonne cannot be computed yet.
+
+## 5b. Disclosure dating (D-009)
+
+- Each disclosure's `available_from` comes from `data/reference/TAPG_disclosure_dates.csv` (A-012/A-013) and carries a basis label: EVIDENCE (dated press report) or ASSUMPTION (statutory deadline).
+- Backtests must use `available_from`, never document dates. Results that depend on dates labelled ASSUMPTION are reported as such.
+
+## 5c. Nowcasting (D-010)
+
+- Revenue = Σ product volume × realised price, where realised price = world price × domestic discount (levy/duty schedule).
+- Earnings = revenue − cost model (purchased-FFB cost tied to the FFB price; carried upkeep and fertiliser with timing) + USTP share modelled separately + finance and tax.
+- Fit on 2021–2024 and validate out of sample on 2025–2026. Until quarterly volumes exist, only naive benchmarks are reported, labelled as such.
+
 ## 6. Data integrity rules
 
 - No fabricated or interpolated data presented as observed. Gaps stay gaps and are documented.
@@ -57,8 +75,8 @@ Find **earnings surprises and underappreciated catalysts** in Indonesian palm oi
 | Phase | Scope | Status |
 |---|---|---|
 | 0 | Workspace setup | Done |
-| I | Data availability audit | In progress |
-| II | Data pipeline and PIT datasets | Not started |
+| I | Data availability audit | Done for TAPG; other 14 names pending |
+| II | TAPG fundamental data completion and preliminary quant | In progress |
 | III | Driver research (macro, industry, company) | Not started |
 | IV | Signal design and backtests | Not started |
 | V | Synthesis: catalysts and theses | Not started |
