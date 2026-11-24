@@ -51,3 +51,6 @@ desktop.ini
 
 # --- Claude local settings ---
 .claude/settings.local.json
+
+# --- Company documents (copyrighted; keep local only) ---
+*.pdf

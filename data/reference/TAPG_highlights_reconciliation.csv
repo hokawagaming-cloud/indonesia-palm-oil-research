@@ -1,0 +1,146 @@
+item,fiscal_year,unit,n_reports,values_by_report,latest_value,latest_source,max_rel_diff,status
+avg_ffb_yield,2019,t/ha,1,AR2021=20.5,20.5,AR 2021.pdf p11.0,0.0,single source
+avg_ffb_yield,2020,t/ha,2,AR2021=20.2; AR2022=20.2,20.2,AR_2022.pdf p11.0,0.0,consistent
+avg_ffb_yield,2021,t/ha,3,AR2021=20.3; AR2022=20.3; AR2023=20.3,20.3,AR_2023.pdf p11.0,0.0,consistent
+avg_ffb_yield,2022,t/ha,3,AR2022=24.5; AR2023=24.5; AR2024=24.5,24.5,AR_2024.pdf p11.0,0.0,consistent
+avg_ffb_yield,2023,t/ha,3,AR2023=23.6; AR2024=23.6; AR2025=23.6,23.6,TAPG_-_AR_2025.pdf p14.0,0.0,consistent
+avg_ffb_yield,2024,t/ha,2,AR2024=23; AR2025=23,23.0,TAPG_-_AR_2025.pdf p14.0,0.0,consistent
+avg_ffb_yield,2025,t/ha,1,AR2025=24.3,24.3,TAPG_-_AR_2025.pdf p14.0,0.0,single source
+cpo_production,2019,thousand t,1,AR2021=846,846.0,AR 2021.pdf p11.0,0.0,single source
+cpo_production,2020,thousand t,2,AR2021=841; AR2022=841,841.0,AR_2022.pdf p11.0,0.0,consistent
+cpo_production,2021,thousand t,3,AR2021=850; AR2022=850; AR2023=850,850.0,AR_2023.pdf p11.0,0.0,consistent
+cpo_production,2022,thousand t,3,AR2022=999; AR2023=999; AR2024=999,999.0,AR_2024.pdf p11.0,0.0,consistent
+cpo_production,2023,thousand t,3,AR2023=978; AR2024=978; AR2025=978,978.0,TAPG_-_AR_2025.pdf p14.0,0.0,consistent
+cpo_production,2024,thousand t,2,AR2024=916; AR2025=916,916.0,TAPG_-_AR_2025.pdf p14.0,0.0,consistent
+cpo_production,2025,thousand t,1,AR2025=953,953.0,TAPG_-_AR_2025.pdf p14.0,0.0,single source
+eps,2019,IDR per share,1,AR2021=10,10.0,AR 2021.pdf p10.0,0.0,single source
+eps,2020,IDR per share,2,AR2021=48; AR2022=48,48.0,AR_2022.pdf p10.0,0.0,consistent
+eps,2021,IDR per share,3,AR2021=59; AR2022=59; AR2023=59,59.0,AR_2023.pdf p10.0,0.0,consistent
+eps,2022,IDR per share,3,AR2022=150; AR2023=150; AR2024=150,150.0,AR_2024.pdf p10.0,0.0,consistent
+eps,2023,IDR per share,3,AR2023=81; AR2024=81; AR2025=81,81.0,TAPG_-_AR_2025.pdf p13.0,0.0,consistent
+eps,2024,IDR per share,2,AR2024=157; AR2025=157,157.0,TAPG_-_AR_2025.pdf p13.0,0.0,consistent
+eps,2025,IDR per share,1,AR2025=186,186.0,TAPG_-_AR_2025.pdf p13.0,0.0,single source
+ffb_harvested_nucleus,2019,thousand t,1,AR2021=2637,2637.0,AR 2021.pdf p11.0,0.0,single source
+ffb_harvested_nucleus,2020,thousand t,2,AR2021=2646; AR2022=2646,2646.0,AR_2022.pdf p11.0,0.0,consistent
+ffb_harvested_nucleus,2021,thousand t,3,AR2021=2640; AR2022=2640; AR2023=2640,2640.0,AR_2023.pdf p11.0,0.0,consistent
+ffb_harvested_nucleus,2022,thousand t,3,AR2022=3200; AR2023=3200; AR2024=3200,3200.0,AR_2024.pdf p11.0,0.0,consistent
+ffb_harvested_nucleus,2023,thousand t,3,AR2023=3050; AR2024=3050; AR2025=3050,3050.0,TAPG_-_AR_2025.pdf p14.0,0.0,consistent
+ffb_harvested_nucleus,2024,thousand t,2,AR2024=2946; AR2025=2946,2946.0,TAPG_-_AR_2025.pdf p14.0,0.0,consistent
+ffb_harvested_nucleus,2025,thousand t,1,AR2025=3040,3040.0,TAPG_-_AR_2025.pdf p14.0,0.0,single source
+ffb_harvested_plasma,2019,thousand t,1,AR2021=302,302.0,AR 2021.pdf p11.0,0.0,single source
+ffb_harvested_plasma,2020,thousand t,2,AR2021=279; AR2022=279,279.0,AR_2022.pdf p11.0,0.0,consistent
+ffb_harvested_plasma,2021,thousand t,3,AR2021=303; AR2022=303; AR2023=303,303.0,AR_2023.pdf p11.0,0.0,consistent
+ffb_harvested_plasma,2022,thousand t,3,AR2022=354; AR2023=354; AR2024=354,354.0,AR_2024.pdf p11.0,0.0,consistent
+ffb_harvested_plasma,2023,thousand t,3,AR2023=348; AR2024=348; AR2025=348,348.0,TAPG_-_AR_2025.pdf p14.0,0.0,consistent
+ffb_harvested_plasma,2024,thousand t,2,AR2024=330; AR2025=330,330.0,TAPG_-_AR_2025.pdf p14.0,0.0,consistent
+ffb_harvested_plasma,2025,thousand t,1,AR2025=384,384.0,TAPG_-_AR_2025.pdf p14.0,0.0,single source
+ffb_harvested_total,2019,thousand t,1,AR2021=2939,2939.0,AR 2021.pdf p11.0,0.0,single source
+ffb_harvested_total,2020,thousand t,2,AR2021=2925; AR2022=2925,2925.0,AR_2022.pdf p11.0,0.0,consistent
+ffb_harvested_total,2021,thousand t,3,AR2021=2943; AR2022=2943; AR2023=2943,2943.0,AR_2023.pdf p11.0,0.0,consistent
+ffb_harvested_total,2022,thousand t,3,AR2022=3554; AR2023=3554; AR2024=3554,3554.0,AR_2024.pdf p11.0,0.0,consistent
+ffb_harvested_total,2023,thousand t,3,AR2023=3399; AR2024=3399; AR2025=3399,3399.0,TAPG_-_AR_2025.pdf p14.0,0.0,consistent
+ffb_harvested_total,2024,thousand t,2,AR2024=3276; AR2025=3276,3276.0,TAPG_-_AR_2025.pdf p14.0,0.0,consistent
+ffb_harvested_total,2025,thousand t,1,AR2025=3425,3425.0,TAPG_-_AR_2025.pdf p14.0,0.0,single source
+ffb_processed_total,2019,thousand t,1,AR2021=3614,3614.0,AR 2021.pdf p11.0,0.0,single source
+ffb_processed_total,2020,thousand t,2,AR2021=3645; AR2022=3645,3645.0,AR_2022.pdf p11.0,0.0,consistent
+ffb_processed_total,2021,thousand t,3,AR2021=3687; AR2022=3687; AR2023=3687,3687.0,AR_2023.pdf p11.0,0.0,consistent
+ffb_processed_total,2022,thousand t,3,AR2022=4416; AR2023=4416; AR2024=4416,4416.0,AR_2024.pdf p11.0,0.0,consistent
+ffb_processed_total,2023,thousand t,3,AR2023=4203; AR2024=4203; AR2025=4203,4203.0,TAPG_-_AR_2025.pdf p14.0,0.0,consistent
+ffb_processed_total,2024,thousand t,2,AR2024=3962; AR2025=3962,3962.0,TAPG_-_AR_2025.pdf p14.0,0.0,consistent
+ffb_processed_total,2025,thousand t,1,AR2025=4089,4089.0,TAPG_-_AR_2025.pdf p14.0,0.0,single source
+gross_profit,2019,IDR mn,1,AR2021=853155,853155.0,AR 2021.pdf p10.0,0.0,single source
+gross_profit,2020,IDR mn,2,AR2021=1.3928e+06; AR2022=1.3928e+06,1392798.0,AR_2022.pdf p10.0,0.0,consistent
+gross_profit,2021,IDR mn,3,AR2021=1.61579e+06; AR2022=1.61579e+06; AR2023=1.61579e+06,1615789.0,AR_2023.pdf p10.0,0.0,consistent
+gross_profit,2022,IDR mn,3,AR2022=3.71586e+06; AR2023=3.71586e+06; AR2024=3.71586e+06,3715864.0,AR_2024.pdf p10.0,0.0,consistent
+gross_profit,2023,IDR mn,3,AR2023=2.2173e+06; AR2024=2.2173e+06; AR2025=2.2173e+06,2217297.0,TAPG_-_AR_2025.pdf p12.0,0.0,consistent
+gross_profit,2024,IDR mn,2,AR2024=3.72278e+06; AR2025=3.72278e+06,3722779.0,TAPG_-_AR_2025.pdf p12.0,0.0,consistent
+gross_profit,2025,IDR mn,1,AR2025=4.49762e+06,4497617.0,TAPG_-_AR_2025.pdf p12.0,0.0,single source
+ker_pk,2019,%,1,AR2021=4.8,4.8,AR 2021.pdf p11.0,0.0,single source
+ker_pk,2020,%,2,AR2021=4.8; AR2022=4.8,4.8,AR_2022.pdf p11.0,0.0,consistent
+ker_pk,2021,%,2,AR2021=4.7; AR2022=4.7,4.7,AR_2022.pdf p11.0,0.0,consistent
+ker_pk,2022,%,2,AR2022=4.8; AR2024=4.8,4.8,AR_2024.pdf p11.0,0.0,consistent
+ker_pk,2023,%,2,AR2024=4.9; AR2025=4.9,4.9,TAPG_-_AR_2025.pdf p14.0,0.0,consistent
+ker_pk,2024,%,2,AR2024=4.9; AR2025=4.9,4.9,TAPG_-_AR_2025.pdf p14.0,0.0,consistent
+ker_pk,2025,%,1,AR2025=4.9,4.9,TAPG_-_AR_2025.pdf p14.0,0.0,single source
+oer_cpo,2019,%,1,AR2021=23.4,23.4,AR 2021.pdf p11.0,0.0,single source
+oer_cpo,2020,%,2,AR2021=23.1; AR2022=23.1,23.1,AR_2022.pdf p11.0,0.0,consistent
+oer_cpo,2021,%,3,AR2021=23; AR2022=23; AR2023=23,23.0,AR_2023.pdf p11.0,0.0,consistent
+oer_cpo,2022,%,3,AR2022=22.6; AR2023=22.6; AR2024=22.6,22.6,AR_2024.pdf p11.0,0.0,consistent
+oer_cpo,2023,%,3,AR2023=23.3; AR2024=23.3; AR2025=23.3,23.3,TAPG_-_AR_2025.pdf p14.0,0.0,consistent
+oer_cpo,2024,%,2,AR2024=23.1; AR2025=23.1,23.1,TAPG_-_AR_2025.pdf p14.0,0.0,consistent
+oer_cpo,2025,%,1,AR2025=23.3,23.3,TAPG_-_AR_2025.pdf p14.0,0.0,single source
+pk_production,2019,thousand t,1,AR2021=174,174.0,AR 2021.pdf p11.0,0.0,single source
+pk_production,2020,thousand t,2,AR2021=175; AR2022=175,175.0,AR_2022.pdf p11.0,0.0,consistent
+pk_production,2021,thousand t,3,AR2021=174; AR2022=174; AR2023=174,174.0,AR_2023.pdf p11.0,0.0,consistent
+pk_production,2022,thousand t,3,AR2022=210; AR2023=210; AR2024=210,210.0,AR_2024.pdf p11.0,0.0,consistent
+pk_production,2023,thousand t,3,AR2023=208; AR2024=208; AR2025=208,208.0,TAPG_-_AR_2025.pdf p14.0,0.0,consistent
+pk_production,2024,thousand t,2,AR2024=193; AR2025=193,193.0,TAPG_-_AR_2025.pdf p14.0,0.0,consistent
+pk_production,2025,thousand t,1,AR2025=202,202.0,TAPG_-_AR_2025.pdf p14.0,0.0,single source
+pko_production,2021,thousand t,1,AR2023=nan,,AR_2023.pdf p11.0,,single source
+pko_production,2022,thousand t,2,AR2023=nan; AR2024=nan,,AR_2024.pdf p11.0,,DIFFERS (restated or revised)
+pko_production,2023,thousand t,3,AR2023=6.5; AR2024=6.5; AR2025=6.5,6.5,TAPG_-_AR_2025.pdf p14.0,0.0,consistent
+pko_production,2024,thousand t,2,AR2024=20.3; AR2025=20.3,20.3,TAPG_-_AR_2025.pdf p14.0,0.0,consistent
+pko_production,2025,thousand t,1,AR2025=22.1,22.1,TAPG_-_AR_2025.pdf p14.0,0.0,single source
+planted_nucleus_oilpalm,2019,thousand ha,1,AR2021=136.9,136.9,AR 2021.pdf p11.0,0.0,single source
+planted_nucleus_oilpalm,2020,thousand ha,2,AR2021=137.3; AR2022=137.3,137.3,AR_2022.pdf p11.0,0.0,consistent
+planted_nucleus_oilpalm,2021,thousand ha,3,AR2021=137.7; AR2022=137.7; AR2023=137.7,137.7,AR_2023.pdf p11.0,0.0,consistent
+planted_nucleus_oilpalm,2022,thousand ha,3,AR2022=138.4; AR2023=138.4; AR2024=138.4,138.4,AR_2024.pdf p11.0,0.0,consistent
+planted_nucleus_oilpalm,2023,thousand ha,3,AR2023=136.4; AR2024=136.4; AR2025=136.4,136.4,TAPG_-_AR_2025.pdf p14.0,0.0,consistent
+planted_nucleus_oilpalm,2024,thousand ha,2,AR2024=135.6; AR2025=135.6,135.6,TAPG_-_AR_2025.pdf p14.0,0.0,consistent
+planted_nucleus_oilpalm,2025,thousand ha,1,AR2025=132.8,132.8,TAPG_-_AR_2025.pdf p14.0,0.0,single source
+planted_plasma_oilpalm,2019,thousand ha,1,AR2021=21,21.0,AR 2021.pdf p11.0,0.0,single source
+planted_plasma_oilpalm,2020,thousand ha,2,AR2021=21.4; AR2022=21.4,21.4,AR_2022.pdf p11.0,0.0,consistent
+planted_plasma_oilpalm,2021,thousand ha,3,AR2021=22.4; AR2022=22.4; AR2023=22.4,22.4,AR_2023.pdf p11.0,0.0,consistent
+planted_plasma_oilpalm,2022,thousand ha,3,AR2022=23; AR2023=23; AR2024=23,23.0,AR_2024.pdf p11.0,0.0,consistent
+planted_plasma_oilpalm,2023,thousand ha,3,AR2023=24.1; AR2024=24.1; AR2025=24.1,24.1,TAPG_-_AR_2025.pdf p14.0,0.0,consistent
+planted_plasma_oilpalm,2024,thousand ha,2,AR2024=25.2; AR2025=25.2,25.2,TAPG_-_AR_2025.pdf p14.0,0.0,consistent
+planted_plasma_oilpalm,2025,thousand ha,1,AR2025=26.9,26.9,TAPG_-_AR_2025.pdf p14.0,0.0,single source
+planted_total_oilpalm,2019,thousand ha,1,AR2021=157.9,157.9,AR 2021.pdf p11.0,0.0,single source
+planted_total_oilpalm,2020,thousand ha,2,AR2021=158.7; AR2022=158.7,158.7,AR_2022.pdf p11.0,0.0,consistent
+planted_total_oilpalm,2021,thousand ha,3,AR2021=160.1; AR2022=160.1; AR2023=160.1,160.1,AR_2023.pdf p11.0,0.0,consistent
+planted_total_oilpalm,2022,thousand ha,3,AR2022=161.4; AR2023=161.4; AR2024=161.4,161.4,AR_2024.pdf p11.0,0.0,consistent
+planted_total_oilpalm,2023,thousand ha,3,AR2023=160.5; AR2024=160.5; AR2025=160.5,160.5,TAPG_-_AR_2025.pdf p14.0,0.0,consistent
+planted_total_oilpalm,2024,thousand ha,2,AR2024=160.8; AR2025=160.8,160.8,TAPG_-_AR_2025.pdf p14.0,0.0,consistent
+planted_total_oilpalm,2025,thousand ha,1,AR2025=159.7,159.7,TAPG_-_AR_2025.pdf p14.0,0.0,single source
+profit_attrib_owners,2019,IDR mn,1,AR2021=191415,191415.0,AR 2021.pdf p10.0,0.0,single source
+profit_attrib_owners,2020,IDR mn,2,AR2021=911068; AR2022=911068,911068.0,AR_2022.pdf p10.0,0.0,consistent
+profit_attrib_owners,2021,IDR mn,3,AR2021=1.15904e+06; AR2022=1.15904e+06; AR2023=1.15904e+06,1159036.0,AR_2023.pdf p10.0,0.0,consistent
+profit_attrib_owners,2022,IDR mn,3,AR2022=2.98112e+06; AR2023=2.98112e+06; AR2024=2.98112e+06,2981120.0,AR_2024.pdf p10.0,0.0,consistent
+profit_attrib_owners,2023,IDR mn,3,AR2023=1.60822e+06; AR2024=1.60822e+06; AR2025=1.60822e+06,1608217.0,TAPG_-_AR_2025.pdf p12.0,0.0,consistent
+profit_attrib_owners,2024,IDR mn,2,AR2024=3.12028e+06; AR2025=3.12028e+06,3120276.0,TAPG_-_AR_2025.pdf p12.0,0.0,consistent
+profit_attrib_owners,2025,IDR mn,1,AR2025=3.70227e+06,3702266.0,TAPG_-_AR_2025.pdf p12.0,0.0,single source
+profit_for_year,2019,IDR mn,1,AR2021=187520,187520.0,AR 2021.pdf p10.0,0.0,single source
+profit_for_year,2020,IDR mn,2,AR2021=932735; AR2022=932735,932735.0,AR_2022.pdf p10.0,0.0,consistent
+profit_for_year,2021,IDR mn,3,AR2021=1.19875e+06; AR2022=1.19875e+06; AR2023=1.19875e+06,1198747.0,AR_2023.pdf p10.0,0.0,consistent
+profit_for_year,2022,IDR mn,3,AR2022=3.08874e+06; AR2023=3.08874e+06; AR2024=3.08874e+06,3088745.0,AR_2024.pdf p10.0,0.0,consistent
+profit_for_year,2023,IDR mn,3,AR2023=1.66126e+06; AR2024=1.66126e+06; AR2025=1.66126e+06,1661258.0,TAPG_-_AR_2025.pdf p12.0,0.0,consistent
+profit_for_year,2024,IDR mn,2,AR2024=3.2406e+06; AR2025=3.2406e+06,3240599.0,TAPG_-_AR_2025.pdf p12.0,0.0,consistent
+profit_for_year,2025,IDR mn,1,AR2025=3.84535e+06,3845347.0,TAPG_-_AR_2025.pdf p12.0,0.0,single source
+revenue,2019,IDR mn,1,AR2021=4.32915e+06,4329148.0,AR 2021.pdf p10.0,0.0,single source
+revenue,2020,IDR mn,2,AR2021=5.26578e+06; AR2022=5.26578e+06,5265785.0,AR_2022.pdf p10.0,0.0,consistent
+revenue,2021,IDR mn,3,AR2021=6.27812e+06; AR2022=6.27812e+06; AR2023=6.27812e+06,6278123.0,AR_2023.pdf p10.0,0.0,consistent
+revenue,2022,IDR mn,3,AR2022=9.34564e+06; AR2023=9.34564e+06; AR2024=9.34564e+06,9345641.0,AR_2024.pdf p10.0,0.0,consistent
+revenue,2023,IDR mn,3,AR2023=8.32589e+06; AR2024=8.32589e+06; AR2025=8.32589e+06,8325887.0,TAPG_-_AR_2025.pdf p12.0,0.0,consistent
+revenue,2024,IDR mn,2,AR2024=9.67146e+06; AR2025=9.67146e+06,9671463.0,TAPG_-_AR_2025.pdf p12.0,0.0,consistent
+revenue,2025,IDR mn,1,AR2025=1.14022e+07,11402198.0,TAPG_-_AR_2025.pdf p12.0,0.0,single source
+total_assets,2019,IDR mn,1,AR2021=1.22658e+07,12265776.0,AR 2021.pdf p10.0,0.0,single source
+total_assets,2020,IDR mn,2,AR2021=1.2324e+07; AR2022=1.2324e+07,12323970.0,AR_2022.pdf p10.0,0.0,consistent
+total_assets,2021,IDR mn,3,AR2021=1.24463e+07; AR2022=1.24463e+07; AR2023=1.24463e+07,12446326.0,AR_2023.pdf p10.0,0.0,consistent
+total_assets,2022,IDR mn,3,AR2022=1.45261e+07; AR2023=1.45261e+07; AR2024=1.45261e+07,14526124.0,AR_2024.pdf p10.0,0.0,consistent
+total_assets,2023,IDR mn,3,AR2023=1.38674e+07; AR2024=1.38674e+07; AR2025=1.38674e+07,13867387.0,TAPG_-_AR_2025.pdf p12.0,0.0,consistent
+total_assets,2024,IDR mn,2,AR2024=1.43073e+07; AR2025=1.43073e+07,14307265.0,TAPG_-_AR_2025.pdf p12.0,0.0,consistent
+total_assets,2025,IDR mn,1,AR2025=1.46966e+07,14696563.0,TAPG_-_AR_2025.pdf p12.0,0.0,single source
+total_equity,2019,IDR mn,1,AR2021=5.7509e+06,5750903.0,AR 2021.pdf p10.0,0.0,single source
+total_equity,2020,IDR mn,2,AR2021=6.65628e+06; AR2022=6.65628e+06,6656282.0,AR_2022.pdf p10.0,0.0,consistent
+total_equity,2021,IDR mn,3,AR2021=7.79601e+06; AR2022=7.79601e+06; AR2023=7.79601e+06,7796011.0,AR_2023.pdf p10.0,0.0,consistent
+total_equity,2022,IDR mn,3,AR2022=1.04127e+07; AR2023=1.04123e+07; AR2024=1.04123e+07,10412277.0,AR_2024.pdf p10.0,4e-05,DIFFERS (restated or revised)
+total_equity,2023,IDR mn,3,AR2023=1.13395e+07; AR2024=1.13395e+07; AR2025=1.13395e+07,11339540.0,TAPG_-_AR_2025.pdf p12.0,0.0,consistent
+total_equity,2024,IDR mn,2,AR2024=1.12764e+07; AR2025=1.12764e+07,11276429.0,TAPG_-_AR_2025.pdf p12.0,0.0,consistent
+total_equity,2025,IDR mn,1,AR2025=1.16875e+07,11687485.0,TAPG_-_AR_2025.pdf p12.0,0.0,single source
+total_liabilities,2019,IDR mn,1,AR2021=6.51487e+06,6514873.0,AR 2021.pdf p10.0,0.0,single source
+total_liabilities,2020,IDR mn,2,AR2021=5.66769e+06; AR2022=5.66769e+06,5667688.0,AR_2022.pdf p10.0,0.0,consistent
+total_liabilities,2021,IDR mn,3,AR2021=4.65032e+06; AR2022=4.65032e+06; AR2023=4.65032e+06,4650315.0,AR_2023.pdf p10.0,0.0,consistent
+total_liabilities,2022,IDR mn,3,AR2022=4.11338e+06; AR2023=4.11338e+06; AR2024=4.11338e+06,4113380.0,AR_2024.pdf p10.0,0.0,consistent
+total_liabilities,2023,IDR mn,3,AR2023=2.52785e+06; AR2024=2.52785e+06; AR2025=2.52785e+06,2527847.0,TAPG_-_AR_2025.pdf p12.0,0.0,consistent
+total_liabilities,2024,IDR mn,2,AR2024=3.03084e+06; AR2025=3.03084e+06,3030836.0,TAPG_-_AR_2025.pdf p12.0,0.0,consistent
+total_liabilities,2025,IDR mn,1,AR2025=3.00908e+06,3009078.0,TAPG_-_AR_2025.pdf p12.0,0.0,single source

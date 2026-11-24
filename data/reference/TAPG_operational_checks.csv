@@ -1,0 +1,52 @@
+check,fiscal_year,lhs,rhs,result,detail
+age bands sum to total (nucleus),2021,137734.0,137734.0,PASS,
+age bands sum to total (nucleus_plasma),2021,160143.0,160143.0,PASS,
+regions sum to total (mature),2021,129943.0,129943.0,PASS,
+regions sum to total (immature),2021,7791.0,7791.0,PASS,
+immature nucleus = age 0-3 nucleus,2021,7791.0,7791.0,PASS,
+mature + immature = nucleus age total,2021,137734.0,137734.0,PASS,
+age bands sum to total (nucleus),2022,138400.0,138400.0,PASS,
+age bands sum to total (nucleus_plasma),2022,161400.0,161400.0,PASS,
+regions sum to total (mature),2022,130300.0,130300.0,PASS,
+regions sum to total (immature),2022,8100.0,8100.0,PASS,
+immature nucleus = age 0-3 nucleus,2022,8100.0,8100.0,PASS,
+mature + immature = nucleus age total,2022,138400.0,138400.0,PASS,
+age bands sum to total (nucleus),2023,136385.0,136385.0,PASS,
+age bands sum to total (nucleus_plasma),2023,160544.0,160544.0,PASS,
+regions sum to total (mature),2023,129221.0,129221.0,PASS,
+regions sum to total (immature),2023,7164.0,7164.0,PASS,
+immature nucleus = age 0-3 nucleus,2023,7164.0,7164.0,PASS,
+mature + immature = nucleus age total,2023,136385.0,136385.0,PASS,
+processed FFB sources sum to total,2023,4203.0,4203.0,PASS,
+age bands sum to total (nucleus),2024,135595.0,135594.0,PASS,
+age bands sum to total (nucleus_plasma),2024,160798.0,160798.0,PASS,
+regions sum to total (mature),2024,128178.0,128178.0,PASS,
+regions sum to total (immature),2024,7416.0,7416.0,PASS,
+immature nucleus = age 0-3 nucleus,2024,7416.0,7416.0,PASS,
+mature + immature = nucleus age total,2024,135594.0,135594.0,PASS,
+processed FFB sources sum to total,2024,3962.0,3962.0,PASS,
+CPO segment revenue = volume x ASP (IDR mn),2024,8367492.276,8367543.0,PASS,
+PK segment revenue = volume x ASP (IDR mn),2024,872413.178,872463.0,PASS,
+PKO segment revenue = volume x ASP (IDR mn),2024,372469.5,372478.0,PASS,
+COGS components = production cost,2024,5924331.0,5924331.0,PASS,
+age bands sum to total (nucleus),2025,132814.0,132814.0,PASS,
+age bands sum to total (nucleus_plasma),2025,159707.0,159707.0,PASS,
+regions sum to total (mature),2025,125201.0,125201.0,PASS,
+regions sum to total (immature),2025,7613.0,7613.0,PASS,
+immature nucleus = age 0-3 nucleus,2025,7613.0,7613.0,PASS,
+mature + immature = nucleus age total,2025,132814.0,132814.0,PASS,
+processed FFB sources sum to total,2025,4090.0,4089.0,PASS,
+CPO segment revenue = volume x ASP (IDR mn),2025,9369799.74,9369969.0,PASS,
+PK segment revenue = volume x ASP (IDR mn),2025,1356626.988,1356630.0,PASS,
+PKO segment revenue = volume x ASP (IDR mn),2025,587122.588,587121.0,PASS,
+COGS components = production cost,2025,6724608.0,6724608.0,PASS,
+USTP share <= total JV & associate share,2021,344792.0,348668.0,PASS,USTP 98.9% of reported total
+USTP dividend declared vs JV dividends received in cash,2021,147820.0,150000.0,INFO,"declared minus received = -2,180 (timing / receivable)"
+USTP share <= total JV & associate share,2022,958570.0,968377.0,PASS,USTP 99.0% of reported total
+USTP dividend declared vs JV dividends received in cash,2022,148297.0,150000.0,INFO,"declared minus received = -1,703 (timing / receivable)"
+USTP share <= total JV & associate share,2023,637054.0,643293.0,PASS,USTP 99.0% of reported total
+USTP dividend declared vs JV dividends received in cash,2023,296596.0,300000.0,INFO,"declared minus received = -3,404 (timing / receivable)"
+USTP share <= total JV & associate share,2024,886734.0,893767.0,PASS,USTP 99.2% of reported total
+USTP dividend declared vs JV dividends received in cash,2024,1161629.0,1170000.0,INFO,"declared minus received = -8,371 (timing / receivable)"
+USTP share <= total JV & associate share,2025,1059744.0,1066889.0,PASS,USTP 99.3% of reported total
+USTP dividend declared vs JV dividends received in cash,2025,1359871.0,958807.0,INFO,"declared minus received = 401,064 (timing / receivable)"

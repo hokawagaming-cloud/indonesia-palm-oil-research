@@ -1,0 +1,377 @@
+item,statement,period,period_end,months,value,raw_token,unit,basis,source_doc,pdf_page,publication_date,publication_date_basis,status
+revenue,IS,FY2021,2021-12-31,12.0,6278123.0,6.278.123,IDR mn,audited,AR 2021.pdf,210.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+revenue,IS,FY2020,2020-12-31,12.0,5265785.0,5.265.785,IDR mn,audited (comparative),AR 2021.pdf,210.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+cost_of_sales,IS,FY2021,2021-12-31,12.0,-4662334.0,(4.662.334),IDR mn,audited,AR 2021.pdf,210.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+cost_of_sales,IS,FY2020,2020-12-31,12.0,-3872987.0,(3.872.987),IDR mn,audited (comparative),AR 2021.pdf,210.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+gross_profit,IS,FY2021,2021-12-31,12.0,1615789.0,1.615.789,IDR mn,audited,AR 2021.pdf,210.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+gross_profit,IS,FY2020,2020-12-31,12.0,1392798.0,1.392.798,IDR mn,audited (comparative),AR 2021.pdf,210.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+fv_change_biological_assets,IS,FY2021,2021-12-31,12.0,101038.0,101.038,IDR mn,audited,AR 2021.pdf,210.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+fv_change_biological_assets,IS,FY2020,2020-12-31,12.0,61996.0,61.996,IDR mn,audited (comparative),AR 2021.pdf,210.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+selling_marketing_exp,IS,FY2021,2021-12-31,12.0,-168204.0,(168.204),IDR mn,audited,AR 2021.pdf,210.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+selling_marketing_exp,IS,FY2020,2020-12-31,12.0,-193937.0,(193.937),IDR mn,audited (comparative),AR 2021.pdf,210.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+general_admin_exp,IS,FY2021,2021-12-31,12.0,-361294.0,(361.294),IDR mn,audited,AR 2021.pdf,210.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+general_admin_exp,IS,FY2020,2020-12-31,12.0,-301774.0,(301.774),IDR mn,audited (comparative),AR 2021.pdf,210.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+other_operating_income,IS,FY2021,2021-12-31,12.0,77228.0,77.228,IDR mn,audited,AR 2021.pdf,210.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+other_operating_income,IS,FY2020,2020-12-31,12.0,73270.0,73.270,IDR mn,audited (comparative),AR 2021.pdf,210.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+other_operating_expense,IS,FY2021,2021-12-31,12.0,-15889.0,(15.889),IDR mn,audited,AR 2021.pdf,210.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+other_operating_expense,IS,FY2020,2020-12-31,12.0,-24970.0,(24.970),IDR mn,audited (comparative),AR 2021.pdf,210.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+operating_profit,IS,FY2021,2021-12-31,12.0,1248668.0,1.248.668,IDR mn,audited,AR 2021.pdf,210.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+operating_profit,IS,FY2020,2020-12-31,12.0,1007383.0,1.007.383,IDR mn,audited (comparative),AR 2021.pdf,210.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+finance_costs,IS,FY2021,2021-12-31,12.0,-197064.0,(197.064),IDR mn,audited,AR 2021.pdf,210.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+finance_costs,IS,FY2020,2020-12-31,12.0,-381508.0,(381.508),IDR mn,audited (comparative),AR 2021.pdf,210.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+finance_income,IS,FY2021,2021-12-31,12.0,20992.0,20.992,IDR mn,audited,AR 2021.pdf,210.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+finance_income,IS,FY2020,2020-12-31,12.0,39949.0,39.949,IDR mn,audited (comparative),AR 2021.pdf,210.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+share_of_profit_jv_associates,IS,FY2021,2021-12-31,12.0,348668.0,348.668,IDR mn,audited,AR 2021.pdf,210.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+share_of_profit_jv_associates,IS,FY2020,2020-12-31,12.0,405060.0,405.060,IDR mn,audited (comparative),AR 2021.pdf,210.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+profit_before_tax,IS,FY2021,2021-12-31,12.0,1421264.0,1.421.264,IDR mn,audited,AR 2021.pdf,210.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+profit_before_tax,IS,FY2020,2020-12-31,12.0,1070884.0,1.070.884,IDR mn,audited (comparative),AR 2021.pdf,210.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+income_tax_expense,IS,FY2021,2021-12-31,12.0,-222517.0,(222.517),IDR mn,audited,AR 2021.pdf,210.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+income_tax_expense,IS,FY2020,2020-12-31,12.0,-138149.0,(138.149),IDR mn,audited (comparative),AR 2021.pdf,210.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+profit_for_year,IS,FY2021,2021-12-31,12.0,1198747.0,1.198.747,IDR mn,audited,AR 2021.pdf,210.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+profit_for_year,IS,FY2020,2020-12-31,12.0,932735.0,932.735,IDR mn,audited (comparative),AR 2021.pdf,210.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+profit_attrib_owners,IS2,FY2021,2021-12-31,12.0,1159036.0,1.159.036,IDR mn,audited,AR 2021.pdf,211.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+profit_attrib_owners,IS2,FY2020,2020-12-31,12.0,911068.0,911.068,IDR mn,audited (comparative),AR 2021.pdf,211.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+cfo,CF,FY2021,2021-12-31,12.0,1455015.0,1.455.015,IDR mn,audited,AR 2021.pdf,213.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+cfo,CF,FY2020,2020-12-31,12.0,1551861.0,1.551.861,IDR mn,audited (comparative),AR 2021.pdf,213.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+dividends_received_jv,CF,FY2021,2021-12-31,12.0,150000.0,150.000,IDR mn,audited,AR 2021.pdf,213.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+dividends_received_jv,CF,FY2020,2020-12-31,12.0,50000.0,50.000,IDR mn,audited (comparative),AR 2021.pdf,213.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+capex_fixed_assets,CF,FY2021,2021-12-31,12.0,-455163.0,(455.163),IDR mn,audited,AR 2021.pdf,213.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+capex_fixed_assets,CF,FY2020,2020-12-31,12.0,-427222.0,(427.222),IDR mn,audited (comparative),AR 2021.pdf,213.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+dividends_paid,CF,FY2021,2021-12-31,12.0,-299972.0,(299.972),IDR mn,audited,AR 2021.pdf,214.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+dividends_paid,CF,FY2020,2020-12-31,12.0,0.0,-,IDR mn,audited (comparative),AR 2021.pdf,214.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+investment_in_jv,BS,FY2021,2021-12-31,12.0,2048895.0,2.048.895,IDR mn,audited,AR 2021.pdf,207.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+investment_in_jv,BS,FY2020,2020-12-31,12.0,1845549.0,1.845.549,IDR mn,audited (comparative),AR 2021.pdf,207.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+investment_in_associates,BS,,,,,,,,AR 2021.pdf,,,,NOT FOUND
+fixed_assets_net,BS,FY2021,2021-12-31,12.0,7118593.0,7.118.593,IDR mn,audited,AR 2021.pdf,207.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+fixed_assets_net,BS,FY2020,2020-12-31,12.0,7202247.0,7.202.247,IDR mn,audited (comparative),AR 2021.pdf,207.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+cash,BS,FY2021,2021-12-31,12.0,1280238.0,1.280.238,IDR mn,audited,AR 2021.pdf,207.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+cash,BS,FY2020,2020-12-31,12.0,1489961.0,1.489.961,IDR mn,audited (comparative),AR 2021.pdf,207.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+total_assets,BS,FY2021,2021-12-31,12.0,12446326.0,12.446.326,IDR mn,audited,AR 2021.pdf,207.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+total_assets,BS,FY2020,2020-12-31,12.0,12323970.0,12.323.970,IDR mn,audited (comparative),AR 2021.pdf,207.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+total_equity,BS,FY2021,2021-12-31,12.0,7796011.0,7.796.011,IDR mn,audited,AR 2021.pdf,209.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+total_equity,BS,FY2020,2020-12-31,12.0,6656282.0,6.656.282,IDR mn,audited (comparative),AR 2021.pdf,209.0,2022-03-22,FS authorised-for-issue date (Directors),extracted
+revenue,IS,FY2022,2022-12-31,12.0,9345641.0,9.345.641,IDR mn,audited,AR_2022.pdf,235.0,2023-02-24,auditor report date,extracted
+revenue,IS,FY2021,2021-12-31,12.0,6278123.0,6.278.123,IDR mn,audited (comparative),AR_2022.pdf,235.0,2023-02-24,auditor report date,extracted
+cost_of_sales,IS,FY2022,2022-12-31,12.0,-5629777.0,(5.629.777),IDR mn,audited,AR_2022.pdf,235.0,2023-02-24,auditor report date,extracted
+cost_of_sales,IS,FY2021,2021-12-31,12.0,-4662334.0,(4.662.334),IDR mn,audited (comparative),AR_2022.pdf,235.0,2023-02-24,auditor report date,extracted
+gross_profit,IS,FY2022,2022-12-31,12.0,3715864.0,3.715.864,IDR mn,audited,AR_2022.pdf,235.0,2023-02-24,auditor report date,extracted
+gross_profit,IS,FY2021,2021-12-31,12.0,1615789.0,1.615.789,IDR mn,audited (comparative),AR_2022.pdf,235.0,2023-02-24,auditor report date,extracted
+fv_change_biological_assets,IS,FY2022,2022-12-31,12.0,-122888.0,(122.888),IDR mn,audited,AR_2022.pdf,235.0,2023-02-24,auditor report date,extracted
+fv_change_biological_assets,IS,FY2021,2021-12-31,12.0,101038.0,101.038,IDR mn,audited (comparative),AR_2022.pdf,235.0,2023-02-24,auditor report date,extracted
+selling_marketing_exp,IS,FY2022,2022-12-31,12.0,-284032.0,(284.032),IDR mn,audited,AR_2022.pdf,235.0,2023-02-24,auditor report date,extracted
+selling_marketing_exp,IS,FY2021,2021-12-31,12.0,-168204.0,(168.204),IDR mn,audited (comparative),AR_2022.pdf,235.0,2023-02-24,auditor report date,extracted
+general_admin_exp,IS,FY2022,2022-12-31,12.0,-400921.0,(400.921),IDR mn,audited,AR_2022.pdf,235.0,2023-02-24,auditor report date,extracted
+general_admin_exp,IS,FY2021,2021-12-31,12.0,-361294.0,(361.294),IDR mn,audited (comparative),AR_2022.pdf,235.0,2023-02-24,auditor report date,extracted
+other_operating_income,IS,FY2022,2022-12-31,12.0,152601.0,152.601,IDR mn,audited,AR_2022.pdf,235.0,2023-02-24,auditor report date,extracted
+other_operating_income,IS,FY2021,2021-12-31,12.0,77228.0,77.228,IDR mn,audited (comparative),AR_2022.pdf,235.0,2023-02-24,auditor report date,extracted
+other_operating_expense,IS,FY2022,2022-12-31,12.0,-29038.0,(29.038),IDR mn,audited,AR_2022.pdf,235.0,2023-02-24,auditor report date,extracted
+other_operating_expense,IS,FY2021,2021-12-31,12.0,-15889.0,(15.889),IDR mn,audited (comparative),AR_2022.pdf,235.0,2023-02-24,auditor report date,extracted
+operating_profit,IS,FY2022,2022-12-31,12.0,3031586.0,3.031.586,IDR mn,audited,AR_2022.pdf,235.0,2023-02-24,auditor report date,extracted
+operating_profit,IS,FY2021,2021-12-31,12.0,1248668.0,1.248.668,IDR mn,audited (comparative),AR_2022.pdf,235.0,2023-02-24,auditor report date,extracted
+finance_costs,IS,FY2022,2022-12-31,12.0,-380151.0,(380.151),IDR mn,audited,AR_2022.pdf,235.0,2023-02-24,auditor report date,extracted
+finance_costs,IS,FY2021,2021-12-31,12.0,-197064.0,(197.064),IDR mn,audited (comparative),AR_2022.pdf,235.0,2023-02-24,auditor report date,extracted
+finance_income,IS,FY2022,2022-12-31,12.0,69469.0,69.469,IDR mn,audited,AR_2022.pdf,235.0,2023-02-24,auditor report date,extracted
+finance_income,IS,FY2021,2021-12-31,12.0,20992.0,20.992,IDR mn,audited (comparative),AR_2022.pdf,235.0,2023-02-24,auditor report date,extracted
+share_of_profit_jv_associates,IS,FY2022,2022-12-31,12.0,968377.0,968.377,IDR mn,audited,AR_2022.pdf,235.0,2023-02-24,auditor report date,extracted
+share_of_profit_jv_associates,IS,FY2021,2021-12-31,12.0,348668.0,348.668,IDR mn,audited (comparative),AR_2022.pdf,235.0,2023-02-24,auditor report date,extracted
+profit_before_tax,IS,FY2022,2022-12-31,12.0,3689281.0,3.689.281,IDR mn,audited,AR_2022.pdf,235.0,2023-02-24,auditor report date,extracted
+profit_before_tax,IS,FY2021,2021-12-31,12.0,1421264.0,1.421.264,IDR mn,audited (comparative),AR_2022.pdf,235.0,2023-02-24,auditor report date,extracted
+income_tax_expense,IS,FY2022,2022-12-31,12.0,-600536.0,(600.536),IDR mn,audited,AR_2022.pdf,235.0,2023-02-24,auditor report date,extracted
+income_tax_expense,IS,FY2021,2021-12-31,12.0,-222517.0,(222.517),IDR mn,audited (comparative),AR_2022.pdf,235.0,2023-02-24,auditor report date,extracted
+profit_for_year,IS,FY2022,2022-12-31,12.0,3088745.0,3.088.745,IDR mn,audited,AR_2022.pdf,235.0,2023-02-24,auditor report date,extracted
+profit_for_year,IS,FY2021,2021-12-31,12.0,1198747.0,1.198.747,IDR mn,audited (comparative),AR_2022.pdf,235.0,2023-02-24,auditor report date,extracted
+profit_attrib_owners,IS2,FY2022,2022-12-31,12.0,2981120.0,2.981.120,IDR mn,audited,AR_2022.pdf,236.0,2023-02-24,auditor report date,extracted
+profit_attrib_owners,IS2,FY2021,2021-12-31,12.0,1159036.0,1.159.036,IDR mn,audited (comparative),AR_2022.pdf,236.0,2023-02-24,auditor report date,extracted
+cfo,CF,FY2022,2022-12-31,12.0,3175480.0,3.175.480,IDR mn,audited,AR_2022.pdf,238.0,2023-02-24,auditor report date,extracted
+cfo,CF,FY2021,2021-12-31,12.0,1455015.0,1.455.015,IDR mn,audited (comparative),AR_2022.pdf,238.0,2023-02-24,auditor report date,extracted
+dividends_received_jv,CF,FY2022,2022-12-31,12.0,150000.0,150.000,IDR mn,audited,AR_2022.pdf,238.0,2023-02-24,auditor report date,extracted
+dividends_received_jv,CF,FY2021,2021-12-31,12.0,150000.0,150.000,IDR mn,audited (comparative),AR_2022.pdf,238.0,2023-02-24,auditor report date,extracted
+capex_fixed_assets,CF,FY2022,2022-12-31,12.0,-738152.0,(738.152),IDR mn,audited,AR_2022.pdf,238.0,2023-02-24,auditor report date,extracted
+capex_fixed_assets,CF,FY2021,2021-12-31,12.0,-455163.0,(455.163),IDR mn,audited (comparative),AR_2022.pdf,238.0,2023-02-24,auditor report date,extracted
+dividends_paid,CF,FY2022,2022-12-31,12.0,-496314.0,(496.314),IDR mn,audited,AR_2022.pdf,239.0,2023-02-24,auditor report date,extracted
+dividends_paid,CF,FY2021,2021-12-31,12.0,-299972.0,(299.972),IDR mn,audited (comparative),AR_2022.pdf,239.0,2023-02-24,auditor report date,extracted
+investment_in_jv,BS,FY2022,2022-12-31,12.0,2871438.0,2.871.438,IDR mn,audited,AR_2022.pdf,232.0,2023-02-24,auditor report date,extracted
+investment_in_jv,BS,FY2021,2021-12-31,12.0,2048895.0,2.048.895,IDR mn,audited (comparative),AR_2022.pdf,232.0,2023-02-24,auditor report date,extracted
+investment_in_associates,BS,,,,,,,,AR_2022.pdf,,,,NOT FOUND
+fixed_assets_net,BS,FY2022,2022-12-31,12.0,7292712.0,7.292.712,IDR mn,audited,AR_2022.pdf,232.0,2023-02-24,auditor report date,extracted
+fixed_assets_net,BS,FY2021,2021-12-31,12.0,7118593.0,7.118.593,IDR mn,audited (comparative),AR_2022.pdf,232.0,2023-02-24,auditor report date,extracted
+cash,BS,FY2022,2022-12-31,12.0,1957773.0,1.957.773,IDR mn,audited,AR_2022.pdf,232.0,2023-02-24,auditor report date,extracted
+cash,BS,FY2021,2021-12-31,12.0,1280238.0,1.280.238,IDR mn,audited (comparative),AR_2022.pdf,232.0,2023-02-24,auditor report date,extracted
+total_assets,BS,FY2022,2022-12-31,12.0,14526124.0,14.526.124,IDR mn,audited,AR_2022.pdf,232.0,2023-02-24,auditor report date,extracted
+total_assets,BS,FY2021,2021-12-31,12.0,12446326.0,12.446.326,IDR mn,audited (comparative),AR_2022.pdf,232.0,2023-02-24,auditor report date,extracted
+total_equity,BS,FY2022,2022-12-31,12.0,10412744.0,10.412.744,IDR mn,audited,AR_2022.pdf,234.0,2023-02-24,auditor report date,extracted
+total_equity,BS,FY2021,2021-12-31,12.0,7796011.0,7.796.011,IDR mn,audited (comparative),AR_2022.pdf,234.0,2023-02-24,auditor report date,extracted
+revenue,IS,FY2023,2023-12-31,12.0,8325887.0,8.325.887,IDR mn,audited,AR_2023.pdf,229.0,2024-03-07,auditor report date,extracted
+revenue,IS,FY2022,2022-12-31,12.0,9345641.0,9.345.641,IDR mn,audited (comparative),AR_2023.pdf,229.0,2024-03-07,auditor report date,extracted
+cost_of_sales,IS,FY2023,2023-12-31,12.0,-6108590.0,(6.108.590),IDR mn,audited,AR_2023.pdf,229.0,2024-03-07,auditor report date,extracted
+cost_of_sales,IS,FY2022,2022-12-31,12.0,-5629777.0,(5.629.777),IDR mn,audited (comparative),AR_2023.pdf,229.0,2024-03-07,auditor report date,extracted
+gross_profit,IS,FY2023,2023-12-31,12.0,2217297.0,2.217.297,IDR mn,audited,AR_2023.pdf,229.0,2024-03-07,auditor report date,extracted
+gross_profit,IS,FY2022,2022-12-31,12.0,3715864.0,3.715.864,IDR mn,audited (comparative),AR_2023.pdf,229.0,2024-03-07,auditor report date,extracted
+fv_change_biological_assets,IS,,,,,,,,AR_2023.pdf,,,,NOT FOUND
+selling_marketing_exp,IS,FY2023,2023-12-31,12.0,-305154.0,(305.154),IDR mn,audited,AR_2023.pdf,229.0,2024-03-07,auditor report date,extracted
+selling_marketing_exp,IS,FY2022,2022-12-31,12.0,-284032.0,(284.032),IDR mn,audited (comparative),AR_2023.pdf,229.0,2024-03-07,auditor report date,extracted
+general_admin_exp,IS,FY2023,2023-12-31,12.0,-569876.0,(569.876),IDR mn,audited,AR_2023.pdf,229.0,2024-03-07,auditor report date,extracted
+general_admin_exp,IS,FY2022,2022-12-31,12.0,-400921.0,(400.921),IDR mn,audited (comparative),AR_2023.pdf,229.0,2024-03-07,auditor report date,extracted
+other_operating_income,IS,FY2023,2023-12-31,12.0,122101.0,122.101,IDR mn,audited,AR_2023.pdf,229.0,2024-03-07,auditor report date,extracted
+other_operating_income,IS,FY2022,2022-12-31,12.0,152601.0,152.601,IDR mn,audited (comparative),AR_2023.pdf,229.0,2024-03-07,auditor report date,extracted
+other_operating_expense,IS,FY2023,2023-12-31,12.0,-71916.0,(71.916),IDR mn,audited,AR_2023.pdf,229.0,2024-03-07,auditor report date,extracted
+other_operating_expense,IS,FY2022,2022-12-31,12.0,-29038.0,(29.038),IDR mn,audited (comparative),AR_2023.pdf,229.0,2024-03-07,auditor report date,extracted
+operating_profit,IS,FY2023,2023-12-31,12.0,1372731.0,1.372.731,IDR mn,audited,AR_2023.pdf,229.0,2024-03-07,auditor report date,extracted
+operating_profit,IS,FY2022,2022-12-31,12.0,3031586.0,3.031.586,IDR mn,audited (comparative),AR_2023.pdf,229.0,2024-03-07,auditor report date,extracted
+finance_costs,IS,FY2023,2023-12-31,12.0,-152924.0,(152.924),IDR mn,audited,AR_2023.pdf,229.0,2024-03-07,auditor report date,extracted
+finance_costs,IS,FY2022,2022-12-31,12.0,-347594.0,(347.594),IDR mn,audited (comparative),AR_2023.pdf,229.0,2024-03-07,auditor report date,extracted
+finance_income,IS,FY2023,2023-12-31,12.0,77998.0,77.998,IDR mn,audited,AR_2023.pdf,229.0,2024-03-07,auditor report date,extracted
+finance_income,IS,FY2022,2022-12-31,12.0,36912.0,36.912,IDR mn,audited (comparative),AR_2023.pdf,229.0,2024-03-07,auditor report date,extracted
+share_of_profit_jv_associates,IS,FY2023,2023-12-31,12.0,643293.0,643.293,IDR mn,audited,AR_2023.pdf,229.0,2024-03-07,auditor report date,extracted
+share_of_profit_jv_associates,IS,FY2022,2022-12-31,12.0,968377.0,968.377,IDR mn,audited (comparative),AR_2023.pdf,229.0,2024-03-07,auditor report date,extracted
+profit_before_tax,IS,FY2023,2023-12-31,12.0,1941098.0,1.941.098,IDR mn,audited,AR_2023.pdf,229.0,2024-03-07,auditor report date,extracted
+profit_before_tax,IS,FY2022,2022-12-31,12.0,3689281.0,3.689.281,IDR mn,audited (comparative),AR_2023.pdf,229.0,2024-03-07,auditor report date,extracted
+income_tax_expense,IS,FY2023,2023-12-31,12.0,-279840.0,(279.840),IDR mn,audited,AR_2023.pdf,229.0,2024-03-07,auditor report date,extracted
+income_tax_expense,IS,FY2022,2022-12-31,12.0,-600536.0,(600.536),IDR mn,audited (comparative),AR_2023.pdf,229.0,2024-03-07,auditor report date,extracted
+profit_for_year,IS,FY2023,2023-12-31,12.0,1661258.0,1.661.258,IDR mn,audited,AR_2023.pdf,229.0,2024-03-07,auditor report date,extracted
+profit_for_year,IS,FY2022,2022-12-31,12.0,3088745.0,3.088.745,IDR mn,audited (comparative),AR_2023.pdf,229.0,2024-03-07,auditor report date,extracted
+profit_attrib_owners,IS2,FY2023,2023-12-31,12.0,1608217.0,1.608.217,IDR mn,audited,AR_2023.pdf,230.0,2024-03-07,auditor report date,extracted
+profit_attrib_owners,IS2,FY2022,2022-12-31,12.0,2981120.0,2.981.120,IDR mn,audited (comparative),AR_2023.pdf,230.0,2024-03-07,auditor report date,extracted
+cfo,CF,FY2023,2023-12-31,12.0,1569363.0,1.569.363,IDR mn,audited,AR_2023.pdf,232.0,2024-03-07,auditor report date,extracted
+cfo,CF,FY2022,2022-12-31,12.0,3175480.0,3.175.480,IDR mn,audited (comparative),AR_2023.pdf,232.0,2024-03-07,auditor report date,extracted
+dividends_received_jv,CF,FY2023,2023-12-31,12.0,300000.0,300.000,IDR mn,audited,AR_2023.pdf,232.0,2024-03-07,auditor report date,extracted
+dividends_received_jv,CF,FY2022,2022-12-31,12.0,150000.0,150.000,IDR mn,audited (comparative),AR_2023.pdf,232.0,2024-03-07,auditor report date,extracted
+capex_fixed_assets,CF,FY2023,2023-12-31,12.0,-802438.0,(802.438),IDR mn,audited,AR_2023.pdf,232.0,2024-03-07,auditor report date,extracted
+capex_fixed_assets,CF,FY2022,2022-12-31,12.0,-738152.0,(738.152),IDR mn,audited (comparative),AR_2023.pdf,232.0,2024-03-07,auditor report date,extracted
+dividends_paid,CF,FY2023,2023-12-31,12.0,-754397.0,(754.397),IDR mn,audited,AR_2023.pdf,233.0,2024-03-07,auditor report date,extracted
+dividends_paid,CF,FY2022,2022-12-31,12.0,-496314.0,(496.314),IDR mn,audited (comparative),AR_2023.pdf,233.0,2024-03-07,auditor report date,extracted
+investment_in_jv,BS,FY2023,2023-12-31,12.0,3214873.0,3.214.873,IDR mn,audited,AR_2023.pdf,226.0,2024-03-07,auditor report date,extracted
+investment_in_jv,BS,FY2022,2022-12-31,12.0,2871438.0,2.871.438,IDR mn,audited (comparative),AR_2023.pdf,226.0,2024-03-07,auditor report date,extracted
+investment_in_associates,BS,,,,,,,,AR_2023.pdf,,,,NOT FOUND
+fixed_assets_net,BS,FY2023,2023-12-31,12.0,7482594.0,7.482.594,IDR mn,audited,AR_2023.pdf,226.0,2024-03-07,auditor report date,extracted
+fixed_assets_net,BS,FY2022,2022-12-31,12.0,7292712.0,7.292.712,IDR mn,audited (comparative),AR_2023.pdf,226.0,2024-03-07,auditor report date,extracted
+cash,BS,FY2023,2023-12-31,12.0,1006796.0,1.006.796,IDR mn,audited,AR_2023.pdf,226.0,2024-03-07,auditor report date,extracted
+cash,BS,FY2022,2022-12-31,12.0,1957773.0,1.957.773,IDR mn,audited (comparative),AR_2023.pdf,226.0,2024-03-07,auditor report date,extracted
+total_assets,BS,FY2023,2023-12-31,12.0,13867387.0,13.867.387,IDR mn,audited,AR_2023.pdf,226.0,2024-03-07,auditor report date,extracted
+total_assets,BS,FY2022,2022-12-31,12.0,14526124.0,14.526.124,IDR mn,audited (comparative),AR_2023.pdf,226.0,2024-03-07,auditor report date,extracted
+total_equity,BS,FY2023,2023-12-31,12.0,11339540.0,11.339.540,IDR mn,audited,AR_2023.pdf,228.0,2024-03-07,auditor report date,extracted
+total_equity,BS,FY2022,2022-12-31,12.0,10412744.0,10.412.744,IDR mn,audited (comparative),AR_2023.pdf,228.0,2024-03-07,auditor report date,extracted
+revenue,IS,FY2024,2024-12-31,12.0,9671463.0,9.671.463,IDR mn,audited,AR_2024.pdf,229.0,2025-02-26,auditor report date,extracted
+revenue,IS,FY2023,2023-12-31,12.0,8325887.0,8.325.887,IDR mn,audited (comparative),AR_2024.pdf,229.0,2025-02-26,auditor report date,extracted
+cost_of_sales,IS,FY2024,2024-12-31,12.0,-5948685.0,(5.948.685),IDR mn,audited,AR_2024.pdf,229.0,2025-02-26,auditor report date,extracted
+cost_of_sales,IS,FY2023,2023-12-31,12.0,-6108590.0,(6.108.590),IDR mn,audited (comparative),AR_2024.pdf,229.0,2025-02-26,auditor report date,extracted
+gross_profit,IS,FY2024,2024-12-31,12.0,3722778.0,3.722.778,IDR mn,audited,AR_2024.pdf,229.0,2025-02-26,auditor report date,extracted
+gross_profit,IS,FY2023,2023-12-31,12.0,2217297.0,2.217.297,IDR mn,audited (comparative),AR_2024.pdf,229.0,2025-02-26,auditor report date,extracted
+fv_change_biological_assets,IS,FY2024,2024-12-31,12.0,208408.0,208.408,IDR mn,audited,AR_2024.pdf,229.0,2025-02-26,auditor report date,extracted
+fv_change_biological_assets,IS,FY2023,2023-12-31,12.0,-19721.0,(19.721),IDR mn,audited (comparative),AR_2024.pdf,229.0,2025-02-26,auditor report date,extracted
+selling_marketing_exp,IS,FY2024,2024-12-31,12.0,-281644.0,(281.644),IDR mn,audited,AR_2024.pdf,229.0,2025-02-26,auditor report date,extracted
+selling_marketing_exp,IS,FY2023,2023-12-31,12.0,-305154.0,(305.154),IDR mn,audited (comparative),AR_2024.pdf,229.0,2025-02-26,auditor report date,extracted
+general_admin_exp,IS,FY2024,2024-12-31,12.0,-612598.0,(612.598),IDR mn,audited,AR_2024.pdf,229.0,2025-02-26,auditor report date,extracted
+general_admin_exp,IS,FY2023,2023-12-31,12.0,-569876.0,(569.876),IDR mn,audited (comparative),AR_2024.pdf,229.0,2025-02-26,auditor report date,extracted
+other_operating_income,IS,FY2024,2024-12-31,12.0,48510.0,48.510,IDR mn,audited,AR_2024.pdf,229.0,2025-02-26,auditor report date,extracted
+other_operating_income,IS,FY2023,2023-12-31,12.0,122101.0,122.101,IDR mn,audited (comparative),AR_2024.pdf,229.0,2025-02-26,auditor report date,extracted
+other_operating_expense,IS,FY2024,2024-12-31,12.0,-40840.0,(40.840),IDR mn,audited,AR_2024.pdf,229.0,2025-02-26,auditor report date,extracted
+other_operating_expense,IS,FY2023,2023-12-31,12.0,-71916.0,(71.916),IDR mn,audited (comparative),AR_2024.pdf,229.0,2025-02-26,auditor report date,extracted
+operating_profit,IS,FY2024,2024-12-31,12.0,3044614.0,3.044.614,IDR mn,audited,AR_2024.pdf,229.0,2025-02-26,auditor report date,extracted
+operating_profit,IS,FY2023,2023-12-31,12.0,1372731.0,1.372.731,IDR mn,audited (comparative),AR_2024.pdf,229.0,2025-02-26,auditor report date,extracted
+finance_costs,IS,FY2024,2024-12-31,12.0,-75443.0,(75.443),IDR mn,audited,AR_2024.pdf,229.0,2025-02-26,auditor report date,extracted
+finance_costs,IS,FY2023,2023-12-31,12.0,-152924.0,(152.924),IDR mn,audited (comparative),AR_2024.pdf,229.0,2025-02-26,auditor report date,extracted
+finance_income,IS,FY2024,2024-12-31,12.0,63966.0,63.966,IDR mn,audited,AR_2024.pdf,229.0,2025-02-26,auditor report date,extracted
+finance_income,IS,FY2023,2023-12-31,12.0,77998.0,77.998,IDR mn,audited (comparative),AR_2024.pdf,229.0,2025-02-26,auditor report date,extracted
+share_of_profit_jv_associates,IS,FY2024,2024-12-31,12.0,893767.0,893.767,IDR mn,audited,AR_2024.pdf,229.0,2025-02-26,auditor report date,extracted
+share_of_profit_jv_associates,IS,FY2023,2023-12-31,12.0,643293.0,643.293,IDR mn,audited (comparative),AR_2024.pdf,229.0,2025-02-26,auditor report date,extracted
+profit_before_tax,IS,FY2024,2024-12-31,12.0,3926904.0,3.926.904,IDR mn,audited,AR_2024.pdf,229.0,2025-02-26,auditor report date,extracted
+profit_before_tax,IS,FY2023,2023-12-31,12.0,1941098.0,1.941.098,IDR mn,audited (comparative),AR_2024.pdf,229.0,2025-02-26,auditor report date,extracted
+income_tax_expense,IS,FY2024,2024-12-31,12.0,-686305.0,(686.305),IDR mn,audited,AR_2024.pdf,229.0,2025-02-26,auditor report date,extracted
+income_tax_expense,IS,FY2023,2023-12-31,12.0,-279840.0,(279.840),IDR mn,audited (comparative),AR_2024.pdf,229.0,2025-02-26,auditor report date,extracted
+profit_for_year,IS,FY2024,2024-12-31,12.0,3240599.0,3.240.599,IDR mn,audited,AR_2024.pdf,229.0,2025-02-26,auditor report date,extracted
+profit_for_year,IS,FY2023,2023-12-31,12.0,1661258.0,1.661.258,IDR mn,audited (comparative),AR_2024.pdf,229.0,2025-02-26,auditor report date,extracted
+profit_attrib_owners,IS2,FY2024,2024-12-31,12.0,3120276.0,3.120.276,IDR mn,audited,AR_2024.pdf,230.0,2025-02-26,auditor report date,extracted
+profit_attrib_owners,IS2,FY2023,2023-12-31,12.0,1608217.0,1.608.217,IDR mn,audited (comparative),AR_2024.pdf,230.0,2025-02-26,auditor report date,extracted
+cfo,CF,FY2024,2024-12-31,12.0,3239185.0,3.239.185,IDR mn,audited,AR_2024.pdf,232.0,2025-02-26,auditor report date,extracted
+cfo,CF,FY2023,2023-12-31,12.0,1569363.0,1.569.363,IDR mn,audited (comparative),AR_2024.pdf,232.0,2025-02-26,auditor report date,extracted
+dividends_received_jv,CF,FY2024,2024-12-31,12.0,1170000.0,1.170.000,IDR mn,audited,AR_2024.pdf,232.0,2025-02-26,auditor report date,extracted
+dividends_received_jv,CF,FY2023,2023-12-31,12.0,300000.0,300.000,IDR mn,audited (comparative),AR_2024.pdf,232.0,2025-02-26,auditor report date,extracted
+capex_fixed_assets,CF,FY2024,2024-12-31,12.0,-587641.0,(587.641),IDR mn,audited,AR_2024.pdf,232.0,2025-02-26,auditor report date,extracted
+capex_fixed_assets,CF,FY2023,2023-12-31,12.0,-802438.0,(802.438),IDR mn,audited (comparative),AR_2024.pdf,232.0,2025-02-26,auditor report date,extracted
+dividends_paid,CF,FY2024,2024-12-31,12.0,-3315374.0,(3.315.374),IDR mn,audited,AR_2024.pdf,233.0,2025-02-26,auditor report date,extracted
+dividends_paid,CF,FY2023,2023-12-31,12.0,-754397.0,(754.397),IDR mn,audited (comparative),AR_2024.pdf,233.0,2025-02-26,auditor report date,extracted
+investment_in_jv,BS,FY2024,2024-12-31,12.0,2944729.0,2.944.729,IDR mn,audited,AR_2024.pdf,226.0,2025-02-26,auditor report date,extracted
+investment_in_jv,BS,FY2023,2023-12-31,12.0,3214873.0,3.214.873,IDR mn,audited (comparative),AR_2024.pdf,226.0,2025-02-26,auditor report date,extracted
+investment_in_associates,BS,FY2024,2024-12-31,12.0,57283.0,57.283,IDR mn,audited,AR_2024.pdf,226.0,2025-02-26,auditor report date,extracted
+investment_in_associates,BS,FY2023,2023-12-31,12.0,0.0,-,IDR mn,audited (comparative),AR_2024.pdf,226.0,2025-02-26,auditor report date,extracted
+fixed_assets_net,BS,FY2024,2024-12-31,12.0,7388269.0,7.388.269,IDR mn,audited,AR_2024.pdf,226.0,2025-02-26,auditor report date,extracted
+fixed_assets_net,BS,FY2023,2023-12-31,12.0,7482594.0,7.482.594,IDR mn,audited (comparative),AR_2024.pdf,226.0,2025-02-26,auditor report date,extracted
+cash,BS,FY2024,2024-12-31,12.0,1309216.0,1.309.216,IDR mn,audited,AR_2024.pdf,226.0,2025-02-26,auditor report date,extracted
+cash,BS,FY2023,2023-12-31,12.0,1006796.0,1.006.796,IDR mn,audited (comparative),AR_2024.pdf,226.0,2025-02-26,auditor report date,extracted
+total_assets,BS,FY2024,2024-12-31,12.0,14307265.0,14.307.265,IDR mn,audited,AR_2024.pdf,226.0,2025-02-26,auditor report date,extracted
+total_assets,BS,FY2023,2023-12-31,12.0,13867387.0,13.867.387,IDR mn,audited (comparative),AR_2024.pdf,226.0,2025-02-26,auditor report date,extracted
+total_equity,BS,FY2024,2024-12-31,12.0,11276429.0,11.276.429,IDR mn,audited,AR_2024.pdf,228.0,2025-02-26,auditor report date,extracted
+total_equity,BS,FY2023,2023-12-31,12.0,11339540.0,11.339.540,IDR mn,audited (comparative),AR_2024.pdf,228.0,2025-02-26,auditor report date,extracted
+revenue,IS,FY2025,2025-12-31,12.0,11402198.0,11.402.198,IDR mn,audited,TAPG_-_AR_2025.pdf,244.0,2026-03-16,auditor report date,extracted
+revenue,IS,FY2024,2024-12-31,12.0,9671463.0,9.671.463,IDR mn,audited (comparative),TAPG_-_AR_2025.pdf,244.0,2026-03-16,auditor report date,extracted
+cost_of_sales,IS,FY2025,2025-12-31,12.0,-6904581.0,(6.904.581),IDR mn,audited,TAPG_-_AR_2025.pdf,244.0,2026-03-16,auditor report date,extracted
+cost_of_sales,IS,FY2024,2024-12-31,12.0,-5948685.0,(5.948.685),IDR mn,audited (comparative),TAPG_-_AR_2025.pdf,244.0,2026-03-16,auditor report date,extracted
+gross_profit,IS,FY2025,2025-12-31,12.0,4497617.0,4.497.617,IDR mn,audited,TAPG_-_AR_2025.pdf,244.0,2026-03-16,auditor report date,extracted
+gross_profit,IS,FY2024,2024-12-31,12.0,3722778.0,3.722.778,IDR mn,audited (comparative),TAPG_-_AR_2025.pdf,244.0,2026-03-16,auditor report date,extracted
+fv_change_biological_assets,IS,FY2025,2025-12-31,12.0,-42622.0,(42.622),IDR mn,audited,TAPG_-_AR_2025.pdf,244.0,2026-03-16,auditor report date,extracted
+fv_change_biological_assets,IS,FY2024,2024-12-31,12.0,208408.0,208.408,IDR mn,audited (comparative),TAPG_-_AR_2025.pdf,244.0,2026-03-16,auditor report date,extracted
+selling_marketing_exp,IS,FY2025,2025-12-31,12.0,-289328.0,(289.328),IDR mn,audited,TAPG_-_AR_2025.pdf,244.0,2026-03-16,auditor report date,extracted
+selling_marketing_exp,IS,FY2024,2024-12-31,12.0,-281644.0,(281.644),IDR mn,audited (comparative),TAPG_-_AR_2025.pdf,244.0,2026-03-16,auditor report date,extracted
+general_admin_exp,IS,FY2025,2025-12-31,12.0,-533741.0,(533.741),IDR mn,audited,TAPG_-_AR_2025.pdf,244.0,2026-03-16,auditor report date,extracted
+general_admin_exp,IS,FY2024,2024-12-31,12.0,-612598.0,(612.598),IDR mn,audited (comparative),TAPG_-_AR_2025.pdf,244.0,2026-03-16,auditor report date,extracted
+other_operating_income,IS,FY2025,2025-12-31,12.0,76327.0,76.327,IDR mn,audited,TAPG_-_AR_2025.pdf,244.0,2026-03-16,auditor report date,extracted
+other_operating_income,IS,FY2024,2024-12-31,12.0,48510.0,48.510,IDR mn,audited (comparative),TAPG_-_AR_2025.pdf,244.0,2026-03-16,auditor report date,extracted
+other_operating_expense,IS,FY2025,2025-12-31,12.0,-164999.0,(164.999),IDR mn,audited,TAPG_-_AR_2025.pdf,244.0,2026-03-16,auditor report date,extracted
+other_operating_expense,IS,FY2024,2024-12-31,12.0,-40840.0,(40.840),IDR mn,audited (comparative),TAPG_-_AR_2025.pdf,244.0,2026-03-16,auditor report date,extracted
+operating_profit,IS,FY2025,2025-12-31,12.0,3543254.0,3.543.254,IDR mn,audited,TAPG_-_AR_2025.pdf,244.0,2026-03-16,auditor report date,extracted
+operating_profit,IS,FY2024,2024-12-31,12.0,3044614.0,3.044.614,IDR mn,audited (comparative),TAPG_-_AR_2025.pdf,244.0,2026-03-16,auditor report date,extracted
+finance_costs,IS,FY2025,2025-12-31,12.0,-56860.0,(56.860),IDR mn,audited,TAPG_-_AR_2025.pdf,244.0,2026-03-16,auditor report date,extracted
+finance_costs,IS,FY2024,2024-12-31,12.0,-75443.0,(75.443),IDR mn,audited (comparative),TAPG_-_AR_2025.pdf,244.0,2026-03-16,auditor report date,extracted
+finance_income,IS,FY2025,2025-12-31,12.0,108038.0,108.038,IDR mn,audited,TAPG_-_AR_2025.pdf,244.0,2026-03-16,auditor report date,extracted
+finance_income,IS,FY2024,2024-12-31,12.0,63966.0,63.966,IDR mn,audited (comparative),TAPG_-_AR_2025.pdf,244.0,2026-03-16,auditor report date,extracted
+share_of_profit_jv_associates,IS,FY2025,2025-12-31,12.0,1066889.0,1.066.889,IDR mn,audited,TAPG_-_AR_2025.pdf,244.0,2026-03-16,auditor report date,extracted
+share_of_profit_jv_associates,IS,FY2024,2024-12-31,12.0,893767.0,893.767,IDR mn,audited (comparative),TAPG_-_AR_2025.pdf,244.0,2026-03-16,auditor report date,extracted
+profit_before_tax,IS,FY2025,2025-12-31,12.0,4661321.0,4.661.321,IDR mn,audited,TAPG_-_AR_2025.pdf,244.0,2026-03-16,auditor report date,extracted
+profit_before_tax,IS,FY2024,2024-12-31,12.0,3926904.0,3.926.904,IDR mn,audited (comparative),TAPG_-_AR_2025.pdf,244.0,2026-03-16,auditor report date,extracted
+income_tax_expense,IS,FY2025,2025-12-31,12.0,-815974.0,(815.974),IDR mn,audited,TAPG_-_AR_2025.pdf,244.0,2026-03-16,auditor report date,extracted
+income_tax_expense,IS,FY2024,2024-12-31,12.0,-686305.0,(686.305),IDR mn,audited (comparative),TAPG_-_AR_2025.pdf,244.0,2026-03-16,auditor report date,extracted
+profit_for_year,IS,FY2025,2025-12-31,12.0,3845347.0,3.845.347,IDR mn,audited,TAPG_-_AR_2025.pdf,244.0,2026-03-16,auditor report date,extracted
+profit_for_year,IS,FY2024,2024-12-31,12.0,3240599.0,3.240.599,IDR mn,audited (comparative),TAPG_-_AR_2025.pdf,244.0,2026-03-16,auditor report date,extracted
+profit_attrib_owners,IS2,FY2025,2025-12-31,12.0,3702266.0,3.702.266,IDR mn,audited,TAPG_-_AR_2025.pdf,245.0,2026-03-16,auditor report date,extracted
+profit_attrib_owners,IS2,FY2024,2024-12-31,12.0,3120276.0,3.120.276,IDR mn,audited (comparative),TAPG_-_AR_2025.pdf,245.0,2026-03-16,auditor report date,extracted
+cfo,CF,FY2025,2025-12-31,12.0,3431453.0,3.431.453,IDR mn,audited,TAPG_-_AR_2025.pdf,247.0,2026-03-16,auditor report date,extracted
+cfo,CF,FY2024,2024-12-31,12.0,3239185.0,3.239.185,IDR mn,audited (comparative),TAPG_-_AR_2025.pdf,247.0,2026-03-16,auditor report date,extracted
+dividends_received_jv,CF,FY2025,2025-12-31,12.0,958807.0,958.807,IDR mn,audited,TAPG_-_AR_2025.pdf,247.0,2026-03-16,auditor report date,extracted
+dividends_received_jv,CF,FY2024,2024-12-31,12.0,1170000.0,1.170.000,IDR mn,audited (comparative),TAPG_-_AR_2025.pdf,247.0,2026-03-16,auditor report date,extracted
+capex_fixed_assets,CF,FY2025,2025-12-31,12.0,-622694.0,(622.694),IDR mn,audited,TAPG_-_AR_2025.pdf,247.0,2026-03-16,auditor report date,extracted
+capex_fixed_assets,CF,FY2024,2024-12-31,12.0,-587641.0,(587.641),IDR mn,audited (comparative),TAPG_-_AR_2025.pdf,247.0,2026-03-16,auditor report date,extracted
+dividends_paid,CF,FY2025,2025-12-31,12.0,-3275669.0,(3.275.669),IDR mn,audited,TAPG_-_AR_2025.pdf,248.0,2026-03-16,auditor report date,extracted
+dividends_paid,CF,FY2024,2024-12-31,12.0,-3315374.0,(3.315.374),IDR mn,audited (comparative),TAPG_-_AR_2025.pdf,248.0,2026-03-16,auditor report date,extracted
+investment_in_jv,BS,FY2025,2025-12-31,12.0,2640217.0,2.640.217,IDR mn,audited,TAPG_-_AR_2025.pdf,241.0,2026-03-16,auditor report date,extracted
+investment_in_jv,BS,FY2024,2024-12-31,12.0,2944729.0,2.944.729,IDR mn,audited (comparative),TAPG_-_AR_2025.pdf,241.0,2026-03-16,auditor report date,extracted
+investment_in_associates,BS,FY2025,2025-12-31,12.0,53023.0,53.023,IDR mn,audited,TAPG_-_AR_2025.pdf,241.0,2026-03-16,auditor report date,extracted
+investment_in_associates,BS,FY2024,2024-12-31,12.0,57283.0,57.283,IDR mn,audited (comparative),TAPG_-_AR_2025.pdf,241.0,2026-03-16,auditor report date,extracted
+fixed_assets_net,BS,FY2025,2025-12-31,12.0,7244013.0,7.244.013,IDR mn,audited,TAPG_-_AR_2025.pdf,241.0,2026-03-16,auditor report date,extracted
+fixed_assets_net,BS,FY2024,2024-12-31,12.0,7388269.0,7.388.269,IDR mn,audited (comparative),TAPG_-_AR_2025.pdf,241.0,2026-03-16,auditor report date,extracted
+cash,BS,FY2025,2025-12-31,12.0,1651433.0,1.651.433,IDR mn,audited,TAPG_-_AR_2025.pdf,241.0,2026-03-16,auditor report date,extracted
+cash,BS,FY2024,2024-12-31,12.0,1309216.0,1.309.216,IDR mn,audited (comparative),TAPG_-_AR_2025.pdf,241.0,2026-03-16,auditor report date,extracted
+total_assets,BS,FY2025,2025-12-31,12.0,14696563.0,14.696.563,IDR mn,audited,TAPG_-_AR_2025.pdf,241.0,2026-03-16,auditor report date,extracted
+total_assets,BS,FY2024,2024-12-31,12.0,14307265.0,14.307.265,IDR mn,audited (comparative),TAPG_-_AR_2025.pdf,241.0,2026-03-16,auditor report date,extracted
+total_equity,BS,FY2025,2025-12-31,12.0,11687485.0,11.687.485,IDR mn,audited,TAPG_-_AR_2025.pdf,243.0,2026-03-16,auditor report date,extracted
+total_equity,BS,FY2024,2024-12-31,12.0,11276429.0,11.276.429,IDR mn,audited (comparative),TAPG_-_AR_2025.pdf,243.0,2026-03-16,auditor report date,extracted
+revenue,interim,Q1 2026,2026-03-31,3.0,2492197.0,"2,492,197",IDR mn,unaudited interim,FinancialStatement-2026-I-TAPG.pdf,18.0,2026-04-27,Board of Directors' statement date,extracted
+revenue,interim,Q1 2025,2025-03-31,3.0,2620060.0,"2,620,060",IDR mn,unaudited interim,FinancialStatement-2026-I-TAPG.pdf,18.0,2026-04-27,Board of Directors' statement date,extracted
+cost_of_sales,interim,Q1 2026,2026-03-31,3.0,-1636028.0,"(1,636,028)",IDR mn,unaudited interim,FinancialStatement-2026-I-TAPG.pdf,18.0,2026-04-27,Board of Directors' statement date,extracted
+cost_of_sales,interim,Q1 2025,2025-03-31,3.0,-1708314.0,"(1,708,314)",IDR mn,unaudited interim,FinancialStatement-2026-I-TAPG.pdf,18.0,2026-04-27,Board of Directors' statement date,extracted
+gross_profit,interim,Q1 2026,2026-03-31,3.0,856169.0,"856,169",IDR mn,unaudited interim,FinancialStatement-2026-I-TAPG.pdf,18.0,2026-04-27,Board of Directors' statement date,extracted
+gross_profit,interim,Q1 2025,2025-03-31,3.0,911746.0,"911,746",IDR mn,unaudited interim,FinancialStatement-2026-I-TAPG.pdf,18.0,2026-04-27,Board of Directors' statement date,extracted
+selling_marketing_exp,interim,Q1 2026,2026-03-31,3.0,-69723.0,"(69,723)",IDR mn,unaudited interim,FinancialStatement-2026-I-TAPG.pdf,18.0,2026-04-27,Board of Directors' statement date,extracted
+selling_marketing_exp,interim,Q1 2025,2025-03-31,3.0,-68098.0,"(68,098)",IDR mn,unaudited interim,FinancialStatement-2026-I-TAPG.pdf,18.0,2026-04-27,Board of Directors' statement date,extracted
+general_admin_exp,interim,Q1 2026,2026-03-31,3.0,-130892.0,"(130,892)",IDR mn,unaudited interim,FinancialStatement-2026-I-TAPG.pdf,18.0,2026-04-27,Board of Directors' statement date,extracted
+general_admin_exp,interim,Q1 2025,2025-03-31,3.0,-128866.0,"(128,866)",IDR mn,unaudited interim,FinancialStatement-2026-I-TAPG.pdf,18.0,2026-04-27,Board of Directors' statement date,extracted
+finance_income,interim,Q1 2026,2026-03-31,3.0,33781.0,"33,781",IDR mn,unaudited interim,FinancialStatement-2026-I-TAPG.pdf,18.0,2026-04-27,Board of Directors' statement date,extracted
+finance_income,interim,Q1 2025,2025-03-31,3.0,20643.0,"20,643",IDR mn,unaudited interim,FinancialStatement-2026-I-TAPG.pdf,18.0,2026-04-27,Board of Directors' statement date,extracted
+finance_costs,interim,Q1 2026,2026-03-31,3.0,-15648.0,"(15,648)",IDR mn,unaudited interim,FinancialStatement-2026-I-TAPG.pdf,18.0,2026-04-27,Board of Directors' statement date,extracted
+finance_costs,interim,Q1 2025,2025-03-31,3.0,-14507.0,"(14,507)",IDR mn,unaudited interim,FinancialStatement-2026-I-TAPG.pdf,18.0,2026-04-27,Board of Directors' statement date,extracted
+share_of_profit_associates,interim,Q1 2026,2026-03-31,3.0,-13261.0,"(13,261)",IDR mn,unaudited interim,FinancialStatement-2026-I-TAPG.pdf,18.0,2026-04-27,Board of Directors' statement date,extracted
+share_of_profit_associates,interim,Q1 2025,2025-03-31,3.0,-659.0,(659),IDR mn,unaudited interim,FinancialStatement-2026-I-TAPG.pdf,18.0,2026-04-27,Board of Directors' statement date,extracted
+share_of_profit_jv,interim,Q1 2026,2026-03-31,3.0,242313.0,"242,313",IDR mn,unaudited interim,FinancialStatement-2026-I-TAPG.pdf,18.0,2026-04-27,Board of Directors' statement date,extracted
+share_of_profit_jv,interim,Q1 2025,2025-03-31,3.0,260441.0,"260,441",IDR mn,unaudited interim,FinancialStatement-2026-I-TAPG.pdf,18.0,2026-04-27,Board of Directors' statement date,extracted
+profit_before_tax,interim,Q1 2026,2026-03-31,3.0,915122.0,"915,122",IDR mn,unaudited interim,FinancialStatement-2026-I-TAPG.pdf,18.0,2026-04-27,Board of Directors' statement date,extracted
+profit_before_tax,interim,Q1 2025,2025-03-31,3.0,990238.0,"990,238",IDR mn,unaudited interim,FinancialStatement-2026-I-TAPG.pdf,18.0,2026-04-27,Board of Directors' statement date,extracted
+income_tax_expense,interim,Q1 2026,2026-03-31,3.0,-147859.0,"(147,859)",IDR mn,unaudited interim,FinancialStatement-2026-I-TAPG.pdf,18.0,2026-04-27,Board of Directors' statement date,extracted
+income_tax_expense,interim,Q1 2025,2025-03-31,3.0,-155360.0,"(155,360)",IDR mn,unaudited interim,FinancialStatement-2026-I-TAPG.pdf,18.0,2026-04-27,Board of Directors' statement date,extracted
+profit_for_year,interim,Q1 2026,2026-03-31,3.0,767263.0,"767,263",IDR mn,unaudited interim,FinancialStatement-2026-I-TAPG.pdf,18.0,2026-04-27,Board of Directors' statement date,extracted
+profit_for_year,interim,Q1 2025,2025-03-31,3.0,834878.0,"834,878",IDR mn,unaudited interim,FinancialStatement-2026-I-TAPG.pdf,18.0,2026-04-27,Board of Directors' statement date,extracted
+profit_attrib_owners,interim,Q1 2026,2026-03-31,3.0,739762.0,"739,762",IDR mn,unaudited interim,FinancialStatement-2026-I-TAPG.pdf,20.0,2026-04-27,Board of Directors' statement date,extracted
+profit_attrib_owners,interim,Q1 2025,2025-03-31,3.0,805258.0,"805,258",IDR mn,unaudited interim,FinancialStatement-2026-I-TAPG.pdf,20.0,2026-04-27,Board of Directors' statement date,extracted
+cfo,interim,Q1 2026,2026-03-31,3.0,654283.0,"654,283",IDR mn,unaudited interim,FinancialStatement-2026-I-TAPG.pdf,26.0,2026-04-27,Board of Directors' statement date,extracted
+cfo,interim,Q1 2025,2025-03-31,3.0,773621.0,"773,621",IDR mn,unaudited interim,FinancialStatement-2026-I-TAPG.pdf,26.0,2026-04-27,Board of Directors' statement date,extracted
+dividends_received_jv,interim,Q1 2026,2026-03-31,3.0,450000.0,"450,000",IDR mn,unaudited interim,FinancialStatement-2026-I-TAPG.pdf,29.0,2026-04-27,Board of Directors' statement date,extracted
+dividends_received_jv,interim,Q1 2025,2025-03-31,3.0,500000.0,"500,000",IDR mn,unaudited interim,FinancialStatement-2026-I-TAPG.pdf,29.0,2026-04-27,Board of Directors' statement date,extracted
+capex_fixed_assets,interim,Q1 2026,2026-03-31,3.0,-137562.0,"(137,562)",IDR mn,unaudited interim,FinancialStatement-2026-I-TAPG.pdf,26.0,2026-04-27,Board of Directors' statement date,extracted
+capex_fixed_assets,interim,Q1 2025,2025-03-31,3.0,-133809.0,"(133,809)",IDR mn,unaudited interim,FinancialStatement-2026-I-TAPG.pdf,26.0,2026-04-27,Board of Directors' statement date,extracted
+dividends_paid,interim,Q1 2026,2026-03-31,3.0,-0.0,(0),IDR mn,unaudited interim,FinancialStatement-2026-I-TAPG.pdf,31.0,2026-04-27,Board of Directors' statement date,extracted
+dividends_paid,interim,Q1 2025,2025-03-31,3.0,-0.0,(0),IDR mn,unaudited interim,FinancialStatement-2026-I-TAPG.pdf,31.0,2026-04-27,Board of Directors' statement date,extracted
+cash,interim,Q1 2026,2026-03-31,0.0,2797577.0,"2,797,577",IDR mn,unaudited interim,FinancialStatement-2026-I-TAPG.pdf,4.0,2026-04-27,Board of Directors' statement date,extracted
+cash,interim,FY2025,2025-12-31,0.0,1651433.0,"1,651,433",IDR mn,audited (comparative in interim),FinancialStatement-2026-I-TAPG.pdf,4.0,2026-04-27,Board of Directors' statement date,extracted
+total_assets,interim,Q1 2026,2026-03-31,0.0,15403824.0,"15,403,824",IDR mn,unaudited interim,FinancialStatement-2026-I-TAPG.pdf,8.0,2026-04-27,Board of Directors' statement date,extracted
+total_assets,interim,FY2025,2025-12-31,0.0,14696563.0,"14,696,563",IDR mn,audited (comparative in interim),FinancialStatement-2026-I-TAPG.pdf,8.0,2026-04-27,Board of Directors' statement date,extracted
+total_equity,interim,Q1 2026,2026-03-31,0.0,12454507.0,"12,454,507",IDR mn,unaudited interim,FinancialStatement-2026-I-TAPG.pdf,17.0,2026-04-27,Board of Directors' statement date,extracted
+total_equity,interim,FY2025,2025-12-31,0.0,11687485.0,"11,687,485",IDR mn,audited (comparative in interim),FinancialStatement-2026-I-TAPG.pdf,17.0,2026-04-27,Board of Directors' statement date,extracted
+revenue,interim,H1 2026,2026-06-30,6.0,5857150.0,"5,857,150",IDR mn,unaudited interim,FinancialStatement-2026-II-TAPG.pdf,18.0,2026-07-29,Board of Directors' statement date,extracted
+revenue,interim,H1 2025,2025-06-30,6.0,5508389.0,"5,508,389",IDR mn,unaudited interim,FinancialStatement-2026-II-TAPG.pdf,18.0,2026-07-29,Board of Directors' statement date,extracted
+cost_of_sales,interim,H1 2026,2026-06-30,6.0,-3444058.0,"(3,444,058)",IDR mn,unaudited interim,FinancialStatement-2026-II-TAPG.pdf,18.0,2026-07-29,Board of Directors' statement date,extracted
+cost_of_sales,interim,H1 2025,2025-06-30,6.0,-3472270.0,"(3,472,270)",IDR mn,unaudited interim,FinancialStatement-2026-II-TAPG.pdf,18.0,2026-07-29,Board of Directors' statement date,extracted
+gross_profit,interim,H1 2026,2026-06-30,6.0,2413092.0,"2,413,092",IDR mn,unaudited interim,FinancialStatement-2026-II-TAPG.pdf,18.0,2026-07-29,Board of Directors' statement date,extracted
+gross_profit,interim,H1 2025,2025-06-30,6.0,2036119.0,"2,036,119",IDR mn,unaudited interim,FinancialStatement-2026-II-TAPG.pdf,18.0,2026-07-29,Board of Directors' statement date,extracted
+selling_marketing_exp,interim,H1 2026,2026-06-30,6.0,-153486.0,"(153,486)",IDR mn,unaudited interim,FinancialStatement-2026-II-TAPG.pdf,18.0,2026-07-29,Board of Directors' statement date,extracted
+selling_marketing_exp,interim,H1 2025,2025-06-30,6.0,-143199.0,"(143,199)",IDR mn,unaudited interim,FinancialStatement-2026-II-TAPG.pdf,18.0,2026-07-29,Board of Directors' statement date,extracted
+general_admin_exp,interim,H1 2026,2026-06-30,6.0,-275194.0,"(275,194)",IDR mn,unaudited interim,FinancialStatement-2026-II-TAPG.pdf,18.0,2026-07-29,Board of Directors' statement date,extracted
+general_admin_exp,interim,H1 2025,2025-06-30,6.0,-267503.0,"(267,503)",IDR mn,unaudited interim,FinancialStatement-2026-II-TAPG.pdf,18.0,2026-07-29,Board of Directors' statement date,extracted
+finance_income,interim,H1 2026,2026-06-30,6.0,84100.0,"84,100",IDR mn,unaudited interim,FinancialStatement-2026-II-TAPG.pdf,18.0,2026-07-29,Board of Directors' statement date,extracted
+finance_income,interim,H1 2025,2025-06-30,6.0,45867.0,"45,867",IDR mn,unaudited interim,FinancialStatement-2026-II-TAPG.pdf,18.0,2026-07-29,Board of Directors' statement date,extracted
+finance_costs,interim,H1 2026,2026-06-30,6.0,-31368.0,"(31,368)",IDR mn,unaudited interim,FinancialStatement-2026-II-TAPG.pdf,18.0,2026-07-29,Board of Directors' statement date,extracted
+finance_costs,interim,H1 2025,2025-06-30,6.0,-36968.0,"(36,968)",IDR mn,unaudited interim,FinancialStatement-2026-II-TAPG.pdf,18.0,2026-07-29,Board of Directors' statement date,extracted
+share_of_profit_associates,interim,H1 2026,2026-06-30,6.0,-21956.0,"(21,956)",IDR mn,unaudited interim,FinancialStatement-2026-II-TAPG.pdf,18.0,2026-07-29,Board of Directors' statement date,extracted
+share_of_profit_associates,interim,H1 2025,2025-06-30,6.0,-8209.0,"(8,209)",IDR mn,unaudited interim,FinancialStatement-2026-II-TAPG.pdf,18.0,2026-07-29,Board of Directors' statement date,extracted
+share_of_profit_jv,interim,H1 2026,2026-06-30,6.0,574518.0,"574,518",IDR mn,unaudited interim,FinancialStatement-2026-II-TAPG.pdf,18.0,2026-07-29,Board of Directors' statement date,extracted
+share_of_profit_jv,interim,H1 2025,2025-06-30,6.0,540210.0,"540,210",IDR mn,unaudited interim,FinancialStatement-2026-II-TAPG.pdf,18.0,2026-07-29,Board of Directors' statement date,extracted
+profit_before_tax,interim,H1 2026,2026-06-30,6.0,2539041.0,"2,539,041",IDR mn,unaudited interim,FinancialStatement-2026-II-TAPG.pdf,18.0,2026-07-29,Board of Directors' statement date,extracted
+profit_before_tax,interim,H1 2025,2025-06-30,6.0,2102122.0,"2,102,122",IDR mn,unaudited interim,FinancialStatement-2026-II-TAPG.pdf,18.0,2026-07-29,Board of Directors' statement date,extracted
+income_tax_expense,interim,H1 2026,2026-06-30,6.0,-419070.0,"(419,070)",IDR mn,unaudited interim,FinancialStatement-2026-II-TAPG.pdf,18.0,2026-07-29,Board of Directors' statement date,extracted
+income_tax_expense,interim,H1 2025,2025-06-30,6.0,-344640.0,"(344,640)",IDR mn,unaudited interim,FinancialStatement-2026-II-TAPG.pdf,18.0,2026-07-29,Board of Directors' statement date,extracted
+profit_for_year,interim,H1 2026,2026-06-30,6.0,2119971.0,"2,119,971",IDR mn,unaudited interim,FinancialStatement-2026-II-TAPG.pdf,18.0,2026-07-29,Board of Directors' statement date,extracted
+profit_for_year,interim,H1 2025,2025-06-30,6.0,1757482.0,"1,757,482",IDR mn,unaudited interim,FinancialStatement-2026-II-TAPG.pdf,18.0,2026-07-29,Board of Directors' statement date,extracted
+profit_attrib_owners,interim,H1 2026,2026-06-30,6.0,2040370.0,"2,040,370",IDR mn,unaudited interim,FinancialStatement-2026-II-TAPG.pdf,20.0,2026-07-29,Board of Directors' statement date,extracted
+profit_attrib_owners,interim,H1 2025,2025-06-30,6.0,1694119.0,"1,694,119",IDR mn,unaudited interim,FinancialStatement-2026-II-TAPG.pdf,20.0,2026-07-29,Board of Directors' statement date,extracted
+cfo,interim,H1 2026,2026-06-30,6.0,1619127.0,"1,619,127",IDR mn,unaudited interim,FinancialStatement-2026-II-TAPG.pdf,26.0,2026-07-29,Board of Directors' statement date,extracted
+cfo,interim,H1 2025,2025-06-30,6.0,1341854.0,"1,341,854",IDR mn,unaudited interim,FinancialStatement-2026-II-TAPG.pdf,26.0,2026-07-29,Board of Directors' statement date,extracted
+dividends_received_jv,interim,H1 2026,2026-06-30,6.0,450000.0,"450,000",IDR mn,unaudited interim,FinancialStatement-2026-II-TAPG.pdf,29.0,2026-07-29,Board of Directors' statement date,extracted
+dividends_received_jv,interim,H1 2025,2025-06-30,6.0,504577.0,"504,577",IDR mn,unaudited interim,FinancialStatement-2026-II-TAPG.pdf,29.0,2026-07-29,Board of Directors' statement date,extracted
+capex_fixed_assets,interim,H1 2026,2026-06-30,6.0,-324269.0,"(324,269)",IDR mn,unaudited interim,FinancialStatement-2026-II-TAPG.pdf,26.0,2026-07-29,Board of Directors' statement date,extracted
+capex_fixed_assets,interim,H1 2025,2025-06-30,6.0,-247260.0,"(247,260)",IDR mn,unaudited interim,FinancialStatement-2026-II-TAPG.pdf,26.0,2026-07-29,Board of Directors' statement date,extracted
+dividends_paid,interim,H1 2026,2026-06-30,6.0,-1872419.0,"(1,872,419)",IDR mn,unaudited interim,FinancialStatement-2026-II-TAPG.pdf,31.0,2026-07-29,Board of Directors' statement date,extracted
+dividends_paid,interim,H1 2025,2025-06-30,6.0,-1570640.0,"(1,570,640)",IDR mn,unaudited interim,FinancialStatement-2026-II-TAPG.pdf,31.0,2026-07-29,Board of Directors' statement date,extracted
+cash,interim,H1 2026,2026-06-30,0.0,1706296.0,"1,706,296",IDR mn,unaudited interim,FinancialStatement-2026-II-TAPG.pdf,4.0,2026-07-29,Board of Directors' statement date,extracted
+cash,interim,FY2025,2025-12-31,0.0,1651433.0,"1,651,433",IDR mn,audited (comparative in interim),FinancialStatement-2026-II-TAPG.pdf,4.0,2026-07-29,Board of Directors' statement date,extracted
+total_assets,interim,H1 2026,2026-06-30,0.0,14823740.0,"14,823,740",IDR mn,unaudited interim,FinancialStatement-2026-II-TAPG.pdf,8.0,2026-07-29,Board of Directors' statement date,extracted
+total_assets,interim,FY2025,2025-12-31,0.0,14696563.0,"14,696,563",IDR mn,audited (comparative in interim),FinancialStatement-2026-II-TAPG.pdf,8.0,2026-07-29,Board of Directors' statement date,extracted
+total_equity,interim,H1 2026,2026-06-30,0.0,11933750.0,"11,933,750",IDR mn,unaudited interim,FinancialStatement-2026-II-TAPG.pdf,17.0,2026-07-29,Board of Directors' statement date,extracted
+total_equity,interim,FY2025,2025-12-31,0.0,11687485.0,"11,687,485",IDR mn,audited (comparative in interim),FinancialStatement-2026-II-TAPG.pdf,17.0,2026-07-29,Board of Directors' statement date,extracted
+revenue,interim,9M 2026,2026-09-30,9.0,9446621.0,"9,446,621",IDR mn,unaudited interim,FinancialStatement-2026-III-TAPG.pdf,18.0,2026-10-28,Board of Directors' statement date,extracted
+revenue,interim,9M 2025,2025-09-30,9.0,8207835.0,"8,207,835",IDR mn,unaudited interim,FinancialStatement-2026-III-TAPG.pdf,18.0,2026-10-28,Board of Directors' statement date,extracted
+cost_of_sales,interim,9M 2026,2026-09-30,9.0,-5329988.0,"(5,329,988)",IDR mn,unaudited interim,FinancialStatement-2026-III-TAPG.pdf,18.0,2026-10-28,Board of Directors' statement date,extracted
+cost_of_sales,interim,9M 2025,2025-09-30,9.0,-5080910.0,"(5,080,910)",IDR mn,unaudited interim,FinancialStatement-2026-III-TAPG.pdf,18.0,2026-10-28,Board of Directors' statement date,extracted
+gross_profit,interim,9M 2026,2026-09-30,9.0,4116633.0,"4,116,633",IDR mn,unaudited interim,FinancialStatement-2026-III-TAPG.pdf,18.0,2026-10-28,Board of Directors' statement date,extracted
+gross_profit,interim,9M 2025,2025-09-30,9.0,3126925.0,"3,126,925",IDR mn,unaudited interim,FinancialStatement-2026-III-TAPG.pdf,18.0,2026-10-28,Board of Directors' statement date,extracted
+selling_marketing_exp,interim,9M 2026,2026-09-30,9.0,-256203.0,"(256,203)",IDR mn,unaudited interim,FinancialStatement-2026-III-TAPG.pdf,18.0,2026-10-28,Board of Directors' statement date,extracted
+selling_marketing_exp,interim,9M 2025,2025-09-30,9.0,-209238.0,"(209,238)",IDR mn,unaudited interim,FinancialStatement-2026-III-TAPG.pdf,18.0,2026-10-28,Board of Directors' statement date,extracted
+general_admin_exp,interim,9M 2026,2026-09-30,9.0,-427464.0,"(427,464)",IDR mn,unaudited interim,FinancialStatement-2026-III-TAPG.pdf,18.0,2026-10-28,Board of Directors' statement date,extracted
+general_admin_exp,interim,9M 2025,2025-09-30,9.0,-385883.0,"(385,883)",IDR mn,unaudited interim,FinancialStatement-2026-III-TAPG.pdf,18.0,2026-10-28,Board of Directors' statement date,extracted
+finance_income,interim,9M 2026,2026-09-30,9.0,123449.0,"123,449",IDR mn,unaudited interim,FinancialStatement-2026-III-TAPG.pdf,18.0,2026-10-28,Board of Directors' statement date,extracted
+finance_income,interim,9M 2025,2025-09-30,9.0,68379.0,"68,379",IDR mn,unaudited interim,FinancialStatement-2026-III-TAPG.pdf,18.0,2026-10-28,Board of Directors' statement date,extracted
+finance_costs,interim,9M 2026,2026-09-30,9.0,-47990.0,"(47,990)",IDR mn,unaudited interim,FinancialStatement-2026-III-TAPG.pdf,18.0,2026-10-28,Board of Directors' statement date,extracted
+finance_costs,interim,9M 2025,2025-09-30,9.0,-39490.0,"(39,490)",IDR mn,unaudited interim,FinancialStatement-2026-III-TAPG.pdf,18.0,2026-10-28,Board of Directors' statement date,extracted
+share_of_profit_associates,interim,9M 2026,2026-09-30,9.0,-38013.0,"(38,013)",IDR mn,unaudited interim,FinancialStatement-2026-III-TAPG.pdf,18.0,2026-10-28,Board of Directors' statement date,extracted
+share_of_profit_associates,interim,9M 2025,2025-09-30,9.0,-13885.0,"(13,885)",IDR mn,unaudited interim,FinancialStatement-2026-III-TAPG.pdf,18.0,2026-10-28,Board of Directors' statement date,extracted
+share_of_profit_jv,interim,9M 2026,2026-09-30,9.0,956891.0,"956,891",IDR mn,unaudited interim,FinancialStatement-2026-III-TAPG.pdf,18.0,2026-10-28,Board of Directors' statement date,extracted
+share_of_profit_jv,interim,9M 2025,2025-09-30,9.0,839609.0,"839,609",IDR mn,unaudited interim,FinancialStatement-2026-III-TAPG.pdf,18.0,2026-10-28,Board of Directors' statement date,extracted
+profit_before_tax,interim,9M 2026,2026-09-30,9.0,4382744.0,"4,382,744",IDR mn,unaudited interim,FinancialStatement-2026-III-TAPG.pdf,18.0,2026-10-28,Board of Directors' statement date,extracted
+profit_before_tax,interim,9M 2025,2025-09-30,9.0,3326954.0,"3,326,954",IDR mn,unaudited interim,FinancialStatement-2026-III-TAPG.pdf,18.0,2026-10-28,Board of Directors' statement date,extracted
+income_tax_expense,interim,9M 2026,2026-09-30,9.0,-738063.0,"(738,063)",IDR mn,unaudited interim,FinancialStatement-2026-III-TAPG.pdf,18.0,2026-10-28,Board of Directors' statement date,extracted
+income_tax_expense,interim,9M 2025,2025-09-30,9.0,-547270.0,"(547,270)",IDR mn,unaudited interim,FinancialStatement-2026-III-TAPG.pdf,18.0,2026-10-28,Board of Directors' statement date,extracted
+profit_for_year,interim,9M 2026,2026-09-30,9.0,3644681.0,"3,644,681",IDR mn,unaudited interim,FinancialStatement-2026-III-TAPG.pdf,18.0,2026-10-28,Board of Directors' statement date,extracted
+profit_for_year,interim,9M 2025,2025-09-30,9.0,2779684.0,"2,779,684",IDR mn,unaudited interim,FinancialStatement-2026-III-TAPG.pdf,18.0,2026-10-28,Board of Directors' statement date,extracted
+profit_attrib_owners,interim,9M 2026,2026-09-30,9.0,3505620.0,"3,505,620",IDR mn,unaudited interim,FinancialStatement-2026-III-TAPG.pdf,20.0,2026-10-28,Board of Directors' statement date,extracted
+profit_attrib_owners,interim,9M 2025,2025-09-30,9.0,2679633.0,"2,679,633",IDR mn,unaudited interim,FinancialStatement-2026-III-TAPG.pdf,20.0,2026-10-28,Board of Directors' statement date,extracted
+cfo,interim,9M 2026,2026-09-30,9.0,2947167.0,"2,947,167",IDR mn,unaudited interim,FinancialStatement-2026-III-TAPG.pdf,26.0,2026-10-28,Board of Directors' statement date,extracted
+cfo,interim,9M 2025,2025-09-30,9.0,2241586.0,"2,241,586",IDR mn,unaudited interim,FinancialStatement-2026-III-TAPG.pdf,26.0,2026-10-28,Board of Directors' statement date,extracted
+dividends_received_jv,interim,9M 2026,2026-09-30,9.0,900000.0,"900,000",IDR mn,unaudited interim,FinancialStatement-2026-III-TAPG.pdf,29.0,2026-10-28,Board of Directors' statement date,extracted
+dividends_received_jv,interim,9M 2025,2025-09-30,9.0,958807.0,"958,807",IDR mn,unaudited interim,FinancialStatement-2026-III-TAPG.pdf,29.0,2026-10-28,Board of Directors' statement date,extracted
+capex_fixed_assets,interim,9M 2026,2026-09-30,9.0,-522242.0,"(522,242)",IDR mn,unaudited interim,FinancialStatement-2026-III-TAPG.pdf,26.0,2026-10-28,Board of Directors' statement date,extracted
+capex_fixed_assets,interim,9M 2025,2025-09-30,9.0,-457577.0,"(457,577)",IDR mn,unaudited interim,FinancialStatement-2026-III-TAPG.pdf,26.0,2026-10-28,Board of Directors' statement date,extracted
+dividends_paid,interim,9M 2026,2026-09-30,9.0,-3103473.0,"(3,103,473)",IDR mn,unaudited interim,FinancialStatement-2026-III-TAPG.pdf,31.0,2026-10-28,Board of Directors' statement date,extracted
+dividends_paid,interim,9M 2025,2025-09-30,9.0,-2382995.0,"(2,382,995)",IDR mn,unaudited interim,FinancialStatement-2026-III-TAPG.pdf,31.0,2026-10-28,Board of Directors' statement date,extracted
+cash,interim,9M 2026,2026-09-30,0.0,1937038.0,"1,937,038",IDR mn,unaudited interim,FinancialStatement-2026-III-TAPG.pdf,4.0,2026-10-28,Board of Directors' statement date,extracted
+cash,interim,FY2025,2025-12-31,0.0,1651433.0,"1,651,433",IDR mn,audited (comparative in interim),FinancialStatement-2026-III-TAPG.pdf,4.0,2026-10-28,Board of Directors' statement date,extracted
+total_assets,interim,9M 2026,2026-09-30,0.0,15461290.0,"15,461,290",IDR mn,unaudited interim,FinancialStatement-2026-III-TAPG.pdf,8.0,2026-10-28,Board of Directors' statement date,extracted
+total_assets,interim,FY2025,2025-12-31,0.0,14696563.0,"14,696,563",IDR mn,audited (comparative in interim),FinancialStatement-2026-III-TAPG.pdf,8.0,2026-10-28,Board of Directors' statement date,extracted
+total_equity,interim,9M 2026,2026-09-30,0.0,12228199.0,"12,228,199",IDR mn,unaudited interim,FinancialStatement-2026-III-TAPG.pdf,17.0,2026-10-28,Board of Directors' statement date,extracted
+total_equity,interim,FY2025,2025-12-31,0.0,11687485.0,"11,687,485",IDR mn,audited (comparative in interim),FinancialStatement-2026-III-TAPG.pdf,17.0,2026-10-28,Board of Directors' statement date,extracted

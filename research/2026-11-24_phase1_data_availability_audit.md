@@ -48,3 +48,7 @@ _Date: 2026-11-24 · Status: first pass complete; gaps listed below · Source ID
 4. Compile the levy, duty and biodiesel regulation history into dated tables.
 5. Download and aggregate CHIRPS rainfall to the main plantation provinces.
 6. Decide whether to re-tier BWPT, SIMP, GZCO, ANJT, PSGO and CSRA (proposed D-004).
+
+## 5. Update — TAPG official documents (2026-11-24)
+
+The user supplied TAPG AR2021–AR2025 and the 2026 interim statements. Company financials, the age profile, area, processed FFB, ASP, sales volumes, COGS breakdown and JV contribution are now **verified from primary sources**, with page citations (S-021, S-025). Details and remaining gaps: `research/company/TAPG/2026-11-24_official_document_extraction.md`. The other 14 coverage names still need the same treatment, and free float is still unverified.

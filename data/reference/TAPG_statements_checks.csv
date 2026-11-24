@@ -1,0 +1,133 @@
+check,item,period,result,detail
+"same period, different documents",capex_fixed_assets,FY2021,MATCH,2 documents
+"same period, different documents",capex_fixed_assets,FY2022,MATCH,2 documents
+"same period, different documents",capex_fixed_assets,FY2023,MATCH,2 documents
+"same period, different documents",capex_fixed_assets,FY2024,MATCH,2 documents
+"same period, different documents",cash,FY2021,MATCH,2 documents
+"same period, different documents",cash,FY2022,MATCH,2 documents
+"same period, different documents",cash,FY2023,MATCH,2 documents
+"same period, different documents",cash,FY2024,MATCH,2 documents
+"same period, different documents",cash,FY2025,MATCH,4 documents
+"same period, different documents",cfo,FY2021,MATCH,2 documents
+"same period, different documents",cfo,FY2022,MATCH,2 documents
+"same period, different documents",cfo,FY2023,MATCH,2 documents
+"same period, different documents",cfo,FY2024,MATCH,2 documents
+"same period, different documents",cost_of_sales,FY2021,MATCH,2 documents
+"same period, different documents",cost_of_sales,FY2022,MATCH,2 documents
+"same period, different documents",cost_of_sales,FY2023,MATCH,2 documents
+"same period, different documents",cost_of_sales,FY2024,MATCH,2 documents
+"same period, different documents",dividends_paid,FY2021,MATCH,2 documents
+"same period, different documents",dividends_paid,FY2022,MATCH,2 documents
+"same period, different documents",dividends_paid,FY2023,MATCH,2 documents
+"same period, different documents",dividends_paid,FY2024,MATCH,2 documents
+"same period, different documents",dividends_received_jv,FY2021,MATCH,2 documents
+"same period, different documents",dividends_received_jv,FY2022,MATCH,2 documents
+"same period, different documents",dividends_received_jv,FY2023,MATCH,2 documents
+"same period, different documents",dividends_received_jv,FY2024,MATCH,2 documents
+"same period, different documents",finance_costs,FY2021,MATCH,2 documents
+"same period, different documents",finance_costs,FY2022,DIFFERS,"AR_2022.pdf p235.0: -380,151; AR_2023.pdf p229.0: -347,594"
+"same period, different documents",finance_costs,FY2023,MATCH,2 documents
+"same period, different documents",finance_costs,FY2024,MATCH,2 documents
+"same period, different documents",finance_income,FY2021,MATCH,2 documents
+"same period, different documents",finance_income,FY2022,DIFFERS,"AR_2022.pdf p235.0: 69,469; AR_2023.pdf p229.0: 36,912"
+"same period, different documents",finance_income,FY2023,MATCH,2 documents
+"same period, different documents",finance_income,FY2024,MATCH,2 documents
+"same period, different documents",fixed_assets_net,FY2021,MATCH,2 documents
+"same period, different documents",fixed_assets_net,FY2022,MATCH,2 documents
+"same period, different documents",fixed_assets_net,FY2023,MATCH,2 documents
+"same period, different documents",fixed_assets_net,FY2024,MATCH,2 documents
+"same period, different documents",fv_change_biological_assets,FY2021,MATCH,2 documents
+"same period, different documents",fv_change_biological_assets,FY2024,MATCH,2 documents
+"same period, different documents",general_admin_exp,FY2021,MATCH,2 documents
+"same period, different documents",general_admin_exp,FY2022,MATCH,2 documents
+"same period, different documents",general_admin_exp,FY2023,MATCH,2 documents
+"same period, different documents",general_admin_exp,FY2024,MATCH,2 documents
+"same period, different documents",gross_profit,FY2021,MATCH,2 documents
+"same period, different documents",gross_profit,FY2022,MATCH,2 documents
+"same period, different documents",gross_profit,FY2023,MATCH,2 documents
+"same period, different documents",gross_profit,FY2024,MATCH,2 documents
+"same period, different documents",income_tax_expense,FY2021,MATCH,2 documents
+"same period, different documents",income_tax_expense,FY2022,MATCH,2 documents
+"same period, different documents",income_tax_expense,FY2023,MATCH,2 documents
+"same period, different documents",income_tax_expense,FY2024,MATCH,2 documents
+"same period, different documents",investment_in_associates,FY2024,MATCH,2 documents
+"same period, different documents",investment_in_jv,FY2021,MATCH,2 documents
+"same period, different documents",investment_in_jv,FY2022,MATCH,2 documents
+"same period, different documents",investment_in_jv,FY2023,MATCH,2 documents
+"same period, different documents",investment_in_jv,FY2024,MATCH,2 documents
+"same period, different documents",operating_profit,FY2021,MATCH,2 documents
+"same period, different documents",operating_profit,FY2022,MATCH,2 documents
+"same period, different documents",operating_profit,FY2023,MATCH,2 documents
+"same period, different documents",operating_profit,FY2024,MATCH,2 documents
+"same period, different documents",other_operating_expense,FY2021,MATCH,2 documents
+"same period, different documents",other_operating_expense,FY2022,MATCH,2 documents
+"same period, different documents",other_operating_expense,FY2023,MATCH,2 documents
+"same period, different documents",other_operating_expense,FY2024,MATCH,2 documents
+"same period, different documents",other_operating_income,FY2021,MATCH,2 documents
+"same period, different documents",other_operating_income,FY2022,MATCH,2 documents
+"same period, different documents",other_operating_income,FY2023,MATCH,2 documents
+"same period, different documents",other_operating_income,FY2024,MATCH,2 documents
+"same period, different documents",profit_attrib_owners,FY2021,MATCH,2 documents
+"same period, different documents",profit_attrib_owners,FY2022,MATCH,2 documents
+"same period, different documents",profit_attrib_owners,FY2023,MATCH,2 documents
+"same period, different documents",profit_attrib_owners,FY2024,MATCH,2 documents
+"same period, different documents",profit_before_tax,FY2021,MATCH,2 documents
+"same period, different documents",profit_before_tax,FY2022,MATCH,2 documents
+"same period, different documents",profit_before_tax,FY2023,MATCH,2 documents
+"same period, different documents",profit_before_tax,FY2024,MATCH,2 documents
+"same period, different documents",profit_for_year,FY2021,MATCH,2 documents
+"same period, different documents",profit_for_year,FY2022,MATCH,2 documents
+"same period, different documents",profit_for_year,FY2023,MATCH,2 documents
+"same period, different documents",profit_for_year,FY2024,MATCH,2 documents
+"same period, different documents",revenue,FY2021,MATCH,2 documents
+"same period, different documents",revenue,FY2022,MATCH,2 documents
+"same period, different documents",revenue,FY2023,MATCH,2 documents
+"same period, different documents",revenue,FY2024,MATCH,2 documents
+"same period, different documents",selling_marketing_exp,FY2021,MATCH,2 documents
+"same period, different documents",selling_marketing_exp,FY2022,MATCH,2 documents
+"same period, different documents",selling_marketing_exp,FY2023,MATCH,2 documents
+"same period, different documents",selling_marketing_exp,FY2024,MATCH,2 documents
+"same period, different documents",share_of_profit_jv_associates,FY2021,MATCH,2 documents
+"same period, different documents",share_of_profit_jv_associates,FY2022,MATCH,2 documents
+"same period, different documents",share_of_profit_jv_associates,FY2023,MATCH,2 documents
+"same period, different documents",share_of_profit_jv_associates,FY2024,MATCH,2 documents
+"same period, different documents",total_assets,FY2021,MATCH,2 documents
+"same period, different documents",total_assets,FY2022,MATCH,2 documents
+"same period, different documents",total_assets,FY2023,MATCH,2 documents
+"same period, different documents",total_assets,FY2024,MATCH,2 documents
+"same period, different documents",total_assets,FY2025,MATCH,4 documents
+"same period, different documents",total_equity,FY2021,MATCH,2 documents
+"same period, different documents",total_equity,FY2022,MATCH,2 documents
+"same period, different documents",total_equity,FY2023,MATCH,2 documents
+"same period, different documents",total_equity,FY2024,MATCH,2 documents
+"same period, different documents",total_equity,FY2025,MATCH,4 documents
+revenue + cost of sales = gross profit,,9M 2025,PASS,"3,126,925 vs 3,126,925"
+PBT + tax = profit,,9M 2025,PASS,"2,779,684 vs 2,779,684"
+revenue + cost of sales = gross profit,,9M 2026,PASS,"4,116,633 vs 4,116,633"
+PBT + tax = profit,,9M 2026,PASS,"3,644,681 vs 3,644,681"
+revenue + cost of sales = gross profit,,FY2020,PASS,"1,392,798 vs 1,392,798"
+op. profit + fin. inc + fin. cost + share JV&assoc = PBT,,FY2020,PASS,"1,070,884 vs 1,070,884"
+PBT + tax = profit,,FY2020,PASS,"932,735 vs 932,735"
+revenue + cost of sales = gross profit,,FY2021,PASS,"1,615,789 vs 1,615,789"
+op. profit + fin. inc + fin. cost + share JV&assoc = PBT,,FY2021,PASS,"1,421,264 vs 1,421,264"
+PBT + tax = profit,,FY2021,PASS,"1,198,747 vs 1,198,747"
+revenue + cost of sales = gross profit,,FY2022,PASS,"3,715,864 vs 3,715,864"
+op. profit + fin. inc + fin. cost + share JV&assoc = PBT,,FY2022,PASS,"3,689,281 vs 3,689,281"
+PBT + tax = profit,,FY2022,PASS,"3,088,745 vs 3,088,745"
+revenue + cost of sales = gross profit,,FY2023,PASS,"2,217,297 vs 2,217,297"
+op. profit + fin. inc + fin. cost + share JV&assoc = PBT,,FY2023,PASS,"1,941,098 vs 1,941,098"
+PBT + tax = profit,,FY2023,PASS,"1,661,258 vs 1,661,258"
+revenue + cost of sales = gross profit,,FY2024,PASS,"3,722,778 vs 3,722,778"
+op. profit + fin. inc + fin. cost + share JV&assoc = PBT,,FY2024,PASS,"3,926,904 vs 3,926,904"
+PBT + tax = profit,,FY2024,PASS,"3,240,599 vs 3,240,599"
+revenue + cost of sales = gross profit,,FY2025,PASS,"4,497,617 vs 4,497,617"
+op. profit + fin. inc + fin. cost + share JV&assoc = PBT,,FY2025,PASS,"4,661,321 vs 4,661,321"
+PBT + tax = profit,,FY2025,PASS,"3,845,347 vs 3,845,347"
+revenue + cost of sales = gross profit,,H1 2025,PASS,"2,036,119 vs 2,036,119"
+PBT + tax = profit,,H1 2025,PASS,"1,757,482 vs 1,757,482"
+revenue + cost of sales = gross profit,,H1 2026,PASS,"2,413,092 vs 2,413,092"
+PBT + tax = profit,,H1 2026,PASS,"2,119,971 vs 2,119,971"
+revenue + cost of sales = gross profit,,Q1 2025,PASS,"911,746 vs 911,746"
+PBT + tax = profit,,Q1 2025,PASS,"834,878 vs 834,878"
+revenue + cost of sales = gross profit,,Q1 2026,PASS,"856,169 vs 856,169"
+PBT + tax = profit,,Q1 2026,PASS,"767,263 vs 767,263"

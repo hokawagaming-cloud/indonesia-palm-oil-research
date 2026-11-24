@@ -1,0 +1,310 @@
+item,unit,fiscal_year,period,value,raw_token,source_doc,pdf_page,printed_page,report_fiscal_year,publication_date_proxy,publication_date_basis,scope_note,status
+total_assets,IDR mn,2021.0,FY2021 (Jan-Dec),12446326.0,12.446.326,AR 2021.pdf,10.0,10,2021.0,2022-04-26,PDF creation date,consolidated,extracted
+total_assets,IDR mn,2020.0,FY2020 (Jan-Dec),12323970.0,12.323.970,AR 2021.pdf,10.0,10,2021.0,2022-04-26,PDF creation date,consolidated,extracted
+total_assets,IDR mn,2019.0,FY2019 (Jan-Dec),12265776.0,12.265.776,AR 2021.pdf,10.0,10,2021.0,2022-04-26,PDF creation date,consolidated,extracted
+total_liabilities,IDR mn,2021.0,FY2021 (Jan-Dec),4650315.0,4.650.315,AR 2021.pdf,10.0,10,2021.0,2022-04-26,PDF creation date,consolidated,extracted
+total_liabilities,IDR mn,2020.0,FY2020 (Jan-Dec),5667688.0,5.667.688,AR 2021.pdf,10.0,10,2021.0,2022-04-26,PDF creation date,consolidated,extracted
+total_liabilities,IDR mn,2019.0,FY2019 (Jan-Dec),6514873.0,6.514.873,AR 2021.pdf,10.0,10,2021.0,2022-04-26,PDF creation date,consolidated,extracted
+total_equity,IDR mn,2021.0,FY2021 (Jan-Dec),7796011.0,7.796.011,AR 2021.pdf,10.0,10,2021.0,2022-04-26,PDF creation date,consolidated,extracted
+total_equity,IDR mn,2020.0,FY2020 (Jan-Dec),6656282.0,6.656.282,AR 2021.pdf,10.0,10,2021.0,2022-04-26,PDF creation date,consolidated,extracted
+total_equity,IDR mn,2019.0,FY2019 (Jan-Dec),5750903.0,5.750.903,AR 2021.pdf,10.0,10,2021.0,2022-04-26,PDF creation date,consolidated,extracted
+revenue,IDR mn,2021.0,FY2021 (Jan-Dec),6278123.0,6.278.123,AR 2021.pdf,10.0,10,2021.0,2022-04-26,PDF creation date,consolidated,extracted
+revenue,IDR mn,2020.0,FY2020 (Jan-Dec),5265785.0,5.265.785,AR 2021.pdf,10.0,10,2021.0,2022-04-26,PDF creation date,consolidated,extracted
+revenue,IDR mn,2019.0,FY2019 (Jan-Dec),4329148.0,4.329.148,AR 2021.pdf,10.0,10,2021.0,2022-04-26,PDF creation date,consolidated,extracted
+gross_profit,IDR mn,2021.0,FY2021 (Jan-Dec),1615789.0,1.615.789,AR 2021.pdf,10.0,10,2021.0,2022-04-26,PDF creation date,consolidated,extracted
+gross_profit,IDR mn,2020.0,FY2020 (Jan-Dec),1392798.0,1.392.798,AR 2021.pdf,10.0,10,2021.0,2022-04-26,PDF creation date,consolidated,extracted
+gross_profit,IDR mn,2019.0,FY2019 (Jan-Dec),853155.0,853.155,AR 2021.pdf,10.0,10,2021.0,2022-04-26,PDF creation date,consolidated,extracted
+profit_for_year,IDR mn,2021.0,FY2021 (Jan-Dec),1198747.0,1.198.747,AR 2021.pdf,10.0,10,2021.0,2022-04-26,PDF creation date,consolidated,extracted
+profit_for_year,IDR mn,2020.0,FY2020 (Jan-Dec),932735.0,932.735,AR 2021.pdf,10.0,10,2021.0,2022-04-26,PDF creation date,consolidated,extracted
+profit_for_year,IDR mn,2019.0,FY2019 (Jan-Dec),187520.0,187.520,AR 2021.pdf,10.0,10,2021.0,2022-04-26,PDF creation date,consolidated,extracted
+profit_attrib_owners,IDR mn,2021.0,FY2021 (Jan-Dec),1159036.0,1.159.036,AR 2021.pdf,10.0,10,2021.0,2022-04-26,PDF creation date,consolidated,extracted
+profit_attrib_owners,IDR mn,2020.0,FY2020 (Jan-Dec),911068.0,911.068,AR 2021.pdf,10.0,10,2021.0,2022-04-26,PDF creation date,consolidated,extracted
+profit_attrib_owners,IDR mn,2019.0,FY2019 (Jan-Dec),191415.0,191.415,AR 2021.pdf,10.0,10,2021.0,2022-04-26,PDF creation date,consolidated,extracted
+eps,IDR per share,2021.0,FY2021 (Jan-Dec),59.0,59,AR 2021.pdf,10.0,10,2021.0,2022-04-26,PDF creation date,consolidated,extracted
+eps,IDR per share,2020.0,FY2020 (Jan-Dec),48.0,48,AR 2021.pdf,10.0,10,2021.0,2022-04-26,PDF creation date,consolidated,extracted
+eps,IDR per share,2019.0,FY2019 (Jan-Dec),10.0,10,AR 2021.pdf,10.0,10,2021.0,2022-04-26,PDF creation date,consolidated,extracted
+planted_nucleus_oilpalm,thousand ha,2021.0,FY2021 (Jan-Dec),137.7,"137,7",AR 2021.pdf,11.0,174,2021.0,2022-04-26,PDF creation date,includes associates,extracted
+planted_nucleus_oilpalm,thousand ha,2020.0,FY2020 (Jan-Dec),137.3,"137,3",AR 2021.pdf,11.0,174,2021.0,2022-04-26,PDF creation date,includes associates,extracted
+planted_nucleus_oilpalm,thousand ha,2019.0,FY2019 (Jan-Dec),136.9,"136,9",AR 2021.pdf,11.0,174,2021.0,2022-04-26,PDF creation date,includes associates,extracted
+planted_plasma_oilpalm,thousand ha,2021.0,FY2021 (Jan-Dec),22.4,"22,4",AR 2021.pdf,11.0,174,2021.0,2022-04-26,PDF creation date,includes associates,extracted
+planted_plasma_oilpalm,thousand ha,2020.0,FY2020 (Jan-Dec),21.4,"21,4",AR 2021.pdf,11.0,174,2021.0,2022-04-26,PDF creation date,includes associates,extracted
+planted_plasma_oilpalm,thousand ha,2019.0,FY2019 (Jan-Dec),21.0,21,AR 2021.pdf,11.0,174,2021.0,2022-04-26,PDF creation date,includes associates,extracted
+planted_total_oilpalm,thousand ha,2021.0,FY2021 (Jan-Dec),160.1,"160,1",AR 2021.pdf,11.0,174,2021.0,2022-04-26,PDF creation date,includes associates,extracted
+planted_total_oilpalm,thousand ha,2020.0,FY2020 (Jan-Dec),158.7,"158,7",AR 2021.pdf,11.0,174,2021.0,2022-04-26,PDF creation date,includes associates,extracted
+planted_total_oilpalm,thousand ha,2019.0,FY2019 (Jan-Dec),157.9,"157,9",AR 2021.pdf,11.0,174,2021.0,2022-04-26,PDF creation date,includes associates,extracted
+ffb_harvested_nucleus,thousand t,2021.0,FY2021 (Jan-Dec),2640.0,2.640,AR 2021.pdf,11.0,174,2021.0,2022-04-26,PDF creation date,includes associates,extracted
+ffb_harvested_nucleus,thousand t,2020.0,FY2020 (Jan-Dec),2646.0,2.646,AR 2021.pdf,11.0,174,2021.0,2022-04-26,PDF creation date,includes associates,extracted
+ffb_harvested_nucleus,thousand t,2019.0,FY2019 (Jan-Dec),2637.0,2.637,AR 2021.pdf,11.0,174,2021.0,2022-04-26,PDF creation date,includes associates,extracted
+ffb_harvested_plasma,thousand t,2021.0,FY2021 (Jan-Dec),303.0,303,AR 2021.pdf,11.0,174,2021.0,2022-04-26,PDF creation date,includes associates,extracted
+ffb_harvested_plasma,thousand t,2020.0,FY2020 (Jan-Dec),279.0,279,AR 2021.pdf,11.0,174,2021.0,2022-04-26,PDF creation date,includes associates,extracted
+ffb_harvested_plasma,thousand t,2019.0,FY2019 (Jan-Dec),302.0,302,AR 2021.pdf,11.0,174,2021.0,2022-04-26,PDF creation date,includes associates,extracted
+ffb_harvested_total,thousand t,2021.0,FY2021 (Jan-Dec),2943.0,2.943,AR 2021.pdf,11.0,174,2021.0,2022-04-26,PDF creation date,includes associates,extracted
+ffb_harvested_total,thousand t,2020.0,FY2020 (Jan-Dec),2925.0,2.925,AR 2021.pdf,11.0,174,2021.0,2022-04-26,PDF creation date,includes associates,extracted
+ffb_harvested_total,thousand t,2019.0,FY2019 (Jan-Dec),2939.0,2.939,AR 2021.pdf,11.0,174,2021.0,2022-04-26,PDF creation date,includes associates,extracted
+ffb_processed_total,thousand t,2021.0,FY2021 (Jan-Dec),3687.0,3.687,AR 2021.pdf,11.0,174,2021.0,2022-04-26,PDF creation date,includes associates,extracted
+ffb_processed_total,thousand t,2020.0,FY2020 (Jan-Dec),3645.0,3.645,AR 2021.pdf,11.0,174,2021.0,2022-04-26,PDF creation date,includes associates,extracted
+ffb_processed_total,thousand t,2019.0,FY2019 (Jan-Dec),3614.0,3.614,AR 2021.pdf,11.0,174,2021.0,2022-04-26,PDF creation date,includes associates,extracted
+cpo_production,thousand t,2021.0,FY2021 (Jan-Dec),850.0,850,AR 2021.pdf,11.0,174,2021.0,2022-04-26,PDF creation date,includes associates,extracted
+cpo_production,thousand t,2020.0,FY2020 (Jan-Dec),841.0,841,AR 2021.pdf,11.0,174,2021.0,2022-04-26,PDF creation date,includes associates,extracted
+cpo_production,thousand t,2019.0,FY2019 (Jan-Dec),846.0,846,AR 2021.pdf,11.0,174,2021.0,2022-04-26,PDF creation date,includes associates,extracted
+pk_production,thousand t,2021.0,FY2021 (Jan-Dec),174.0,174,AR 2021.pdf,11.0,174,2021.0,2022-04-26,PDF creation date,includes associates,extracted
+pk_production,thousand t,2020.0,FY2020 (Jan-Dec),175.0,175,AR 2021.pdf,11.0,174,2021.0,2022-04-26,PDF creation date,includes associates,extracted
+pk_production,thousand t,2019.0,FY2019 (Jan-Dec),174.0,174,AR 2021.pdf,11.0,174,2021.0,2022-04-26,PDF creation date,includes associates,extracted
+avg_ffb_yield,t/ha,2021.0,FY2021 (Jan-Dec),20.3,"20,3",AR 2021.pdf,11.0,174,2021.0,2022-04-26,PDF creation date,includes associates,extracted
+avg_ffb_yield,t/ha,2020.0,FY2020 (Jan-Dec),20.2,"20,2",AR 2021.pdf,11.0,174,2021.0,2022-04-26,PDF creation date,includes associates,extracted
+avg_ffb_yield,t/ha,2019.0,FY2019 (Jan-Dec),20.5,"20,5",AR 2021.pdf,11.0,174,2021.0,2022-04-26,PDF creation date,includes associates,extracted
+oer_cpo,%,2021.0,FY2021 (Jan-Dec),23.0,"23,0",AR 2021.pdf,11.0,174,2021.0,2022-04-26,PDF creation date,includes associates,extracted
+oer_cpo,%,2020.0,FY2020 (Jan-Dec),23.1,"23,1",AR 2021.pdf,11.0,174,2021.0,2022-04-26,PDF creation date,includes associates,extracted
+oer_cpo,%,2019.0,FY2019 (Jan-Dec),23.4,"23,4",AR 2021.pdf,11.0,174,2021.0,2022-04-26,PDF creation date,includes associates,extracted
+ker_pk,%,2021.0,FY2021 (Jan-Dec),4.7,"4,7",AR 2021.pdf,11.0,174,2021.0,2022-04-26,PDF creation date,includes associates,extracted
+ker_pk,%,2020.0,FY2020 (Jan-Dec),4.8,"4,8",AR 2021.pdf,11.0,174,2021.0,2022-04-26,PDF creation date,includes associates,extracted
+ker_pk,%,2019.0,FY2019 (Jan-Dec),4.8,"4,8",AR 2021.pdf,11.0,174,2021.0,2022-04-26,PDF creation date,includes associates,extracted
+pko_production,thousand t,,,,,AR 2021.pdf,,,,,,,NOT FOUND
+total_assets,IDR mn,2022.0,FY2022 (Jan-Dec),14526124.0,14.526.124,AR_2022.pdf,10.0,48,2022.0,2023-03-31,PDF creation date,consolidated,extracted
+total_assets,IDR mn,2021.0,FY2021 (Jan-Dec),12446326.0,12.446.326,AR_2022.pdf,10.0,48,2022.0,2023-03-31,PDF creation date,consolidated,extracted
+total_assets,IDR mn,2020.0,FY2020 (Jan-Dec),12323970.0,12.323.970,AR_2022.pdf,10.0,48,2022.0,2023-03-31,PDF creation date,consolidated,extracted
+total_liabilities,IDR mn,2022.0,FY2022 (Jan-Dec),4113380.0,4.113.380,AR_2022.pdf,10.0,48,2022.0,2023-03-31,PDF creation date,consolidated,extracted
+total_liabilities,IDR mn,2021.0,FY2021 (Jan-Dec),4650315.0,4.650.315,AR_2022.pdf,10.0,48,2022.0,2023-03-31,PDF creation date,consolidated,extracted
+total_liabilities,IDR mn,2020.0,FY2020 (Jan-Dec),5667688.0,5.667.688,AR_2022.pdf,10.0,48,2022.0,2023-03-31,PDF creation date,consolidated,extracted
+total_equity,IDR mn,2022.0,FY2022 (Jan-Dec),10412744.0,10.412.744,AR_2022.pdf,10.0,48,2022.0,2023-03-31,PDF creation date,consolidated,extracted
+total_equity,IDR mn,2021.0,FY2021 (Jan-Dec),7796011.0,7.796.011,AR_2022.pdf,10.0,48,2022.0,2023-03-31,PDF creation date,consolidated,extracted
+total_equity,IDR mn,2020.0,FY2020 (Jan-Dec),6656282.0,6.656.282,AR_2022.pdf,10.0,48,2022.0,2023-03-31,PDF creation date,consolidated,extracted
+revenue,IDR mn,2022.0,FY2022 (Jan-Dec),9345641.0,9.345.641,AR_2022.pdf,10.0,48,2022.0,2023-03-31,PDF creation date,consolidated,extracted
+revenue,IDR mn,2021.0,FY2021 (Jan-Dec),6278123.0,6.278.123,AR_2022.pdf,10.0,48,2022.0,2023-03-31,PDF creation date,consolidated,extracted
+revenue,IDR mn,2020.0,FY2020 (Jan-Dec),5265785.0,5.265.785,AR_2022.pdf,10.0,48,2022.0,2023-03-31,PDF creation date,consolidated,extracted
+gross_profit,IDR mn,2022.0,FY2022 (Jan-Dec),3715864.0,3.715.864,AR_2022.pdf,10.0,48,2022.0,2023-03-31,PDF creation date,consolidated,extracted
+gross_profit,IDR mn,2021.0,FY2021 (Jan-Dec),1615789.0,1.615.789,AR_2022.pdf,10.0,48,2022.0,2023-03-31,PDF creation date,consolidated,extracted
+gross_profit,IDR mn,2020.0,FY2020 (Jan-Dec),1392798.0,1.392.798,AR_2022.pdf,10.0,48,2022.0,2023-03-31,PDF creation date,consolidated,extracted
+profit_for_year,IDR mn,2022.0,FY2022 (Jan-Dec),3088745.0,3.088.745,AR_2022.pdf,10.0,48,2022.0,2023-03-31,PDF creation date,consolidated,extracted
+profit_for_year,IDR mn,2021.0,FY2021 (Jan-Dec),1198747.0,1.198.747,AR_2022.pdf,10.0,48,2022.0,2023-03-31,PDF creation date,consolidated,extracted
+profit_for_year,IDR mn,2020.0,FY2020 (Jan-Dec),932735.0,932.735,AR_2022.pdf,10.0,48,2022.0,2023-03-31,PDF creation date,consolidated,extracted
+profit_attrib_owners,IDR mn,2022.0,FY2022 (Jan-Dec),2981120.0,2.981.120,AR_2022.pdf,10.0,48,2022.0,2023-03-31,PDF creation date,consolidated,extracted
+profit_attrib_owners,IDR mn,2021.0,FY2021 (Jan-Dec),1159036.0,1.159.036,AR_2022.pdf,10.0,48,2022.0,2023-03-31,PDF creation date,consolidated,extracted
+profit_attrib_owners,IDR mn,2020.0,FY2020 (Jan-Dec),911068.0,911.068,AR_2022.pdf,10.0,48,2022.0,2023-03-31,PDF creation date,consolidated,extracted
+eps,IDR per share,2022.0,FY2022 (Jan-Dec),150.0,150,AR_2022.pdf,10.0,48,2022.0,2023-03-31,PDF creation date,consolidated,extracted
+eps,IDR per share,2021.0,FY2021 (Jan-Dec),59.0,59,AR_2022.pdf,10.0,48,2022.0,2023-03-31,PDF creation date,consolidated,extracted
+eps,IDR per share,2020.0,FY2020 (Jan-Dec),48.0,48,AR_2022.pdf,10.0,48,2022.0,2023-03-31,PDF creation date,consolidated,extracted
+planted_nucleus_oilpalm,thousand ha,2022.0,FY2022 (Jan-Dec),138.4,"138,4",AR_2022.pdf,11.0,175,2022.0,2023-03-31,PDF creation date,includes associates,extracted
+planted_nucleus_oilpalm,thousand ha,2021.0,FY2021 (Jan-Dec),137.7,"137,7",AR_2022.pdf,11.0,175,2022.0,2023-03-31,PDF creation date,includes associates,extracted
+planted_nucleus_oilpalm,thousand ha,2020.0,FY2020 (Jan-Dec),137.3,"137,3",AR_2022.pdf,11.0,175,2022.0,2023-03-31,PDF creation date,includes associates,extracted
+planted_plasma_oilpalm,thousand ha,2022.0,FY2022 (Jan-Dec),23.0,"23,0",AR_2022.pdf,11.0,175,2022.0,2023-03-31,PDF creation date,includes associates,extracted
+planted_plasma_oilpalm,thousand ha,2021.0,FY2021 (Jan-Dec),22.4,"22,4",AR_2022.pdf,11.0,175,2022.0,2023-03-31,PDF creation date,includes associates,extracted
+planted_plasma_oilpalm,thousand ha,2020.0,FY2020 (Jan-Dec),21.4,"21,4",AR_2022.pdf,11.0,175,2022.0,2023-03-31,PDF creation date,includes associates,extracted
+planted_total_oilpalm,thousand ha,2022.0,FY2022 (Jan-Dec),161.4,"161,4",AR_2022.pdf,11.0,175,2022.0,2023-03-31,PDF creation date,includes associates,extracted
+planted_total_oilpalm,thousand ha,2021.0,FY2021 (Jan-Dec),160.1,"160,1",AR_2022.pdf,11.0,175,2022.0,2023-03-31,PDF creation date,includes associates,extracted
+planted_total_oilpalm,thousand ha,2020.0,FY2020 (Jan-Dec),158.7,"158,7",AR_2022.pdf,11.0,175,2022.0,2023-03-31,PDF creation date,includes associates,extracted
+ffb_harvested_nucleus,thousand t,2022.0,FY2022 (Jan-Dec),3200.0,3.200,AR_2022.pdf,11.0,175,2022.0,2023-03-31,PDF creation date,includes associates,extracted
+ffb_harvested_nucleus,thousand t,2021.0,FY2021 (Jan-Dec),2640.0,2.640,AR_2022.pdf,11.0,175,2022.0,2023-03-31,PDF creation date,includes associates,extracted
+ffb_harvested_nucleus,thousand t,2020.0,FY2020 (Jan-Dec),2646.0,2.646,AR_2022.pdf,11.0,175,2022.0,2023-03-31,PDF creation date,includes associates,extracted
+ffb_harvested_plasma,thousand t,2022.0,FY2022 (Jan-Dec),354.0,354,AR_2022.pdf,11.0,175,2022.0,2023-03-31,PDF creation date,includes associates,extracted
+ffb_harvested_plasma,thousand t,2021.0,FY2021 (Jan-Dec),303.0,303,AR_2022.pdf,11.0,175,2022.0,2023-03-31,PDF creation date,includes associates,extracted
+ffb_harvested_plasma,thousand t,2020.0,FY2020 (Jan-Dec),279.0,279,AR_2022.pdf,11.0,175,2022.0,2023-03-31,PDF creation date,includes associates,extracted
+ffb_harvested_total,thousand t,2022.0,FY2022 (Jan-Dec),3554.0,3.554,AR_2022.pdf,11.0,175,2022.0,2023-03-31,PDF creation date,includes associates,extracted
+ffb_harvested_total,thousand t,2021.0,FY2021 (Jan-Dec),2943.0,2.943,AR_2022.pdf,11.0,175,2022.0,2023-03-31,PDF creation date,includes associates,extracted
+ffb_harvested_total,thousand t,2020.0,FY2020 (Jan-Dec),2925.0,2.925,AR_2022.pdf,11.0,175,2022.0,2023-03-31,PDF creation date,includes associates,extracted
+ffb_processed_total,thousand t,2022.0,FY2022 (Jan-Dec),4416.0,4.416,AR_2022.pdf,11.0,175,2022.0,2023-03-31,PDF creation date,includes associates,extracted
+ffb_processed_total,thousand t,2021.0,FY2021 (Jan-Dec),3687.0,3.687,AR_2022.pdf,11.0,175,2022.0,2023-03-31,PDF creation date,includes associates,extracted
+ffb_processed_total,thousand t,2020.0,FY2020 (Jan-Dec),3645.0,3.645,AR_2022.pdf,11.0,175,2022.0,2023-03-31,PDF creation date,includes associates,extracted
+cpo_production,thousand t,2022.0,FY2022 (Jan-Dec),999.0,999,AR_2022.pdf,11.0,175,2022.0,2023-03-31,PDF creation date,includes associates,extracted
+cpo_production,thousand t,2021.0,FY2021 (Jan-Dec),850.0,850,AR_2022.pdf,11.0,175,2022.0,2023-03-31,PDF creation date,includes associates,extracted
+cpo_production,thousand t,2020.0,FY2020 (Jan-Dec),841.0,841,AR_2022.pdf,11.0,175,2022.0,2023-03-31,PDF creation date,includes associates,extracted
+pk_production,thousand t,2022.0,FY2022 (Jan-Dec),210.0,210,AR_2022.pdf,11.0,175,2022.0,2023-03-31,PDF creation date,includes associates,extracted
+pk_production,thousand t,2021.0,FY2021 (Jan-Dec),174.0,174,AR_2022.pdf,11.0,175,2022.0,2023-03-31,PDF creation date,includes associates,extracted
+pk_production,thousand t,2020.0,FY2020 (Jan-Dec),175.0,175,AR_2022.pdf,11.0,175,2022.0,2023-03-31,PDF creation date,includes associates,extracted
+avg_ffb_yield,t/ha,2022.0,FY2022 (Jan-Dec),24.5,"24,5",AR_2022.pdf,11.0,175,2022.0,2023-03-31,PDF creation date,includes associates,extracted
+avg_ffb_yield,t/ha,2021.0,FY2021 (Jan-Dec),20.3,"20,3",AR_2022.pdf,11.0,175,2022.0,2023-03-31,PDF creation date,includes associates,extracted
+avg_ffb_yield,t/ha,2020.0,FY2020 (Jan-Dec),20.2,"20,2",AR_2022.pdf,11.0,175,2022.0,2023-03-31,PDF creation date,includes associates,extracted
+oer_cpo,%,2022.0,FY2022 (Jan-Dec),22.6,"22,6",AR_2022.pdf,11.0,175,2022.0,2023-03-31,PDF creation date,includes associates,extracted
+oer_cpo,%,2021.0,FY2021 (Jan-Dec),23.0,"23,0",AR_2022.pdf,11.0,175,2022.0,2023-03-31,PDF creation date,includes associates,extracted
+oer_cpo,%,2020.0,FY2020 (Jan-Dec),23.1,"23,1",AR_2022.pdf,11.0,175,2022.0,2023-03-31,PDF creation date,includes associates,extracted
+ker_pk,%,2022.0,FY2022 (Jan-Dec),4.8,"4,8",AR_2022.pdf,11.0,175,2022.0,2023-03-31,PDF creation date,includes associates,extracted
+ker_pk,%,2021.0,FY2021 (Jan-Dec),4.7,"4,7",AR_2022.pdf,11.0,175,2022.0,2023-03-31,PDF creation date,includes associates,extracted
+ker_pk,%,2020.0,FY2020 (Jan-Dec),4.8,"4,8",AR_2022.pdf,11.0,175,2022.0,2023-03-31,PDF creation date,includes associates,extracted
+pko_production,thousand t,,,,,AR_2022.pdf,,,,,,,NOT FOUND
+total_assets,IDR mn,2023.0,FY2023 (Jan-Dec),13867387.0,13.867.387,AR_2023.pdf,10.0,59,2023.0,2024-03-28,PDF creation date,consolidated,extracted
+total_assets,IDR mn,2022.0,FY2022 (Jan-Dec),14526124.0,14.526.124,AR_2023.pdf,10.0,59,2023.0,2024-03-28,PDF creation date,consolidated,extracted
+total_assets,IDR mn,2021.0,FY2021 (Jan-Dec),12446326.0,12.446.326,AR_2023.pdf,10.0,59,2023.0,2024-03-28,PDF creation date,consolidated,extracted
+total_liabilities,IDR mn,2023.0,FY2023 (Jan-Dec),2527847.0,2.527.847,AR_2023.pdf,10.0,59,2023.0,2024-03-28,PDF creation date,consolidated,extracted
+total_liabilities,IDR mn,2022.0,FY2022 (Jan-Dec),4113380.0,4.113.380,AR_2023.pdf,10.0,59,2023.0,2024-03-28,PDF creation date,consolidated,extracted
+total_liabilities,IDR mn,2021.0,FY2021 (Jan-Dec),4650315.0,4.650.315,AR_2023.pdf,10.0,59,2023.0,2024-03-28,PDF creation date,consolidated,extracted
+total_equity,IDR mn,2023.0,FY2023 (Jan-Dec),11339540.0,11.339.540,AR_2023.pdf,10.0,59,2023.0,2024-03-28,PDF creation date,consolidated,extracted
+total_equity,IDR mn,2022.0,FY2022 (Jan-Dec),10412277.0,10.412.277,AR_2023.pdf,10.0,59,2023.0,2024-03-28,PDF creation date,consolidated,extracted
+total_equity,IDR mn,2021.0,FY2021 (Jan-Dec),7796011.0,7.796.011,AR_2023.pdf,10.0,59,2023.0,2024-03-28,PDF creation date,consolidated,extracted
+revenue,IDR mn,2023.0,FY2023 (Jan-Dec),8325887.0,8.325.887,AR_2023.pdf,10.0,59,2023.0,2024-03-28,PDF creation date,consolidated,extracted
+revenue,IDR mn,2022.0,FY2022 (Jan-Dec),9345641.0,9.345.641,AR_2023.pdf,10.0,59,2023.0,2024-03-28,PDF creation date,consolidated,extracted
+revenue,IDR mn,2021.0,FY2021 (Jan-Dec),6278123.0,6.278.123,AR_2023.pdf,10.0,59,2023.0,2024-03-28,PDF creation date,consolidated,extracted
+gross_profit,IDR mn,2023.0,FY2023 (Jan-Dec),2217297.0,2.217.297,AR_2023.pdf,10.0,59,2023.0,2024-03-28,PDF creation date,consolidated,extracted
+gross_profit,IDR mn,2022.0,FY2022 (Jan-Dec),3715864.0,3.715.864,AR_2023.pdf,10.0,59,2023.0,2024-03-28,PDF creation date,consolidated,extracted
+gross_profit,IDR mn,2021.0,FY2021 (Jan-Dec),1615789.0,1.615.789,AR_2023.pdf,10.0,59,2023.0,2024-03-28,PDF creation date,consolidated,extracted
+profit_for_year,IDR mn,2023.0,FY2023 (Jan-Dec),1661258.0,1.661.258,AR_2023.pdf,10.0,59,2023.0,2024-03-28,PDF creation date,consolidated,extracted
+profit_for_year,IDR mn,2022.0,FY2022 (Jan-Dec),3088745.0,3.088.745,AR_2023.pdf,10.0,59,2023.0,2024-03-28,PDF creation date,consolidated,extracted
+profit_for_year,IDR mn,2021.0,FY2021 (Jan-Dec),1198747.0,1.198.747,AR_2023.pdf,10.0,59,2023.0,2024-03-28,PDF creation date,consolidated,extracted
+profit_attrib_owners,IDR mn,2023.0,FY2023 (Jan-Dec),1608217.0,1.608.217,AR_2023.pdf,10.0,59,2023.0,2024-03-28,PDF creation date,consolidated,extracted
+profit_attrib_owners,IDR mn,2022.0,FY2022 (Jan-Dec),2981120.0,2.981.120,AR_2023.pdf,10.0,59,2023.0,2024-03-28,PDF creation date,consolidated,extracted
+profit_attrib_owners,IDR mn,2021.0,FY2021 (Jan-Dec),1159036.0,1.159.036,AR_2023.pdf,10.0,59,2023.0,2024-03-28,PDF creation date,consolidated,extracted
+eps,IDR per share,2023.0,FY2023 (Jan-Dec),81.0,81,AR_2023.pdf,10.0,59,2023.0,2024-03-28,PDF creation date,consolidated,extracted
+eps,IDR per share,2022.0,FY2022 (Jan-Dec),150.0,150,AR_2023.pdf,10.0,59,2023.0,2024-03-28,PDF creation date,consolidated,extracted
+eps,IDR per share,2021.0,FY2021 (Jan-Dec),59.0,59,AR_2023.pdf,10.0,59,2023.0,2024-03-28,PDF creation date,consolidated,extracted
+planted_nucleus_oilpalm,thousand ha,2023.0,FY2023 (Jan-Dec),136.4,"136,4",AR_2023.pdf,11.0,174,2023.0,2024-03-28,PDF creation date,includes associates,extracted
+planted_nucleus_oilpalm,thousand ha,2022.0,FY2022 (Jan-Dec),138.4,"138,4",AR_2023.pdf,11.0,174,2023.0,2024-03-28,PDF creation date,includes associates,extracted
+planted_nucleus_oilpalm,thousand ha,2021.0,FY2021 (Jan-Dec),137.7,"137,7",AR_2023.pdf,11.0,174,2023.0,2024-03-28,PDF creation date,includes associates,extracted
+planted_plasma_oilpalm,thousand ha,2023.0,FY2023 (Jan-Dec),24.1,"24,1",AR_2023.pdf,11.0,174,2023.0,2024-03-28,PDF creation date,includes associates,extracted
+planted_plasma_oilpalm,thousand ha,2022.0,FY2022 (Jan-Dec),23.0,"23,0",AR_2023.pdf,11.0,174,2023.0,2024-03-28,PDF creation date,includes associates,extracted
+planted_plasma_oilpalm,thousand ha,2021.0,FY2021 (Jan-Dec),22.4,"22,4",AR_2023.pdf,11.0,174,2023.0,2024-03-28,PDF creation date,includes associates,extracted
+planted_total_oilpalm,thousand ha,2023.0,FY2023 (Jan-Dec),160.5,"160,5",AR_2023.pdf,11.0,174,2023.0,2024-03-28,PDF creation date,includes associates,extracted
+planted_total_oilpalm,thousand ha,2022.0,FY2022 (Jan-Dec),161.4,"161,4",AR_2023.pdf,11.0,174,2023.0,2024-03-28,PDF creation date,includes associates,extracted
+planted_total_oilpalm,thousand ha,2021.0,FY2021 (Jan-Dec),160.1,"160,1",AR_2023.pdf,11.0,174,2023.0,2024-03-28,PDF creation date,includes associates,extracted
+ffb_harvested_nucleus,thousand t,2023.0,FY2023 (Jan-Dec),3050.0,3.050,AR_2023.pdf,11.0,174,2023.0,2024-03-28,PDF creation date,includes associates,extracted
+ffb_harvested_nucleus,thousand t,2022.0,FY2022 (Jan-Dec),3200.0,3.200,AR_2023.pdf,11.0,174,2023.0,2024-03-28,PDF creation date,includes associates,extracted
+ffb_harvested_nucleus,thousand t,2021.0,FY2021 (Jan-Dec),2640.0,2.640,AR_2023.pdf,11.0,174,2023.0,2024-03-28,PDF creation date,includes associates,extracted
+ffb_harvested_plasma,thousand t,2023.0,FY2023 (Jan-Dec),348.0,348,AR_2023.pdf,11.0,174,2023.0,2024-03-28,PDF creation date,includes associates,extracted
+ffb_harvested_plasma,thousand t,2022.0,FY2022 (Jan-Dec),354.0,354,AR_2023.pdf,11.0,174,2023.0,2024-03-28,PDF creation date,includes associates,extracted
+ffb_harvested_plasma,thousand t,2021.0,FY2021 (Jan-Dec),303.0,303,AR_2023.pdf,11.0,174,2023.0,2024-03-28,PDF creation date,includes associates,extracted
+ffb_harvested_total,thousand t,2023.0,FY2023 (Jan-Dec),3399.0,3.399,AR_2023.pdf,11.0,174,2023.0,2024-03-28,PDF creation date,includes associates,extracted
+ffb_harvested_total,thousand t,2022.0,FY2022 (Jan-Dec),3554.0,3.554,AR_2023.pdf,11.0,174,2023.0,2024-03-28,PDF creation date,includes associates,extracted
+ffb_harvested_total,thousand t,2021.0,FY2021 (Jan-Dec),2943.0,2.943,AR_2023.pdf,11.0,174,2023.0,2024-03-28,PDF creation date,includes associates,extracted
+ffb_processed_total,thousand t,2023.0,FY2023 (Jan-Dec),4203.0,4.203,AR_2023.pdf,11.0,174,2023.0,2024-03-28,PDF creation date,includes associates,extracted
+ffb_processed_total,thousand t,2022.0,FY2022 (Jan-Dec),4416.0,4.416,AR_2023.pdf,11.0,174,2023.0,2024-03-28,PDF creation date,includes associates,extracted
+ffb_processed_total,thousand t,2021.0,FY2021 (Jan-Dec),3687.0,3.687,AR_2023.pdf,11.0,174,2023.0,2024-03-28,PDF creation date,includes associates,extracted
+cpo_production,thousand t,2023.0,FY2023 (Jan-Dec),978.0,978,AR_2023.pdf,11.0,174,2023.0,2024-03-28,PDF creation date,includes associates,extracted
+cpo_production,thousand t,2022.0,FY2022 (Jan-Dec),999.0,999,AR_2023.pdf,11.0,174,2023.0,2024-03-28,PDF creation date,includes associates,extracted
+cpo_production,thousand t,2021.0,FY2021 (Jan-Dec),850.0,850,AR_2023.pdf,11.0,174,2023.0,2024-03-28,PDF creation date,includes associates,extracted
+pk_production,thousand t,2023.0,FY2023 (Jan-Dec),208.0,208,AR_2023.pdf,11.0,174,2023.0,2024-03-28,PDF creation date,includes associates,extracted
+pk_production,thousand t,2022.0,FY2022 (Jan-Dec),210.0,210,AR_2023.pdf,11.0,174,2023.0,2024-03-28,PDF creation date,includes associates,extracted
+pk_production,thousand t,2021.0,FY2021 (Jan-Dec),174.0,174,AR_2023.pdf,11.0,174,2023.0,2024-03-28,PDF creation date,includes associates,extracted
+avg_ffb_yield,t/ha,2023.0,FY2023 (Jan-Dec),23.6,"23,6",AR_2023.pdf,11.0,174,2023.0,2024-03-28,PDF creation date,includes associates,extracted
+avg_ffb_yield,t/ha,2022.0,FY2022 (Jan-Dec),24.5,"24,5",AR_2023.pdf,11.0,174,2023.0,2024-03-28,PDF creation date,includes associates,extracted
+avg_ffb_yield,t/ha,2021.0,FY2021 (Jan-Dec),20.3,"20,3",AR_2023.pdf,11.0,174,2023.0,2024-03-28,PDF creation date,includes associates,extracted
+oer_cpo,%,2023.0,FY2023 (Jan-Dec),23.3,"23,3",AR_2023.pdf,11.0,174,2023.0,2024-03-28,PDF creation date,includes associates,extracted
+oer_cpo,%,2022.0,FY2022 (Jan-Dec),22.6,"22,6",AR_2023.pdf,11.0,174,2023.0,2024-03-28,PDF creation date,includes associates,extracted
+oer_cpo,%,2021.0,FY2021 (Jan-Dec),23.0,"23,0",AR_2023.pdf,11.0,174,2023.0,2024-03-28,PDF creation date,includes associates,extracted
+ker_pk,%,,,,,AR_2023.pdf,,,,,,,NOT FOUND
+pko_production,thousand t,2023.0,FY2023 (Jan-Dec),6.5,"6,5",AR_2023.pdf,11.0,174,2023.0,2024-03-28,PDF creation date,includes associates,extracted
+pko_production,thousand t,2022.0,FY2022 (Jan-Dec),,-,AR_2023.pdf,11.0,174,2023.0,2024-03-28,PDF creation date,includes associates,extracted
+pko_production,thousand t,2021.0,FY2021 (Jan-Dec),,-,AR_2023.pdf,11.0,174,2023.0,2024-03-28,PDF creation date,includes associates,extracted
+total_assets,IDR mn,2024.0,FY2024 (Jan-Dec),14307265.0,14.307.265,AR_2024.pdf,10.0,150,2024.0,2025-04-09,PDF creation date,consolidated,extracted
+total_assets,IDR mn,2023.0,FY2023 (Jan-Dec),13867387.0,13.867.387,AR_2024.pdf,10.0,150,2024.0,2025-04-09,PDF creation date,consolidated,extracted
+total_assets,IDR mn,2022.0,FY2022 (Jan-Dec),14526124.0,14.526.124,AR_2024.pdf,10.0,150,2024.0,2025-04-09,PDF creation date,consolidated,extracted
+total_liabilities,IDR mn,2024.0,FY2024 (Jan-Dec),3030836.0,3.030.836,AR_2024.pdf,10.0,150,2024.0,2025-04-09,PDF creation date,consolidated,extracted
+total_liabilities,IDR mn,2023.0,FY2023 (Jan-Dec),2527847.0,2.527.847,AR_2024.pdf,10.0,150,2024.0,2025-04-09,PDF creation date,consolidated,extracted
+total_liabilities,IDR mn,2022.0,FY2022 (Jan-Dec),4113380.0,4.113.380,AR_2024.pdf,10.0,150,2024.0,2025-04-09,PDF creation date,consolidated,extracted
+total_equity,IDR mn,2024.0,FY2024 (Jan-Dec),11276429.0,11.276.429,AR_2024.pdf,10.0,150,2024.0,2025-04-09,PDF creation date,consolidated,extracted
+total_equity,IDR mn,2023.0,FY2023 (Jan-Dec),11339540.0,11.339.540,AR_2024.pdf,10.0,150,2024.0,2025-04-09,PDF creation date,consolidated,extracted
+total_equity,IDR mn,2022.0,FY2022 (Jan-Dec),10412277.0,10.412.277,AR_2024.pdf,10.0,150,2024.0,2025-04-09,PDF creation date,consolidated,extracted
+revenue,IDR mn,2024.0,FY2024 (Jan-Dec),9671463.0,9.671.463,AR_2024.pdf,10.0,150,2024.0,2025-04-09,PDF creation date,consolidated,extracted
+revenue,IDR mn,2023.0,FY2023 (Jan-Dec),8325887.0,8.325.887,AR_2024.pdf,10.0,150,2024.0,2025-04-09,PDF creation date,consolidated,extracted
+revenue,IDR mn,2022.0,FY2022 (Jan-Dec),9345641.0,9.345.641,AR_2024.pdf,10.0,150,2024.0,2025-04-09,PDF creation date,consolidated,extracted
+gross_profit,IDR mn,2024.0,FY2024 (Jan-Dec),3722779.0,3.722.779,AR_2024.pdf,10.0,150,2024.0,2025-04-09,PDF creation date,consolidated,extracted
+gross_profit,IDR mn,2023.0,FY2023 (Jan-Dec),2217297.0,2.217.297,AR_2024.pdf,10.0,150,2024.0,2025-04-09,PDF creation date,consolidated,extracted
+gross_profit,IDR mn,2022.0,FY2022 (Jan-Dec),3715864.0,3.715.864,AR_2024.pdf,10.0,150,2024.0,2025-04-09,PDF creation date,consolidated,extracted
+profit_for_year,IDR mn,2024.0,FY2024 (Jan-Dec),3240599.0,3.240.599,AR_2024.pdf,10.0,150,2024.0,2025-04-09,PDF creation date,consolidated,extracted
+profit_for_year,IDR mn,2023.0,FY2023 (Jan-Dec),1661258.0,1.661.258,AR_2024.pdf,10.0,150,2024.0,2025-04-09,PDF creation date,consolidated,extracted
+profit_for_year,IDR mn,2022.0,FY2022 (Jan-Dec),3088745.0,3.088.745,AR_2024.pdf,10.0,150,2024.0,2025-04-09,PDF creation date,consolidated,extracted
+profit_attrib_owners,IDR mn,2024.0,FY2024 (Jan-Dec),3120276.0,3.120.276,AR_2024.pdf,10.0,150,2024.0,2025-04-09,PDF creation date,consolidated,extracted
+profit_attrib_owners,IDR mn,2023.0,FY2023 (Jan-Dec),1608217.0,1.608.217,AR_2024.pdf,10.0,150,2024.0,2025-04-09,PDF creation date,consolidated,extracted
+profit_attrib_owners,IDR mn,2022.0,FY2022 (Jan-Dec),2981120.0,2.981.120,AR_2024.pdf,10.0,150,2024.0,2025-04-09,PDF creation date,consolidated,extracted
+eps,IDR per share,2024.0,FY2024 (Jan-Dec),157.0,157,AR_2024.pdf,10.0,150,2024.0,2025-04-09,PDF creation date,consolidated,extracted
+eps,IDR per share,2023.0,FY2023 (Jan-Dec),81.0,81,AR_2024.pdf,10.0,150,2024.0,2025-04-09,PDF creation date,consolidated,extracted
+eps,IDR per share,2022.0,FY2022 (Jan-Dec),150.0,150,AR_2024.pdf,10.0,150,2024.0,2025-04-09,PDF creation date,consolidated,extracted
+planted_nucleus_oilpalm,thousand ha,2024.0,FY2024 (Jan-Dec),135.6,"135,6",AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+planted_nucleus_oilpalm,thousand ha,2023.0,FY2023 (Jan-Dec),136.4,"136,4",AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+planted_nucleus_oilpalm,thousand ha,2022.0,FY2022 (Jan-Dec),138.4,"138,4",AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+planted_plasma_oilpalm,thousand ha,2024.0,FY2024 (Jan-Dec),25.2,"25,2",AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+planted_plasma_oilpalm,thousand ha,2023.0,FY2023 (Jan-Dec),24.1,"24,1",AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+planted_plasma_oilpalm,thousand ha,2022.0,FY2022 (Jan-Dec),23.0,"23,0",AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+planted_total_oilpalm,thousand ha,2024.0,FY2024 (Jan-Dec),160.8,"160,8",AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+planted_total_oilpalm,thousand ha,2023.0,FY2023 (Jan-Dec),160.5,"160,5",AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+planted_total_oilpalm,thousand ha,2022.0,FY2022 (Jan-Dec),161.4,"161,4",AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+ffb_harvested_nucleus,thousand t,2024.0,FY2024 (Jan-Dec),2946.0,2.946,AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+ffb_harvested_nucleus,thousand t,2023.0,FY2023 (Jan-Dec),3050.0,3.050,AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+ffb_harvested_nucleus,thousand t,2022.0,FY2022 (Jan-Dec),3200.0,3.200,AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+ffb_harvested_plasma,thousand t,2024.0,FY2024 (Jan-Dec),330.0,330,AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+ffb_harvested_plasma,thousand t,2023.0,FY2023 (Jan-Dec),348.0,348,AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+ffb_harvested_plasma,thousand t,2022.0,FY2022 (Jan-Dec),354.0,354,AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+ffb_harvested_total,thousand t,2024.0,FY2024 (Jan-Dec),3276.0,3.276,AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+ffb_harvested_total,thousand t,2023.0,FY2023 (Jan-Dec),3399.0,3.399,AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+ffb_harvested_total,thousand t,2022.0,FY2022 (Jan-Dec),3554.0,3.554,AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+ffb_processed_total,thousand t,2024.0,FY2024 (Jan-Dec),3962.0,3.962,AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+ffb_processed_total,thousand t,2023.0,FY2023 (Jan-Dec),4203.0,4.203,AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+ffb_processed_total,thousand t,2022.0,FY2022 (Jan-Dec),4416.0,4.416,AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+cpo_production,thousand t,2024.0,FY2024 (Jan-Dec),916.0,916,AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+cpo_production,thousand t,2023.0,FY2023 (Jan-Dec),978.0,978,AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+cpo_production,thousand t,2022.0,FY2022 (Jan-Dec),999.0,999,AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+pk_production,thousand t,2024.0,FY2024 (Jan-Dec),193.0,193,AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+pk_production,thousand t,2023.0,FY2023 (Jan-Dec),208.0,208,AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+pk_production,thousand t,2022.0,FY2022 (Jan-Dec),210.0,210,AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+avg_ffb_yield,t/ha,2024.0,FY2024 (Jan-Dec),23.0,"23,0",AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+avg_ffb_yield,t/ha,2023.0,FY2023 (Jan-Dec),23.6,"23,6",AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+avg_ffb_yield,t/ha,2022.0,FY2022 (Jan-Dec),24.5,"24,5",AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+oer_cpo,%,2024.0,FY2024 (Jan-Dec),23.1,"23,1",AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+oer_cpo,%,2023.0,FY2023 (Jan-Dec),23.3,"23,3",AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+oer_cpo,%,2022.0,FY2022 (Jan-Dec),22.6,"22,6",AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+ker_pk,%,2024.0,FY2024 (Jan-Dec),4.9,"4,9",AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+ker_pk,%,2023.0,FY2023 (Jan-Dec),4.9,"4,9",AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+ker_pk,%,2022.0,FY2022 (Jan-Dec),4.8,"4,8",AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+pko_production,thousand t,2024.0,FY2024 (Jan-Dec),20.3,"20,3",AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+pko_production,thousand t,2023.0,FY2023 (Jan-Dec),6.5,"6,5",AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+pko_production,thousand t,2022.0,FY2022 (Jan-Dec),,-,AR_2024.pdf,11.0,210,2024.0,2025-04-09,PDF creation date,includes associates,extracted
+total_assets,IDR mn,2025.0,FY2025 (Jan-Dec),14696563.0,14.696.563,TAPG_-_AR_2025.pdf,12.0,10,2025.0,2026-04-21,PDF creation date,consolidated,extracted
+total_assets,IDR mn,2024.0,FY2024 (Jan-Dec),14307265.0,14.307.265,TAPG_-_AR_2025.pdf,12.0,10,2025.0,2026-04-21,PDF creation date,consolidated,extracted
+total_assets,IDR mn,2023.0,FY2023 (Jan-Dec),13867387.0,13.867.387,TAPG_-_AR_2025.pdf,12.0,10,2025.0,2026-04-21,PDF creation date,consolidated,extracted
+total_liabilities,IDR mn,2025.0,FY2025 (Jan-Dec),3009078.0,3.009.078,TAPG_-_AR_2025.pdf,12.0,10,2025.0,2026-04-21,PDF creation date,consolidated,extracted
+total_liabilities,IDR mn,2024.0,FY2024 (Jan-Dec),3030836.0,3.030.836,TAPG_-_AR_2025.pdf,12.0,10,2025.0,2026-04-21,PDF creation date,consolidated,extracted
+total_liabilities,IDR mn,2023.0,FY2023 (Jan-Dec),2527847.0,2.527.847,TAPG_-_AR_2025.pdf,12.0,10,2025.0,2026-04-21,PDF creation date,consolidated,extracted
+total_equity,IDR mn,2025.0,FY2025 (Jan-Dec),11687485.0,11.687.485,TAPG_-_AR_2025.pdf,12.0,10,2025.0,2026-04-21,PDF creation date,consolidated,extracted
+total_equity,IDR mn,2024.0,FY2024 (Jan-Dec),11276429.0,11.276.429,TAPG_-_AR_2025.pdf,12.0,10,2025.0,2026-04-21,PDF creation date,consolidated,extracted
+total_equity,IDR mn,2023.0,FY2023 (Jan-Dec),11339540.0,11.339.540,TAPG_-_AR_2025.pdf,12.0,10,2025.0,2026-04-21,PDF creation date,consolidated,extracted
+revenue,IDR mn,2025.0,FY2025 (Jan-Dec),11402198.0,11.402.198,TAPG_-_AR_2025.pdf,12.0,10,2025.0,2026-04-21,PDF creation date,consolidated,extracted
+revenue,IDR mn,2024.0,FY2024 (Jan-Dec),9671463.0,9.671.463,TAPG_-_AR_2025.pdf,12.0,10,2025.0,2026-04-21,PDF creation date,consolidated,extracted
+revenue,IDR mn,2023.0,FY2023 (Jan-Dec),8325887.0,8.325.887,TAPG_-_AR_2025.pdf,12.0,10,2025.0,2026-04-21,PDF creation date,consolidated,extracted
+gross_profit,IDR mn,2025.0,FY2025 (Jan-Dec),4497617.0,4.497.617,TAPG_-_AR_2025.pdf,12.0,10,2025.0,2026-04-21,PDF creation date,consolidated,extracted
+gross_profit,IDR mn,2024.0,FY2024 (Jan-Dec),3722779.0,3.722.779,TAPG_-_AR_2025.pdf,12.0,10,2025.0,2026-04-21,PDF creation date,consolidated,extracted
+gross_profit,IDR mn,2023.0,FY2023 (Jan-Dec),2217297.0,2.217.297,TAPG_-_AR_2025.pdf,12.0,10,2025.0,2026-04-21,PDF creation date,consolidated,extracted
+profit_for_year,IDR mn,2025.0,FY2025 (Jan-Dec),3845347.0,3.845.347,TAPG_-_AR_2025.pdf,12.0,10,2025.0,2026-04-21,PDF creation date,consolidated,extracted
+profit_for_year,IDR mn,2024.0,FY2024 (Jan-Dec),3240599.0,3.240.599,TAPG_-_AR_2025.pdf,12.0,10,2025.0,2026-04-21,PDF creation date,consolidated,extracted
+profit_for_year,IDR mn,2023.0,FY2023 (Jan-Dec),1661258.0,1.661.258,TAPG_-_AR_2025.pdf,12.0,10,2025.0,2026-04-21,PDF creation date,consolidated,extracted
+profit_attrib_owners,IDR mn,2025.0,FY2025 (Jan-Dec),3702266.0,3.702.266,TAPG_-_AR_2025.pdf,12.0,10,2025.0,2026-04-21,PDF creation date,consolidated,extracted
+profit_attrib_owners,IDR mn,2024.0,FY2024 (Jan-Dec),3120276.0,3.120.276,TAPG_-_AR_2025.pdf,12.0,10,2025.0,2026-04-21,PDF creation date,consolidated,extracted
+profit_attrib_owners,IDR mn,2023.0,FY2023 (Jan-Dec),1608217.0,1.608.217,TAPG_-_AR_2025.pdf,12.0,10,2025.0,2026-04-21,PDF creation date,consolidated,extracted
+eps,IDR per share,2025.0,FY2025 (Jan-Dec),186.0,186,TAPG_-_AR_2025.pdf,13.0,11,2025.0,2026-04-21,PDF creation date,consolidated,extracted
+eps,IDR per share,2024.0,FY2024 (Jan-Dec),157.0,157,TAPG_-_AR_2025.pdf,13.0,11,2025.0,2026-04-21,PDF creation date,consolidated,extracted
+eps,IDR per share,2023.0,FY2023 (Jan-Dec),81.0,81,TAPG_-_AR_2025.pdf,13.0,11,2025.0,2026-04-21,PDF creation date,consolidated,extracted
+planted_nucleus_oilpalm,thousand ha,2025.0,FY2025 (Jan-Dec),132.8,"132,8",TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted
+planted_nucleus_oilpalm,thousand ha,2024.0,FY2024 (Jan-Dec),135.6,"135,6",TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted
+planted_nucleus_oilpalm,thousand ha,2023.0,FY2023 (Jan-Dec),136.4,"136,4",TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted
+planted_plasma_oilpalm,thousand ha,2025.0,FY2025 (Jan-Dec),26.9,"26,9",TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted
+planted_plasma_oilpalm,thousand ha,2024.0,FY2024 (Jan-Dec),25.2,"25,2",TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted
+planted_plasma_oilpalm,thousand ha,2023.0,FY2023 (Jan-Dec),24.1,"24,1",TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted
+planted_total_oilpalm,thousand ha,2025.0,FY2025 (Jan-Dec),159.7,"159,7",TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted
+planted_total_oilpalm,thousand ha,2024.0,FY2024 (Jan-Dec),160.8,"160,8",TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted
+planted_total_oilpalm,thousand ha,2023.0,FY2023 (Jan-Dec),160.5,"160,5",TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted
+ffb_harvested_nucleus,thousand t,2025.0,FY2025 (Jan-Dec),3040.0,3.040,TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted
+ffb_harvested_nucleus,thousand t,2024.0,FY2024 (Jan-Dec),2946.0,2.946,TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted
+ffb_harvested_nucleus,thousand t,2023.0,FY2023 (Jan-Dec),3050.0,3.050,TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted
+ffb_harvested_plasma,thousand t,2025.0,FY2025 (Jan-Dec),384.0,384,TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted
+ffb_harvested_plasma,thousand t,2024.0,FY2024 (Jan-Dec),330.0,330,TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted
+ffb_harvested_plasma,thousand t,2023.0,FY2023 (Jan-Dec),348.0,348,TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted
+ffb_harvested_total,thousand t,2025.0,FY2025 (Jan-Dec),3425.0,3.425,TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted
+ffb_harvested_total,thousand t,2024.0,FY2024 (Jan-Dec),3276.0,3.276,TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted
+ffb_harvested_total,thousand t,2023.0,FY2023 (Jan-Dec),3399.0,3.399,TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted
+ffb_processed_total,thousand t,2025.0,FY2025 (Jan-Dec),4089.0,4.089,TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted
+ffb_processed_total,thousand t,2024.0,FY2024 (Jan-Dec),3962.0,3.962,TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted
+ffb_processed_total,thousand t,2023.0,FY2023 (Jan-Dec),4203.0,4.203,TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted
+cpo_production,thousand t,2025.0,FY2025 (Jan-Dec),953.0,953,TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted
+cpo_production,thousand t,2024.0,FY2024 (Jan-Dec),916.0,916,TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted
+cpo_production,thousand t,2023.0,FY2023 (Jan-Dec),978.0,978,TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted
+pk_production,thousand t,2025.0,FY2025 (Jan-Dec),202.0,202,TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted
+pk_production,thousand t,2024.0,FY2024 (Jan-Dec),193.0,193,TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted
+pk_production,thousand t,2023.0,FY2023 (Jan-Dec),208.0,208,TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted
+avg_ffb_yield,t/ha,2025.0,FY2025 (Jan-Dec),24.3,"24,3",TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted
+avg_ffb_yield,t/ha,2024.0,FY2024 (Jan-Dec),23.0,"23,0",TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted
+avg_ffb_yield,t/ha,2023.0,FY2023 (Jan-Dec),23.6,"23,6",TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted
+oer_cpo,%,2025.0,FY2025 (Jan-Dec),23.3,"23,3",TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted
+oer_cpo,%,2024.0,FY2024 (Jan-Dec),23.1,"23,1",TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted
+oer_cpo,%,2023.0,FY2023 (Jan-Dec),23.3,"23,3",TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted
+ker_pk,%,2025.0,FY2025 (Jan-Dec),4.9,"4,9",TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted
+ker_pk,%,2024.0,FY2024 (Jan-Dec),4.9,"4,9",TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted
+ker_pk,%,2023.0,FY2023 (Jan-Dec),4.9,"4,9",TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted
+pko_production,thousand t,2025.0,FY2025 (Jan-Dec),22.1,"22,1",TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted
+pko_production,thousand t,2024.0,FY2024 (Jan-Dec),20.3,"20,3",TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted
+pko_production,thousand t,2023.0,FY2023 (Jan-Dec),6.5,"6,5",TAPG_-_AR_2025.pdf,14.0,12,2025.0,2026-04-21,PDF creation date,includes associates,extracted

@@ -4,6 +4,8 @@ _Date: 2026-11-24 · Scope: data for TAPG modelling plus macro inputs · Source 
 
 A dataset counts as **resolved** only if it was downloaded, parsed, checked and is usable. "Reachable" (the site loads) is never enough.
 
+> **Update (2026-11-24, later the same day):** the user supplied AR2021–AR2025 and the Q1/H1/9M 2026 interim statements manually. Rows 1a, 1c, 2, 3, 3b and 6 are now largely resolved from primary sources. See `2026-11-24_official_document_extraction.md` for the datasets, checks and remaining gaps (G1–G10). The table below is kept as the record of the earlier attempt.
+
 ## Summary
 
 | # | Dataset | Status | Source (class) | Coverage | Frequency | Publication dates? | Missing | Validation | Local path |

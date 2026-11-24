@@ -4,7 +4,7 @@ _Last updated: 2026-11-24_
 
 ## Current phase
 
-**Phase I — Data Availability Audit, gap resolution round 2.** TAPG modelling has **not** started: its operational data is not yet available. No investment analysis or rankings have been produced.
+**Phase I — Data Availability Audit, round 3 (TAPG official documents extracted).** TAPG earnings nowcasting and financial modelling have **not** started; gaps G1–G10 are listed in `research/company/TAPG/2026-11-24_official_document_extraction.md`. No investment analysis, rankings or ratings have been produced.
 
 ## Done
 
@@ -24,6 +24,15 @@ _Last updated: 2026-11-24_
   - `quant/fetch_chirps.py` (regional rainfall)
   - `tests/test_benchmarks.py` (3 tests, passing)
 
+- [x] **TAPG official documents** (AR2021–AR2025 and Q1/H1/9M 2026 interims, supplied by the user):
+  - `quant/pdf_to_text.py`: per-page text with citations.
+  - `quant/extract_tapg_statements.py`: 372 audited and interim statement points; all identities PASS.
+  - `quant/extract_tapg_highlights.py`: multi-year highlight tables, reconciled across reports.
+  - `quant/tapg_operational_dataset.py`: 208 operational, cost and JV points; 41/41 checks PASS.
+  - `quant/tapg_quarterly.py`: discrete quarters 2025Q1–2026Q3, by subtraction.
+  - `quant/reconcile_yahoo_tapg.py`: Yahoo matches official on 36/36 overlapping values.
+  - Findings: FY2022 equity typo in the AR highlights; FY2022 finance-line reclassification; production is reported incl. associates while sales are consolidated; USTP JV is ~99% of JV profit and ~23% of FY2025 PBT.
+
 ## Not resolved (sources tried and failed)
 
 | Need | Tried | Why it failed |
@@ -38,8 +47,9 @@ _Last updated: 2026-11-24_
 
 ## Next
 
-- [ ] **User action:** download the TAPG PDFs (AR2023, AR2024, SR2025, AR2025, 9M2026) in a browser into `data/raw/company/TAPG/`. Or approve an account: financialfilings API, IPOSS access, or a vendor connector via `/mcp`.
-- [ ] Once the PDFs are in place: extract operating metrics, JV earnings, filing dates and estate locations (to replace the A-009 rainfall boxes).
+- [ ] Close the TAPG gaps that the supplied PDFs can fill: G3 USTP summarised financials, G4 capex split (note 12), G5 FFB by region and the earlier age profile, G6 COGS FY2020–21, G9 estate locations.
+- [ ] Find sources for G1 quarterly operational data, G2 unit cash cost and G10 long KPBN CPO history. These are needed before nowcasting.
+- [ ] Optional: the user supplies the Sustainability Report 2025 (G8).
 - [ ] **Decide D-004** (re-tiering on verified liquidity).
 - [ ] Cross-check Yahoo prices against an official source. Flags: IHSG fell 39% in 2026 YTD on S-002 (8,647 → 5,242), and some liquid names show zero-volume days that IHSG doesn't.
 - [ ] Compile the levy, duty and biodiesel regulation tables (S-010–S-012).
