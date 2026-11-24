@@ -1,0 +1,15 @@
+dataset,source_tested,verdict,evidence
+Livebird price (farm gate),PINSAR pinsar.id/harga,NOT AVAILABLE,Page shows only month-to-date provincial averages (all blank on 2026-11-25); history only via 'Minta Data Lainnya' (request).
+Livebird price (farm gate),"Bapanas Panel Harga (Ayam Ras Pedaging Hidup, producer)",NOT VERIFIED,Commodity listed; API api-panelhargav2.badanpangan.go.id returns 401 'Invalid or missing API key'; front-end showed 'Harga Belum Tersedia'; no export found.
+DOC price,PINSAR / Bapanas / PIHPS,NOT AVAILABLE,"No DOC series on any free source tested; PIHPS has no DOC; company presentations (JPFA, 2024-26 only) are the only candidate."
+Domestic corn price,"Bapanas (Jagung Pipilan Kering, producer)",NOT VERIFIED,"Same API-key barrier; PIHPS does not cover corn. Indonesia restricts feed-corn imports, so world maize is a weak proxy (untested)."
+"World maize, soybean meal",World Bank CMO (local file),AVAILABLE,"Monthly 1960-01 to 2026-10, USD/t."
+USD/IDR,Yahoo / macro_monthly.csv,AVAILABLE,Monthly average since 2014 in repository.
+Chicken meat / egg prices,"PIHPS Bank Indonesia (retail, wholesale, producer)",AVAILABLE,"Scripted with session cookie; national monthly from 2017-03 (retail), 2017-06 (wholesale), 2018-03 (producer). Producer 'daging ayam' is carcass-level, NOT livebird."
+Poultry production volume,BPS WebAPI,PARTIAL,Annual provincial statistics only; API requires a registered key (not created).
+Supply-control policy (DOC/HE culling),Kementan circulars,PARTIAL,Unstructured documents; would require manual event coding.
+Quarterly segment financials,CPIN website (cp.co.id),AVAILABLE (HEAD-checked),"Interim FS PDFs at predictable URLs, HTTP 200 for Sep-2018..Sep-2026 tested; segment note content not yet verified (no download)."
+Quarterly segment financials,JPFA website / IDX,PARTIAL,JPFA site lists 2025-26 only; IDX API behind Cloudflare challenge (not bypassed) -> manual download needed for history.
+Filing timestamps (PIT),jejaksaham.id mirror,AVAILABLE,Listings for CPIN/JPFA/MAIN reachable (first page 2024-26; older pages to test).
+Historical analyst expectations,Yahoo/S&P,NOT AVAILABLE,Current snapshot only (no history); forward logging possible from 2026-11-25.
+Alternative: monthly bank-only statements,OJK CFS / bank websites,PARTIAL,OJK publishes with a 3-month lag (POJK 37/2019) and omits quarter-end months; banks publish their own monthly reports ~1 month after; per-bank collection required.

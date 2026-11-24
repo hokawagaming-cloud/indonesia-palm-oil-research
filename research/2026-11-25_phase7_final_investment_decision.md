@@ -279,3 +279,27 @@ LSIP's downside-protection score of 4 reflects the isolated bear case (+0%). Und
 > - **Confidence in NO TRADE: medium–high.** The main way this could be wrong is LSIP executing the full buyback while the market keeps crediting the cash at 100%. That case is worth about +18% and is covered by the C-019 re-test.
 
 _Sources: S-002, S-003, S-036, S-046–S-051 (LSIP filings), S-052 (ADB AsianBondsOnline SBN yields), S-053 (Bank Indonesia BI-Rate release). Assumptions A-024, A-028, A-029, A-032–A-034._
+
+
+---
+
+## Erratum (Phase VIII audit, 2026-11-25)
+
+The §2 market table was produced before two code fixes:
+- the `pct_change` fill-method change;
+- the switch to Newey-West (HAC) t-stats.
+
+Corrected values are in `data/reference/research/final_market_assessment.csv`.
+
+| Measure | Original | Corrected |
+|---|---|---|
+| LSIP market beta | 0.76 | 0.74 |
+| LSIP market beta, HAC t | 6.1 | 4.3 |
+| LSIP sector beta, t | 11.0 | 7.8 |
+| LSIP alpha, t | 0.95 | 1.24 |
+| LSIP 12m residual return | +26% | +24% |
+| TAPG alpha, t | 2.6 | 2.9 |
+| DSNG 12m residual return | −33% | −36% |
+| DSNG alpha, t | 1.7 | 2.0 |
+
+None of the conclusions, scores or recommendations change. The original text above is preserved.

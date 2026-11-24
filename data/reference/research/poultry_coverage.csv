@@ -1,0 +1,10 @@
+,first,last,n_months,price_history_from,n_days,median_traded_value_60d_bn,yahoo_quarterly_is_n,consensus_fy26_n_analysts,consensus_fy27_n_analysts
+chicken_retail,2017-03,2026-11,117,,,,,,
+chicken_wholesale,2017-06,2026-11,114,,,,,,
+chicken_producer,2018-03,2026-11,105,,,,,,
+egg_retail,2017-03,2026-11,117,,,,,,
+egg_wholesale,2017-06,2026-11,114,,,,,,
+egg_producer,2018-03,2026-11,105,,,,,,
+CPIN,,,,2005-09-29,5204,53.287326,6,7.0,9.0
+JPFA,,,,2001-01-31,6411,31.417027,6,9.0,14.0
+MAIN,,,,2006-02-10,5112,0.721389,6,1.0,1.0

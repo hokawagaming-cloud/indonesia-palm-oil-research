@@ -15,6 +15,11 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from stats_utils import ols_nw  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[1]
 REF = ROOT / "data" / "reference"
 OUT = REF / "research"
@@ -43,10 +48,10 @@ def ols(y: pd.Series, X: pd.DataFrame) -> dict:
     A = np.column_stack([np.ones(len(df)), df[X.columns].to_numpy()])
     b, *_ = np.linalg.lstsq(A, df["y"].to_numpy(), rcond=None)
     e = df["y"].to_numpy() - A @ b
-    s2 = e @ e / (len(df) - A.shape[1])
-    se = np.sqrt(np.diag(s2 * np.linalg.inv(A.T @ A)))
+    # Phase VIII audit: t-stats use Newey-West (HAC) errors from stats_utils (was plain OLS in Phase VII)
+    nw = ols_nw(df["y"], df[X.columns])
     r2 = 1 - (e @ e) / ((df["y"] - df["y"].mean()) ** 2).sum()
-    return {"n": len(df), "coef": dict(zip(["alpha"] + list(X.columns), b)), "t": dict(zip(["alpha"] + list(X.columns), b / se)),
+    return {"n": len(df), "coef": dict(zip(["alpha"] + list(X.columns), b)), "t": dict(zip(["alpha"] + list(X.columns), nw["t_nw"].to_numpy())),
             "r2": r2, "resid": pd.Series(e, index=df.index)}
 
 

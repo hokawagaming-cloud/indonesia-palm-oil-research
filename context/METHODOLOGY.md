@@ -77,6 +77,14 @@ Find **earnings surprises and underappreciated catalysts** in Indonesian palm oi
 7. Phase V additions: forward dividend capacity (not trailing yield); reported scenario-weight uncertainty; dated, append-only monitoring and consensus logs; expectation-adjusted surprises (not growth proxies) for any event-study inference.
 8. Challenger valuation: start with the uniform consensus-anchored rule (A-029); replace it with company-specific drivers (refinery margins for STAA, cash and payout for LSIP, wood segment for DSNG) only for names selected for deeper research.
 
+## 5e. Evidence classification and new-sector pilots (Phase VIII, D-029/D-030)
+
+- **Engineering tests** (`tests/`) check code correctness: identities, PIT ordering, idempotency, bounds. They are never cited as evidence of forecasting skill.
+- **Empirical validation** means out-of-sample (PIT, walk-forward) errors against naive benchmarks, reporting MAE, RMSE, bias, n and HAC/Diebold-Mariano uncertainty. Below 12 out-of-sample observations a model is EXPLORATORY.
+- Regression t-stats use Newey-West standard errors (`quant/stats_utils.ols_nw`).
+- **New-sector pilots** must pass a tested (not listed) data-feasibility screen first. Each needs a pre-registered hypothesis, benchmarks and a kill criterion before modelling. No machine learning unless a simple model beats the benchmarks.
+- Methodology map: `outputs/quant_methodology_2026-11-25.png` (regenerate with `outputs/make_methodology_diagram.py`).
+
 ## 6. Data integrity rules
 
 - No fabricated or interpolated data presented as observed. Gaps stay gaps and are documented.
@@ -94,3 +102,5 @@ Find **earnings surprises and underappreciated catalysts** in Indonesian palm oi
 | III | Driver research (macro, industry, company) | Not started |
 | IV | Signal design and backtests | Not started |
 | V | Synthesis: catalysts and theses | Not started |
+| VI–VII | LSIP deep-dive; institutional decision | Done: NO TRADE (D-027, D-028) |
+| VIII | Audit, methodology map, poultry feasibility | Done: conditional GO, CPIN only (D-029) |
