@@ -1,0 +1,16 @@
+ticker,status,start_date,end_date,value,announced_at,date_basis,source_id,url
+SMAR,hsc,2026-07-15,,99.58,2026-07-15,official,S_IDX_HSC,https://market.bisnis.com/read/20260715/7/1988130/bei-tambah-37-saham-ke-daftar-hsc-emiten-sinar-mas-dan-mayapada-masuk
+FAPA,hsc,2026-09-27,,99.77,2026-09-27,press_first_seen,S_PRESS,https://katadata.co.id/finansial/bursa/6ab8e4856a3bf/59-saham-masuk-hsc-intip-cengkeraman-konglomerasi-sinar-mas-hingga-barito
+SSMS,hsc,2026-10-13,,,2026-10-13,official,S_IDX_HSC,https://market.bisnis.com/read/20261013/7/2012055/emiten-hsc-bertambah-panjang-tbig-hingga-psab-kini-masuk-daftar
+ANJT,hsc,2026-11-11,,99.132,2026-11-11,official,S_IDX_HSC,https://katadata.co.id/amp/finansial/bursa/6af466a48a122/bei-umumkan-daftar-383-saham-hsc-penghuni-baru-ada-giaa-jarr-dan-cdia
+JARR,hsc,2026-11-11,,98.020,2026-11-11,official,S_IDX_HSC,https://katadata.co.id/finansial/bursa/6af50a50dcac3/pusaran-saham-konglomerat-di-daftar-hsc-salim-tanoko-low-tuck-haji-isam
+PGUN,hsc,2026-11-11,,99.956,2026-11-11,official,S_IDX_HSC,https://katadata.co.id/finansial/bursa/6af50a50dcac3/pusaran-saham-konglomerat-di-daftar-hsc-salim-tanoko-low-tuck-haji-isam
+SGRO,hsc,2026-11-11,,,2026-11-11,official,S_IDX_HSC,https://bareksa.com/berita/saham/2026-11-11/ini-daftar-resmi-300-saham-hsc-baru-per-sektor-ada-bdmn-dan-hmsp
+STAA,hsc,2026-11-11,,,2026-11-11,official,S_IDX_HSC,https://bareksa.com/berita/saham/2026-11-11/ini-daftar-resmi-300-saham-hsc-baru-per-sektor-ada-bdmn-dan-hmsp
+CSRA,hsc,2026-11-11,,,2026-11-11,official,S_IDX_HSC,https://bareksa.com/berita/saham/2026-11-11/ini-daftar-resmi-300-saham-hsc-baru-per-sektor-ada-bdmn-dan-hmsp
+TLDN,hsc,2026-11-11,,,2026-11-11,official,S_IDX_HSC,https://bareksa.com/berita/saham/2026-11-11/ini-daftar-resmi-300-saham-hsc-baru-per-sektor-ada-bdmn-dan-hmsp
+PSGO,hsc,2026-11-11,,,2026-11-11,official,S_IDX_HSC,https://bareksa.com/berita/saham/2026-11-11/ini-daftar-resmi-300-saham-hsc-baru-per-sektor-ada-bdmn-dan-hmsp
+PNGO,hsc,2026-11-11,,,2026-11-11,official,S_IDX_HSC,https://bareksa.com/berita/saham/2026-11-11/ini-daftar-resmi-300-saham-hsc-baru-per-sektor-ada-bdmn-dan-hmsp
+CBUT,hsc,2026-11-11,,,2026-11-11,official,S_IDX_HSC,https://bareksa.com/berita/saham/2026-11-11/ini-daftar-resmi-300-saham-hsc-baru-per-sektor-ada-bdmn-dan-hmsp
+JAWA,hsc,2026-11-11,,,2026-11-11,official,S_IDX_HSC,https://bareksa.com/berita/saham/2026-11-11/ini-daftar-resmi-300-saham-hsc-baru-per-sektor-ada-bdmn-dan-hmsp
+JARR,suspended,2026-09-11,,,2026-09-11,official,S_PRESS,https://investortrust.id/market/115895/dipicu-lompatan-harga-bei-kembali-suspensi-saham-emiten-haji-isam-jarr

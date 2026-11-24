@@ -1,0 +1,6 @@
+# Pinned to the versions the store and tests were run with on 2026-11-24.
+# Add libraries here as modules are built (statsmodels, scipy, plotly, geopandas, xarray, rasterio, streamlit, openpyxl).
+pandas==3.0.5
+duckdb==2.0.1
+PyYAML==6.0.3
+pytest==9.1.1

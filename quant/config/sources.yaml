@@ -1,0 +1,172 @@
+# Source register. Every row ingested into the database carries one of these ids.
+# access: api | download | manual | vendor
+# probe_url: used by the audit to test reachability from the machine running it.
+# reliability: primary (issuer/regulator) | secondary (reputable press/aggregator) | tertiary
+# timestamp_quality: how the actual publication time can be established.
+
+sources:
+  S_IDX_FILINGS:
+    name: IDX company disclosures and financial statements
+    url: https://www.idx.co.id/id/perusahaan-tercatat/laporan-keuangan-dan-tahunan
+    probe_url: https://www.idx.co.id
+    access: download
+    reliability: primary
+    datasets: [fundamentals, corporate_actions, disclosures]
+    timestamp_quality: IDX disclosure timestamp (date and time) on each filing
+    limitations: No bulk API; PDF/XBRL per filing. Restatements must be stored as new vintages.
+  S_IDX_PRICES:
+    name: IDX daily trading summary (Ringkasan Saham)
+    url: https://www.idx.co.id/id/data-pasar/ringkasan-perdagangan/ringkasan-saham
+    probe_url: https://www.idx.co.id
+    access: download
+    reliability: primary
+    datasets: [prices, volume, value_traded, suspensions]
+    timestamp_quality: end of trading day
+    limitations: Daily files; history requires one request per day.
+  S_YAHOO:
+    name: Yahoo Finance via yfinance
+    url: https://finance.yahoo.com
+    probe_url: https://query1.finance.yahoo.com/v8/finance/chart/AALI.JK
+    access: api
+    reliability: tertiary
+    datasets: [prices, benchmark, fx_fallback]
+    timestamp_quality: end of trading day (assumed)
+    limitations: >-
+      IDX adjusted closes are not reliable for dividends and rights issues; suspended
+      days may be forward-filled. Use only as a cross-check or fallback, and rebuild
+      total returns from S_IDX_FILINGS corporate actions.
+  S_KSEI_REGISTRY:
+    name: KSEI registered securities
+    url: https://web.ksei.co.id/services/registered-securities/shares
+    probe_url: https://www.ksei.co.id
+    access: download
+    reliability: primary
+    datasets: [shares_outstanding, listing_date, corporate_actions]
+    timestamp_quality: as-of date on page
+  S_IDX_HSC:
+    name: IDX/KSEI High Shareholding Concentration announcements
+    url: https://www.idx.co.id
+    probe_url: https://www.idx.co.id
+    access: manual
+    reliability: primary
+    datasets: [universe_status]
+    timestamp_quality: announcement date
+  S_KEMENDAG_HR:
+    name: Kemendag monthly CPO reference price (Harga Referensi), export duty and levy
+    url: https://jdih.kemendag.go.id
+    probe_url: https://jdih.kemendag.go.id
+    access: manual
+    reliability: primary
+    datasets: [cpo_reference_price, export_duty, export_levy]
+    timestamp_quality: Kepmendag issue date; typically announced on the last day of the prior month or day 1
+  S_ESDM:
+    name: Ministry of Energy (ESDM) biodiesel decrees and allocations
+    url: https://www.esdm.go.id
+    probe_url: https://www.esdm.go.id
+    access: manual
+    reliability: primary
+    datasets: [biodiesel_allocation, mandate_events]
+    timestamp_quality: decree date and press release date
+  S_GAPKI:
+    name: GAPKI monthly palm oil supply and demand
+    url: https://gapki.id
+    probe_url: https://gapki.id
+    access: manual
+    reliability: secondary
+    datasets: [id_production, id_stocks, id_exports, id_consumption]
+    timestamp_quality: press release date (about 6 weeks after month end)
+    limitations: Revisions are not systematically published; store each release as a vintage.
+  S_MPOB:
+    name: Malaysian Palm Oil Board monthly data
+    url: https://mpob.gov.my
+    probe_url: https://mpob.gov.my
+    access: manual
+    reliability: primary
+    datasets: [my_production, my_stocks, my_exports]
+    timestamp_quality: release date (around the 10th of the following month)
+  S_BURSA_FCPO:
+    name: Bursa Malaysia crude palm oil futures (FCPO)
+    url: https://www.bursamalaysia.com
+    probe_url: https://www.bursamalaysia.com
+    access: vendor
+    reliability: primary
+    datasets: [cpo_futures]
+    timestamp_quality: settlement price at end of trading day
+    limitations: No free historical API; vendor (Bloomberg/Refinitiv/Barchart) or manual CSV.
+  S_FRED:
+    name: FRED (St Louis Fed)
+    url: https://fred.stlouisfed.org
+    probe_url: https://fred.stlouisfed.org/graph/fredgraph.csv?id=DCOILBRENTEU
+    access: api
+    reliability: secondary
+    datasets: [brent]
+    timestamp_quality: daily series released with a lag of a few days; vintages via ALFRED
+  S_BI_JISDOR:
+    name: Bank Indonesia JISDOR USD/IDR reference rate
+    url: https://www.bi.go.id/id/statistik/informasi-kurs/jisdor/default.aspx
+    probe_url: https://www.bi.go.id
+    access: download
+    reliability: primary
+    datasets: [usdidr]
+    timestamp_quality: published daily around 10:00 WIB
+  S_NASA_POWER:
+    name: NASA POWER daily precipitation (gridded, by lat/lon)
+    url: https://power.larc.nasa.gov
+    probe_url: https://power.larc.nasa.gov/api/temporal/daily/point
+    access: api
+    reliability: secondary
+    datasets: [rainfall]
+    timestamp_quality: near real time with a lag of days; reanalysis may revise
+    limitations: About 0.5 degree grid; estate coordinates must come from company maps or concession data.
+  S_BMKG:
+    name: BMKG rainfall and ENSO bulletins
+    url: https://www.bmkg.go.id
+    probe_url: https://www.bmkg.go.id
+    access: manual
+    reliability: primary
+    datasets: [rainfall_station, enso_bulletin]
+    timestamp_quality: bulletin date
+  S_PRESS:
+    name: Reputable Indonesian financial press (Bisnis, Kontan, Katadata, IDX Channel, CNBC Indonesia)
+    url: n/a
+    probe_url: https://market.bisnis.com
+    access: manual
+    reliability: secondary
+    datasets: [events_secondary]
+    timestamp_quality: article publication time; must be cross-checked with the primary disclosure
+  S_AJAIB_PROFILE:
+    name: Ajaib company profile pages
+    url: https://ajaib.co.id
+    probe_url: https://ajaib.co.id
+    access: manual
+    reliability: tertiary
+    datasets: [listing_date]
+    timestamp_quality: none
+  S_CONSENSUS:
+    name: Analyst consensus estimates (Bloomberg/FactSet/LSEG)
+    url: n/a
+    probe_url: null
+    access: vendor
+    reliability: secondary
+    datasets: [consensus_eps]
+    timestamp_quality: estimate date per contributor
+    limitations: Not available in this project. Expectation proxies are labelled explicitly.
+  S_SAHAM_MCP:
+    name: '"saham" local dataset connector on the user''s computer (S-001 in data/SOURCE_REGISTER.csv)'
+    url: n/a
+    probe_url: null
+    access: api
+    reliability: tertiary
+    datasets: [prices]
+    timestamp_quality: unknown
+    limitations: Tested 2026-11-24. Lists 958 tickers (last updated 2026-11-07) but returned no history for AALI, BWPT or LSIP.
+  S_NOAA_CPC:
+    name: NOAA Climate Prediction Center ENSO diagnostic discussion and ONI/RONI files
+    url: https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml
+    probe_url: https://www.cpc.ncep.noaa.gov
+    access: download
+    reliability: primary
+    datasets: [series, events]
+    timestamp_quality: Issued second Thursday of each month (date on the discussion)
+    limitations: Since Feb 2026 NOAA uses the Relative ONI (RONI); keep ONI and RONI as separate series.
+

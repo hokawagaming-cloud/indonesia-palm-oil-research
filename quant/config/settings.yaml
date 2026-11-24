@@ -1,0 +1,99 @@
+# Global research settings. Every parameter is fixed ex ante and documented;
+# none of them is tuned to backtest results (see docs/methodology.md).
+
+project:
+  name: palmquant
+  study_start: 2016-01-01
+  study_end: 2026-11-24          # research "as-of" date; nothing published after this is used
+  timezone: Asia/Jakarta
+  base_currency: IDR
+
+storage:
+  duckdb_path: data/palmquant.duckdb
+  raw_dir: data/raw
+  manual_dir: data/manual
+  seed_dir: data/seed
+  reports_dir: outputs/reports
+
+market:
+  # IDX regular session closes 16:00 WIB (16:15 incl. post-trading). A disclosure
+  # timestamped after this cut-off is treated as tradeable from the next session.
+  close_cutoff_local: "16:00"
+  trading_calendar: IDX           # derived from the IHSG price history once loaded
+
+publication_lags:
+  # Used ONLY when an actual publication timestamp is unknown. Rows filled this way
+  # are flagged published_at_estimated = true and are excluded from backtests unless
+  # allow_estimated_timestamps is set (off by default). Lags are conservative
+  # regulatory deadlines (OJK) plus a buffer.
+  quarterly_fs_unaudited_days: 45
+  quarterly_fs_reviewed_days: 75
+  annual_fs_audited_days: 100
+  gapki_monthly_days: 50
+  mpob_monthly_days: 12
+  policy_default_days: 0          # policy events must carry their own announcement date
+
+backtest:
+  allow_estimated_timestamps: false
+  rebalance: monthly              # last trading day of month
+  signal_lag_days: 1              # signal computed at close t, traded at close t+1
+  commission_buy: 0.0015
+  commission_sell: 0.0025         # includes 0.10% IDX sales tax
+  slippage_bps_base: 20
+  slippage_bps_per_pct_adv: 5     # additional bps per 1% of ADV traded
+  max_participation_adv: 0.10
+  adv_window_days: 20
+  min_adv_idr: 1000000000         # Rp1bn median daily value traded
+  portfolio_value_idr: 50000000000  # Rp50bn notional for capacity checks
+  long_only: true                 # short selling is not practically available on IDX
+  top_fraction: 0.34              # top tercile of the ranked, investable universe
+  min_names_to_rank: 5
+  walk_forward:
+    first_test_year: 2019         # 2016-2018 reserved as burn-in for trailing factors
+    test_window_months: 12
+
+factors:
+  # Directions: +1 = higher is better, -1 = lower is better.
+  normalized_earnings_yield: {direction: 1, inputs: [price, eps_normalized]}
+  price_to_book: {direction: -1, inputs: [price, bvps]}
+  roe_ttm: {direction: 1, inputs: [net_income_ttm, equity]}
+  accruals_ratio: {direction: -1, inputs: [net_income_ttm, cfo_ttm, total_assets]}
+  net_debt_to_ebitda: {direction: -1, inputs: [net_debt, ebitda_ttm]}
+  fcf_yield: {direction: 1, inputs: [cfo_ttm, capex_ttm, market_cap]}
+  cpo_beta: {direction: 0, inputs: [returns, cpo_returns]}       # descriptive, not ranked
+  relative_strength_12_1: {direction: 1, inputs: [returns]}
+  residual_momentum_12_1: {direction: 1, inputs: [residuals]}
+  liquidity_adv: {direction: 1, inputs: [value_traded]}
+  earnings_surprise_potential: {direction: 1, inputs: [nowcast, expectation_proxy]}
+  combined_weights:               # equal weights fixed in advance
+    value: [normalized_earnings_yield, price_to_book, fcf_yield]
+    quality: [roe_ttm, accruals_ratio, net_debt_to_ebitda]
+    momentum: [residual_momentum_12_1]
+    surprise: [earnings_surprise_potential]
+
+regression:
+  return_frequency: weekly        # weekly reduces IDX non-synchronous trading noise
+  window_weeks: 104
+  min_obs: 78
+  factors: [cpo, ihsg, usdidr, brent]
+  residual_momentum_lookback_weeks: 52
+  residual_momentum_skip_weeks: 4
+
+event_study:
+  estimation_window: [-250, -30]
+  windows:
+    pre: [-10, -1]
+    announce: [0, 1]
+    drift: [2, 20]
+  min_estimation_obs: 120
+  overlap_rule: drop_later        # same-entity events closer than the full window are dropped
+
+quality_gates:
+  # Rankings, strategies and the dashboard's ranked views stay LOCKED until these pass.
+  min_price_coverage: 0.90        # share of trading days with a price, per investable ticker
+  min_tickers_with_prices: 6
+  min_quarters_fundamentals: 12
+  require_actual_fs_publication_dates: true
+  require_cpo_series: true
+  require_benchmark: true
+  max_stale_days: 7               # newest price must be within this many days of study_end

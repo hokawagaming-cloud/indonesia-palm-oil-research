@@ -1,0 +1,8 @@
+period,hr_usd_t,duty_usd_t,levy_rate,levy_usd_t,levy_is_computed,announced_at,date_basis,source_id,url,notes
+2025-12,926.14,74,0.10,92.6142,false,2025-12-02,press_first_seen,S_PRESS,https://news.ddtc.co.id/data-alat/pungutan-komoditas/1815601/harga-referensi-turun-tarif-bea-keluar-cpo-bulan-ini-jadi-us74mt,
+2026-03,938.87,,,,,2026-03-01,press_first_seen,S_PRESS,https://market.bisnis.com/read/20260301/94/1956687/harga-referensi-cpo-naik-biji-kakao-merosot-per-maret-2026,duty and levy not in source
+2026-05,1049.58,178,0.125,131.1975,true,2026-05-01,press_first_seen,S_PRESS,https://news.ddtc.co.id/data-alat/pungutan-komoditas/1819117/harga-referensi-naik-lagi-tarif-bea-keluar-cpo-kini-us178mt,levy computed as 12.5% x HR
+2026-08,,148,,,,2026-08-02,press_first_seen,S_PRESS,https://finance.detik.com/berita-ekonomi-bisnis/d-8600897/harga-referensi-cpo-turun-gara-gara-permintaan-global-lesu,HR not in source excerpt
+2026-09,1007.51,148,0.125,125.9389,false,2026-09-02,press_first_seen,S_PRESS,https://news.ddtc.co.id/data-alat/pungutan-komoditas/1822087/harga-referensi-naik-tarif-bea-keluar-cpo-september-tetap-us148mt,
+2026-10,1042.15,178,0.125,130.269,false,2026-10-02,press_first_seen,S_PRESS,https://katadata.co.id/amp/berita/industri/6abf2d8bb3585/kemendag-tetapkan-harga-referensi-cpo-us-1042-15-per-metrik-ton-pada-oktober,
+2026-11,978.90,124,0.125,122.36,false,2026-11-02,press_first_seen,S_PRESS,https://news.ddtc.co.id/data-alat/pungutan-komoditas/1823759/harga-referensi-turun-tarif-bea-keluar-cpo-november-jadi-us124mt,"window 2026-09-20 to 2026-10-19: Bursa CPO Indonesia 869.07, Bursa Malaysia 1088.73, Rotterdam 1443.90"

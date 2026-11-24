@@ -1,0 +1,5 @@
+period,series,value,unit,announced_at,date_basis,source_id,url
+2026-03,id_end_stocks,2.568,mt,,unknown,S_PRESS,https://kumparan.com/kumparanbisnis/gapki-catat-produksi-konsumsi-dan-ekspor-cpo-menurun-27TOC1uPWAf
+2026-06,id_end_stocks,2.84,mt,2026-09-04,press_first_seen,S_PRESS,https://katadata.co.id/berita/industri/6a9a56554224e/ekspor-sawit-melonjak-64-pada-juni-2026-stok-capai-2-84-juta-ton
+2026-08,id_end_stocks,2.21,mt,2026-10-09,official,S_PRESS,https://industri.kontan.co.id/news/ekspor-sawit-agustus-2026-naik-1256-stok-indonesia-turun-jadi-221-juta-ton
+2026-09,id_end_stocks,2.01,mt,2026-11-19,press_first_seen,S_PRESS,https://market.bisnis.com/read/20261119/94/2022726/ekspor-sawit-tembus-249-juta-ton-per-september-2026-harga-jual-naik

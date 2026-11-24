@@ -1,0 +1,113 @@
+# Research universe. Facts carry a source_id (see config/sources.yaml) and an
+# as-of date. "verify: true" marks items not yet confirmed from a primary source;
+# the pipeline treats them as unverified and the audit report lists them.
+#
+# Investability is point-in-time: use the universe_status table (built from
+# data/seed/universe_status.csv) rather than these static notes in any backtest.
+
+as_of: 2026-11-24
+
+tickers:
+  AALI:
+    name: PT Astra Agro Lestari Tbk
+    segment: upstream_refining
+    yahoo: AALI.JK
+    listing_date: 1997-12-09
+    listing_source: S_KSEI_REGISTRY
+    controller: Astra International
+    notes: Removed from MSCI Small Cap (May 2026 review).
+  TAPG:
+    name: PT Triputra Agro Persada Tbk
+    segment: upstream_jv_mills
+    yahoo: TAPG.JK
+    listing_date: 2021-04-12
+    verify: true
+    controller: Triputra group
+    notes: Removed from MSCI Small Cap (May 2026). Large JV income (equity-accounted).
+  LSIP:
+    name: PT PP London Sumatra Indonesia Tbk
+    segment: upstream
+    yahoo: LSIP.JK
+    listing_date: 1996-07-05
+    verify: true
+    controller: Salim Ivomas Pratama (59.51%)
+  DSNG:
+    name: PT Dharma Satya Nusantara Tbk
+    segment: upstream_wood
+    yahoo: DSNG.JK
+    listing_date: 2013-06-14
+    verify: true
+    notes: Removed from MSCI Small Cap (May 2026).
+  SIMP:
+    name: PT Salim Ivomas Pratama Tbk
+    segment: upstream_edible_oil
+    yahoo: SIMP.JK
+    listing_date: 2011-06-09
+    listing_source: S_KSEI_REGISTRY
+    controller: Indofood Agri Resources (73.46%)
+    notes: Consolidates LSIP; Rp2.34tn forestry charge paid into escrow (Dec 2025).
+  SSMS:
+    name: PT Sawit Sumbermas Sarana Tbk
+    segment: upstream_refining
+    yahoo: SSMS.JK
+    listing_date: 2013-12-12
+    verify: true
+    controller: Citra Borneo Indah (62.3%)
+    notes: HSC from 2026-10-13. Removed from MSCI Small Cap (May 2026).
+  BWPT:
+    name: PT Eagle High Plantations Tbk
+    segment: upstream
+    yahoo: BWPT.JK
+    listing_date: 2009-10-27
+    verify: true
+    notes: FICP (FELDA) 37% stake in dispute; quasi-reorganisation approved 2026-06-29.
+  TBLA:
+    name: PT Tunas Baru Lampung Tbk
+    segment: refining_biodiesel_sugar
+    yahoo: TBLA.JK
+    listing_date: 2000-02-14
+    listing_source: S_AJAIB_PROFILE
+    notes: FAME capacity 765kt/yr (company publication, via press).
+  SMAR:
+    name: PT Sinar Mas Agro Resources and Technology Tbk
+    segment: refining_biodiesel
+    yahoo: SMAR.JK
+    verify: true
+    notes: HSC (99.56%); free float about 7.5%.
+  JARR:
+    name: PT Jhonlin Agro Raya Tbk
+    segment: biodiesel_estates
+    yahoo: JARR.JK
+    listing_date: 2022-08-04
+    listing_source: S_KSEI_REGISTRY
+    notes: HSC (98.02%). Trading suspended 2026-09-11. Controller pledged shares.
+  SGRO:
+    name: PT Prime Agri Resources Tbk (formerly Sampoerna Agro)
+    segment: upstream
+    yahoo: SGRO.JK
+    verify: true
+    notes: AGPA (POSCO International) took control 2025-11-19; MTO Rp7,903 (Jan-Feb 2026); HSC.
+  ANJT:
+    name: PT Austindo Nusantara Jaya Tbk
+    segment: upstream
+    yahoo: ANJT.JK
+    verify: true
+    notes: First Resources control (2025); MTO Rp1,813 completed 2025-10-03; HSC (99.13%).
+  STAA: {name: PT Sumber Tani Agung Resources Tbk, segment: upstream, yahoo: STAA.JK, verify: true, notes: HSC}
+  CSRA: {name: PT Cisadane Sawit Raya Tbk, segment: upstream, yahoo: CSRA.JK, verify: true, notes: HSC}
+  TLDN: {name: PT Teladan Prima Agro Tbk, segment: upstream, yahoo: TLDN.JK, verify: true, notes: HSC}
+  PGUN: {name: PT Pradiksi Gunatama Tbk, segment: upstream, yahoo: PGUN.JK, verify: true, notes: HSC (99.956%)}
+  NSSS: {name: PT Nusantara Sawit Sejahtera Tbk, segment: upstream, yahoo: NSSS.JK, verify: true}
+  UNSP: {name: PT Bakrie Sumatera Plantations Tbk, segment: upstream, yahoo: UNSP.JK, verify: true}
+  GZCO: {name: PT Gozco Plantations Tbk, segment: upstream, yahoo: GZCO.JK, verify: true}
+  MGRO: {name: PT Mahkota Group Tbk, segment: refining, yahoo: MGRO.JK, verify: true}
+  FAPA: {name: PT FAP Agri Tbk, segment: upstream, yahoo: FAPA.JK, verify: true, notes: HSC (99.77%)}
+  PALM: {name: PT Provident Investasi Bersama Tbk, segment: holding, yahoo: PALM.JK, verify: true, notes: Check current business before inclusion}
+
+benchmarks:
+  IHSG: {yahoo: "^JKSE", notes: "Methodology change: HSC stocks excluded from 2026-11-13; treat as a series break."}
+
+macro_series:
+  usdidr: {preferred_source: S_BI_JISDOR, fallback_source: S_YAHOO, fallback_symbol: "IDR=X"}
+  brent: {preferred_source: S_FRED, symbol: DCOILBRENTEU}
+  cpo: {preferred_source: S_BURSA_FCPO, notes: "No free API; vendor or manual CSV of the 3rd-month contract."}
