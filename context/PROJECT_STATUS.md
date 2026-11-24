@@ -16,7 +16,7 @@ _Last updated: 2026-11-24_
   - Dividends received from JVs/associates: FY2022–FY2025 annual, plus quarterly from Q2'25.
   - Corporate actions: 10 cash dividends (ex-dates 2022–2026).
   - Domestic CPO (KPBN tender, secondary via S-023): only Aug–Nov 2026.
-- [x] CHIRPS v3.0 monthly rainfall for 8 palm provinces (S-007); details in the Phase I notes.
+- [x] CHIRPS v3.0 monthly rainfall for 8 palm provinces, 2015-01 to 2026-10, no gaps (S-007). Regional proxy, not TAPG estates.
 - [x] Quant modules (have enough data):
   - `quant/ohlcv_quality.py` → `data/reference/ohlcv_quality.csv`
   - `quant/benchmarks.py` → `data/reference/benchmarks_daily.csv` (IHSG and EW core PIT, 2016 onward)
