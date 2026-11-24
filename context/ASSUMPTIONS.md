@@ -23,6 +23,9 @@ Every assumption used in models, valuations or backtests goes here with its sour
 | A-018 | PIT dating | Availability from an IDX announcement timestamp | Filed before 09:00 WIB → same trading day; otherwise next trading day (IHSG calendar from S-002) | Conservative for intraday filings; timestamps from S-027 mirror | 2026-11-24 | Supersedes A-012/A-013 wherever a timestamp exists |
 | A-019 | Nowcast | Q4 2026 scenario inputs (CPO volume factor, inventory release, ASP change, fertiliser, JV share, purchased-FFB pass-through 50%) | See `data/reference/research/TAPG_q4_2026_inputs.csv` and `quant/tapg_q4_2026_nowcast.py` (all tagged EST) | Judgement anchored on Q3 2026 observed values | 2026-11-24 | — |
 | A-020 | Nowcast | Finished-goods cost per kg (to convert the inventory build into tonnes) | IDR 9,000/kg | Rough: 9M26 COGM ÷ estimated subsidiary CPO+PK output | 2026-11-24 | — |
+| A-021 | Nowcast | Product allocation and carrying cost of the finished-goods build | Allocated by Q3 2026 revenue mix (CPO 81%, PK 13%, other 6%); unit carrying cost = 0.578 × ASP for every product (from A-020) | Judgement; replaces the earlier all-CPO treatment (D-015) | 2026-11-24 | — |
+| A-022 | Quant | Event-study specification | Market model on IHSG and on PIT core peers ex-TAPG; estimation days −260..−11; CAR windows [0,0], [0,1], [0,5], [0,10]; abnormal volume vs days −60..−11 | Standard; untuned | 2026-11-24 | — |
+| A-023 | Nowcast | Q4 2026 base CPO ASP change vs Q3 | −5.5% (KPBN tender average Q4-to-date vs Q3; few observations, secondary); bear −10%, bull −2% | S-023 snapshot; netback analysis | 2026-11-24 | Base was −4% before 2026-11-24 |
 | A-008 | Backtest | Backtest start | 2016-01 or the first month all required inputs exist, whichever is later | User mandate (D-003); see the Phase I audit | 2026-11-24 | — |
 
 ## Still to set (before the first backtest)

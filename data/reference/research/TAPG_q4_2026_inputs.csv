@@ -13,5 +13,7 @@ fg_inventory_build_bn,375.83900000000006,OBS,"finished goods Sep-26 vs Dec-25, 9
 fg_cost_per_kg_proxy,9000.0,EST,"≈ 9M26 COGM 5,652bn / ~630kt subsidiary CPO+PK output (PE25 2025 subsidiary share 68%); rough"
 guidance_cpo_2026_total_kt,1016.0,GUID,PE25 p9 (incl. associates)
 cpo_9m26_groupwide_kt,756.8,BRK,ALD p2
-fg_inventory_build_kt_equiv,41.759888888888895,DER/EST,"inventory build / cost proxy; CPO-equivalent, very rough"
+fg_inventory_build_kt_if_all_cpo,41.759888888888895,DER/EST,upper bound; the model allocates the build across products
 guidance_implied_q4_cpo_groupwide_kt,259.20000000000005,DER,FY26F guidance minus 9M actual (guidance from Mar-26)
+fg_share_cpo/pk/other,0.8134837721131076,EST,"build allocated by Q3 revenue mix: CPO 81.3%, PK 12.8%, other 5.9%"
+carrying_cost_to_asp,0.578220366206232,EST,"unit carrying cost / ASP, same ratio for all products"
