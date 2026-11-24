@@ -10,7 +10,7 @@ Identify underappreciated investment opportunities in Indonesian palm oil equiti
 
 - **Market:** Indonesia Stock Exchange (IDX), plus Indonesian palm oil exposure listed elsewhere if relevant (to be decided).
 - **Sector:** Upstream plantations (primary), integrated upstream/downstream producers, and possibly downstream refiners and biodiesel names.
-- **Horizon:** To be defined (see Open questions).
+- **Strategy:** Long-only, catalyst-driven quantamental. Horizon 3–12 months. Benchmarks: IHSG and equal-weight core PIT universe. Full methodology: [`METHODOLOGY.md`](METHODOLOGY.md) (D-003).
 
 ## Stock universe (confirmed 2026-11-24, D-002)
 
@@ -60,7 +60,6 @@ Source: [`research/industry/2026-11-24_universe_screen.md`](../research/industry
 
 ## Open questions
 
-- Investment horizon and rebalancing frequency.
-- Benchmark (e.g. IDX Composite, sector index, equal-weight universe).
-- Data sources and access (vendor subscriptions vs public sources).
-- Long-only or long/short.
+- Re-tiering on verified liquidity (proposed D-004).
+- Data access: manual IDX downloads vs a vendor subscription for filings and daily CPO (see the Phase I audit).
+- Horizon, benchmark, frequency and long-only were resolved in D-003.

@@ -1,0 +1,64 @@
+# Research Methodology
+
+_Finalised 2026-11-24 (D-003). Change only by logging a new decision in `DECISION_LOG.md`._
+
+## 1. Objective
+
+Find **earnings surprises and underappreciated catalysts** in Indonesian palm oil equities **before they are fully priced in**.
+
+## 2. Mandate parameters
+
+| Parameter | Setting |
+|---|---|
+| Strategy | Long-only, catalyst-driven quantamental |
+| Investment horizon | 3–12 months per position |
+| Benchmarks | (1) IHSG / Jakarta Composite (`^JKSE`); (2) equal-weight core palm oil universe, rebalanced monthly using point-in-time membership |
+| Market data frequency | Daily (prices, volume, FX, Brent, CPO where available) |
+| Factor screening | Weekly, using the last completed trading week's data |
+| Portfolio rebalancing | Monthly, at month-end |
+| Fundamental updates | When disclosed publicly (financial statements, operational releases, regulations), timestamped by publication date |
+| Historical backtest | From 2016, subject to actual data availability per series (see the Phase I audit) |
+
+## 3. Universe
+
+- **Coverage universe** (D-002): 9 core and 6 extended names, kept as-is. See `RESEARCH_CONTEXT.md`.
+- **Point-in-time (PIT) investable universe:** rebuilt each month-end by `quant/build_universe.py` from `data/reference/listings.csv`. A name is eligible at date *t* only if, with data up to *t*:
+  1. it has traded at least 60 sessions since listing (A-004),
+  2. it traded in the last 20 sessions (excludes suspended names),
+  3. its median 63-day traded value is ≥ IDR 1.5bn for the core liquidity band, or IDR 0.25–1.5bn for the extended band (A-001, A-002, A-003).
+- The candidate list includes excluded, delisted and historical-only palm names (GOLL, MAGP, PALM, BTEK) so the history isn't limited to today's survivors. Names with no price history are reported as gaps, not dropped silently.
+- Backtests trade only names in the **core liquidity band at the rebalance date**. Coverage tier never overrides PIT eligibility.
+
+## 4. Research pipeline
+
+1. **Macro / industry drivers:** CPO price (USD/mt, IDR/kg), USD/IDR, Brent (biodiesel economics, POGO spread), rainfall and ENSO (yields with a 6–24 month lag), industry production and stocks, biodiesel mandate and allocation, export levy and duty.
+2. **Company fundamentals:** production (FFB, CPO), yields, planted and mature area, age profile, cash cost per tonne, margins, balance sheet, dividends.
+3. **Earnings surprise engine:** a driver-based estimate of next-quarter earnings (realised CPO price net of levy and duty × volume − cost) compared with the market-implied or consensus estimate where available. The surprise signal is our estimate minus the expected figure.
+4. **Catalyst map:** dated events (policy decisions, levy and reference-price resets, mandate changes, earnings dates, production releases, weather regimes) with expected direction and magnitude.
+5. **Quant layer:** weekly factor screen (e.g. estimate-driven surprise, valuation versus history and peers, price momentum and reversal, liquidity) on PIT data. Signals are only used after an out-of-sample test.
+6. **Portfolio construction:** monthly, long-only, with position limits and liquidity limits based on traded value (to be set as assumptions before the first backtest).
+
+## 5. Point-in-time and bias controls
+
+- Every record carries an **as-of (publication) date**. Signals use only records published before the signal date.
+- Financial statements are available from their IDX filing date, not the period-end date. Where the filing date is unknown, apply a conservative lag (A-005).
+- Revised series (e.g. USDA PSD) need archived vintages. Without them, mark the series "not PIT" and use it for context only, not in signals.
+- Survivorship: PIT universe as in §3. Delisted names need IDX price history (gap: GOLL, MAGP).
+- Backtests: include transaction costs and liquidity limits; report results gross and net; use walk-forward or holdout testing; no parameter tuning on the test period.
+
+## 6. Data integrity rules
+
+- No fabricated or interpolated data presented as observed. Gaps stay gaps and are documented.
+- Every series must have a `SOURCE_REGISTER.csv` entry with its verification status.
+- Unofficial sources (e.g. Yahoo) are cross-checked against an official source on a sample before backtests.
+
+## 7. Phases
+
+| Phase | Scope | Status |
+|---|---|---|
+| 0 | Workspace setup | Done |
+| I | Data availability audit | In progress |
+| II | Data pipeline and PIT datasets | Not started |
+| III | Driver research (macro, industry, company) | Not started |
+| IV | Signal design and backtests | Not started |
+| V | Synthesis: catalysts and theses | Not started |

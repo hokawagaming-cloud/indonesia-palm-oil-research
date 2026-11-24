@@ -9,9 +9,10 @@ Identify underappreciated investment opportunities in Indonesian palm oil equiti
 ## Session start checklist
 
 1. Read `context/RESEARCH_CONTEXT.md` — scope, universe, research questions.
-2. Read `context/PROJECT_STATUS.md` — what is done, in progress, and next.
-3. Skim `context/DECISION_LOG.md` and `context/ASSUMPTIONS.md` — do not silently re-litigate recorded decisions or change assumptions.
-4. Check `data/SOURCE_REGISTER.csv` before adding or using any dataset.
+2. Read `context/METHODOLOGY.md` — mandate, PIT rules, pipeline.
+3. Read `context/PROJECT_STATUS.md` — what is done, in progress, and next.
+4. Skim `context/DECISION_LOG.md` and `context/ASSUMPTIONS.md` — do not silently re-litigate recorded decisions or change assumptions.
+5. Check `data/SOURCE_REGISTER.csv` before adding or using any dataset.
 
 ## Session end checklist
 
@@ -30,6 +31,7 @@ Identify underappreciated investment opportunities in Indonesian palm oil equiti
 | `research/company/` | One subfolder per ticker (e.g. `research/company/AALI/`) with notes, thesis, catalysts |
 | `data/raw/` | Untouched source data. Never edit in place. Large or licensed files are git-ignored |
 | `data/processed/` | Cleaned, analysis-ready data produced by scripts |
+| `data/reference/` | Small tracked reference tables: listings and PIT universe membership (no raw prices) |
 | `data/SOURCE_REGISTER.csv` | Register of every data source (origin, licence, frequency, last pulled) |
 | `quant/` | Signal construction, factor models, feature engineering |
 | `valuation/` | DCF, SOTP, comps, NAV-per-hectare models |

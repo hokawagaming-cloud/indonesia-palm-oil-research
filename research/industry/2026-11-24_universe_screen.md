@@ -1,5 +1,7 @@
 # Universe Screen — Indonesian Palm Oil Equities
 
+> **Superseded data (2026-11-24, D-005):** The liquidity figures below come from S-001, which is now deprecated. Verified daily liquidity from S-002 is in `research/2026-11-24_phase1_data_availability_audit.md`. The tiers themselves stay as decided in D-002 until D-004 is decided.
+
 _Date: 2026-11-24 · Source: S-001 (local IDX price dataset, 1-year lookback, last updated 2026-11-07) · Status: liquidity screen done; free float and palm-revenue share still to verify_
 
 ## Method

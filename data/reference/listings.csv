@@ -1,0 +1,28 @@
+ticker,company,coverage_tier_d002,first_trade_date,first_trade_source,delisted_date,status_note,status_source,palm_exposure_pct,palm_exposure_status
+AALI,Astra Agro Lestari,core,<=2015-01-02,S-002 (listed before data start),,Active,S-002,,PENDING - annual report segment note
+LSIP,PP London Sumatra Indonesia,core,<=2015-01-02,S-002 (listed before data start),,Active,S-002,,PENDING - annual report segment note
+SSMS,Sawit Sumber Mas Sarana,core,<=2015-01-02,S-002 (listed before data start),,Active,S-002,,PENDING - annual report segment note
+DSNG,Dharma Satya Nusantara,core,<=2015-01-02,S-002 (listed before data start),,Active,S-002,,PENDING - also has a wood products segment
+GZCO,Gozco Plantations,core,<=2015-01-02,S-002 (listed before data start),,Active,S-002,,PENDING - annual report segment note
+TAPG,Triputra Agro Persada,core,2021-04-12,S-002 first Yahoo bar,,Active,S-002,,PENDING - annual report segment note
+STAA,Sumber Tani Agung Resources,core,2022-03-10,S-002 first Yahoo bar,,Active,S-002,,PENDING - annual report segment note
+NSSS,Nusantara Sawit Sejahtera,core,2023-03-10,S-002 first Yahoo bar,,Active,S-002,,PENDING - annual report segment note
+MGRO,Mahkota Group,core,2018-07-12,S-002 first Yahoo bar,,Active,S-002,,PENDING - refinery-heavy; check split
+ANJT,Austindo Nusantara Jaya,extended,<=2015-01-02,S-002 (listed before data start),,Active,S-002,,PENDING - annual report segment note
+TBLA,Tunas Baru Lampung,extended,<=2015-01-02,S-002 (listed before data start),,Active,S-002,,PENDING - also has a sugar segment
+SIMP,Salim Ivomas Pratama,extended,<=2015-01-02,S-002 (listed before data start),,Active,S-002,,PENDING - integrated (edible oils and fats)
+BWPT,Eagle High Plantations,extended,<=2015-01-02,S-002 (listed before data start),,Active,S-002,,PENDING - annual report segment note
+CSRA,Cisadane Sawit Raya,extended,2020-01-09,S-002 first Yahoo bar,,Active,S-002,,PENDING - annual report segment note
+PSGO,Palma Serasih,extended,2019-11-25,S-002 first Yahoo bar,,Active,S-002,,PENDING - annual report segment note
+SGRO,Sampoerna Agro,excluded,<=2015-01-02,S-002 (listed before data start),,Active,S-002,,PENDING
+SMAR,SMART,excluded,<=2015-01-02,S-002 (listed before data start),,Active,S-002,,PENDING - integrated
+TLDN,Teladan Prima Agro,excluded,2022-04-12,S-002 first Yahoo bar,,Active,S-002,,PENDING
+FAPA,FAP Agri,excluded,2021-01-04,S-002 first Yahoo bar,,Active,S-002,,PENDING
+CBUT,Citra Borneo Utama,excluded,2022-11-08,S-002 first Yahoo bar,,Active,S-002,,PENDING
+PGUN,Pradiksi Gunatama,excluded,2020-07-07,S-002 first Yahoo bar,,Active,S-002,,PENDING
+JAWA,Jaya Agra Wattie,excluded,<=2015-01-02,S-002 (listed before data start),,Active,S-002,,PENDING - mixed crops
+UNSP,Bakrie Sumatera Plantations,excluded,<=2015-01-02,S-002 (listed before data start),,Active (27% zero-volume days in last 252),S-002,,PENDING
+GOLL,Golden Plantation,historical-only,UNKNOWN,,2026-11-10,Suspended since 2019-01-30; delisted effective 2026-11-10 (per press reports citing IDX announcements),S-014 (press); confirm with IDX,,PENDING
+MAGP,Multi Agro Gemilang Plantation,historical-only,UNKNOWN,,,Suspended since 2022-07-18; on IDX delisting watch (press reports 2024-2026),S-014 (press); confirm with IDX,,PENDING
+PALM,Provident Investasi Bersama (formerly Provident Agro),historical-only,<=2015-01-02,S-002 (listed before data start),,Active; business changed - palm exposure period to verify,S-002,,PENDING - exposure dates needed
+BTEK,Bumi Teknokultura Unggul,historical-only,<=2015-01-02,S-002 (listed before data start),,Active; palm exposure unverified,S-002,,PENDING - confirm palm exposure
