@@ -4,7 +4,12 @@ _Last updated: 2026-11-24_
 
 ## Current phase
 
-**Phase II — round 2: quarterly operational data, levy/duty reconstruction, exploratory Q4 2026 nowcast.** No investment analysis, rankings or ratings have been produced. Nothing in the nowcast is validated.
+**Phase II — audit remediation (2026-11-24).**
+- Audit findings A (PIT leakage), B (inventory double-counting) and E (netback) are fixed or verified.
+- C (expectations) is refreshed with dated snapshots.
+- D (DSNG) is partially verified.
+- The levy/duty reconstruction is complete for Oct 2017 onward.
+- No rating or valuation has been produced. The Q4 2026 nowcast is exploratory.
 
 ## Done
 
@@ -52,6 +57,16 @@ _Last updated: 2026-11-24_
   - Levy/duty reconstruction: see `research/macro/2026-11-24_levy_duty_reconstruction.md`.
   - Notes: `research/company/TAPG/2026-11-24_quarterly_operational_extraction.md`.
 
+- [x] **Audit remediation (2026-11-24):**
+  - Levy/duty regimes from primary PMK texts plus 116 HRef periods (S-034/S-035), with 7 tests.
+  - Netback: the Nov charge cut offsets 98% of the HRef fall on the reference basis, but KPBN tenders still fell 3.8%.
+  - PIT vintage panel with regression tests (D-014).
+  - Product-level inventory model; Q4 profit bear/base/bull 882/1,268/1,651bn (D-015).
+  - Dated expectations: Yahoo FY26 EPS 212.9, implying Q4 ~720bn (D-016).
+  - Event study: no immediate 9M26 reaction, then −13% to −15% CAR by 24 Nov.
+  - DSNG check: `research/challengers/2026-11-24_dsng_inventory_check.md`.
+  - Tests: 26 passing.
+
 ## Not resolved (sources tried and failed)
 
 | Need | Tried | Why it failed |
@@ -66,11 +81,12 @@ _Last updated: 2026-11-24_
 
 ## Next
 
-- [ ] **User action:** download TAPG investor newsletters (Vol 15–24) in a browser (host unreachable from here, S-033). They date quarterly ops originally and add sales/ASP/cost history.
-- [ ] Check for analyst forecasts revised after 29 Oct 2026, and the share-price reaction, before any surprise claim (D-013).
-- [ ] Integrate the levy/duty schedule into the domestic-discount model; recompute the ASP ÷ world-price analysis net of levy and duty.
-- [ ] Verify A-013 deadlines against POJK text (now needed only for filings without timestamps).
-- [ ] Decide D-004; cross-check Yahoo prices; repeat Phase I/II for the other 14 names.
+- [ ] DSNG: dated consensus, unit margin, event study (peer index ex-DSNG); find the newsletter with the 23k/52k figures.
+- [ ] STAA: light challenger screen.
+- [ ] TAPG: identify the cause of the post-9M underperformance (earnings-call notes, broker revisions after 29 Oct).
+- [ ] HRef gaps (44 months, mostly 2015 to Sep 2017): fill from primary decrees if needed for the pre-2018 backtest.
+- [ ] **User action:** TAPG newsletters (S-033) to date quarterly ops originally and extend sales/cost history.
+- [ ] Decide D-004; cross-check Yahoo prices; verify A-013 deadlines.
 
 ## Blockers
 
