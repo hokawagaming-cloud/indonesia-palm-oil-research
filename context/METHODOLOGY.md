@@ -74,6 +74,8 @@ Find **earnings surprises and underappreciated catalysts** in Indonesian palm oi
 4. Price-in evidence (`quant/tapg_price_in.py`): never read as mispricing on its own.
 5. PIT validation against naive benchmarks (`quant/forecast_validation.py`), cut off at the target's original publication date. Below about 12 PIT observations a model stays EXPLORATORY and is forward-tested via `forecast_journal.csv`.
 6. Catalysts tracked in `catalyst_register.csv`.
+7. Phase V additions: forward dividend capacity (not trailing yield); reported scenario-weight uncertainty; dated, append-only monitoring and consensus logs; expectation-adjusted surprises (not growth proxies) for any event-study inference.
+8. Challenger valuation: start with the uniform consensus-anchored rule (A-029); replace it with company-specific drivers (refinery margins for STAA, cash and payout for LSIP, wood segment for DSNG) only for names selected for deeper research.
 
 ## 6. Data integrity rules
 

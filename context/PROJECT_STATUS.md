@@ -4,10 +4,10 @@ _Last updated: 2026-11-24_
 
 ## Current phase
 
-**Phase IV — Alpha discovery and capital allocation: decision NO TRADE (D-022, 2026-11-24).**
-- TAPG stays primary coverage, WATCH / NO BUY; attractive below ≈ IDR 1,530.
-- The IC memo and Phase IV note are kept in the repository and not published.
-- See `research/2026-11-24_phase4_capital_allocation.md`.
+**Phase V — Predictive alpha discovery and monitoring (started 2026-11-24).** Decision: **NO TRADE** (D-022, D-025).
+- **TAPG:** WATCH / NO BUY; entry trigger ≈ IDR 1,525 (D-024).
+- **LSIP:** selected for deeper research only.
+- **Monitoring:** run `quant/tapg_monitor.py` after refreshing prices, macro data and levy/duty.
 
 ## Done
 
@@ -83,6 +83,14 @@ _Last updated: 2026-11-24_
   - TAPG entry range: probability-weighted return +5% at 1,710.
   - Three-name uniform scorecard. Journal 31 rows (append-only, D-023); catalysts 14. Tests 31 passing.
 
+- [x] **Phase V (2026-11-24):**
+  - Fertiliser prices added (WB urea/DAP/MOP).
+  - TAPG monitor plus forward consensus history for 17 names (first snapshot).
+  - Forward dividend capacity and weight uncertainty: expected return +4.8%, P(> hurdle) ≈ 2%.
+  - Expectation-adjusted surprise framework (`quant/surprise_study.py`) with a test.
+  - Universe screen: consensus covers 8 of 17 names; consensus-implied Q4 is weak across LSIP, TAPG and AALI; LSIP selected for research.
+  - Journal 32 rows; catalysts 18. Tests 32 passing.
+
 ## Not resolved (sources tried and failed)
 
 | Need | Tried | Why it failed |
@@ -97,10 +105,11 @@ _Last updated: 2026-11-24_
 
 ## Next
 
-- [ ] Monitor triggers C-010 (TAPG < ≈1,530), C-011 (DSNG consensus cut), C-012 (STAA refinery data), C-013 (B50 review), C-003 (Dec HRef).
-- [ ] Re-run the Q4 nowcast and three-name scorecard when consensus or KPBN prices move. Resolve the journal at FY2026 results (~Mar 2027).
-- [ ] Data gaps blocking real alpha validation: original-vintage interims 2021–25 and newsletters (S-033), fertiliser level, foreign-flow data, STAA refinery capacity.
-- [ ] Decide D-004; cross-check Yahoo prices; verify A-013 deadlines.
+- [ ] **LSIP deeper research (C-016):** fetch the 9M26 FS; explain the Q3 gross-profit jump; verify net cash; payout policy and parent context; cash-adjusted valuation; expectations gap.
+- [ ] Run `tapg_monitor.py` on each data refresh (December HRef decree, monthly WB prices, consensus). Re-evaluate when the trigger hits or assumptions change.
+- [ ] FY2026 results (~Feb–Mar 2027): first expectation-adjusted surprise test across names (C-017); resolve the forecast journal.
+- [ ] Map name-level ENSO exposure from primary sources (estate provinces) before using rainfall as a cross-sectional indicator.
+- [ ] Standing gaps: original-vintage TAPG interims and newsletters (S-033), fertiliser application levels, foreign-flow data, STAA refinery capacity.
 
 ## Blockers
 

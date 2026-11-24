@@ -32,6 +32,8 @@ Every assumption used in models, valuations or backtests goes here with its sour
 | A-027 | Challenger | DSNG inventory release profit | 29kt × ASP 15,520 × 9M EBITDA margin 32%, 22% tax | Rough proxy; DSNG cost not modelled | 2026-11-24 | — |
 | A-028 | Allocation | TAPG entry analysis | Scenario sustainable profit 2,810 / 4,062 / 4,969bn with probabilities 30 / 50 / 20%; 12m dividends IDR 160 / 200 / 230; hurdle = ke + 5pp = 17.5% | Judgement (probabilities not estimated) | 2026-11-24 | — |
 | A-029 | Allocation | Uniform challenger valuation rule | bear 0.8 × last FY profit; base = average(last FY, consensus FY26); bull = consensus FY27; FCFE conversion TAPG 0.85 / DSNG 0.80 / STAA 0.70; ke 12.5%, g 2%; weights 30 / 50 / 20 | Judgement; consensus-anchored so the names are comparable | 2026-11-24 | — |
+| A-030 | Valuation | TAPG forward dividend capacity | payout 85% of forward EPS; FY26 interims already paid IDR 130 (60 + 70); interims ≈ 64% of the annual payout | KBV FY26F payout; OBS dividends (S-020/S-044) | 2026-11-24 | Replaces trailing dividends 160/200/230 in A-028 |
+| A-031 | Valuation | Scenario-weight uncertainty | Dirichlet with concentration 10 around 30/50/20 | Judgement (weak confidence) | 2026-11-24 | — |
 | A-008 | Backtest | Backtest start | 2016-01 or the first month all required inputs exist, whichever is later | User mandate (D-003); see the Phase I audit | 2026-11-24 | — |
 
 ## Still to set (before the first backtest)

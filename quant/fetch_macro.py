@@ -1,4 +1,5 @@
-"""Download World Bank Pink Sheet monthly prices (S-003) and NOAA ONI (S-006).
+"""Download World Bank Pink Sheet monthly prices (S-003, incl. fertilisers urea / DAP / potassium
+chloride as leading indicators of plantation cost) and NOAA ONI (S-006).
 
 Raw files: data/raw/macro/ (git-ignored). Tracked derived monthly table:
 data/reference/macro_monthly.csv with palm oil, soybean oil, palm kernel oil and Brent
@@ -34,8 +35,10 @@ def main() -> int:
     wb = pd.read_excel(get(WB, RAW / "CMO-Historical-Data-Monthly.xlsx"), sheet_name="Monthly Prices", header=None)
     hdr = wb.iloc[4].tolist()
     want = {"Palm oil": "palm_oil_usd_t", "Soybean oil": "soybean_oil_usd_t",
-            "Palm kernel oil": "palm_kernel_oil_usd_t", "Crude oil, Brent": "brent_usd_bbl"}
-    cols = {i: want[h] for i, h in enumerate(hdr) if h in want}
+            "Palm kernel oil": "palm_kernel_oil_usd_t", "Crude oil, Brent": "brent_usd_bbl",
+            "Urea": "urea_usd_t", "DAP": "dap_usd_t", "Potassium chloride": "mop_usd_t"}
+    norm = lambda h: h.replace("*", "").strip() if isinstance(h, str) else h
+    cols = {i: want[norm(h)] for i, h in enumerate(hdr) if norm(h) in want}
     body = wb.iloc[6:, [0] + list(cols)].rename(columns={0: "month", **cols})
     body = body[body["month"].astype(str).str.match(r"^\d{4}M\d{2}$")]
     body["month"] = pd.PeriodIndex(body["month"].str.replace("M", "-"), freq="M").astype(str)

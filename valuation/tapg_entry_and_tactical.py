@@ -24,10 +24,23 @@ SHARES = 19852.54
 PRICE = 1710.0
 KE, G, CONV = 0.125, 0.02, 0.85
 HURDLE = KE + 0.05
-# (label, sustainable profit IDR bn, probability, 12m dividend IDR/share) - all EST except cited bases
-SCEN = [("bear: mean reversion to FY2023-25 average", 2810.0, 0.30, 160.0),
-        ("base: our FY27 base", 4062.0, 0.50, 200.0),
-        ("bull: our FY27 bull", 4969.0, 0.20, 230.0)]
+# Forward dividend capacity (Phase V; replaces trailing-yield dividends, D-024):
+# next-12m dividend = FY26 final (payout x FY26 EPS - FY26 interims already paid, IDR 130 = 60 + 70)
+#                   + FY27 interims (interim share x payout x FY27 EPS)
+PAYOUT = 0.85            # EST: KBV FY26F assumption; FY25 cash dividends 3,276bn vs FY24 NP 3,120bn (105%)
+FY26_INTERIMS_PAID = 130.0  # OBS: Aug 2026 IDR 60 + Nov 2026 IDR 70 (S-020/S-044)
+INTERIM_SHARE = FY26_INTERIMS_PAID / (PAYOUT * 4714.7 * 1000 / 19852.54)  # DER ~0.64 of the annual payout
+
+
+def fwd_dividend(fy26_np: float, fy27_np: float) -> float:
+    eps26, eps27 = fy26_np * 1000 / 19852.54, fy27_np * 1000 / 19852.54
+    return max(PAYOUT * eps26 - FY26_INTERIMS_PAID, 0.0) + INTERIM_SHARE * PAYOUT * eps27
+
+
+# (label, sustainable profit IDR bn, probability, 12m dividend IDR/share from forward capacity)
+SCEN = [("bear: mean reversion to FY2023-25 average", 2810.0, 0.30, fwd_dividend(4270.4, 3638.0)),
+        ("base: our FY27 base", 4062.0, 0.50, fwd_dividend(4714.7, 4062.0)),
+        ("bull: our FY27 bull", 4969.0, 0.20, fwd_dividend(5157.1, 4969.0))]
 # YoY growth of profit to owners in each reported cumulative period (OBS: filings / press S-026)
 SURPRISE_PROXY = {"FY2024": 0.940, "Q1 2025": 805.3 / 370.8 - 1, "H1 2025": 0.753, "9M 2025": 0.6567,
                   "FY2025": 3702.3 / 3120.3 - 1, "Q1 2026": 739.8 / 805.3 - 1, "H1 2026": 2040.4 / 1694.1 - 1,
@@ -77,15 +90,28 @@ def main() -> int:
            f"  - IDR {entry_ke:,.0f} for a bare {KE:.1%} cost of equity.",
            "  - **Attractive below about IDR "
            f"{entry:,.0f}; fair around {entry_ke:,.0f}–{ev_value:,.0f}.**",
-           f"- **Dividend capacity:** at IDR {entry:,.0f}, the base 12-month dividend (IDR 200) yields {200 / entry:.1%}. The 2026 cash payout (IDR 221) was funded by FY26 profit and USTP dividends (2025: IDR 959bn cash + 414bn in kind).",
+           f"- **Dividend capacity:** at IDR {entry:,.0f}, the base forward 12-month dividend (IDR {S.div_12m.iloc[1]:,.0f}) yields {S.div_12m.iloc[1] / entry:.1%}. Coverage: FY25 free cash flow 2,809bn + JV cash dividends 959bn vs 3,276bn paid.",
            "- **Sensitivity:**",
            f"  - Moving 10pp of probability from base to bear lowers the value by about IDR {(0.1 * ((value_per_share(4062) + 200) - (value_per_share(2810) + 160))):,.0f}.",
            f"  - ke ±1pp moves it by about ∓9%.",
            "  - The probabilities are judgemental and not estimated."]
+    # Uncertainty in the scenario probabilities (Phase V, D-024): Dirichlet around the 30/50/20 weights
+    rng = np.random.default_rng(20261124)
+    W = rng.dirichlet(np.array([0.30, 0.50, 0.20]) * 10.0, 20000)  # concentration 10 = weak confidence
+    tot = (S.value_per_share + S.div_12m).to_numpy()
+    er = W @ tot / PRICE - 1
+    pq = np.percentile(er, [5, 50, 95])
+    md += ["", "## Probability uncertainty (Dirichlet, concentration 10 around 30/50/20)", "",
+           f"- Expected 12-month return: median {pq[1]:+.1%}, 5–95% range {pq[0]:+.1%} to {pq[2]:+.1%}.",
+           f"- P(expected return > ke {KE:.1%}) = {(er > KE).mean():.0%}; P(> hurdle {HURDLE:.1%}) = {(er > HURDLE).mean():.0%}.",
+           "- Even with generous weight uncertainty, the expected return rarely clears the hurdle at this price.",
+           f"- **Forward dividend capacity** (payout {PAYOUT:.0%}, interims ≈ {INTERIM_SHARE:.0%} of the annual payout): next-12-month dividends of IDR "
+           + " / ".join(f"{d:,.0f}" for d in S.div_12m) + " (bear / base / bull), replacing the earlier trailing-yield inputs (160 / 200 / 230)."]
     out = REF / "research"
     S.to_csv(out / "TAPG_entry_scenarios.csv", index=False, float_format="%.1f")
     ev.to_csv(out / "TAPG_event_surprise_proxy.csv", index=False, float_format="%.4f")
-    pd.Series({"expected_value_12m": ev_value, "expected_return_at_1710": exp_ret, "entry_price_hurdle": entry,
+    pd.Series({"prob_uncertainty_p05": pq[0], "prob_uncertainty_p50": pq[1], "prob_uncertainty_p95": pq[2],
+               "p_exceeds_hurdle": float((er > HURDLE).mean()), "expected_value_12m": ev_value, "expected_return_at_1710": exp_ret, "entry_price_hurdle": entry,
                "entry_price_ke": entry_ke, "rank_corr_surprise_car01": rho, "car01_sd": sd1}).to_csv(out / "TAPG_entry_summary.csv")
     (ROOT / "research" / "company" / "TAPG" / "tactical_and_entry.md").write_text("\n".join(md), encoding="utf-8")
     print("\n".join(md))

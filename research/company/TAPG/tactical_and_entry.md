@@ -28,17 +28,24 @@ Value per share = E × 0.85 × (1+2%) / (12.5% − 2%) / 19,853mn shares.
 
 | Scenario | Sustainable profit (IDR bn) | Probability (EST) | Value/share | + 12m dividend | Total vs IDR 1,710 |
 |---|---|---|---|---|---|
-| bear: mean reversion to FY2023-25 average | 2,810 | 30% | 1,169 | 160 | -22% |
-| base: our FY27 base | 4,062 | 50% | 1,689 | 200 | +10% |
-| bull: our FY27 bull | 4,969 | 20% | 2,067 | 230 | +34% |
+| bear: mean reversion to FY2023-25 average | 2,810 | 30% | 1,169 | 153 | -23% |
+| base: our FY27 base | 4,062 | 50% | 1,689 | 184 | +10% |
+| bull: our FY27 bull | 4,969 | 20% | 2,067 | 228 | +34% |
 
-- **Probability-weighted 12-month value** (incl. dividends): IDR 1,803, i.e. expected total return **+5.4%** at IDR 1,710. Downside case -22%, upside case +34%.
+- **Probability-weighted 12-month value** (incl. dividends): IDR 1,792, i.e. expected total return **+4.8%** at IDR 1,710. Downside case -23%, upside case +34%.
 - **Entry range:**
-  - IDR 1,534 for a 17.5% hurdle (ke + 5pp margin of safety).
-  - IDR 1,602 for a bare 12.5% cost of equity.
-  - **Attractive below about IDR 1,534; fair around 1,602–1,803.**
-- **Dividend capacity:** at IDR 1,534, the base 12-month dividend (IDR 200) yields 13.0%. The 2026 cash payout (IDR 221) was funded by FY26 profit and USTP dividends (2025: IDR 959bn cash + 414bn in kind).
+  - IDR 1,525 for a 17.5% hurdle (ke + 5pp margin of safety).
+  - IDR 1,593 for a bare 12.5% cost of equity.
+  - **Attractive below about IDR 1,525; fair around 1,593–1,792.**
+- **Dividend capacity:** at IDR 1,525, the base forward 12-month dividend (IDR 184) yields 12.1%. Coverage: FY25 free cash flow 2,809bn + JV cash dividends 959bn vs 3,276bn paid.
 - **Sensitivity:**
   - Moving 10pp of probability from base to bear lowers the value by about IDR 56.
   - ke ±1pp moves it by about ∓9%.
   - The probabilities are judgemental and not estimated.
+
+## Probability uncertainty (Dirichlet, concentration 10 around 30/50/20)
+
+- Expected 12-month return: median +5.1%, 5–95% range -5.5% to +14.8%.
+- P(expected return > ke 12.5%) = 10%; P(> hurdle 17.5%) = 2%.
+- Even with generous weight uncertainty, the expected return rarely clears the hurdle at this price.
+- **Forward dividend capacity** (payout 85%, interims ≈ 64% of the annual payout): next-12-month dividends of IDR 153 / 184 / 228 (bear / base / bull), replacing the earlier trailing-yield inputs (160 / 200 / 230).

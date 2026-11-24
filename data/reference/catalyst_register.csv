@@ -13,3 +13,7 @@ C-011,DSNG,Consensus Q4/FY26 revision toward our ~600bn Q4,Dec 2026-Mar 2027,exp
 C-012,STAA,Refinery capacity/utilisation disclosure; second consensus source,next bulletin / FY26 AR,data,"utilisation, refining margin, cash conversion",staa_assessment.md,S-042,open,2026-11-24
 C-013,Sector,B50 review outcome (ESDM) and any levy increase to fund it,Dec 2026-2027,policy,"domestic demand, levy schedule",postresults_selloff_diagnosis.md,press,open,2026-11-24
 C-014,Sector,Brent / POGO spread (biodiesel economics),daily,commodity,Brent USD 88 (24 Nov) vs 117 (28 Oct),postresults_selloff_diagnosis.md,S-002,open,2026-11-24
+C-015,TAPG,"Price trigger revised to IDR ~1,525 (forward-dividend update; supersedes C-010 level)",any time,valuation,tapg_monitor_log.csv trigger_hit,tactical_and_entry.md,S-002,open,2026-11-24
+C-016,LSIP,9M26 FS: Q3 gross-profit composition; net cash verification; payout policy,next milestone,research,GP 924 vs 438bn QoQ; cash 8.5tn,2026-11-24_phase5_catalyst_screen.md,LSIP FS (to fetch),open,2026-11-24
+C-017,Sector,FY2026 results vs consensus-implied Q4 (LSIP/TAPG/AALI implied -27% to -38% vs Q1-Q3 avg),Feb-Mar 2027,expectations,surprise_study.py using consensus_history.csv,2026-11-24_phase5_catalyst_screen.md,S-036,open,2026-11-24
+C-018,Sector,"Fertiliser prices (urea/DAP/MOP, World Bank monthly)",monthly,cost,YoY change; FY27 cost guidance check,macro_monthly.csv,S-003,open,2026-11-24
