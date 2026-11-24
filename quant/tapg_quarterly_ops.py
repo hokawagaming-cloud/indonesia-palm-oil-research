@@ -186,6 +186,13 @@ for item in ["ffb_nucleus_kt", "ffb_plasma_kt", "cpo_production_kt", "pk_product
                 "lhs": round(implied, 1), "rhs": first, "result": "DIFFERS" if abs(implied - first) > 1.5 else "PASS",
                 "detail": "unexplained; treat Q1 2026 as revised; PIT: use first-reported value before 2026-10-28"})
 D = pd.DataFrame(rows)
+# PIT fields (audit finding A): keep reporting period, original publication (unknown unless
+# verified), revision date and earliest verified availability separately.
+D["reporting_period"] = D["period"]
+D["original_publication_date"] = None          # newsletters (S-033) not in hand -> unverified
+D["revision_date"] = None
+D.loc[D["item"].str.endswith("_implied_by_9M"), "revision_date"] = "2026-10-29"
+D["earliest_verified_availability"] = D["first_seen"]
 D.to_csv(REF / "TAPG_quarterly_ops.csv", index=False)
 for x in chk:
     if x["check"].startswith("KBV 9M2026 sum = ALD 9M2026") and x["result"] == "FAIL":

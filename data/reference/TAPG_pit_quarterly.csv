@@ -1,0 +1,118 @@
+item,quarter,value_idr_mn,inputs,available_from,original_publication_date,all_inputs_from_original_filings
+capex_fixed_assets,2025Q1,-133809.0,FinancialStatement-2026-I-TAPG.pdf p26 (comparative),2026-04-28,2025-04-30,False
+capex_fixed_assets,2025Q2,-113451.0,FinancialStatement-2026-II-TAPG.pdf p26 (comparative); FinancialStatement-2026-I-TAPG.pdf p26 (comparative),2026-07-30,2025-07-28,False
+capex_fixed_assets,2025Q3,-210317.0,FinancialStatement-2026-III-TAPG.pdf p26 (comparative); FinancialStatement-2026-II-TAPG.pdf p26 (comparative),2026-10-29,2025-10-29,False
+capex_fixed_assets,2025Q4,-165117.0,TAPG_-_AR_2025.pdf p247 (current); FinancialStatement-2026-III-TAPG.pdf p26 (comparative),2026-10-29,2026-03-17,False
+cfo,2025Q1,773621.0,FinancialStatement-2026-I-TAPG.pdf p26 (comparative),2026-04-28,2025-04-30,False
+cfo,2025Q2,568233.0,FinancialStatement-2026-II-TAPG.pdf p26 (comparative); FinancialStatement-2026-I-TAPG.pdf p26 (comparative),2026-07-30,2025-07-28,False
+cfo,2025Q3,899732.0,FinancialStatement-2026-III-TAPG.pdf p26 (comparative); FinancialStatement-2026-II-TAPG.pdf p26 (comparative),2026-10-29,2025-10-29,False
+cfo,2025Q4,1189867.0,TAPG_-_AR_2025.pdf p247 (current); FinancialStatement-2026-III-TAPG.pdf p26 (comparative),2026-10-29,2026-03-17,False
+cost_of_sales,2025Q1,-1708314.0,FinancialStatement-2026-I-TAPG.pdf p18 (comparative),2026-04-28,2025-04-30,False
+cost_of_sales,2025Q2,-1763956.0,FinancialStatement-2026-II-TAPG.pdf p18 (comparative); FinancialStatement-2026-I-TAPG.pdf p18 (comparative),2026-07-30,2025-07-28,False
+cost_of_sales,2025Q3,-1608640.0,FinancialStatement-2026-III-TAPG.pdf p18 (comparative); FinancialStatement-2026-II-TAPG.pdf p18 (comparative),2026-10-29,2025-10-29,False
+cost_of_sales,2025Q4,-1823671.0,TAPG_-_AR_2025.pdf p244 (current); FinancialStatement-2026-III-TAPG.pdf p18 (comparative),2026-10-29,2026-03-17,False
+dividends_paid,2025Q1,-0.0,FinancialStatement-2026-I-TAPG.pdf p31 (comparative),2026-04-28,2025-04-30,False
+dividends_paid,2025Q2,-1570640.0,FinancialStatement-2026-II-TAPG.pdf p31 (comparative); FinancialStatement-2026-I-TAPG.pdf p31 (comparative),2026-07-30,2025-07-28,False
+dividends_paid,2025Q3,-812355.0,FinancialStatement-2026-III-TAPG.pdf p31 (comparative); FinancialStatement-2026-II-TAPG.pdf p31 (comparative),2026-10-29,2025-10-29,False
+dividends_paid,2025Q4,-892674.0,TAPG_-_AR_2025.pdf p248 (current); FinancialStatement-2026-III-TAPG.pdf p31 (comparative),2026-10-29,2026-03-17,False
+dividends_received_jv,2025Q1,500000.0,FinancialStatement-2026-I-TAPG.pdf p29 (comparative),2026-04-28,2025-04-30,False
+dividends_received_jv,2025Q2,4577.0,FinancialStatement-2026-II-TAPG.pdf p29 (comparative); FinancialStatement-2026-I-TAPG.pdf p29 (comparative),2026-07-30,2025-07-28,False
+dividends_received_jv,2025Q3,454230.0,FinancialStatement-2026-III-TAPG.pdf p29 (comparative); FinancialStatement-2026-II-TAPG.pdf p29 (comparative),2026-10-29,2025-10-29,False
+dividends_received_jv,2025Q4,0.0,TAPG_-_AR_2025.pdf p247 (current); FinancialStatement-2026-III-TAPG.pdf p29 (comparative),2026-10-29,2026-03-17,False
+finance_costs,2025Q1,-14507.0,FinancialStatement-2026-I-TAPG.pdf p18 (comparative),2026-04-28,2025-04-30,False
+finance_costs,2025Q2,-22461.0,FinancialStatement-2026-II-TAPG.pdf p18 (comparative); FinancialStatement-2026-I-TAPG.pdf p18 (comparative),2026-07-30,2025-07-28,False
+finance_costs,2025Q3,-2522.0,FinancialStatement-2026-III-TAPG.pdf p18 (comparative); FinancialStatement-2026-II-TAPG.pdf p18 (comparative),2026-10-29,2025-10-29,False
+finance_costs,2025Q4,-17370.0,TAPG_-_AR_2025.pdf p244 (current); FinancialStatement-2026-III-TAPG.pdf p18 (comparative),2026-10-29,2026-03-17,False
+finance_income,2025Q1,20643.0,FinancialStatement-2026-I-TAPG.pdf p18 (comparative),2026-04-28,2025-04-30,False
+finance_income,2025Q2,25224.0,FinancialStatement-2026-II-TAPG.pdf p18 (comparative); FinancialStatement-2026-I-TAPG.pdf p18 (comparative),2026-07-30,2025-07-28,False
+finance_income,2025Q3,22512.0,FinancialStatement-2026-III-TAPG.pdf p18 (comparative); FinancialStatement-2026-II-TAPG.pdf p18 (comparative),2026-10-29,2025-10-29,False
+finance_income,2025Q4,39659.0,TAPG_-_AR_2025.pdf p244 (current); FinancialStatement-2026-III-TAPG.pdf p18 (comparative),2026-10-29,2026-03-17,False
+general_admin_exp,2025Q1,-128866.0,FinancialStatement-2026-I-TAPG.pdf p18 (comparative),2026-04-28,2025-04-30,False
+general_admin_exp,2025Q2,-138637.0,FinancialStatement-2026-II-TAPG.pdf p18 (comparative); FinancialStatement-2026-I-TAPG.pdf p18 (comparative),2026-07-30,2025-07-28,False
+general_admin_exp,2025Q3,-118380.0,FinancialStatement-2026-III-TAPG.pdf p18 (comparative); FinancialStatement-2026-II-TAPG.pdf p18 (comparative),2026-10-29,2025-10-29,False
+general_admin_exp,2025Q4,-147858.0,TAPG_-_AR_2025.pdf p244 (current); FinancialStatement-2026-III-TAPG.pdf p18 (comparative),2026-10-29,2026-03-17,False
+gross_profit,2025Q1,911746.0,FinancialStatement-2026-I-TAPG.pdf p18 (comparative),2026-04-28,2025-04-30,False
+gross_profit,2025Q2,1124373.0,FinancialStatement-2026-II-TAPG.pdf p18 (comparative); FinancialStatement-2026-I-TAPG.pdf p18 (comparative),2026-07-30,2025-07-28,False
+gross_profit,2025Q3,1090806.0,FinancialStatement-2026-III-TAPG.pdf p18 (comparative); FinancialStatement-2026-II-TAPG.pdf p18 (comparative),2026-10-29,2025-10-29,False
+gross_profit,2025Q4,1370692.0,TAPG_-_AR_2025.pdf p244 (current); FinancialStatement-2026-III-TAPG.pdf p18 (comparative),2026-10-29,2026-03-17,False
+income_tax_expense,2025Q1,-155360.0,FinancialStatement-2026-I-TAPG.pdf p18 (comparative),2026-04-28,2025-04-30,False
+income_tax_expense,2025Q2,-189280.0,FinancialStatement-2026-II-TAPG.pdf p18 (comparative); FinancialStatement-2026-I-TAPG.pdf p18 (comparative),2026-07-30,2025-07-28,False
+income_tax_expense,2025Q3,-202630.0,FinancialStatement-2026-III-TAPG.pdf p18 (comparative); FinancialStatement-2026-II-TAPG.pdf p18 (comparative),2026-10-29,2025-10-29,False
+income_tax_expense,2025Q4,-268704.0,TAPG_-_AR_2025.pdf p244 (current); FinancialStatement-2026-III-TAPG.pdf p18 (comparative),2026-10-29,2026-03-17,False
+profit_attrib_owners,2025Q1,805258.0,FinancialStatement-2026-I-TAPG.pdf p20 (comparative),2026-04-28,2025-04-30,False
+profit_attrib_owners,2025Q2,888861.0,FinancialStatement-2026-II-TAPG.pdf p20 (comparative); FinancialStatement-2026-I-TAPG.pdf p20 (comparative),2026-07-30,2025-07-28,False
+profit_attrib_owners,2025Q3,985514.0,FinancialStatement-2026-III-TAPG.pdf p20 (comparative); FinancialStatement-2026-II-TAPG.pdf p20 (comparative),2026-10-29,2025-10-29,False
+profit_attrib_owners,2025Q4,1022633.0,TAPG_-_AR_2025.pdf p245 (current); FinancialStatement-2026-III-TAPG.pdf p20 (comparative),2026-10-29,2026-03-17,False
+profit_before_tax,2025Q1,990238.0,FinancialStatement-2026-I-TAPG.pdf p18 (comparative),2026-04-28,2025-04-30,False
+profit_before_tax,2025Q2,1111884.0,FinancialStatement-2026-II-TAPG.pdf p18 (comparative); FinancialStatement-2026-I-TAPG.pdf p18 (comparative),2026-07-30,2025-07-28,False
+profit_before_tax,2025Q3,1224832.0,FinancialStatement-2026-III-TAPG.pdf p18 (comparative); FinancialStatement-2026-II-TAPG.pdf p18 (comparative),2026-10-29,2025-10-29,False
+profit_before_tax,2025Q4,1334367.0,TAPG_-_AR_2025.pdf p244 (current); FinancialStatement-2026-III-TAPG.pdf p18 (comparative),2026-10-29,2026-03-17,False
+profit_for_year,2025Q1,834878.0,FinancialStatement-2026-I-TAPG.pdf p18 (comparative),2026-04-28,2025-04-30,False
+profit_for_year,2025Q2,922604.0,FinancialStatement-2026-II-TAPG.pdf p18 (comparative); FinancialStatement-2026-I-TAPG.pdf p18 (comparative),2026-07-30,2025-07-28,False
+profit_for_year,2025Q3,1022202.0,FinancialStatement-2026-III-TAPG.pdf p18 (comparative); FinancialStatement-2026-II-TAPG.pdf p18 (comparative),2026-10-29,2025-10-29,False
+profit_for_year,2025Q4,1065663.0,TAPG_-_AR_2025.pdf p244 (current); FinancialStatement-2026-III-TAPG.pdf p18 (comparative),2026-10-29,2026-03-17,False
+revenue,2025Q1,2620060.0,FinancialStatement-2026-I-TAPG.pdf p18 (comparative),2026-04-28,2025-04-30,False
+revenue,2025Q2,2888329.0,FinancialStatement-2026-II-TAPG.pdf p18 (comparative); FinancialStatement-2026-I-TAPG.pdf p18 (comparative),2026-07-30,2025-07-28,False
+revenue,2025Q3,2699446.0,FinancialStatement-2026-III-TAPG.pdf p18 (comparative); FinancialStatement-2026-II-TAPG.pdf p18 (comparative),2026-10-29,2025-10-29,False
+revenue,2025Q4,3194363.0,TAPG_-_AR_2025.pdf p244 (current); FinancialStatement-2026-III-TAPG.pdf p18 (comparative),2026-10-29,2026-03-17,False
+selling_marketing_exp,2025Q1,-68098.0,FinancialStatement-2026-I-TAPG.pdf p18 (comparative),2026-04-28,2025-04-30,False
+selling_marketing_exp,2025Q2,-75101.0,FinancialStatement-2026-II-TAPG.pdf p18 (comparative); FinancialStatement-2026-I-TAPG.pdf p18 (comparative),2026-07-30,2025-07-28,False
+selling_marketing_exp,2025Q3,-66039.0,FinancialStatement-2026-III-TAPG.pdf p18 (comparative); FinancialStatement-2026-II-TAPG.pdf p18 (comparative),2026-10-29,2025-10-29,False
+selling_marketing_exp,2025Q4,-80090.0,TAPG_-_AR_2025.pdf p244 (current); FinancialStatement-2026-III-TAPG.pdf p18 (comparative),2026-10-29,2026-03-17,False
+share_of_profit_associates,2025Q1,-659.0,FinancialStatement-2026-I-TAPG.pdf p18 (comparative),2026-04-28,2025-04-30,False
+share_of_profit_associates,2025Q2,-7550.0,FinancialStatement-2026-II-TAPG.pdf p18 (comparative); FinancialStatement-2026-I-TAPG.pdf p18 (comparative),2026-07-30,2025-07-28,False
+share_of_profit_associates,2025Q3,-5676.0,FinancialStatement-2026-III-TAPG.pdf p18 (comparative); FinancialStatement-2026-II-TAPG.pdf p18 (comparative),2026-10-29,2025-10-29,False
+share_of_profit_jv,2025Q1,260441.0,FinancialStatement-2026-I-TAPG.pdf p18 (comparative),2026-04-28,2025-04-30,False
+share_of_profit_jv,2025Q2,279769.0,FinancialStatement-2026-II-TAPG.pdf p18 (comparative); FinancialStatement-2026-I-TAPG.pdf p18 (comparative),2026-07-30,2025-07-28,False
+share_of_profit_jv,2025Q3,299399.0,FinancialStatement-2026-III-TAPG.pdf p18 (comparative); FinancialStatement-2026-II-TAPG.pdf p18 (comparative),2026-10-29,2025-10-29,False
+capex_fixed_assets,2026Q1,-137562.0,FinancialStatement-2026-I-TAPG.pdf p26 (current),2026-04-28,2026-04-28,True
+capex_fixed_assets,2026Q2,-186707.0,FinancialStatement-2026-II-TAPG.pdf p26 (current); FinancialStatement-2026-I-TAPG.pdf p26 (current),2026-07-30,2026-07-30,True
+capex_fixed_assets,2026Q3,-197973.0,FinancialStatement-2026-III-TAPG.pdf p26 (current); FinancialStatement-2026-II-TAPG.pdf p26 (current),2026-10-29,2026-10-29,True
+cfo,2026Q1,654283.0,FinancialStatement-2026-I-TAPG.pdf p26 (current),2026-04-28,2026-04-28,True
+cfo,2026Q2,964844.0,FinancialStatement-2026-II-TAPG.pdf p26 (current); FinancialStatement-2026-I-TAPG.pdf p26 (current),2026-07-30,2026-07-30,True
+cfo,2026Q3,1328040.0,FinancialStatement-2026-III-TAPG.pdf p26 (current); FinancialStatement-2026-II-TAPG.pdf p26 (current),2026-10-29,2026-10-29,True
+cost_of_sales,2026Q1,-1636028.0,FinancialStatement-2026-I-TAPG.pdf p18 (current),2026-04-28,2026-04-28,True
+cost_of_sales,2026Q2,-1808030.0,FinancialStatement-2026-II-TAPG.pdf p18 (current); FinancialStatement-2026-I-TAPG.pdf p18 (current),2026-07-30,2026-07-30,True
+cost_of_sales,2026Q3,-1885930.0,FinancialStatement-2026-III-TAPG.pdf p18 (current); FinancialStatement-2026-II-TAPG.pdf p18 (current),2026-10-29,2026-10-29,True
+dividends_paid,2026Q1,-0.0,FinancialStatement-2026-I-TAPG.pdf p31 (current),2026-04-28,2026-04-28,True
+dividends_paid,2026Q2,-1872419.0,FinancialStatement-2026-II-TAPG.pdf p31 (current); FinancialStatement-2026-I-TAPG.pdf p31 (current),2026-07-30,2026-07-30,True
+dividends_paid,2026Q3,-1231054.0,FinancialStatement-2026-III-TAPG.pdf p31 (current); FinancialStatement-2026-II-TAPG.pdf p31 (current),2026-10-29,2026-10-29,True
+dividends_received_jv,2026Q1,450000.0,FinancialStatement-2026-I-TAPG.pdf p29 (current),2026-04-28,2026-04-28,True
+dividends_received_jv,2026Q2,0.0,FinancialStatement-2026-II-TAPG.pdf p29 (current); FinancialStatement-2026-I-TAPG.pdf p29 (current),2026-07-30,2026-07-30,True
+dividends_received_jv,2026Q3,450000.0,FinancialStatement-2026-III-TAPG.pdf p29 (current); FinancialStatement-2026-II-TAPG.pdf p29 (current),2026-10-29,2026-10-29,True
+finance_costs,2026Q1,-15648.0,FinancialStatement-2026-I-TAPG.pdf p18 (current),2026-04-28,2026-04-28,True
+finance_costs,2026Q2,-15720.0,FinancialStatement-2026-II-TAPG.pdf p18 (current); FinancialStatement-2026-I-TAPG.pdf p18 (current),2026-07-30,2026-07-30,True
+finance_costs,2026Q3,-16622.0,FinancialStatement-2026-III-TAPG.pdf p18 (current); FinancialStatement-2026-II-TAPG.pdf p18 (current),2026-10-29,2026-10-29,True
+finance_income,2026Q1,33781.0,FinancialStatement-2026-I-TAPG.pdf p18 (current),2026-04-28,2026-04-28,True
+finance_income,2026Q2,50319.0,FinancialStatement-2026-II-TAPG.pdf p18 (current); FinancialStatement-2026-I-TAPG.pdf p18 (current),2026-07-30,2026-07-30,True
+finance_income,2026Q3,39349.0,FinancialStatement-2026-III-TAPG.pdf p18 (current); FinancialStatement-2026-II-TAPG.pdf p18 (current),2026-10-29,2026-10-29,True
+general_admin_exp,2026Q1,-130892.0,FinancialStatement-2026-I-TAPG.pdf p18 (current),2026-04-28,2026-04-28,True
+general_admin_exp,2026Q2,-144302.0,FinancialStatement-2026-II-TAPG.pdf p18 (current); FinancialStatement-2026-I-TAPG.pdf p18 (current),2026-07-30,2026-07-30,True
+general_admin_exp,2026Q3,-152270.0,FinancialStatement-2026-III-TAPG.pdf p18 (current); FinancialStatement-2026-II-TAPG.pdf p18 (current),2026-10-29,2026-10-29,True
+gross_profit,2026Q1,856169.0,FinancialStatement-2026-I-TAPG.pdf p18 (current),2026-04-28,2026-04-28,True
+gross_profit,2026Q2,1556923.0,FinancialStatement-2026-II-TAPG.pdf p18 (current); FinancialStatement-2026-I-TAPG.pdf p18 (current),2026-07-30,2026-07-30,True
+gross_profit,2026Q3,1703541.0,FinancialStatement-2026-III-TAPG.pdf p18 (current); FinancialStatement-2026-II-TAPG.pdf p18 (current),2026-10-29,2026-10-29,True
+income_tax_expense,2026Q1,-147859.0,FinancialStatement-2026-I-TAPG.pdf p18 (current),2026-04-28,2026-04-28,True
+income_tax_expense,2026Q2,-271211.0,FinancialStatement-2026-II-TAPG.pdf p18 (current); FinancialStatement-2026-I-TAPG.pdf p18 (current),2026-07-30,2026-07-30,True
+income_tax_expense,2026Q3,-318993.0,FinancialStatement-2026-III-TAPG.pdf p18 (current); FinancialStatement-2026-II-TAPG.pdf p18 (current),2026-10-29,2026-10-29,True
+profit_attrib_owners,2026Q1,739762.0,FinancialStatement-2026-I-TAPG.pdf p20 (current),2026-04-28,2026-04-28,True
+profit_attrib_owners,2026Q2,1300608.0,FinancialStatement-2026-II-TAPG.pdf p20 (current); FinancialStatement-2026-I-TAPG.pdf p20 (current),2026-07-30,2026-07-30,True
+profit_attrib_owners,2026Q3,1465250.0,FinancialStatement-2026-III-TAPG.pdf p20 (current); FinancialStatement-2026-II-TAPG.pdf p20 (current),2026-10-29,2026-10-29,True
+profit_before_tax,2026Q1,915122.0,FinancialStatement-2026-I-TAPG.pdf p18 (current),2026-04-28,2026-04-28,True
+profit_before_tax,2026Q2,1623919.0,FinancialStatement-2026-II-TAPG.pdf p18 (current); FinancialStatement-2026-I-TAPG.pdf p18 (current),2026-07-30,2026-07-30,True
+profit_before_tax,2026Q3,1843703.0,FinancialStatement-2026-III-TAPG.pdf p18 (current); FinancialStatement-2026-II-TAPG.pdf p18 (current),2026-10-29,2026-10-29,True
+profit_for_year,2026Q1,767263.0,FinancialStatement-2026-I-TAPG.pdf p18 (current),2026-04-28,2026-04-28,True
+profit_for_year,2026Q2,1352708.0,FinancialStatement-2026-II-TAPG.pdf p18 (current); FinancialStatement-2026-I-TAPG.pdf p18 (current),2026-07-30,2026-07-30,True
+profit_for_year,2026Q3,1524710.0,FinancialStatement-2026-III-TAPG.pdf p18 (current); FinancialStatement-2026-II-TAPG.pdf p18 (current),2026-10-29,2026-10-29,True
+revenue,2026Q1,2492197.0,FinancialStatement-2026-I-TAPG.pdf p18 (current),2026-04-28,2026-04-28,True
+revenue,2026Q2,3364953.0,FinancialStatement-2026-II-TAPG.pdf p18 (current); FinancialStatement-2026-I-TAPG.pdf p18 (current),2026-07-30,2026-07-30,True
+revenue,2026Q3,3589471.0,FinancialStatement-2026-III-TAPG.pdf p18 (current); FinancialStatement-2026-II-TAPG.pdf p18 (current),2026-10-29,2026-10-29,True
+selling_marketing_exp,2026Q1,-69723.0,FinancialStatement-2026-I-TAPG.pdf p18 (current),2026-04-28,2026-04-28,True
+selling_marketing_exp,2026Q2,-83763.0,FinancialStatement-2026-II-TAPG.pdf p18 (current); FinancialStatement-2026-I-TAPG.pdf p18 (current),2026-07-30,2026-07-30,True
+selling_marketing_exp,2026Q3,-102717.0,FinancialStatement-2026-III-TAPG.pdf p18 (current); FinancialStatement-2026-II-TAPG.pdf p18 (current),2026-10-29,2026-10-29,True
+share_of_profit_associates,2026Q1,-13261.0,FinancialStatement-2026-I-TAPG.pdf p18 (current),2026-04-28,2026-04-28,True
+share_of_profit_associates,2026Q2,-8695.0,FinancialStatement-2026-II-TAPG.pdf p18 (current); FinancialStatement-2026-I-TAPG.pdf p18 (current),2026-07-30,2026-07-30,True
+share_of_profit_associates,2026Q3,-16057.0,FinancialStatement-2026-III-TAPG.pdf p18 (current); FinancialStatement-2026-II-TAPG.pdf p18 (current),2026-10-29,2026-10-29,True
+share_of_profit_jv,2026Q1,242313.0,FinancialStatement-2026-I-TAPG.pdf p18 (current),2026-04-28,2026-04-28,True
+share_of_profit_jv,2026Q2,332205.0,FinancialStatement-2026-II-TAPG.pdf p18 (current); FinancialStatement-2026-I-TAPG.pdf p18 (current),2026-07-30,2026-07-30,True
+share_of_profit_jv,2026Q3,382373.0,FinancialStatement-2026-III-TAPG.pdf p18 (current); FinancialStatement-2026-II-TAPG.pdf p18 (current),2026-10-29,2026-10-29,True

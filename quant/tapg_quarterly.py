@@ -2,8 +2,8 @@
 (Q1, H1, 9M, FY), e.g. Q3 = 9M - H1 and Q4 = FY - 9M. This is arithmetic on reported
 numbers, not estimation. Balance-sheet items are point-in-time and are not differenced.
 
-available_from comes from data/reference/TAPG_disclosure_dates.csv (A-012); its basis is
-EVIDENCE or ASSUMPTION.
+available_from comes from the vintage-aware PIT panel (quant/pit_panel.py, D-014);
+original_publication_date is kept separately and must not be used for backtests.
 
 Output: data/reference/TAPG_quarterly_derived.csv
 Usage:  python -I quant/tapg_quarterly.py
@@ -42,6 +42,12 @@ def main() -> int:
                                  "derivation": how, "inputs": "; ".join(x for x in (src("Q1"), src("H1"), src("9M"), src("FY")) if x),
                                  "available_from": p[0], "available_basis": p[1]})
     out = pd.DataFrame(rows)
+    # Audit finding A (2026-11-24): availability must come from the vintage-aware PIT panel,
+    # not from the original period's filing date (we hold later-vintage comparatives).
+    pit = pd.read_csv(REF / "TAPG_pit_quarterly.csv").set_index(["item", "quarter"])
+    out["original_publication_date"] = [pit["original_publication_date"].get((i, q)) for i, q in zip(out["item"], out.quarter)]
+    out["available_from"] = [pit["available_from"].get((i, q)) for i, q in zip(out["item"], out.quarter)]
+    out["available_basis"] = "PIT vintage (quant/pit_panel.py): latest availability among input documents in hand"
     out.to_csv(REF / "TAPG_quarterly_derived.csv", index=False)
     pv = out.pivot(index="item", columns="quarter", values="value_idr_mn")
     print((pv / 1e3).round(1).to_string())
