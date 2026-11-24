@@ -30,6 +30,8 @@ Every assumption used in models, valuations or backtests goes here with its sour
 | A-025 | FY27 model | Drivers | Group CPO FY26 1,016kt (guidance); FY27 production bear −12% / base −7.5% / bull 0%; consolidated share 68.4%; seasonality = 2025 quarters; world CPO USD 1,000/1,100/1,200; USDIDR 18,000; HRef = 0.873 × WB; basis −53 IDR/kg; fertiliser FY26 ≈ 692bn (from a broker FY25 ≈ 800bn), FY27 × 1.25 (bull × 1.10); non-fertiliser COGS 50% price pass-through + 3–5% inflation; JV scales with TAPG gross profit | `quant/tapg_fy2027_model.py` docstring; mixed OBS/BRK/GUID/EST | 2026-11-24 | — |
 | A-026 | Nowcast | Joint downside grid levels | See `quant/tapg_q4_downside.py` (plausible / stressed / extreme per driver) | Evidence-anchored judgement | 2026-11-24 | — |
 | A-027 | Challenger | DSNG inventory release profit | 29kt × ASP 15,520 × 9M EBITDA margin 32%, 22% tax | Rough proxy; DSNG cost not modelled | 2026-11-24 | — |
+| A-028 | Allocation | TAPG entry analysis | Scenario sustainable profit 2,810 / 4,062 / 4,969bn with probabilities 30 / 50 / 20%; 12m dividends IDR 160 / 200 / 230; hurdle = ke + 5pp = 17.5% | Judgement (probabilities not estimated) | 2026-11-24 | — |
+| A-029 | Allocation | Uniform challenger valuation rule | bear 0.8 × last FY profit; base = average(last FY, consensus FY26); bull = consensus FY27; FCFE conversion TAPG 0.85 / DSNG 0.80 / STAA 0.70; ke 12.5%, g 2%; weights 30 / 50 / 20 | Judgement; consensus-anchored so the names are comparable | 2026-11-24 | — |
 | A-008 | Backtest | Backtest start | 2016-01 or the first month all required inputs exist, whichever is later | User mandate (D-003); see the Phase I audit | 2026-11-24 | — |
 
 ## Still to set (before the first backtest)

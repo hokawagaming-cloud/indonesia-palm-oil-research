@@ -1,0 +1,4 @@
+ticker,rule,price,bear_ret,base_ret,bull_ret,expected_return,entry_17.5pct,pe_cons26,n_analysts,conv_EST
+STAA,"uniform (bear 0.8xFY25, base avg(FY25,cons26), bull cons27)",1015.000,-0.180,0.122,0.339,0.075,928.348,5.677,1,0.700
+DSNG,"uniform (bear 0.8xFY25, base avg(FY25,cons26), bull cons27)",1275.000,-0.106,0.226,0.391,0.159,1258.066,5.977,4,0.800
+TAPG,"uniform (bear 0.8xFY25, base avg(FY25,cons26), bull cons27)",1710.000,-0.163,0.080,0.205,0.032,1502.488,8.045,4,0.850

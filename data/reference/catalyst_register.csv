@@ -8,3 +8,8 @@ C-006,TAPG,"Public expose FY2026 (FY27 guidance: production, fertiliser)",~Mar 2
 C-007,TAPG,"Investor newsletter Q4 2026 (ops: FFB, CPO, sales, fertiliser)",Jan-Feb 2027 (unverified),operations,"inventory release, Q4 sales volume",TAPG_quarterly_ops.csv,S-033 (host blocked),open,2026-11-24
 C-008,DSNG,Shipment normalisation / Q4 2026 results,Q4 sales; FY results ~Mar 2027,earnings,52kt CPO inventory release vs consensus-implied Q4 ~796bn,dsng_catalyst_assessment.md,S-041,open,2026-11-24
 C-009,TAPG,Interim dividend payment,2026-11-27,capital return,IDR 70/share (ex 11 Nov),TAPG_corporate_actions.csv,KSEI S-044,scheduled,2026-11-24
+C-010,TAPG,"Price trigger: below IDR ~1,530 (entry for 17.5% hurdle)",any time,valuation,price vs entry range,tactical_and_entry.md,S-002,open,2026-11-24
+C-011,DSNG,Consensus Q4/FY26 revision toward our ~600bn Q4,Dec 2026-Mar 2027,expectations,S&P FY26 EPS 213.3 -> ?,dsng_catalyst_assessment.md,S-036,open,2026-11-24
+C-012,STAA,Refinery capacity/utilisation disclosure; second consensus source,next bulletin / FY26 AR,data,"utilisation, refining margin, cash conversion",staa_assessment.md,S-042,open,2026-11-24
+C-013,Sector,B50 review outcome (ESDM) and any levy increase to fund it,Dec 2026-2027,policy,"domestic demand, levy schedule",postresults_selloff_diagnosis.md,press,open,2026-11-24
+C-014,Sector,Brent / POGO spread (biodiesel economics),daily,commodity,Brent USD 88 (24 Nov) vs 117 (28 Oct),postresults_selloff_diagnosis.md,S-002,open,2026-11-24

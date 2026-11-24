@@ -1,0 +1,4 @@
+scenario,sustainable_np,prob,value_per_share,div_12m
+bear: mean reversion to FY2023-25 average,2810.0,0.3,1168.7,160.0
+base: our FY27 base,4062.0,0.5,1689.5,200.0
+bull: our FY27 bull,4969.0,0.2,2066.7,230.0

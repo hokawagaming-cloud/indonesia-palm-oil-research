@@ -1,0 +1,3 @@
+ticker,price,mcap_bn,implied_sustainable_np,expected_value_12m,expected_return,bear_return,bull_return,entry_17.5pct
+STAA,1015.0,11060,1626,1165,0.148,-0.176,0.51,992
+DSNG,1275.0,13515,1739,1524,0.196,-0.041,0.402,1297

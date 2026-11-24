@@ -27,3 +27,11 @@ def test_validation_uses_original_publication_cutoff():
 def test_fy27_netback_reproduces_q3_2026_asp():
     asp, lv, dt = fy27.realised_asp(1148.33, 17846.3, date="2026-08-15")
     assert abs(asp - 15565) < 60  # calibration basis -53 IDR/kg on Q3 2026 inputs
+
+
+def test_forecast_journal_is_append_only():
+    j = pd.read_csv(ROOT / "data" / "reference" / "forecast_journal.csv")
+    # Phase III entries (26) and both superseded Q4 bases must still be present
+    assert len(j) >= 31  # 25 Phase III rows + restored superseded row + 5 Phase IV rows
+    sup = j[j.status.fillna("").str.startswith("superseded")]
+    assert set(sup.value_idr_bn.round(1)) >= {1341.2, 1267.8}

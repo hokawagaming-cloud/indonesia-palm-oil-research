@@ -86,8 +86,8 @@ def journal() -> pd.DataFrame:
     for tgt, v in [("TAPG 2026Q4 profit to owners", 714.4), ("TAPG FY2026 profit to owners", 4220.0), ("TAPG FY2027 profit to owners", 4473.0)]:
         rows.append(dict(made_on=made, model_commit="external", target=tgt, scenario="consensus (S&P, S-036/S-040)", value_idr_bn=v))
     # superseded versions of our Q4 base, kept for the audit trail
-    for v, note in [(1341.2, "superseded: inventory double-count (D-015)"), (1267.8, "superseded: other operating items at Q3 level (D-018)")]:
-        rows.append(dict(made_on=made, model_commit="pre-fix", target="TAPG 2026Q4 profit to owners", scenario="base", value_idr_bn=v, status=note))
+    for v, note, tag in [(1341.2, "superseded: inventory double-count (D-015)", "pre-fix-D015"), (1267.8, "superseded: other operating items at Q3 level (D-018)", "pre-fix-D018")]:
+        rows.append(dict(made_on=made, model_commit=tag, target="TAPG 2026Q4 profit to owners", scenario="base", value_idr_bn=v, status=note))
     J = pd.DataFrame(rows)
     J["status"] = J.get("status").fillna("open") if "status" in J else "open"
     J["resolves_with"] = J.target.map(lambda t: "FY2026 audited FS (IDX, expected by ~31 Mar 2027)" if ("2026" in t) else "2027 interim/annual filings")
@@ -95,7 +95,10 @@ def journal() -> pd.DataFrame:
     path = REF / "forecast_journal.csv"
     if path.exists():
         old = pd.read_csv(path)
-        J = pd.concat([old, J]).drop_duplicates(["made_on", "target", "scenario", "model_commit"], keep="first")
+        # append-only: never drop an existing row; only add rows not already present (full-key match)
+        key = ["made_on", "target", "scenario", "value_idr_bn"]  # same forecast re-logged under a new commit is not new
+        new = J.merge(old[key].drop_duplicates(), on=key, how="left", indicator=True)
+        J = pd.concat([old, new[new["_merge"] == "left_only"].drop(columns="_merge")], ignore_index=True)
     J.to_csv(path, index=False)
     return J
 

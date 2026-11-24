@@ -1,0 +1,6 @@
+year,reported_np_owners,stockanalysis_net_income_rounded,match_within_rounding,fv_bio_pre_tax,np_ex_fv_bio_approx,adj_vs_reported_%,reported_eps
+FY2021,1159.0,1160,True,101.0,1083.4,-6.5,58.4
+FY2022,2981.1,2980,True,-122.9,3073.1,3.1,150.2
+FY2023,1608.2,1610,True,-19.7,1623.0,0.9,81.0
+FY2024,3120.3,3120,True,208.4,2964.2,-5.0,157.2
+FY2025,3702.3,3700,True,-42.6,3734.2,0.9,186.5

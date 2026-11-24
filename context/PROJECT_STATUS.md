@@ -4,10 +4,10 @@ _Last updated: 2026-11-24_
 
 ## Current phase
 
-**Phase III — Expectations gap and predictive validation: first pass done (2026-11-24).**
-- Verdict D-020: **no BUY**. TAPG stays primary coverage, on watch.
-- Models are EXPLORATORY (PIT n = 2), with a forward-testing journal open.
-- See `research/company/TAPG/2026-11-24_IC_memo.md`.
+**Phase IV — Alpha discovery and capital allocation: decision NO TRADE (D-022, 2026-11-24).**
+- TAPG stays primary coverage, WATCH / NO BUY; attractive below ≈ IDR 1,530.
+- The IC memo and Phase IV note are kept in the repository and not published.
+- See `research/2026-11-24_phase4_capital_allocation.md`.
 
 ## Done
 
@@ -71,9 +71,17 @@ _Last updated: 2026-11-24_
   - Q4 joint downside: no combination without an extreme driver reaches the consensus-implied 720bn; all drivers stressed gives ≈ 728bn. Base revised to 1,209bn (D-018).
   - FY27 model: base 4,062bn vs consensus 4,473bn.
   - Reverse valuation: the price implies ≈ 4.1tn sustainable profit.
-  - PIT validation n = 2 (exploratory); forecast journal (26 entries); catalyst register (9 entries).
+  - PIT validation n = 2 (exploratory); forecast journal (25 entries; one superseded record later restored, D-023); catalyst register (9 entries).
   - DSNG assessment: catalyst already in consensus.
   - IC memo. Tests: 30 passing.
+
+- [x] **Phase IV (2026-11-24):**
+  - Sell-off diagnosis: not sector-wide; commodity headwind on thin liquidity plus name-specific FY27 concerns.
+  - EPS basis reconciled (reported, D-021).
+  - STAA assessment.
+  - Tactical Q4 beat not supported (n = 8).
+  - TAPG entry range: probability-weighted return +5% at 1,710.
+  - Three-name uniform scorecard. Journal 31 rows (append-only, D-023); catalysts 14. Tests 31 passing.
 
 ## Not resolved (sources tried and failed)
 
@@ -89,11 +97,9 @@ _Last updated: 2026-11-24_
 
 ## Next
 
-- [ ] Track catalysts C-002 (consensus revisions), C-003 (Dec HRef, levy/duty), C-004 (KPBN Q4); re-run the nowcast when they print.
-- [ ] Obtain original-vintage TAPG interims 2021–2025 and newsletters (S-033) for real PIT validation (target ≥ 12 quarters).
-- [ ] Pin down the fertiliser level (FY25/FY26): the key Q4 and FY27 swing factor.
-- [ ] Investigate the sector-wide post-9M underperformance (TAPG and DSNG both ≈ −13% vs the remaining peers): which names outperformed, and why.
-- [ ] STAA assessment (bulletin S-042 downloaded); DSNG reverse valuation and cost model.
+- [ ] Monitor triggers C-010 (TAPG < ≈1,530), C-011 (DSNG consensus cut), C-012 (STAA refinery data), C-013 (B50 review), C-003 (Dec HRef).
+- [ ] Re-run the Q4 nowcast and three-name scorecard when consensus or KPBN prices move. Resolve the journal at FY2026 results (~Mar 2027).
+- [ ] Data gaps blocking real alpha validation: original-vintage interims 2021–25 and newsletters (S-033), fertiliser level, foreign-flow data, STAA refinery capacity.
 - [ ] Decide D-004; cross-check Yahoo prices; verify A-013 deadlines.
 
 ## Blockers
