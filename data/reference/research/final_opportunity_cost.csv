@@ -1,0 +1,10 @@
+asset,expected_net_12m,vol_EST,excess_vs_mmf,excess_per_vol
+Cash (0%),0.0000,0.0000,-0.0550,
+IDR time deposit 12m (net of 20% tax),0.0380,0.0000,-0.0170,
+Money-market fund (net),0.0550,0.0000,0.0000,
+"10y SBN, hold for coupon (net of 10% tax)",0.0696,0.0800,0.0146,0.1827
+"IHSG (rf + 5.5pp ERP, EST; less 0.3% cost)",0.1293,0.2000,0.0743,0.3717
+"TAPG @1,710 (our model)",0.0425,0.5180,-0.0125,-0.0240
+"DSNG @1,275 (uniform rule)",0.1535,0.5310,0.0985,0.1855
+"STAA @1,015 (uniform rule)",0.0695,0.3807,0.0145,0.0381
+"LSIP @1,570 (market-calibrated, after costs)",0.1760,0.4006,0.1210,0.3021

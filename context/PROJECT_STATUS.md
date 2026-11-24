@@ -4,9 +4,10 @@ _Last updated: 2026-11-24_
 
 ## Current phase
 
-**Phase VI — LSIP Stage 1 complete (2026-11-25).** Research gate **NOT PASSED (borderline)** (D-027); Stage 2 withheld. Overall decision remains **NO TRADE**.
-- **TAPG:** WATCH / NO BUY, monitored via `quant/tapg_monitor.py` (trigger about IDR 1,525).
-- **LSIP:** WATCH; re-test on C-019/C-020/C-021.
+**Phase VII — institutional decision complete (2026-11-25): NO TRADE** (D-028).
+- TAPG WATCH (trigger ≤ IDR 1,525); LSIP WATCH (re-test on C-019/C-020/C-021; preferred entry 1,340–1,460); DSNG WATCH (C-011); STAA AVOID.
+- LSIP Stage 2 remains withheld (D-027).
+- Default while waiting: money-market or short SBN (5.5–7.0% net).
 
 ## Done
 
@@ -97,6 +98,12 @@ _Last updated: 2026-11-24_
   - Cash 8.5tn verified (7.8% at a related-party bank); excess about 6.3tn.
   - Buyback: +6.4% EPS accretion if fully executed; execution unverified.
   - Gate 17.9% vs 17.5% (P = 51%): not passed. Tests 35 passing.
+
+- [x] **Phase VII decision (2026-11-25):**
+  - Market and factor betas, residual returns, momentum, liquidity and crowding for 4 names.
+  - LSIP valuation cross-checked with 5 methods (interest income not double-counted), joint adverse grid, reverse valuation.
+  - Opportunity cost vs deposits, money market, SBN and IHSG after tax and costs.
+  - Governance review; scorecard with stated criteria; execution and exit rules. Decision NO TRADE. Tests 39 passing.
 
 ## Not resolved (sources tried and failed)
 

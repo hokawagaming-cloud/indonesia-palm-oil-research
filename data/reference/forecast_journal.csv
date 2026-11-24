@@ -36,3 +36,5 @@ made_on,model_commit,target,scenario,value_idr_bn,status,resolves_with,actual_id
 2026-11-25,ca40d81+lsip-s1,LSIP 2026Q4 profit to owners,bull,654.3,open,LSIP FY2026 FS (~late Feb 2027),,
 2026-11-25,external,LSIP 2026Q4 profit to owners,"consensus (S&P, 5 analysts)",360.2,open,LSIP FY2026 FS (~late Feb 2027),,
 2026-11-25,ca40d81+lsip-s1,"LSIP 12m total return from IDR 1,570",expected,,open,price + dividends at 2027-11-25,,+17.9%; P(>17.5%)=51%; gate NOT passed (borderline)
+2026-11-25,ffc7178+phase7,"LSIP 12m total return from IDR 1,570 (ex-interest, after div tax)",expected,,open,price + dividends at 2027-11-25,,+18.2% gross / +17.6% net of costs; P(>17.5%)=54%; joint adverse -37%; decision WATCH
+2026-11-25,ffc7178+phase7,Final decision 2026-11-25,decision,,open,12m returns of TAPG/LSIP/DSNG/STAA vs money-market 5.5%,,"NO TRADE (TAPG/LSIP/DSNG WATCH, STAA AVOID)"
