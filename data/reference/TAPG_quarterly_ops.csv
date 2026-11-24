@@ -1,0 +1,139 @@
+item,period,value,unit,scope,source_doc,page,first_seen,method,note
+ffb_nucleus_kt,2024Q3,691.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+ffb_nucleus_kt,2024Q4,887.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+ffb_nucleus_kt,2025Q1,741.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+ffb_nucleus_kt,2025Q2,815.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+ffb_nucleus_kt,2025Q3,721.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+ffb_nucleus_kt,2025Q4,763.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+ffb_nucleus_kt,2026Q1,698.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+ffb_nucleus_kt,2026Q2,840.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+ffb_nucleus_kt,2026Q3,789.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+ffb_plasma_kt,2024Q3,79.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+ffb_plasma_kt,2024Q4,100.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+ffb_plasma_kt,2025Q1,89.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+ffb_plasma_kt,2025Q2,100.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+ffb_plasma_kt,2025Q3,90.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+ffb_plasma_kt,2025Q4,105.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+ffb_plasma_kt,2026Q1,95.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+ffb_plasma_kt,2026Q2,108.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+ffb_plasma_kt,2026Q3,104.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+ffb_processed_internal_kt_kbv,2024Q3,622.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),KBV split label 'internal (nucleus+plasma)' does not match company definitions; see checks
+ffb_processed_internal_kt_kbv,2024Q4,851.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),KBV split label 'internal (nucleus+plasma)' does not match company definitions; see checks
+ffb_processed_internal_kt_kbv,2025Q1,691.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),KBV split label 'internal (nucleus+plasma)' does not match company definitions; see checks
+ffb_processed_internal_kt_kbv,2025Q2,753.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),KBV split label 'internal (nucleus+plasma)' does not match company definitions; see checks
+ffb_processed_internal_kt_kbv,2025Q3,651.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),KBV split label 'internal (nucleus+plasma)' does not match company definitions; see checks
+ffb_processed_internal_kt_kbv,2025Q4,738.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),KBV split label 'internal (nucleus+plasma)' does not match company definitions; see checks
+ffb_processed_internal_kt_kbv,2026Q1,659.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),KBV split label 'internal (nucleus+plasma)' does not match company definitions; see checks
+ffb_processed_internal_kt_kbv,2026Q2,813.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),KBV split label 'internal (nucleus+plasma)' does not match company definitions; see checks
+ffb_processed_internal_kt_kbv,2026Q3,797.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),KBV split label 'internal (nucleus+plasma)' does not match company definitions; see checks
+ffb_processed_external_kt_kbv,2024Q3,292.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),KBV split label 'internal (nucleus+plasma)' does not match company definitions; see checks
+ffb_processed_external_kt_kbv,2024Q4,348.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),KBV split label 'internal (nucleus+plasma)' does not match company definitions; see checks
+ffb_processed_external_kt_kbv,2025Q1,310.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),KBV split label 'internal (nucleus+plasma)' does not match company definitions; see checks
+ffb_processed_external_kt_kbv,2025Q2,338.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),KBV split label 'internal (nucleus+plasma)' does not match company definitions; see checks
+ffb_processed_external_kt_kbv,2025Q3,307.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),KBV split label 'internal (nucleus+plasma)' does not match company definitions; see checks
+ffb_processed_external_kt_kbv,2025Q4,302.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),KBV split label 'internal (nucleus+plasma)' does not match company definitions; see checks
+ffb_processed_external_kt_kbv,2026Q1,283.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),KBV split label 'internal (nucleus+plasma)' does not match company definitions; see checks
+ffb_processed_external_kt_kbv,2026Q2,332.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),KBV split label 'internal (nucleus+plasma)' does not match company definitions; see checks
+ffb_processed_external_kt_kbv,2026Q3,326.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),KBV split label 'internal (nucleus+plasma)' does not match company definitions; see checks
+cpo_production_kt,2024Q3,209.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+cpo_production_kt,2024Q4,273.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+cpo_production_kt,2025Q1,231.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+cpo_production_kt,2025Q2,254.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+cpo_production_kt,2025Q3,222.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+cpo_production_kt,2025Q4,245.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+cpo_production_kt,2026Q1,227.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+cpo_production_kt,2026Q2,271.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+cpo_production_kt,2026Q3,271.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+oer_pct,2024Q3,22.9,%,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+oer_pct,2024Q4,22.8,%,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+oer_pct,2025Q1,23.1,%,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+oer_pct,2025Q2,23.3,%,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+oer_pct,2025Q3,23.2,%,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+oer_pct,2025Q4,23.6,%,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+oer_pct,2026Q1,24.1,%,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+oer_pct,2026Q2,23.7,%,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+oer_pct,2026Q3,24.1,%,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+pk_production_kt,2024Q3,44.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+pk_production_kt,2024Q4,58.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+pk_production_kt,2025Q1,50.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+pk_production_kt,2025Q2,54.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+pk_production_kt,2025Q3,46.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+pk_production_kt,2025Q4,52.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+pk_production_kt,2026Q1,46.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+pk_production_kt,2026Q2,58.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+pk_production_kt,2026Q3,60.0,thousand t,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+ker_pct,2024Q3,4.8,%,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+ker_pct,2024Q4,4.8,%,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+ker_pct,2025Q1,5.0,%,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+ker_pct,2025Q2,4.9,%,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+ker_pct,2025Q3,4.8,%,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+ker_pct,2025Q4,5.0,%,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+ker_pct,2026Q1,4.9,%,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+ker_pct,2026Q2,5.1,%,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+ker_pct,2026Q3,5.3,%,groupwide,kbvalbury_tapg_3q26_261030.pdf,2,2026-10-29,chart data label (read from rendered image),
+ffb_nucleus_kt,2025Q3,721.3,thousand t,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+ffb_nucleus_kt,2026Q2,839.5,thousand t,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+ffb_nucleus_kt,2026Q3,789.4,thousand t,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+ffb_nucleus_kt,9M2025,2277.1,thousand t,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+ffb_nucleus_kt,9M2026,2345.1,thousand t,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+ffb_plasma_kt,2025Q3,90.6,thousand t,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+ffb_plasma_kt,2026Q2,107.8,thousand t,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+ffb_plasma_kt,2026Q3,104.1,thousand t,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+ffb_plasma_kt,9M2025,279.2,thousand t,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+ffb_plasma_kt,9M2026,292.8,thousand t,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+ffb_processed_kt,2025Q3,957.5,thousand t,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+ffb_processed_kt,2026Q2,1145.3,thousand t,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+ffb_processed_kt,2026Q3,1123.5,thousand t,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+ffb_processed_kt,9M2025,3048.6,thousand t,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+ffb_processed_kt,9M2026,3214.6,thousand t,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+cpo_production_kt,2025Q3,222.1,thousand t,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+cpo_production_kt,2026Q2,271.1,thousand t,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+cpo_production_kt,2026Q3,270.9,thousand t,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+cpo_production_kt,9M2025,708.0,thousand t,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+cpo_production_kt,9M2026,756.8,thousand t,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+pk_production_kt,2025Q3,46.2,thousand t,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+pk_production_kt,2026Q2,58.1,thousand t,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+pk_production_kt,2026Q3,60.3,thousand t,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+pk_production_kt,9M2025,149.6,thousand t,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+pk_production_kt,9M2026,163.7,thousand t,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+oer_pct,2025Q3,23.2,%,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+oer_pct,2026Q2,23.7,%,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+oer_pct,2026Q3,24.1,%,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+oer_pct,9M2025,23.2,%,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+oer_pct,9M2026,23.5,%,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+ker_pct,2025Q3,4.8,%,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+ker_pct,2026Q2,5.1,%,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+ker_pct,2026Q3,5.4,%,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+ker_pct,9M2025,4.9,%,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+ker_pct,9M2026,5.1,%,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+rubber_sales_t,2025Q3,155.0,t,consolidated,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+rubber_sales_t,2026Q2,229.0,t,consolidated,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+rubber_sales_t,2026Q3,162.0,t,consolidated,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+rubber_sales_t,9M2025,584.0,t,consolidated,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+rubber_sales_t,9M2026,564.0,t,consolidated,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,table,source stated by ALD: TAPG investor newsletter Vol 24
+ffb_external_kt_ald_calc,2025Q3,146.0,thousand t,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,3,2026-10-29,broker calculation: processed - nucleus - plasma (not a disclosed figure),
+ffb_external_kt_ald_calc,2026Q2,198.0,thousand t,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,3,2026-10-29,broker calculation: processed - nucleus - plasma (not a disclosed figure),
+ffb_external_kt_ald_calc,2026Q3,230.0,thousand t,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,3,2026-10-29,broker calculation: processed - nucleus - plasma (not a disclosed figure),
+sales_volume_cpo_kt,9M2026,507.8,thousand t,consolidated,kbvalbury_tapg_3q26_261030.pdf,1,2026-10-29,text,
+asp_cpo_idr_kg,9M2026,15157.0,IDR/kg,consolidated,kbvalbury_tapg_3q26_261030.pdf,1,2026-10-29,text,
+revenue_cpo_idr_bn,9M2026,7700.0,IDR bn,consolidated,kbvalbury_tapg_3q26_261030.pdf,1,2026-10-29,text ('IDR7.70 tn'),
+sales_volume_cpo_kt,2026Q3,187.5,thousand t,consolidated,kbvalbury_tapg_3q26_261030.pdf,1,2026-10-29,text,
+asp_cpo_idr_kg,2026Q3,15565.0,IDR/kg,consolidated,kbvalbury_tapg_3q26_261030.pdf,1,2026-10-29,text,
+revenue_cpo_idr_bn,2026Q3,2920.0,IDR bn,consolidated,kbvalbury_tapg_3q26_261030.pdf,1,2026-10-29,text ('IDR2.92 tn'),
+sales_volume_pk_kt,2026Q3,34.2,thousand t,consolidated,kbvalbury_tapg_3q26_261030.pdf,1,2026-10-29,text,
+asp_pk_idr_kg,2026Q3,13402.0,IDR/kg,consolidated,kbvalbury_tapg_3q26_261030.pdf,1,2026-10-29,text,
+fertilizer_cost_idr_bn,2026Q3,75.0,IDR bn,consolidated,kbvalbury_tapg_3q26_261030.pdf,1,2026-10-29,text ('-46% YoY to IDR75 bn'),
+fertilizer_cost_yoy_pct,2026Q3,-46.0,%,consolidated,kbvalbury_tapg_3q26_261030.pdf,1,2026-10-29,text,
+fertilizer_cost_yoy_pct,9M2026,-23.0,%,consolidated,kbvalbury_tapg_3q26_261030.pdf,1,2026-10-29,text,
+purchased_ffb_cost_yoy_pct,2026Q3,60.0,%,consolidated,kbvalbury_tapg_3q26_261030.pdf,1,2026-10-29,text ('+60% YoY rise in purchased FFB costs'); level not disclosed,
+ffb_yield_t_ha,2026Q3,6.4,t/ha,groupwide,kbvalbury_tapg_3q26_261030.pdf,1,2026-10-29,text,
+ffb_yield_t_ha,9M2026,18.9,t/ha,groupwide,kbvalbury_tapg_3q26_261030.pdf,1,2026-10-29,text,
+share_jv_assoc_idr_bn,9M2026,918.9,IDR bn,consolidated,kbvalbury_tapg_3q26_261030.pdf,1,2026-10-29,text; official 9M26 = 956.9 - 38.0 = 918.9,
+ffb_nucleus_kt,2026Q1,698.0,thousand t,groupwide,Bareksa 2026-04-28 (S-026),0,2026-04-28,press text ('sekitar 698 ribu ton'),
+ffb_nucleus_kt,2025Q1,741.0,thousand t,groupwide,Bareksa 2026-04-28 (S-026),0,2026-04-28,press text,
+ffb_nucleus_kt,2026Q1,698.0,thousand t,groupwide,ajaib_TAPG_company_update_20260505.pdf,1,2026-05-05,text ('approximately 698 thousand tons'),
+ffb_nucleus_kt_implied_by_9M,2026Q1,716.2,thousand t,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,DERIVED: 9M2026 - 2Q26 - 3Q26 (ALD); differs from Q1 as first reported - possible revision,
+ffb_plasma_kt_implied_by_9M,2026Q1,80.9,thousand t,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,DERIVED: 9M2026 - 2Q26 - 3Q26 (ALD); differs from Q1 as first reported - possible revision,
+cpo_production_kt_implied_by_9M,2026Q1,214.8,thousand t,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,DERIVED: 9M2026 - 2Q26 - 3Q26 (ALD); differs from Q1 as first reported - possible revision,
+pk_production_kt_implied_by_9M,2026Q1,45.3,thousand t,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,DERIVED: 9M2026 - 2Q26 - 3Q26 (ALD); differs from Q1 as first reported - possible revision,
+ffb_processed_kt_implied_by_9M,2026Q1,945.8,thousand t,groupwide,aldiracita_TAPG_9M26_EarningsFlash.pdf,2,2026-10-29,DERIVED: 9M2026 - 2Q26 - 3Q26 (ALD); differs from Q1 as first reported - possible revision,

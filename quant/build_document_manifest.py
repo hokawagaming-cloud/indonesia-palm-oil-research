@@ -20,6 +20,11 @@ META = {  # filename -> (document, reporting period, source URL as known)
     "FinancialStatement-2026-I-TAPG.pdf": ("TAPG interim financial statements Q1 2026 (IDX XBRL)", "Q1 2026 (Jan-Mar)", "not recorded - user download (IDX filing)"),
     "FinancialStatement-2026-II-TAPG.pdf": ("TAPG interim financial statements H1 2026 (IDX XBRL)", "H1 2026 (Jan-Jun)", "not recorded - user download (IDX filing)"),
     "FinancialStatement-2026-III-TAPG.pdf": ("TAPG interim financial statements 9M 2026 (IDX XBRL)", "9M 2026 (Jan-Sep)", "https://financialfilings.com/filings/pt-triputra-agro-persada-tbk/interim-quarterly-report/2026/74818409/ (per user)"),
+    "kbvalbury_tapg_3q26_261030.pdf": ("KB Valbury TAPG company report (broker)", "3Q26 / 9M26 (published 2026-10-29)", "https://www.kbvalbury.com/cfind/source/files/tapg-3q26---261030.pdf"),
+    "aldiracita_TAPG_9M26_EarningsFlash.pdf": ("Aldiracita TAPG 9M26 Earnings Flash (broker)", "9M26 (published 2026-10-29)", "https://aldiracita.com/wp-content/uploads/2026/10/TAPG_9M26_EarningsFlash.pdf"),
+    "ajaib_TAPG_company_update_20260505.pdf": ("Ajaib TAPG Company Update (broker)", "1Q26 (published 2026-05-05)", "https://storage.googleapis.com/storage-ajaib-prd-platform-pdf/Company%20Update%20-%20TAPG%20%2820260505%29.pdf"),
+    "phintraco_TAPG_initiation_20250708.pdf": ("Phintraco TAPG initiation (broker)", "FY2024 base (published 2025-07-08)", "https://phintracosekuritas.com/wp-content/uploads/2025/07/PHINTAS-Initiate-Report-TAPG_20250708-EN.pdf"),
+    "idx_public_expose_FY2025_20260316.pdf": ("TAPG Public Expose FY2025 (IDX filing)", "FY2021-FY2025, FY2026F", "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_EREP/202603/d03bdcd902_0ec945e3ed.pdf"),
 }
 
 
@@ -48,8 +53,9 @@ def main() -> int:
         r["tracked_in_git_now"] |= rel in tracked
     out = pd.DataFrame(rows.values())
     out["local_paths"] = out["local_paths"].map("; ".join)
-    out["in_git_history"] = out["filename"].isin(
-        [n for n in META if n != "TAPG_-_AR_2025.pdf"])  # uploaded via GitHub in commit 39f5fc1
+    hist = set(subprocess.run(["git", "log", "--all", "--name-only", "--format="], cwd=ROOT, capture_output=True,
+                              text=True).stdout.splitlines())
+    out["in_git_history"] = out["filename"].map(lambda n: any(h.endswith("/" + n) or h == n for h in hist))
     out.to_csv(ROOT / "data" / "reference" / "document_manifest.csv", index=False)
     print(out[["filename", "reporting_period", "bytes", "tracked_in_git_now", "in_git_history"]].to_string(index=False))
     print("copies per document:", out["local_paths"].str.count(";").add(1).tolist())

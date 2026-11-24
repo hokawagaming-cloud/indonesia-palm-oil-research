@@ -21,7 +21,7 @@ def main() -> int:
     d = pd.read_csv(REF / "TAPG_statements_extracted.csv")
     d = d[d.status == "extracted"].drop_duplicates(["item", "period"], keep="last")
     dates = pd.read_csv(REF / "TAPG_disclosure_dates.csv")
-    dates = dates[dates.disclosure != "annual report (operational tables)"].set_index("period")
+    dates = dates[dates.disclosure.isin(["interim FS", "audited FS"])].set_index("period")
     avail = lambda lbl: (dates.at[lbl, "available_from"], dates.at[lbl, "basis"].split(":")[0]) if lbl in dates.index else (None, "UNKNOWN")
     cum = {p: f"{p.split()[0]}" for p in d.period.unique()}
     rows = []

@@ -1,118 +1,118 @@
 item,quarter,value_idr_mn,derivation,inputs,available_from,available_basis
-capex_fixed_assets,2025Q1,-133809.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p26; FinancialStatement-2026-II-TAPG.pdf p26; FinancialStatement-2026-III-TAPG.pdf p26; TAPG_-_AR_2025.pdf p247,2025-05-01,ASSUMPTION
-capex_fixed_assets,2025Q2,-113451.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p26; FinancialStatement-2026-II-TAPG.pdf p26; FinancialStatement-2026-III-TAPG.pdf p26; TAPG_-_AR_2025.pdf p247,2025-07-29,EVIDENCE
+capex_fixed_assets,2025Q1,-133809.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p26; FinancialStatement-2026-II-TAPG.pdf p26; FinancialStatement-2026-III-TAPG.pdf p26; TAPG_-_AR_2025.pdf p247,2025-04-30,EVIDENCE
+capex_fixed_assets,2025Q2,-113451.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p26; FinancialStatement-2026-II-TAPG.pdf p26; FinancialStatement-2026-III-TAPG.pdf p26; TAPG_-_AR_2025.pdf p247,2025-07-28,EVIDENCE
 capex_fixed_assets,2025Q3,-210317.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p26; FinancialStatement-2026-II-TAPG.pdf p26; FinancialStatement-2026-III-TAPG.pdf p26; TAPG_-_AR_2025.pdf p247,2025-10-29,EVIDENCE
-capex_fixed_assets,2025Q4,-165117.0,FY - 9M,FinancialStatement-2026-I-TAPG.pdf p26; FinancialStatement-2026-II-TAPG.pdf p26; FinancialStatement-2026-III-TAPG.pdf p26; TAPG_-_AR_2025.pdf p247,2026-04-01,ASSUMPTION
-cfo,2025Q1,773621.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p26; FinancialStatement-2026-II-TAPG.pdf p26; FinancialStatement-2026-III-TAPG.pdf p26; TAPG_-_AR_2025.pdf p247,2025-05-01,ASSUMPTION
-cfo,2025Q2,568233.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p26; FinancialStatement-2026-II-TAPG.pdf p26; FinancialStatement-2026-III-TAPG.pdf p26; TAPG_-_AR_2025.pdf p247,2025-07-29,EVIDENCE
+capex_fixed_assets,2025Q4,-165117.0,FY - 9M,FinancialStatement-2026-I-TAPG.pdf p26; FinancialStatement-2026-II-TAPG.pdf p26; FinancialStatement-2026-III-TAPG.pdf p26; TAPG_-_AR_2025.pdf p247,2026-03-17,EVIDENCE
+cfo,2025Q1,773621.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p26; FinancialStatement-2026-II-TAPG.pdf p26; FinancialStatement-2026-III-TAPG.pdf p26; TAPG_-_AR_2025.pdf p247,2025-04-30,EVIDENCE
+cfo,2025Q2,568233.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p26; FinancialStatement-2026-II-TAPG.pdf p26; FinancialStatement-2026-III-TAPG.pdf p26; TAPG_-_AR_2025.pdf p247,2025-07-28,EVIDENCE
 cfo,2025Q3,899732.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p26; FinancialStatement-2026-II-TAPG.pdf p26; FinancialStatement-2026-III-TAPG.pdf p26; TAPG_-_AR_2025.pdf p247,2025-10-29,EVIDENCE
-cfo,2025Q4,1189867.0,FY - 9M,FinancialStatement-2026-I-TAPG.pdf p26; FinancialStatement-2026-II-TAPG.pdf p26; FinancialStatement-2026-III-TAPG.pdf p26; TAPG_-_AR_2025.pdf p247,2026-04-01,ASSUMPTION
-cost_of_sales,2025Q1,-1708314.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-05-01,ASSUMPTION
-cost_of_sales,2025Q2,-1763956.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-07-29,EVIDENCE
+cfo,2025Q4,1189867.0,FY - 9M,FinancialStatement-2026-I-TAPG.pdf p26; FinancialStatement-2026-II-TAPG.pdf p26; FinancialStatement-2026-III-TAPG.pdf p26; TAPG_-_AR_2025.pdf p247,2026-03-17,EVIDENCE
+cost_of_sales,2025Q1,-1708314.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-04-30,EVIDENCE
+cost_of_sales,2025Q2,-1763956.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-07-28,EVIDENCE
 cost_of_sales,2025Q3,-1608640.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-10-29,EVIDENCE
-cost_of_sales,2025Q4,-1823671.0,FY - 9M,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2026-04-01,ASSUMPTION
-dividends_paid,2025Q1,-0.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p31; FinancialStatement-2026-II-TAPG.pdf p31; FinancialStatement-2026-III-TAPG.pdf p31; TAPG_-_AR_2025.pdf p248,2025-05-01,ASSUMPTION
-dividends_paid,2025Q2,-1570640.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p31; FinancialStatement-2026-II-TAPG.pdf p31; FinancialStatement-2026-III-TAPG.pdf p31; TAPG_-_AR_2025.pdf p248,2025-07-29,EVIDENCE
+cost_of_sales,2025Q4,-1823671.0,FY - 9M,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2026-03-17,EVIDENCE
+dividends_paid,2025Q1,-0.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p31; FinancialStatement-2026-II-TAPG.pdf p31; FinancialStatement-2026-III-TAPG.pdf p31; TAPG_-_AR_2025.pdf p248,2025-04-30,EVIDENCE
+dividends_paid,2025Q2,-1570640.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p31; FinancialStatement-2026-II-TAPG.pdf p31; FinancialStatement-2026-III-TAPG.pdf p31; TAPG_-_AR_2025.pdf p248,2025-07-28,EVIDENCE
 dividends_paid,2025Q3,-812355.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p31; FinancialStatement-2026-II-TAPG.pdf p31; FinancialStatement-2026-III-TAPG.pdf p31; TAPG_-_AR_2025.pdf p248,2025-10-29,EVIDENCE
-dividends_paid,2025Q4,-892674.0,FY - 9M,FinancialStatement-2026-I-TAPG.pdf p31; FinancialStatement-2026-II-TAPG.pdf p31; FinancialStatement-2026-III-TAPG.pdf p31; TAPG_-_AR_2025.pdf p248,2026-04-01,ASSUMPTION
-dividends_received_jv,2025Q1,500000.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p29; FinancialStatement-2026-II-TAPG.pdf p29; FinancialStatement-2026-III-TAPG.pdf p29; TAPG_-_AR_2025.pdf p247,2025-05-01,ASSUMPTION
-dividends_received_jv,2025Q2,4577.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p29; FinancialStatement-2026-II-TAPG.pdf p29; FinancialStatement-2026-III-TAPG.pdf p29; TAPG_-_AR_2025.pdf p247,2025-07-29,EVIDENCE
+dividends_paid,2025Q4,-892674.0,FY - 9M,FinancialStatement-2026-I-TAPG.pdf p31; FinancialStatement-2026-II-TAPG.pdf p31; FinancialStatement-2026-III-TAPG.pdf p31; TAPG_-_AR_2025.pdf p248,2026-03-17,EVIDENCE
+dividends_received_jv,2025Q1,500000.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p29; FinancialStatement-2026-II-TAPG.pdf p29; FinancialStatement-2026-III-TAPG.pdf p29; TAPG_-_AR_2025.pdf p247,2025-04-30,EVIDENCE
+dividends_received_jv,2025Q2,4577.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p29; FinancialStatement-2026-II-TAPG.pdf p29; FinancialStatement-2026-III-TAPG.pdf p29; TAPG_-_AR_2025.pdf p247,2025-07-28,EVIDENCE
 dividends_received_jv,2025Q3,454230.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p29; FinancialStatement-2026-II-TAPG.pdf p29; FinancialStatement-2026-III-TAPG.pdf p29; TAPG_-_AR_2025.pdf p247,2025-10-29,EVIDENCE
-dividends_received_jv,2025Q4,0.0,FY - 9M,FinancialStatement-2026-I-TAPG.pdf p29; FinancialStatement-2026-II-TAPG.pdf p29; FinancialStatement-2026-III-TAPG.pdf p29; TAPG_-_AR_2025.pdf p247,2026-04-01,ASSUMPTION
-finance_costs,2025Q1,-14507.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-05-01,ASSUMPTION
-finance_costs,2025Q2,-22461.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-07-29,EVIDENCE
+dividends_received_jv,2025Q4,0.0,FY - 9M,FinancialStatement-2026-I-TAPG.pdf p29; FinancialStatement-2026-II-TAPG.pdf p29; FinancialStatement-2026-III-TAPG.pdf p29; TAPG_-_AR_2025.pdf p247,2026-03-17,EVIDENCE
+finance_costs,2025Q1,-14507.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-04-30,EVIDENCE
+finance_costs,2025Q2,-22461.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-07-28,EVIDENCE
 finance_costs,2025Q3,-2522.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-10-29,EVIDENCE
-finance_costs,2025Q4,-17370.0,FY - 9M,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2026-04-01,ASSUMPTION
-finance_income,2025Q1,20643.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-05-01,ASSUMPTION
-finance_income,2025Q2,25224.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-07-29,EVIDENCE
+finance_costs,2025Q4,-17370.0,FY - 9M,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2026-03-17,EVIDENCE
+finance_income,2025Q1,20643.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-04-30,EVIDENCE
+finance_income,2025Q2,25224.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-07-28,EVIDENCE
 finance_income,2025Q3,22512.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-10-29,EVIDENCE
-finance_income,2025Q4,39659.0,FY - 9M,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2026-04-01,ASSUMPTION
-general_admin_exp,2025Q1,-128866.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-05-01,ASSUMPTION
-general_admin_exp,2025Q2,-138637.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-07-29,EVIDENCE
+finance_income,2025Q4,39659.0,FY - 9M,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2026-03-17,EVIDENCE
+general_admin_exp,2025Q1,-128866.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-04-30,EVIDENCE
+general_admin_exp,2025Q2,-138637.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-07-28,EVIDENCE
 general_admin_exp,2025Q3,-118380.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-10-29,EVIDENCE
-general_admin_exp,2025Q4,-147858.0,FY - 9M,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2026-04-01,ASSUMPTION
-gross_profit,2025Q1,911746.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-05-01,ASSUMPTION
-gross_profit,2025Q2,1124373.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-07-29,EVIDENCE
+general_admin_exp,2025Q4,-147858.0,FY - 9M,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2026-03-17,EVIDENCE
+gross_profit,2025Q1,911746.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-04-30,EVIDENCE
+gross_profit,2025Q2,1124373.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-07-28,EVIDENCE
 gross_profit,2025Q3,1090806.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-10-29,EVIDENCE
-gross_profit,2025Q4,1370692.0,FY - 9M,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2026-04-01,ASSUMPTION
-income_tax_expense,2025Q1,-155360.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-05-01,ASSUMPTION
-income_tax_expense,2025Q2,-189280.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-07-29,EVIDENCE
+gross_profit,2025Q4,1370692.0,FY - 9M,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2026-03-17,EVIDENCE
+income_tax_expense,2025Q1,-155360.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-04-30,EVIDENCE
+income_tax_expense,2025Q2,-189280.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-07-28,EVIDENCE
 income_tax_expense,2025Q3,-202630.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-10-29,EVIDENCE
-income_tax_expense,2025Q4,-268704.0,FY - 9M,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2026-04-01,ASSUMPTION
-profit_attrib_owners,2025Q1,805258.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p20; FinancialStatement-2026-II-TAPG.pdf p20; FinancialStatement-2026-III-TAPG.pdf p20; TAPG_-_AR_2025.pdf p245,2025-05-01,ASSUMPTION
-profit_attrib_owners,2025Q2,888861.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p20; FinancialStatement-2026-II-TAPG.pdf p20; FinancialStatement-2026-III-TAPG.pdf p20; TAPG_-_AR_2025.pdf p245,2025-07-29,EVIDENCE
+income_tax_expense,2025Q4,-268704.0,FY - 9M,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2026-03-17,EVIDENCE
+profit_attrib_owners,2025Q1,805258.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p20; FinancialStatement-2026-II-TAPG.pdf p20; FinancialStatement-2026-III-TAPG.pdf p20; TAPG_-_AR_2025.pdf p245,2025-04-30,EVIDENCE
+profit_attrib_owners,2025Q2,888861.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p20; FinancialStatement-2026-II-TAPG.pdf p20; FinancialStatement-2026-III-TAPG.pdf p20; TAPG_-_AR_2025.pdf p245,2025-07-28,EVIDENCE
 profit_attrib_owners,2025Q3,985514.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p20; FinancialStatement-2026-II-TAPG.pdf p20; FinancialStatement-2026-III-TAPG.pdf p20; TAPG_-_AR_2025.pdf p245,2025-10-29,EVIDENCE
-profit_attrib_owners,2025Q4,1022633.0,FY - 9M,FinancialStatement-2026-I-TAPG.pdf p20; FinancialStatement-2026-II-TAPG.pdf p20; FinancialStatement-2026-III-TAPG.pdf p20; TAPG_-_AR_2025.pdf p245,2026-04-01,ASSUMPTION
-profit_before_tax,2025Q1,990238.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-05-01,ASSUMPTION
-profit_before_tax,2025Q2,1111884.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-07-29,EVIDENCE
+profit_attrib_owners,2025Q4,1022633.0,FY - 9M,FinancialStatement-2026-I-TAPG.pdf p20; FinancialStatement-2026-II-TAPG.pdf p20; FinancialStatement-2026-III-TAPG.pdf p20; TAPG_-_AR_2025.pdf p245,2026-03-17,EVIDENCE
+profit_before_tax,2025Q1,990238.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-04-30,EVIDENCE
+profit_before_tax,2025Q2,1111884.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-07-28,EVIDENCE
 profit_before_tax,2025Q3,1224832.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-10-29,EVIDENCE
-profit_before_tax,2025Q4,1334367.0,FY - 9M,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2026-04-01,ASSUMPTION
-profit_for_year,2025Q1,834878.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-05-01,ASSUMPTION
-profit_for_year,2025Q2,922604.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-07-29,EVIDENCE
+profit_before_tax,2025Q4,1334367.0,FY - 9M,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2026-03-17,EVIDENCE
+profit_for_year,2025Q1,834878.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-04-30,EVIDENCE
+profit_for_year,2025Q2,922604.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-07-28,EVIDENCE
 profit_for_year,2025Q3,1022202.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-10-29,EVIDENCE
-profit_for_year,2025Q4,1065663.0,FY - 9M,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2026-04-01,ASSUMPTION
-revenue,2025Q1,2620060.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-05-01,ASSUMPTION
-revenue,2025Q2,2888329.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-07-29,EVIDENCE
+profit_for_year,2025Q4,1065663.0,FY - 9M,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2026-03-17,EVIDENCE
+revenue,2025Q1,2620060.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-04-30,EVIDENCE
+revenue,2025Q2,2888329.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-07-28,EVIDENCE
 revenue,2025Q3,2699446.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-10-29,EVIDENCE
-revenue,2025Q4,3194363.0,FY - 9M,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2026-04-01,ASSUMPTION
-selling_marketing_exp,2025Q1,-68098.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-05-01,ASSUMPTION
-selling_marketing_exp,2025Q2,-75101.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-07-29,EVIDENCE
+revenue,2025Q4,3194363.0,FY - 9M,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2026-03-17,EVIDENCE
+selling_marketing_exp,2025Q1,-68098.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-04-30,EVIDENCE
+selling_marketing_exp,2025Q2,-75101.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-07-28,EVIDENCE
 selling_marketing_exp,2025Q3,-66039.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2025-10-29,EVIDENCE
-selling_marketing_exp,2025Q4,-80090.0,FY - 9M,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2026-04-01,ASSUMPTION
-share_of_profit_associates,2025Q1,-659.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2025-05-01,ASSUMPTION
-share_of_profit_associates,2025Q2,-7550.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2025-07-29,EVIDENCE
+selling_marketing_exp,2025Q4,-80090.0,FY - 9M,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18; TAPG_-_AR_2025.pdf p244,2026-03-17,EVIDENCE
+share_of_profit_associates,2025Q1,-659.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2025-04-30,EVIDENCE
+share_of_profit_associates,2025Q2,-7550.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2025-07-28,EVIDENCE
 share_of_profit_associates,2025Q3,-5676.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2025-10-29,EVIDENCE
-share_of_profit_jv,2025Q1,260441.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2025-05-01,ASSUMPTION
-share_of_profit_jv,2025Q2,279769.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2025-07-29,EVIDENCE
+share_of_profit_jv,2025Q1,260441.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2025-04-30,EVIDENCE
+share_of_profit_jv,2025Q2,279769.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2025-07-28,EVIDENCE
 share_of_profit_jv,2025Q3,299399.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2025-10-29,EVIDENCE
-capex_fixed_assets,2026Q1,-137562.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p26; FinancialStatement-2026-II-TAPG.pdf p26; FinancialStatement-2026-III-TAPG.pdf p26,2026-04-29,EVIDENCE
-capex_fixed_assets,2026Q2,-186707.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p26; FinancialStatement-2026-II-TAPG.pdf p26; FinancialStatement-2026-III-TAPG.pdf p26,2026-08-03,ASSUMPTION
-capex_fixed_assets,2026Q3,-197973.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p26; FinancialStatement-2026-II-TAPG.pdf p26; FinancialStatement-2026-III-TAPG.pdf p26,2026-11-02,ASSUMPTION
-cfo,2026Q1,654283.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p26; FinancialStatement-2026-II-TAPG.pdf p26; FinancialStatement-2026-III-TAPG.pdf p26,2026-04-29,EVIDENCE
-cfo,2026Q2,964844.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p26; FinancialStatement-2026-II-TAPG.pdf p26; FinancialStatement-2026-III-TAPG.pdf p26,2026-08-03,ASSUMPTION
-cfo,2026Q3,1328040.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p26; FinancialStatement-2026-II-TAPG.pdf p26; FinancialStatement-2026-III-TAPG.pdf p26,2026-11-02,ASSUMPTION
-cost_of_sales,2026Q1,-1636028.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-04-29,EVIDENCE
-cost_of_sales,2026Q2,-1808030.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-08-03,ASSUMPTION
-cost_of_sales,2026Q3,-1885930.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-11-02,ASSUMPTION
-dividends_paid,2026Q1,-0.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p31; FinancialStatement-2026-II-TAPG.pdf p31; FinancialStatement-2026-III-TAPG.pdf p31,2026-04-29,EVIDENCE
-dividends_paid,2026Q2,-1872419.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p31; FinancialStatement-2026-II-TAPG.pdf p31; FinancialStatement-2026-III-TAPG.pdf p31,2026-08-03,ASSUMPTION
-dividends_paid,2026Q3,-1231054.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p31; FinancialStatement-2026-II-TAPG.pdf p31; FinancialStatement-2026-III-TAPG.pdf p31,2026-11-02,ASSUMPTION
-dividends_received_jv,2026Q1,450000.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p29; FinancialStatement-2026-II-TAPG.pdf p29; FinancialStatement-2026-III-TAPG.pdf p29,2026-04-29,EVIDENCE
-dividends_received_jv,2026Q2,0.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p29; FinancialStatement-2026-II-TAPG.pdf p29; FinancialStatement-2026-III-TAPG.pdf p29,2026-08-03,ASSUMPTION
-dividends_received_jv,2026Q3,450000.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p29; FinancialStatement-2026-II-TAPG.pdf p29; FinancialStatement-2026-III-TAPG.pdf p29,2026-11-02,ASSUMPTION
-finance_costs,2026Q1,-15648.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-04-29,EVIDENCE
-finance_costs,2026Q2,-15720.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-08-03,ASSUMPTION
-finance_costs,2026Q3,-16622.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-11-02,ASSUMPTION
-finance_income,2026Q1,33781.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-04-29,EVIDENCE
-finance_income,2026Q2,50319.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-08-03,ASSUMPTION
-finance_income,2026Q3,39349.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-11-02,ASSUMPTION
-general_admin_exp,2026Q1,-130892.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-04-29,EVIDENCE
-general_admin_exp,2026Q2,-144302.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-08-03,ASSUMPTION
-general_admin_exp,2026Q3,-152270.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-11-02,ASSUMPTION
-gross_profit,2026Q1,856169.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-04-29,EVIDENCE
-gross_profit,2026Q2,1556923.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-08-03,ASSUMPTION
-gross_profit,2026Q3,1703541.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-11-02,ASSUMPTION
-income_tax_expense,2026Q1,-147859.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-04-29,EVIDENCE
-income_tax_expense,2026Q2,-271211.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-08-03,ASSUMPTION
-income_tax_expense,2026Q3,-318993.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-11-02,ASSUMPTION
-profit_attrib_owners,2026Q1,739762.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p20; FinancialStatement-2026-II-TAPG.pdf p20; FinancialStatement-2026-III-TAPG.pdf p20,2026-04-29,EVIDENCE
-profit_attrib_owners,2026Q2,1300608.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p20; FinancialStatement-2026-II-TAPG.pdf p20; FinancialStatement-2026-III-TAPG.pdf p20,2026-08-03,ASSUMPTION
-profit_attrib_owners,2026Q3,1465250.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p20; FinancialStatement-2026-II-TAPG.pdf p20; FinancialStatement-2026-III-TAPG.pdf p20,2026-11-02,ASSUMPTION
-profit_before_tax,2026Q1,915122.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-04-29,EVIDENCE
-profit_before_tax,2026Q2,1623919.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-08-03,ASSUMPTION
-profit_before_tax,2026Q3,1843703.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-11-02,ASSUMPTION
-profit_for_year,2026Q1,767263.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-04-29,EVIDENCE
-profit_for_year,2026Q2,1352708.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-08-03,ASSUMPTION
-profit_for_year,2026Q3,1524710.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-11-02,ASSUMPTION
-revenue,2026Q1,2492197.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-04-29,EVIDENCE
-revenue,2026Q2,3364953.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-08-03,ASSUMPTION
-revenue,2026Q3,3589471.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-11-02,ASSUMPTION
-selling_marketing_exp,2026Q1,-69723.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-04-29,EVIDENCE
-selling_marketing_exp,2026Q2,-83763.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-08-03,ASSUMPTION
-selling_marketing_exp,2026Q3,-102717.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-11-02,ASSUMPTION
-share_of_profit_associates,2026Q1,-13261.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-04-29,EVIDENCE
-share_of_profit_associates,2026Q2,-8695.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-08-03,ASSUMPTION
-share_of_profit_associates,2026Q3,-16057.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-11-02,ASSUMPTION
-share_of_profit_jv,2026Q1,242313.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-04-29,EVIDENCE
-share_of_profit_jv,2026Q2,332205.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-08-03,ASSUMPTION
-share_of_profit_jv,2026Q3,382373.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-11-02,ASSUMPTION
+capex_fixed_assets,2026Q1,-137562.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p26; FinancialStatement-2026-II-TAPG.pdf p26; FinancialStatement-2026-III-TAPG.pdf p26,2026-04-28,EVIDENCE
+capex_fixed_assets,2026Q2,-186707.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p26; FinancialStatement-2026-II-TAPG.pdf p26; FinancialStatement-2026-III-TAPG.pdf p26,2026-07-30,EVIDENCE
+capex_fixed_assets,2026Q3,-197973.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p26; FinancialStatement-2026-II-TAPG.pdf p26; FinancialStatement-2026-III-TAPG.pdf p26,2026-10-29,EVIDENCE
+cfo,2026Q1,654283.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p26; FinancialStatement-2026-II-TAPG.pdf p26; FinancialStatement-2026-III-TAPG.pdf p26,2026-04-28,EVIDENCE
+cfo,2026Q2,964844.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p26; FinancialStatement-2026-II-TAPG.pdf p26; FinancialStatement-2026-III-TAPG.pdf p26,2026-07-30,EVIDENCE
+cfo,2026Q3,1328040.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p26; FinancialStatement-2026-II-TAPG.pdf p26; FinancialStatement-2026-III-TAPG.pdf p26,2026-10-29,EVIDENCE
+cost_of_sales,2026Q1,-1636028.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-04-28,EVIDENCE
+cost_of_sales,2026Q2,-1808030.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-07-30,EVIDENCE
+cost_of_sales,2026Q3,-1885930.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-10-29,EVIDENCE
+dividends_paid,2026Q1,-0.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p31; FinancialStatement-2026-II-TAPG.pdf p31; FinancialStatement-2026-III-TAPG.pdf p31,2026-04-28,EVIDENCE
+dividends_paid,2026Q2,-1872419.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p31; FinancialStatement-2026-II-TAPG.pdf p31; FinancialStatement-2026-III-TAPG.pdf p31,2026-07-30,EVIDENCE
+dividends_paid,2026Q3,-1231054.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p31; FinancialStatement-2026-II-TAPG.pdf p31; FinancialStatement-2026-III-TAPG.pdf p31,2026-10-29,EVIDENCE
+dividends_received_jv,2026Q1,450000.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p29; FinancialStatement-2026-II-TAPG.pdf p29; FinancialStatement-2026-III-TAPG.pdf p29,2026-04-28,EVIDENCE
+dividends_received_jv,2026Q2,0.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p29; FinancialStatement-2026-II-TAPG.pdf p29; FinancialStatement-2026-III-TAPG.pdf p29,2026-07-30,EVIDENCE
+dividends_received_jv,2026Q3,450000.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p29; FinancialStatement-2026-II-TAPG.pdf p29; FinancialStatement-2026-III-TAPG.pdf p29,2026-10-29,EVIDENCE
+finance_costs,2026Q1,-15648.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-04-28,EVIDENCE
+finance_costs,2026Q2,-15720.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-07-30,EVIDENCE
+finance_costs,2026Q3,-16622.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-10-29,EVIDENCE
+finance_income,2026Q1,33781.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-04-28,EVIDENCE
+finance_income,2026Q2,50319.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-07-30,EVIDENCE
+finance_income,2026Q3,39349.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-10-29,EVIDENCE
+general_admin_exp,2026Q1,-130892.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-04-28,EVIDENCE
+general_admin_exp,2026Q2,-144302.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-07-30,EVIDENCE
+general_admin_exp,2026Q3,-152270.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-10-29,EVIDENCE
+gross_profit,2026Q1,856169.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-04-28,EVIDENCE
+gross_profit,2026Q2,1556923.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-07-30,EVIDENCE
+gross_profit,2026Q3,1703541.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-10-29,EVIDENCE
+income_tax_expense,2026Q1,-147859.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-04-28,EVIDENCE
+income_tax_expense,2026Q2,-271211.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-07-30,EVIDENCE
+income_tax_expense,2026Q3,-318993.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-10-29,EVIDENCE
+profit_attrib_owners,2026Q1,739762.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p20; FinancialStatement-2026-II-TAPG.pdf p20; FinancialStatement-2026-III-TAPG.pdf p20,2026-04-28,EVIDENCE
+profit_attrib_owners,2026Q2,1300608.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p20; FinancialStatement-2026-II-TAPG.pdf p20; FinancialStatement-2026-III-TAPG.pdf p20,2026-07-30,EVIDENCE
+profit_attrib_owners,2026Q3,1465250.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p20; FinancialStatement-2026-II-TAPG.pdf p20; FinancialStatement-2026-III-TAPG.pdf p20,2026-10-29,EVIDENCE
+profit_before_tax,2026Q1,915122.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-04-28,EVIDENCE
+profit_before_tax,2026Q2,1623919.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-07-30,EVIDENCE
+profit_before_tax,2026Q3,1843703.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-10-29,EVIDENCE
+profit_for_year,2026Q1,767263.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-04-28,EVIDENCE
+profit_for_year,2026Q2,1352708.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-07-30,EVIDENCE
+profit_for_year,2026Q3,1524710.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-10-29,EVIDENCE
+revenue,2026Q1,2492197.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-04-28,EVIDENCE
+revenue,2026Q2,3364953.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-07-30,EVIDENCE
+revenue,2026Q3,3589471.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-10-29,EVIDENCE
+selling_marketing_exp,2026Q1,-69723.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-04-28,EVIDENCE
+selling_marketing_exp,2026Q2,-83763.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-07-30,EVIDENCE
+selling_marketing_exp,2026Q3,-102717.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-10-29,EVIDENCE
+share_of_profit_associates,2026Q1,-13261.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-04-28,EVIDENCE
+share_of_profit_associates,2026Q2,-8695.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-07-30,EVIDENCE
+share_of_profit_associates,2026Q3,-16057.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-10-29,EVIDENCE
+share_of_profit_jv,2026Q1,242313.0,reported (Q1),FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-04-28,EVIDENCE
+share_of_profit_jv,2026Q2,332205.0,H1 - Q1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-07-30,EVIDENCE
+share_of_profit_jv,2026Q3,382373.0,9M - H1,FinancialStatement-2026-I-TAPG.pdf p18; FinancialStatement-2026-II-TAPG.pdf p18; FinancialStatement-2026-III-TAPG.pdf p18,2026-10-29,EVIDENCE

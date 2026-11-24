@@ -4,7 +4,7 @@ _Last updated: 2026-11-24_
 
 ## Current phase
 
-**Phase II — TAPG fundamental data completion and preliminary quant (in progress).** See `research/company/TAPG/2026-11-24_phase2_fundamental_completion.md`. Earnings nowcasting is **blocked** on quarterly operational data (G1). No investment analysis, rankings or ratings have been produced.
+**Phase II — round 2: quarterly operational data, levy/duty reconstruction, exploratory Q4 2026 nowcast.** No investment analysis, rankings or ratings have been produced. Nothing in the nowcast is validated.
 
 ## Done
 
@@ -42,6 +42,16 @@ _Last updated: 2026-11-24_
   - Nowcast feasibility (`nowcast_feasibility.md`): feasible in structure, blocked on G1/G12 (D-010).
   - Tests: 11 passing.
 
+- [x] **Phase II round 2 (2026-11-24):**
+  - Quarterly ops 3Q24–3Q26 (S-028/S-029). Group-wide scope verified: FY2025 quarterly sums = AR2025.
+  - Consolidated sales/ASP/fertiliser for 3Q26/9M26 only.
+  - Public Expose FY2025 (IDX, S-032) gives the FY2021–25 subsidiary/associate split, which closes G11 annually.
+  - Q1 2026 revision found and kept both ways (D-011). Broker definitional conflicts documented (D-012).
+  - IDX disclosure timestamps for H1 2023 to 9M 2026 via the S-027 mirror (A-018); G7 largely closed.
+  - Exploratory Q4 2026 scenarios (D-013): `research/company/TAPG/q4_2026_nowcast.md`.
+  - Levy/duty reconstruction: see `research/macro/2026-11-24_levy_duty_reconstruction.md`.
+  - Notes: `research/company/TAPG/2026-11-24_quarterly_operational_extraction.md`.
+
 ## Not resolved (sources tried and failed)
 
 | Need | Tried | Why it failed |
@@ -56,13 +66,11 @@ _Last updated: 2026-11-24_
 
 ## Next
 
-- [ ] **User/source action:** quarterly production and sales volumes for TAPG 2021–2026, e.g. investor presentations, public expose materials or quarterly operational releases (G1).
-- [ ] Compile the export levy and duty schedule (PMK/Kepmendag, effective dates) into a dated table (G12). This is needed to model the domestic discount.
-- [ ] Verify the A-013 statutory deadlines against POJK text; look for IDX timestamps (G7).
-- [ ] Optional: history rewrite to purge the PDFs from Git, only with separate user approval (D-007).
-- [ ] Decide D-004 (re-tiering on verified liquidity).
-- [ ] Cross-check Yahoo prices (incl. the IHSG −39% 2026 YTD move) against an official source.
-- [ ] Repeat the Phase I/II extraction for the other 14 coverage names.
+- [ ] **User action:** download TAPG investor newsletters (Vol 15–24) in a browser (host unreachable from here, S-033). They date quarterly ops originally and add sales/ASP/cost history.
+- [ ] Check for analyst forecasts revised after 29 Oct 2026, and the share-price reaction, before any surprise claim (D-013).
+- [ ] Integrate the levy/duty schedule into the domestic-discount model; recompute the ASP ÷ world-price analysis net of levy and duty.
+- [ ] Verify A-013 deadlines against POJK text (now needed only for filings without timestamps).
+- [ ] Decide D-004; cross-check Yahoo prices; repeat Phase I/II for the other 14 names.
 
 ## Blockers
 

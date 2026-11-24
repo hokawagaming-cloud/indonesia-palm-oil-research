@@ -56,12 +56,14 @@ Find **earnings surprises and underappreciated catalysts** in Indonesian palm oi
 ## 5b. Disclosure dating (D-009)
 
 - Each disclosure's `available_from` comes from `data/reference/TAPG_disclosure_dates.csv` (A-012/A-013) and carries a basis label: EVIDENCE (dated press report) or ASSUMPTION (statutory deadline).
+- Where an IDX timestamp exists (S-027), `available_from` follows A-018. Quarterly operating figures from broker reports are usable from `first_seen` only (D-011).
 - Backtests must use `available_from`, never document dates. Results that depend on dates labelled ASSUMPTION are reported as such.
 
 ## 5c. Nowcasting (D-010)
 
 - Revenue = Σ product volume × realised price, where realised price = world price × domestic discount (levy/duty schedule).
 - Earnings = revenue − cost model (purchased-FFB cost tied to the FFB price; carried upkeep and fertiliser with timing) + USTP share modelled separately + finance and tax.
+- Exploratory scenario nowcasts (D-013) may be run before validation, but must tag every input (OBS/BRK/GUID/DER/EST) and report break-even sensitivities rather than point claims.
 - Fit on 2021–2024 and validate out of sample on 2025–2026. Until quarterly volumes exist, only naive benchmarks are reported, labelled as such.
 
 ## 6. Data integrity rules

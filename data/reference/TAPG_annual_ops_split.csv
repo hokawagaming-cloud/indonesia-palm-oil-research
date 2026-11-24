@@ -1,0 +1,58 @@
+item,split,period,value,unit,source_doc,page,first_seen,scope
+ffb_nucleus_kt,subsidiaries,FY2021,1522.0,thousand t,idx_public_expose_FY2025_20260316.pdf,5,2026-03-16,subsidiaries
+ffb_nucleus_kt,subsidiaries,FY2022,1881.0,thousand t,idx_public_expose_FY2025_20260316.pdf,5,2026-03-16,subsidiaries
+ffb_nucleus_kt,subsidiaries,FY2023,1848.0,thousand t,idx_public_expose_FY2025_20260316.pdf,5,2026-03-16,subsidiaries
+ffb_nucleus_kt,subsidiaries,FY2024,1825.0,thousand t,idx_public_expose_FY2025_20260316.pdf,5,2026-03-16,subsidiaries
+ffb_nucleus_kt,subsidiaries,FY2025,1902.0,thousand t,idx_public_expose_FY2025_20260316.pdf,5,2026-03-16,subsidiaries
+ffb_nucleus_kt,associates,FY2021,1118.0,thousand t,idx_public_expose_FY2025_20260316.pdf,5,2026-03-16,associates
+ffb_nucleus_kt,associates,FY2022,1319.0,thousand t,idx_public_expose_FY2025_20260316.pdf,5,2026-03-16,associates
+ffb_nucleus_kt,associates,FY2023,1202.0,thousand t,idx_public_expose_FY2025_20260316.pdf,5,2026-03-16,associates
+ffb_nucleus_kt,associates,FY2024,1121.0,thousand t,idx_public_expose_FY2025_20260316.pdf,5,2026-03-16,associates
+ffb_nucleus_kt,associates,FY2025,1138.0,thousand t,idx_public_expose_FY2025_20260316.pdf,5,2026-03-16,associates
+ffb_plasma_kt,subsidiaries,FY2021,230.0,thousand t,idx_public_expose_FY2025_20260316.pdf,5,2026-03-16,subsidiaries
+ffb_plasma_kt,subsidiaries,FY2022,270.0,thousand t,idx_public_expose_FY2025_20260316.pdf,5,2026-03-16,subsidiaries
+ffb_plasma_kt,subsidiaries,FY2023,258.0,thousand t,idx_public_expose_FY2025_20260316.pdf,5,2026-03-16,subsidiaries
+ffb_plasma_kt,subsidiaries,FY2024,238.0,thousand t,idx_public_expose_FY2025_20260316.pdf,5,2026-03-16,subsidiaries
+ffb_plasma_kt,subsidiaries,FY2025,270.0,thousand t,idx_public_expose_FY2025_20260316.pdf,5,2026-03-16,subsidiaries
+ffb_plasma_kt,associates,FY2021,73.0,thousand t,idx_public_expose_FY2025_20260316.pdf,5,2026-03-16,associates
+ffb_plasma_kt,associates,FY2022,84.0,thousand t,idx_public_expose_FY2025_20260316.pdf,5,2026-03-16,associates
+ffb_plasma_kt,associates,FY2023,91.0,thousand t,idx_public_expose_FY2025_20260316.pdf,5,2026-03-16,associates
+ffb_plasma_kt,associates,FY2024,92.0,thousand t,idx_public_expose_FY2025_20260316.pdf,5,2026-03-16,associates
+ffb_plasma_kt,associates,FY2025,114.0,thousand t,idx_public_expose_FY2025_20260316.pdf,5,2026-03-16,associates
+cpo_production_kt,subsidiaries,FY2021,564.0,thousand t,idx_public_expose_FY2025_20260316.pdf,7,2026-03-16,subsidiaries
+cpo_production_kt,subsidiaries,FY2022,676.0,thousand t,idx_public_expose_FY2025_20260316.pdf,7,2026-03-16,subsidiaries
+cpo_production_kt,subsidiaries,FY2023,671.0,thousand t,idx_public_expose_FY2025_20260316.pdf,7,2026-03-16,subsidiaries
+cpo_production_kt,subsidiaries,FY2024,631.0,thousand t,idx_public_expose_FY2025_20260316.pdf,7,2026-03-16,subsidiaries
+cpo_production_kt,subsidiaries,FY2025,652.0,thousand t,idx_public_expose_FY2025_20260316.pdf,7,2026-03-16,subsidiaries
+cpo_production_kt,associates,FY2021,286.0,thousand t,idx_public_expose_FY2025_20260316.pdf,7,2026-03-16,associates
+cpo_production_kt,associates,FY2022,323.0,thousand t,idx_public_expose_FY2025_20260316.pdf,7,2026-03-16,associates
+cpo_production_kt,associates,FY2023,307.0,thousand t,idx_public_expose_FY2025_20260316.pdf,7,2026-03-16,associates
+cpo_production_kt,associates,FY2024,285.0,thousand t,idx_public_expose_FY2025_20260316.pdf,7,2026-03-16,associates
+cpo_production_kt,associates,FY2025,301.0,thousand t,idx_public_expose_FY2025_20260316.pdf,7,2026-03-16,associates
+pk_production_kt,subsidiaries,FY2021,113.0,thousand t,idx_public_expose_FY2025_20260316.pdf,7,2026-03-16,subsidiaries
+pk_production_kt,subsidiaries,FY2022,141.0,thousand t,idx_public_expose_FY2025_20260316.pdf,7,2026-03-16,subsidiaries
+pk_production_kt,subsidiaries,FY2023,141.0,thousand t,idx_public_expose_FY2025_20260316.pdf,7,2026-03-16,subsidiaries
+pk_production_kt,subsidiaries,FY2024,132.0,thousand t,idx_public_expose_FY2025_20260316.pdf,7,2026-03-16,subsidiaries
+pk_production_kt,subsidiaries,FY2025,137.0,thousand t,idx_public_expose_FY2025_20260316.pdf,7,2026-03-16,subsidiaries
+pk_production_kt,associates,FY2021,61.0,thousand t,idx_public_expose_FY2025_20260316.pdf,7,2026-03-16,associates
+pk_production_kt,associates,FY2022,69.0,thousand t,idx_public_expose_FY2025_20260316.pdf,7,2026-03-16,associates
+pk_production_kt,associates,FY2023,67.0,thousand t,idx_public_expose_FY2025_20260316.pdf,7,2026-03-16,associates
+pk_production_kt,associates,FY2024,61.0,thousand t,idx_public_expose_FY2025_20260316.pdf,7,2026-03-16,associates
+pk_production_kt,associates,FY2025,65.0,thousand t,idx_public_expose_FY2025_20260316.pdf,7,2026-03-16,associates
+ffb_processed_kt,internal,FY2021,2619.0,thousand t,idx_public_expose_FY2025_20260316.pdf,6,2026-03-16,groupwide
+ffb_processed_kt,internal,FY2022,3199.0,thousand t,idx_public_expose_FY2025_20260316.pdf,6,2026-03-16,groupwide
+ffb_processed_kt,internal,FY2023,3058.0,thousand t,idx_public_expose_FY2025_20260316.pdf,6,2026-03-16,groupwide
+ffb_processed_kt,internal,FY2024,2957.0,thousand t,idx_public_expose_FY2025_20260316.pdf,6,2026-03-16,groupwide
+ffb_processed_kt,internal,FY2025,3031.0,thousand t,idx_public_expose_FY2025_20260316.pdf,6,2026-03-16,groupwide
+ffb_processed_kt,external,FY2021,1068.0,thousand t,idx_public_expose_FY2025_20260316.pdf,6,2026-03-16,groupwide
+ffb_processed_kt,external,FY2022,1217.0,thousand t,idx_public_expose_FY2025_20260316.pdf,6,2026-03-16,groupwide
+ffb_processed_kt,external,FY2023,1145.0,thousand t,idx_public_expose_FY2025_20260316.pdf,6,2026-03-16,groupwide
+ffb_processed_kt,external,FY2024,1005.0,thousand t,idx_public_expose_FY2025_20260316.pdf,6,2026-03-16,groupwide
+ffb_processed_kt,external,FY2025,1058.0,thousand t,idx_public_expose_FY2025_20260316.pdf,6,2026-03-16,groupwide
+ffb_processed_kt,internal,FY2026F,3217.0,thousand t,idx_public_expose_FY2025_20260316.pdf,9,2026-03-16,groupwide (company guidance)
+ffb_processed_kt,external,FY2026F,1085.0,thousand t,idx_public_expose_FY2025_20260316.pdf,9,2026-03-16,groupwide (company guidance)
+ffb_processed_kt,total,FY2026F,4302.0,thousand t,idx_public_expose_FY2025_20260316.pdf,9,2026-03-16,groupwide (company guidance)
+cpo_production_kt,subsidiaries,FY2026F,692.0,thousand t,idx_public_expose_FY2025_20260316.pdf,9,2026-03-16,company guidance
+cpo_production_kt,associates,FY2026F,324.0,thousand t,idx_public_expose_FY2025_20260316.pdf,9,2026-03-16,company guidance
+cpo_production_kt,total,FY2026F,1016.0,thousand t,idx_public_expose_FY2025_20260316.pdf,9,2026-03-16,company guidance
+oer_pct,total,FY2026F,23.6,%,idx_public_expose_FY2025_20260316.pdf,9,2026-03-16,company guidance

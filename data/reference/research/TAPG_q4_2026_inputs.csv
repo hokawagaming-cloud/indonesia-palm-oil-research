@@ -1,0 +1,17 @@
+input,value,tag,note
+q3_cpo_sales_kt,187.5,BRK,KBV p1
+q3_cpo_asp,15565.0,BRK,KBV p1
+q3_pk_sales_kt,34.2,BRK,KBV p1
+q3_pk_asp,13402.0,BRK,KBV p1
+q3_fertilizer_bn,75.0,BRK,KBV p1
+q3_other_revenue_bn,212.68509999999998,DER,"revenue - CPO - PK (PKO, PKM, FFB, rubber)"
+q3_jv_assoc_bn,366.316,OBS,9M26 - H1 26 FS
+q3_other_operating_net_bn,6.106000000000222,DER,PBT residual
+q3_tax_rate_ex_jv,0.21591702106489363,DER,tax / (PBT - JV share)
+q3_nci_share,0.03899757986764696,DER,1 - owners / profit
+fg_inventory_build_bn,375.83900000000006,OBS,"finished goods Sep-26 vs Dec-25, 9M26 FS p66"
+fg_cost_per_kg_proxy,9000.0,EST,"≈ 9M26 COGM 5,652bn / ~630kt subsidiary CPO+PK output (PE25 2025 subsidiary share 68%); rough"
+guidance_cpo_2026_total_kt,1016.0,GUID,PE25 p9 (incl. associates)
+cpo_9m26_groupwide_kt,756.8,BRK,ALD p2
+fg_inventory_build_kt_equiv,41.759888888888895,DER/EST,"inventory build / cost proxy; CPO-equivalent, very rough"
+guidance_implied_q4_cpo_groupwide_kt,259.20000000000005,DER,FY26F guidance minus 9M actual (guidance from Mar-26)
