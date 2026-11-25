@@ -47,6 +47,7 @@ Every assumption used in models, valuations or backtests goes here with its sour
 | A-042 | Banking | Impairment sign rule (corrects A-041 data layer) | Negative raw impairment is a genuine reversal unless other expense lines (salaries) in the same document are also negative (sign convention) | MVP_B1_audit_impairment_signs.csv | 2026-11-25 | — |
 | A-043 | Coal | Feasibility assumptions | Newcastle (World Bank 'Coal, Australian') as export benchmark proxy; ICI unavailable; DMO cap USD 70/t for power sales; royalty and HBA regimes to be taken from decrees | S-003, S-066..S-069 | 2026-11-25 | — |
 | A-044 | Coal | ITMG-C1 inputs | Target = first-reported blended ASP (not export ASP); Newcastle = World Bank CMO 'Coal, Australian' single vintage 2026-11-24; origin = quarter end + 10 days; economic translation uses median verified sales volume 6.2 Mt/q and 13.5% royalty approximation | ITMG_C1_preregistration.json; S-003; S-066 | 2026-11-25 | — |
+| A-045 | Coal | ITMG C2/C3/I1 definitions | Sales volume = FS coal revenue / first-reported ASP (reconciled ≤1.1%); unit cost = (cost of revenue − royalty)/volume; GP = coal revenue − cost of revenue; royalty forecast = effective rate of q-1 × forecast revenue; materiality ≥ 2% of median quarterly GP | ITMG_C2_C3_preregistration.json; ITMG_I1_preregistration.json | 2026-11-25 | — |
 | A-008 | Backtest | Backtest start | 2016-01 or the first month all required inputs exist, whichever is later | User mandate (D-003); see the Phase I audit | 2026-11-24 | — |
 
 ## Still to set (before the first backtest)

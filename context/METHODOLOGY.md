@@ -93,6 +93,9 @@ Find **earnings surprises and underappreciated catalysts** in Indonesian palm oi
 - **Commodity-linked hypotheses:** the benchmark must already contain the commodity signal (price-scaled naive); correlation with a public benchmark price is not incremental information.
 - **Document provenance:** every downloaded source file gets a SHA-256 in a committed manifest; raw files stay git-ignored. First-reported values are used where later documents revise history.
 - **A historical pass is not the end:** even a pre-registered GO is tracked prospectively in the journal before any use beyond research.
+- **Programme-wide multiplicity** is recomputed after every experiment (`programme_multiplicity_v2.csv`); a historical pass that does not survive it is CONDITIONAL and needs prospective confirmation.
+- **Integrated models** use only validated components; failed components enter as their strongest benchmark, and the counterfactual (same structure without the validated component) is a mandatory benchmark.
+- **Prospective forecasts** are produced by frozen scripts that read inputs as available on the origin date (hashed) and are resolved on the company release, not on the forecast date.
 - Methodology map: `outputs/quant_methodology_2026-11-25.png` (regenerate with `outputs/make_methodology_diagram.py`).
 
 ## 6. Data integrity rules
@@ -118,3 +121,4 @@ Find **earnings surprises and underappreciated catalysts** in Indonesian palm oi
 | X | MVP-B1 banking validation (BBCA, BBRI) | Done: both NO-GO on profit (D-034); NII information value documented |
 | XI | Banking audit; MVP-B2; coal feasibility | Done: audit (D-035); MVP-B2 frozen prospective (D-036); ITMG conditional GO, PTBA NO-GO (D-037) |
 | XII | ITMG-C1 ASP nowcast | Done: GO for ASP forecasting (D-038); prospective tracking; C2/C3 proposed |
+| XIII | ITMG integrated model | Done: C1 audited/frozen (D-039); C2, C3 NO-GO (D-040); I1 CONDITIONAL GO (D-041) |

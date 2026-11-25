@@ -1,0 +1,20 @@
+{
+  "id": "ITMG-ES1",
+  "registered_on": "2026-11-25",
+  "status": "DESIGNED, NOT EXECUTED. Preconditions: (1) prospective confirmation of ITMG-C1 and I1 (>= 8 journaled quarters); (2) >= 8 quarters of forward consensus snapshots for ITMG (started 2026-11-24). No historical consensus exists, so expectations-gap tests cannot be run retrospectively.",
+  "questions": ["Does the I1 gross-profit nowcast differ from consensus-implied quarterly expectations (expectations gap)?",
+                "Do analysts revise ITMG estimates in the direction of the gap after results?",
+                "Are ITMG factor-adjusted returns around results related to the gap, before and after transaction costs?"],
+  "signals": {
+    "gap": "I1 nowcast (made at quarter end + 10 days) minus consensus-implied quarter (FY consensus EPS snapshot x shares minus reported YTD profit, converted to GP using trailing GP/net-profit ratio; documented approximation)",
+    "sign": "positive gap -> expected positive surprise"
+  },
+  "events": "ITMG quarterly results filings (IDX timestamps; A-018 timing rule)",
+  "returns": "daily total returns (S-002); abnormal = ITMG minus (beta_IHSG x IHSG + beta_coal x EW coal peers ex-self [PTBA, ADRO, BUMI where liquid] + beta_newc x Newcastle change), betas estimated on a 250-day window ending 20 days before the event",
+  "windows": {"pre": "CAR[origin, results-1]", "announcement": "CAR[0,+1]", "post": "CAR[+2,+20]"},
+  "analyst_revisions": "change in FY consensus EPS from the last snapshot before results to the first snapshot 10+ trading days after",
+  "costs": "0.45% round trip (0.15% buy + 0.25% sell incl. 0.10% sales tax + slippage; EST for ITMG liquidity ~IDR 38bn/day) applied to any return claim",
+  "inference": "rank correlation (gap, CAR) and sign test; HAC/bootstrap; Holm across the 3 windows; minimum 12 events",
+  "pass_rule": "post-window net CAR in the gap direction > 0 with Holm-adjusted p <= 0.05 AND revisions in the gap direction with p <= 0.05",
+  "non_goals": "no trading system, no position sizing, no BUY; ASP or GP forecasting accuracy alone is not alpha"
+}

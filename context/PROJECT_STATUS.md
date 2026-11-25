@@ -4,10 +4,10 @@ _Last updated: 2026-11-24_
 
 ## Current phase
 
-**Phase XII complete (2026-11-25).** Palm oil: NO TRADE unchanged (TAPG/LSIP/DSNG WATCH, STAA AVOID); CPIN H2 and MVP-B2 frozen and unchanged.
-- **ITMG-C1:** GO for ASP nowcasting (D-038). Prospective forecast for 2026Q4 at origin 2027-01-10; resolves ~late Feb 2027. Not alpha; no valuation.
-- **Next (proposed, not started):** ITMG-C2/C3 volume and unit-cost pre-registration (needs per-quarter volumes/strip/fuel extraction reconciled to FS, verified mine coordinates).
-- **Upcoming resolutions:** Dec 2026 MVP-B2 origins; Jan 2027 ITMG-C1 origin; Feb-Mar 2027 palm C-020, CPIN H2, MVP-B1/B2, ITMG-C1.
+**Phase XIII complete (2026-11-25).** Palm oil NO TRADE unchanged; CPIN H2 and MVP-B2 frozen.
+- **ITMG:** C1 frozen and audited (survives programme-wide Holm). C2 and C3 NO-GO. I1 integrated GP CONDITIONAL GO (needs prospective confirmation).
+- **Prospective calendar:** Dec 2026 MVP-B2 origins; **10 Jan 2027 ITMG C1 + I1 forecasts** (`quant/itmg_c1_prospective.py`); late Feb 2027 resolutions.
+- **Not started:** ITMG-ES1 event study (designed; needs prospective confirmation and forward consensus). No valuation, no BUY.
 
 ## Done
 
@@ -132,6 +132,11 @@ _Last updated: 2026-11-24_
   - 69 ITMG documents with SHA-256; regulatory regime table.
   - Pre-registered ASP experiment: M2 passes (−40% vs strongest benchmark).
   - Tests 60 passing.
+
+- [x] **Phase XIII (2026-11-25):**
+  - C1 timing and revision audit; programme-wide multiplicity.
+  - C2/C3 data (FS costs 35q, implied volumes, guidance 35 decks) with pre-registrations; C2, C3 NO-GO; integrated I1 CONDITIONAL GO.
+  - Tests 64 passing.
 
 ## Not resolved (sources tried and failed)
 
