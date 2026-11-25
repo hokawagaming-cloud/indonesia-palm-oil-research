@@ -137,7 +137,6 @@ def main() -> None:
     # feedback loop: monitoring -> models
     ax.annotate("", xy=(xs[2] + W + 0.004, ys[1] + H * 0.5), xytext=(xs[2] + W + 0.004, ys[2] + H * 0.5),
                 arrowprops=dict(arrowstyle="-|>", lw=1.8, color="#2e7d32", ls="--", connectionstyle="arc3,rad=0.28", mutation_scale=16))
-    ax.text(0.992, ys[1] + 0.005, "feedback:\nresolved\nforecasts", fontsize=8, color="#2e7d32", ha="right", va="top")
     # legend
     lx, ly = 0.02, 0.175
     for i, (k, (e, f)) in enumerate(ST.items()):
