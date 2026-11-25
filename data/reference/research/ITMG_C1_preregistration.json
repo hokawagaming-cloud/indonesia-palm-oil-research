@@ -1,0 +1,47 @@
+{
+  "id": "ITMG-C1",
+  "registered_on": "2026-11-25",
+  "status": "PRE-REGISTERED before any model or benchmark error was computed (extraction and integrity checks only)",
+  "target": {
+    "name": "ITMG blended realised ASP (USD/t), standalone quarter, FIRST-REPORTED value from the quarter's own analyst presentation",
+    "why_not_export_ASP": "export-only ASP is not consistently disclosed 2018Q1-2026Q3; blended ASP (incl. post-shipment adjustments and traded coal) is the defined target; domestic share is handled as a covariate (M4), not silently substituted",
+    "revisions": "later decks revise ASP (post-shipment adjustments, e.g. 2024Q2 94.0 -> 95.8); first-reported values are used for targets AND lags"
+  },
+  "forecast_origin": "10 calendar days after quarter end (World Bank CMO monthly prices for the quarter's last month are published ~2nd business day of the next month; ITMG reports the quarter >= 3 weeks later). Horizon: nowcast of the just-ended quarter, before the company report.",
+  "information_set": "CMO 'Coal, Australian' (Newcastle) monthly through the quarter's last month (single vintage downloaded 2026-11-24; revision risk documented); ITMG first-reported ASP and destination domestic share for quarters reported before the origin (q-1 and earlier).",
+  "definitions": {
+    "N_q": "mean of the 3 monthly Newcastle prices of quarter q",
+    "N1_q": "mean of the 3 monthly Newcastle prices lagged one month (e.g. Dec-Feb for Q1)",
+    "s_q": "domestic (Indonesia) share of sales volume printed in the quarter's deck; s_(q-1) used at the origin; missing -> last available"
+  },
+  "benchmarks": {
+    "B1_last": "ASP(q-1)",
+    "B2_seasonal": "ASP(q-4)",
+    "B3_mean": "expanding mean of ASP since 2018Q1",
+    "B4_price_scaled": "ASP(q-1) x N_q / N_(q-1)",
+    "B5_rolling_discount": "N_q x mean(ASP/N over the last 4 reported quarters)",
+    "B6_lagged_newc_reg": "OLS ASP_t = a + b N_(t-1), expanding window from 2018Q1 (min 8 obs); forecast a + b N_(q-1)"
+  },
+  "strongest_benchmark": "the benchmark with the lowest MAE on the common test sample (conservative: chosen ex post among the 6)",
+  "candidate_models": {
+    "M1_fixed_lag": "ASP(q-1) x N1_q / N1_(q-1)  (one-month contract lag, full pass-through; no estimation)",
+    "M2_distributed_lag": "dlogASP_q = a + b0 dlogN_q + b1 dlogN_(q-1), OLS expanding window (min 12 obs); forecast ASP(q-1) x exp(fitted)",
+    "M3_product_mix": "NOT TESTABLE: calorific-value mix is not consistently disclosed (registered as not estimable; no proxy will be substituted)",
+    "M4_dom_export_decomposition": "ASP_t = k (1 - s_t) N_t + D s_t (no intercept), OLS expanding window (min 12 obs); forecast with s_(q-1) and N_q"
+  },
+  "lags": "fixed ex ante as above; no lag search on any sample",
+  "training": "expanding window from 2018Q1; regressions require >= 12 (M2, M4) or >= 8 (B6) observations",
+  "evaluation_period": "common sample where all 6 benchmarks and M1, M2, M4 exist; expected 2021Q2-2026Q3 (22 quarters)",
+  "metrics": ["MAE (USD/t)", "RMSE", "bias", "MAE improvement vs strongest benchmark and vs each benchmark", "OOS R2 vs B3 and vs strongest benchmark", "directional accuracy: sign(forecast - ASP(q-1)) == sign(actual - ASP(q-1))", "n", "90% CI of MAE ratio (moving-block bootstrap, block 4, 5000 reps, seed 20261125)", "regime breakdown: R1 2021Q2-2022Q4 (spike), R2 2023Q1-2026Q3 (normalisation) - descriptive"],
+  "inference": "Diebold-Mariano on absolute loss, Newey-West lag floor(n^(1/3)), Harvey-Leybourne-Newbold correction, one-sided (model better)",
+  "multiple_comparisons": "Holm across the 3 testable models (M1, M2, M4) vs the strongest benchmark",
+  "pass_rule": "n >= 16 AND MAE(model) <= 0.85 x MAE(strongest benchmark) AND Holm-adjusted one-sided DM p <= 0.05",
+  "economic_materiality": "translate the MAE reduction vs the strongest benchmark into revenue (x median verified quarterly sales volume) and EBITDA (x (1 - 0.135) royalty approximation); material if the MAE reduction >= 2% of the median ASP of the test sample",
+  "classification": {
+    "GO": "a model passes AND is economically material",
+    "CONDITIONAL_GO": "a model passes but is not material, OR passes with bootstrap CI upper bound >= 1.0 (requires prospective confirmation)",
+    "NO_GO": "no model passes; stop the pilot, preserve results, no retrospective specification search"
+  },
+  "next_if_pass": "separate pre-registered production-volume and unit-cost experiment",
+  "change_policy": "no change after results; variants require new registration and prospective evaluation"
+}
