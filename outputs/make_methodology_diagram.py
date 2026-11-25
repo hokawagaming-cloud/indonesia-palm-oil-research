@@ -75,7 +75,7 @@ STAGES = [
       "Scorecard 1-5 against stated rules (judgement, not probabilities)"],
      "tapg_entry_and_tactical.py · final_decision.py"),
     ("9. Monitoring & feedback", "IMPLEMENTED",
-     ["Append-only forecast journal (39 rows) and catalyst register (C-001..C-021)",
+     ["Append-only forecast journal (42 rows) and catalyst register (C-001..C-021)",
       "Price triggers (TAPG <= 1,525); consensus snapshots each run",
       "First out-of-sample resolutions: FY2026 results, Feb-Mar 2027",
       "Feedback (dashed arrow): resolved errors re-fit models in box 4"],
