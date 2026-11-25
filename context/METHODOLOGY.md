@@ -96,6 +96,9 @@ Find **earnings surprises and underappreciated catalysts** in Indonesian palm oi
 - **Programme-wide multiplicity** is recomputed after every experiment (`programme_multiplicity_v2.csv`); a historical pass that does not survive it is CONDITIONAL and needs prospective confirmation.
 - **Integrated models** use only validated components; failed components enter as their strongest benchmark, and the counterfactual (same structure without the validated component) is a mandatory benchmark.
 - **Prospective forecasts** are produced by frozen scripts that read inputs as available on the origin date (hashed) and are resolved on the company release, not on the forecast date.
+- **Operational fallbacks are pre-specified:** when an input may be unavailable at the origin, the fallback (e.g. ITMG two-month Newcastle averages) must be a model already evaluated historically; the record states which mode ran (D-043).
+- **Scheduled prospective runs** are only called operational after a real scheduled dry run reaches the repository and executes the frozen scripts without changing tracked files (D-042).
+- **Direct return research** (D-044): hypotheses registered before any return is computed; long-only, net of costs, vs a same-universe buy-and-hold benchmark; alpha reported net of market and sector beta; a pass leads only to prospective paper tracking.
 - Methodology map: `outputs/quant_methodology_2026-11-25.png` (regenerate with `outputs/make_methodology_diagram.py`).
 
 ## 6. Data integrity rules
@@ -122,3 +125,4 @@ Find **earnings surprises and underappreciated catalysts** in Indonesian palm oi
 | XI | Banking audit; MVP-B2; coal feasibility | Done: audit (D-035); MVP-B2 frozen prospective (D-036); ITMG conditional GO, PTBA NO-GO (D-037) |
 | XII | ITMG-C1 ASP nowcast | Done: GO for ASP forecasting (D-038); prospective tracking; C2/C3 proposed |
 | XIII | ITMG integrated model | Done: C1 audited/frozen (D-039); C2, C3 NO-GO (D-040); I1 CONDITIONAL GO (D-041) |
+| XIV | Prospective deployment; direct-return design | Done: scheduled and verified (D-042); audit clarification (D-043); DR R1–R3 pre-registered, no backtest (D-044) |

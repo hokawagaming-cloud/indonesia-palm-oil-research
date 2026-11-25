@@ -1,13 +1,13 @@
 # Project Status
 
-_Last updated: 2026-11-24_
+_Last updated: 2026-11-25_
 
 ## Current phase
 
-**Phase XIII complete (2026-11-25).** Palm oil NO TRADE unchanged; CPIN H2 and MVP-B2 frozen.
-- **ITMG:** C1 frozen and audited (survives programme-wide Holm). C2 and C3 NO-GO. I1 integrated GP CONDITIONAL GO (needs prospective confirmation).
-- **Prospective calendar:** Dec 2026 MVP-B2 origins; **10 Jan 2027 ITMG C1 + I1 forecasts** (`quant/itmg_c1_prospective.py`); late Feb 2027 resolutions.
-- **Not started:** ITMG-ES1 event study (designed; needs prospective confirmation and forward consensus). No valuation, no BUY.
+**Phase XIV complete (2026-11-25).** Palm oil NO TRADE unchanged; CPIN H2, MVP-B2, ITMG C1 (GO) and I1 (CONDITIONAL GO) frozen.
+- **Scheduled (desktop app, Auto mode, verified by a scheduled dry run):** `itmg-prospective-forecast-2026q4` on **2027-01-10 10:00 WIB**; `itmg-prospective-evaluation-2026q4` on **2027-03-08 10:00 WIB**. They run only while the app is open (else at next launch).
+- **Direct return research:** R1–R3 pre-registered (`DR_preregistration.json`); no backtest yet. Next: execute R1 as registered.
+- No valuation, no BUY.
 
 ## Done
 
@@ -137,6 +137,10 @@ _Last updated: 2026-11-24_
   - C1 timing and revision audit; programme-wide multiplicity.
   - C2/C3 data (FS costs 35q, implied volumes, guidance 35 decks) with pre-registrations; C2, C3 NO-GO; integrated I1 CONDITIONAL GO.
   - Tests 64 passing.
+
+- [x] **Phase XIV (2026-11-25):**
+  - Prospective run/eval scripts; scheduled tasks verified; WB availability clarification and risk register.
+  - Direct-return feasibility inventory and R1–R3 pre-registration (design only).
 
 ## Not resolved (sources tried and failed)
 

@@ -1,0 +1,51 @@
+{
+  "id": "DR (direct return prediction)",
+  "registered_on": "2026-11-25",
+  "status": "PRE-REGISTERED DESIGN ONLY. No return backtest has been run for any hypothesis below. Execution is a later milestone.",
+  "scope": "Observable signal -> future risk-adjusted returns; long-only, monthly, liquid, executable by Indonesian retail investors (100-share lots, IDX auto-rejection limits, no shorting).",
+  "not_registered_and_why": {
+    "residual_momentum_palm": "already explored on the same palm universe (Phase II quant: mean rank IC +0.04, t 0.93, 100 months); re-testing would be hindsight",
+    "valuation_dispersion": "no point-in-time fundamentals (Yahoo statements are restated and short)",
+    "quality_factors": "same: no PIT fundamentals",
+    "earnings_revisions": "no consensus history before 2026-11-24 (forward logging only)",
+    "cross_sectional_palm_momentum": "only ~9 names trade > IDR 5bn/day; cross-section too narrow"
+  },
+  "common_rules": {
+    "signal_timing": "signals use only data published by the last trading day of month t; positions held for month t+1 (no same-day look-ahead)",
+    "commodity_publication_lag": "World Bank CMO month t-1 average is the latest commodity input at the end of month t (published ~2nd business day of month t)",
+    "off_asset": "money-market proxy at the BI-Rate minus 0.5pp per year (EST); for long-only retail feasibility",
+    "costs": "0.45% per full switch (0.20% buy + 0.25% sell incl. 0.10% sales tax) for large caps; 1.0% for names with median ADV < IDR 10bn; basket rebalancing at 0.3% of traded value",
+    "sample": "2016-03 to latest complete month (>= 120 months)",
+    "inference": "monthly net return difference vs benchmark; Newey-West HAC t (lag 3); moving-block bootstrap CI; Holm across the 3 registered hypotheses (and reported programme-wide)",
+    "pass_rule": "annualised net excess return vs the primary benchmark >= 3% AND Holm-adjusted HAC p <= 0.05 AND positive in both halves of the sample AND max drawdown not worse than the primary benchmark",
+    "after_pass": "12 months of prospective paper tracking (journaled monthly) before any use; no BUY recommendation from a backtest",
+    "factor_adjustment": "report alpha vs IHSG and vs the sector basket (OLS, HAC); a pass that is only sector/commodity beta is NOT alpha"
+  },
+  "hypotheses": {
+    "R1_palm_cpo_impulse_timing": {
+      "mechanism": "palm equities under-react to CPO price changes because earnings recognise prices with a lag (levy/reference-price mechanics, inventory, contract lags; cf. ITMG-C1 partial pass-through)",
+      "signal": "dlog of CMO palm oil price in IDR (USD price x month-average USD/IDR) for month t-1 vs t-2",
+      "rule": "if signal > 0 hold the equal-weight basket of palm names in the PIT core_liquidity band (pit_universe_monthly.csv) for month t+1, else the off-asset",
+      "primary_benchmark": "buy-and-hold of the same PIT palm basket (monthly rebalanced)",
+      "secondary_benchmark": "IHSG",
+      "data_status": "available in repo (benchmarks_daily, pit_universe_monthly, macro_monthly); survivorship: delisted GOLL/MAGP lack prices (suspended for most of the sample)"
+    },
+    "R2_coal_newcastle_impulse_timing": {
+      "mechanism": "same under-reaction channel for coal producers (Newcastle -> ASP pass-through ~0.74 with lag, ITMG-C1)",
+      "signal": "dlog CMO Newcastle (USD) month t-1 vs t-2",
+      "rule": "if signal > 0 hold the equal-weight basket of coal producers with trailing 6-month median ADV >= IDR 10bn at month t, else the off-asset",
+      "primary_benchmark": "buy-and-hold of the same liquid coal basket",
+      "data_status": "REQUIRES acquisition of coal OHLCV (existing quant/fetch_ohlcv.py) and a corporate-action check (e.g. ADRO/AADI 2024 restructuring); survivors-only bias to be documented"
+    },
+    "R3_liquid_idx_12_1_momentum": {
+      "mechanism": "intermediate-horizon momentum (under-reaction / slow information diffusion) in a liquid emerging-market universe",
+      "universe": "IDX stocks with >= 12 months of history, price >= IDR 200, top 100 by trailing 6-month median ADV at month t (PIT from price data)",
+      "signal": "total return months t-12..t-1 (skip month t)",
+      "rule": "hold the top 20 names equal-weighted for month t+1; monthly rebalance",
+      "primary_benchmark": "equal-weight of the same liquid universe",
+      "secondary_benchmark": "IHSG",
+      "data_status": "REQUIRES acquisition of ~300 tickers' OHLCV; Yahoo lacks delisted stocks -> survivorship bias must be quantified (IDX delisting list) before execution; lowest priority"
+    }
+  },
+  "change_policy": "no changes after any backtest is run; new ideas need new registration"
+}

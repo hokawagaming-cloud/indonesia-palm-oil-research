@@ -1,0 +1,145 @@
+{
+ "equities_in_repo": 25,
+ "liquid_ge_5bn": 9,
+ "lt_1_5bn": 14,
+ "per_ticker": [
+  {
+   "ticker": "TAPG",
+   "from": "2021-04-12",
+   "median_tv_bn_1y": 26.91
+  },
+  {
+   "ticker": "LSIP",
+   "from": "2015-01-02",
+   "median_tv_bn_1y": 12.53
+  },
+  {
+   "ticker": "DSNG",
+   "from": "2015-01-02",
+   "median_tv_bn_1y": 10.63
+  },
+  {
+   "ticker": "AALI",
+   "from": "2015-01-02",
+   "median_tv_bn_1y": 10.53
+  },
+  {
+   "ticker": "BWPT",
+   "from": "2015-01-02",
+   "median_tv_bn_1y": 9.75
+  },
+  {
+   "ticker": "SSMS",
+   "from": "2015-01-02",
+   "median_tv_bn_1y": 9.7
+  },
+  {
+   "ticker": "NSSS",
+   "from": "2023-03-10",
+   "median_tv_bn_1y": 6.99
+  },
+  {
+   "ticker": "STAA",
+   "from": "2022-03-10",
+   "median_tv_bn_1y": 5.84
+  },
+  {
+   "ticker": "SIMP",
+   "from": "2015-01-02",
+   "median_tv_bn_1y": 5.62
+  },
+  {
+   "ticker": "GZCO",
+   "from": "2015-01-02",
+   "median_tv_bn_1y": 3.6
+  },
+  {
+   "ticker": "MGRO",
+   "from": "2018-07-12",
+   "median_tv_bn_1y": 2.67
+  },
+  {
+   "ticker": "BTEK",
+   "from": "2015-01-02",
+   "median_tv_bn_1y": 1.29
+  },
+  {
+   "ticker": "TBLA",
+   "from": "2015-01-02",
+   "median_tv_bn_1y": 1.1
+  },
+  {
+   "ticker": "SMAR",
+   "from": "2015-01-02",
+   "median_tv_bn_1y": 0.69
+  },
+  {
+   "ticker": "TLDN",
+   "from": "2022-04-12",
+   "median_tv_bn_1y": 0.56
+  },
+  {
+   "ticker": "SGRO",
+   "from": "2015-01-02",
+   "median_tv_bn_1y": 0.54
+  },
+  {
+   "ticker": "UNSP",
+   "from": "2015-01-02",
+   "median_tv_bn_1y": 0.4
+  },
+  {
+   "ticker": "CSRA",
+   "from": "2020-01-09",
+   "median_tv_bn_1y": 0.38
+  },
+  {
+   "ticker": "PGUN",
+   "from": "2020-07-07",
+   "median_tv_bn_1y": 0.35
+  },
+  {
+   "ticker": "JAWA",
+   "from": "2015-01-02",
+   "median_tv_bn_1y": 0.31
+  },
+  {
+   "ticker": "ANJT",
+   "from": "2015-01-02",
+   "median_tv_bn_1y": 0.2
+  },
+  {
+   "ticker": "PALM",
+   "from": "2015-01-02",
+   "median_tv_bn_1y": 0.16
+  },
+  {
+   "ticker": "PSGO",
+   "from": "2019-11-25",
+   "median_tv_bn_1y": 0.07
+  },
+  {
+   "ticker": "CBUT",
+   "from": "2022-11-08",
+   "median_tv_bn_1y": 0.06
+  },
+  {
+   "ticker": "FAPA",
+   "from": "2021-01-04",
+   "median_tv_bn_1y": 0.02
+  }
+ ],
+ "pit_core_names_per_month": {
+  "min": 3,
+  "median": 8.0,
+  "max": 16,
+  "months": 130
+ },
+ "delisted_or_suspended_without_prices": [
+  "GOLL",
+  "MAGP"
+ ],
+ "pit_fundamentals": "not available",
+ "consensus_history_from": "2026-11-24",
+ "note": "descriptive inventory only; no returns computed"
+}

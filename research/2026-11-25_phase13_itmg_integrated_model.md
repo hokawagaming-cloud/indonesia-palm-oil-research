@@ -153,3 +153,14 @@ _Sources:_
 - _S-003 World Bank CMO (with Internet Archive vintages, S-070)_
 - _S-071 regulations_
 - _[World Bank Pink Sheet](https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/world-bank-commodities-price-data-the-pink-sheet)_
+
+---
+
+## Clarification (Phase XIV audit, 2026-11-25)
+
+**Only the June 2026 archive (10 Jul 07:04 UTC) shows World Bank data available at D+10.**
+- The September archive shows availability by **15 Oct (D+15), not D+10**.
+- The Oct/Jan observations are not quarter ends.
+- D+10 availability is therefore **not proven for every historical quarter**.
+
+The delayed-month sensitivity (−39%, Holm p 0.009) is maintained as the conservative case and is now the operational fallback (D-043). Classifications are unchanged.

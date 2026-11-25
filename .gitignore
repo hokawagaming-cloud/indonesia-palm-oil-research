@@ -54,3 +54,6 @@ desktop.ini
 
 # --- Company documents (copyrighted; keep local only) ---
 *.pdf
+
+# Phase XIV dry-run outputs (verification only)
+data/reference/prospective/dry_run/
