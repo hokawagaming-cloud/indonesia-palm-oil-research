@@ -4,10 +4,10 @@ _Last updated: 2026-11-25_
 
 ## Current phase
 
-**Phase XV complete (2026-11-25).** DR-R1 (palm CPO-impulse timing) executed exactly as registered: **NO-GO** on all four criteria (−5.0%/yr vs palm basket, Holm p 1.0); experiment stopped, no paper tracking. Palm oil NO TRADE; CPIN H2, MVP-B2, ITMG C1 (GO) and I1 (CONDITIONAL GO) unchanged.
+**Phase XVI complete (2026-11-25).** ITMG equity research (`research/company/ITMG/2026-11-25_ITMG_equity_research.md`, workbook `outputs/ITMG_model_valuation.xlsx`): **HOLD / WATCH**, base fair value IDR 24,700 vs price IDR 24,650; BUY only at <= IDR 19,800 (D-046). R1 NO-GO accepted; cross-sector exploration paused (R2/R3 untested). Palm oil NO TRADE; CPIN H2, MVP-B2, ITMG C1 (GO) and I1 (CONDITIONAL GO) unchanged.
 - **Scheduled (desktop app, Auto mode, verified):** ITMG forecast **2027-01-10 10:00 WIB**; evaluation **2027-03-08 10:00 WIB**.
-- **Registered, untested:** DR R2 (coal Newcastle impulse; needs coal OHLCV) and R3 (liquid IDX momentum; needs survivorship assessment).
-- No valuation, no BUY.
+- **ITMG monitoring:** monthly Newcastle and consensus log; quarterly strip ratio/fuel/ASP ratio; RKAB 2027; IMM licence (expires Mar 2028); dividends/buybacks; 9M26 working-capital build.
+- Programme hypothesis register: `data/reference/research/hypothesis_register.csv`.
 
 ## Done
 
@@ -143,6 +143,8 @@ _Last updated: 2026-11-25_
   - Direct-return feasibility inventory and R1–R3 pre-registration (design only).
 
 - [x] **Phase XV (2026-11-25):** R1 PIT audit, BI-Rate history (S-072), implementation note before returns, backtest, attribution, robustness; NO-GO (D-045). Tests 73 passing.
+
+- [x] **Phase XVI (2026-11-25):** ITMG FS extraction FY2018-9M26 (identities pass), market/consensus snapshot, integrated model FY2026-30 + mine-life DCF/DDM/relative/reverse DCF, report and exhibits; consolidation note and hypothesis register. Tests 80 passing.
 
 ## Not resolved (sources tried and failed)
 

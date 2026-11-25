@@ -100,6 +100,8 @@ Find **earnings surprises and underappreciated catalysts** in Indonesian palm oi
 - **Scheduled prospective runs** are only called operational after a real scheduled dry run reaches the repository and executes the frozen scripts without changing tracked files (D-042).
 - **Direct return research** (D-044): hypotheses registered before any return is computed; long-only, net of costs, vs a same-universe buy-and-hold benchmark; alpha reported net of market and sector beta; a pass leads only to prospective paper tracking.
 - **Backtest implementation notes:** any interpretation of an ambiguous registered rule (costs, timing, cash, Holm family) is committed before the first return is computed; untested members of a registered family count as p = 1 in Holm (D-045).
+- **Equity research use of quantitative evidence (D-046):** a validated forecaster is used only at its validated horizon (C1: next-quarter ASP); failed components enter as their strongest benchmarks; every multi-year input is labelled ANALYST. Depleting assets are valued with finite mine-life DCF (no perpetual growth/terminal value), a company-level shutdown test, and a reverse DCF stating the commodity price the market implies. Recommendations need evidence of mispricing, not a favourable probability weighting alone.
+- **Workbooks** are built with live formulas from code and verified by an independent formula evaluator when no spreadsheet engine is available; scenario/sensitivity tables are static script outputs and say so.
 - Methodology map: `outputs/quant_methodology_2026-11-25.png` (regenerate with `outputs/make_methodology_diagram.py`).
 
 ## 6. Data integrity rules
@@ -128,3 +130,4 @@ Find **earnings surprises and underappreciated catalysts** in Indonesian palm oi
 | XIII | ITMG integrated model | Done: C1 audited/frozen (D-039); C2, C3 NO-GO (D-040); I1 CONDITIONAL GO (D-041) |
 | XIV | Prospective deployment; direct-return design | Done: scheduled and verified (D-042); audit clarification (D-043); DR R1–R3 pre-registered, no backtest (D-044) |
 | XV | DR-R1 palm CPO-impulse timing backtest | Done: NO-GO on all criteria (D-045); experiment stopped |
+| XVI | ITMG flagship equity research; consolidation | Done: HOLD/WATCH, fair value IDR 24,700 (D-046); hypothesis register; cross-sector exploration paused |

@@ -1,0 +1,17 @@
+id,phase,hypothesis,decision,kind,status,next_or_note,p_raw,p_holm_programme_17
+PALM-DECISION,VII,Palm-oil institutional investment decision (TAPG/LSIP),"D-027, D-028",decision,NO TRADE,Active; LSIP re-test triggers on calendar,,
+CPIN-H1,VIII,"CPIN segment margin nowcast (consolidated, feed, broiler, DOC)",D-031,historical test,NO-GO (killed),Preserved,0.25988,1.0
+CPIN-H2,IX,CPIN frozen post-hoc variant,D-032,frozen prospective,PROSPECTIVE (frozen),Awaiting resolutions,,
+B1-BBCA,X,"MVP-B1 bank profit nowcast BBCA (T1, T2)",D-034,historical test,NO-GO,Preserved,0.95403,1.0
+B1-BBRI,X,"MVP-B1 bank profit nowcast BBRI (T1, T2)",D-034,historical test,NO-GO,Preserved,0.2361,1.0
+MVP-B2,XI,Bank NII nowcast (frozen),D-036,frozen prospective,PROSPECTIVE (frozen),Dec 2026 origins,,
+ITMG-C1,XII,ITMG next-quarter ASP nowcast (M2 distributed lag on Newcastle),"D-038, D-039, D-043",historical test + prospective,GO (historical); prospective from 2026Q4,Scheduled 10 Jan 2027 / 8 Mar 2027,0.00077,0.01309
+ITMG-C1-M1/M4,XII,Alternative C1 models (fixed lag; domestic/export decomposition),D-038,historical test,Not selected (fail),Preserved,0.3781,1.0
+ITMG-C2,XIII,ITMG sales volume (guidance models),D-040,historical test,NO-GO,Preserved,0.24918,1.0
+ITMG-C3,XIII,ITMG unit cost (commodity / component models),D-040,historical test,NO-GO,Preserved,0.27062,1.0
+ITMG-I1,XIII,ITMG integrated gross profit (C1 + benchmarks),D-041,historical test + prospective,CONDITIONAL GO,Scheduled with C1,0.03431,0.54896
+ITMG-ES1,XIII,ITMG results event study,D-041,design only,DESIGNED (not run),Needs prospective C1/I1 and >=8 quarters of consensus,,
+DR-R1,XV,Palm CPO-impulse timing (long-only),D-045,historical backtest,NO-GO (stopped),Preserved; no optimisation,0.8469905725173819,1.0
+DR-R2,XIV,Coal Newcastle-impulse timing (long-only),D-044,pre-registered,UNTESTED,"Not run (paused, D-046)",,
+DR-R3,XIV,Liquid IDX 12-1 momentum,D-044,pre-registered,UNTESTED,"Not run (paused, D-046)",,
+ITMG-ER,XVI,ITMG equity research valuation (not a statistical hypothesis),D-046,analysis,HOLD/WATCH (see report),Monitoring indicators listed,,
