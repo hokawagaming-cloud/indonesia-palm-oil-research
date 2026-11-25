@@ -91,6 +91,8 @@ Find **earnings surprises and underappreciated catalysts** in Indonesian palm oi
 - **Information-matched benchmarks:** when a model uses a new data source, it must beat simple rules using the SAME information (e.g. 2 months × 1.5), not only unconditional benchmarks; report information value and model value separately.
 - **Discovery vs confirmation:** a rule selected on historical data (even a simple one) is registered as a frozen prospective hypothesis; historical results are discovery evidence only. Multiplicity across all compared pairs (Holm) and across banks/targets (Bonferroni) is applied before any 'information value' claim.
 - **Commodity-linked hypotheses:** the benchmark must already contain the commodity signal (price-scaled naive); correlation with a public benchmark price is not incremental information.
+- **Document provenance:** every downloaded source file gets a SHA-256 in a committed manifest; raw files stay git-ignored. First-reported values are used where later documents revise history.
+- **A historical pass is not the end:** even a pre-registered GO is tracked prospectively in the journal before any use beyond research.
 - Methodology map: `outputs/quant_methodology_2026-11-25.png` (regenerate with `outputs/make_methodology_diagram.py`).
 
 ## 6. Data integrity rules
@@ -115,3 +117,4 @@ Find **earnings surprises and underappreciated catalysts** in Indonesian palm oi
 | IX | CPIN PIT audit v2; banking feasibility | Done: H2 frozen (D-032); banking CONDITIONAL GO for MVP-B1 (D-033) |
 | X | MVP-B1 banking validation (BBCA, BBRI) | Done: both NO-GO on profit (D-034); NII information value documented |
 | XI | Banking audit; MVP-B2; coal feasibility | Done: audit (D-035); MVP-B2 frozen prospective (D-036); ITMG conditional GO, PTBA NO-GO (D-037) |
+| XII | ITMG-C1 ASP nowcast | Done: GO for ASP forecasting (D-038); prospective tracking; C2/C3 proposed |

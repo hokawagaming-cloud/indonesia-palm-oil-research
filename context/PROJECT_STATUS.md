@@ -4,10 +4,10 @@ _Last updated: 2026-11-24_
 
 ## Current phase
 
-**Phase XI complete (2026-11-25).** Palm oil: NO TRADE unchanged (TAPG/LSIP/DSNG WATCH, STAA AVOID); monitoring and frozen forecasts unchanged.
-- **Banking:** MVP-B1 NO-GO confirmed after audit (D-035). MVP-B2 (NII) frozen; first prospective forecasts at the Nov-2026 month-2 publications (Dec 2026); final verdict no earlier than 2029Q3.
-- **Coal:** ITMG CONDITIONAL GO for C1 (export-ASP nowcast), pending user approval to download ~35 presentations and a decree regime table; PTBA NO-GO (D-037). ITMG/PTBA added to consensus snapshots.
-- **Open:** hurdle reassessment (D-030c); Feb-Mar 2027 resolutions (palm C-020, CPIN H2, MVP-B1/B2 rows).
+**Phase XII complete (2026-11-25).** Palm oil: NO TRADE unchanged (TAPG/LSIP/DSNG WATCH, STAA AVOID); CPIN H2 and MVP-B2 frozen and unchanged.
+- **ITMG-C1:** GO for ASP nowcasting (D-038). Prospective forecast for 2026Q4 at origin 2027-01-10; resolves ~late Feb 2027. Not alpha; no valuation.
+- **Next (proposed, not started):** ITMG-C2/C3 volume and unit-cost pre-registration (needs per-quarter volumes/strip/fuel extraction reconciled to FS, verified mine coordinates).
+- **Upcoming resolutions:** Dec 2026 MVP-B2 origins; Jan 2027 ITMG-C1 origin; Feb-Mar 2027 palm C-020, CPIN H2, MVP-B1/B2, ITMG-C1.
 
 ## Done
 
@@ -127,6 +127,11 @@ _Last updated: 2026-11-24_
   - MVP-B1 audit (impairment reversals corrected separately, PBT reconciliation, Internet Archive timestamp check, Holm/Bonferroni).
   - MVP-B2 frozen.
   - Coal data tested (ITMG IR 35 quarters, PTBA API, CMO Newcastle, ICI/HBA unavailable). Tests 56 passing.
+
+- [x] **Phase XII (2026-11-25):**
+  - 69 ITMG documents with SHA-256; regulatory regime table.
+  - Pre-registered ASP experiment: M2 passes (−40% vs strongest benchmark).
+  - Tests 60 passing.
 
 ## Not resolved (sources tried and failed)
 

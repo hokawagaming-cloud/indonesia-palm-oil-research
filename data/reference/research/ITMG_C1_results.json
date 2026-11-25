@@ -1,0 +1,55 @@
+{
+ "n": 22,
+ "test_window": "2021Q2..2026Q3",
+ "strongest_benchmark": "B4_price_scaled",
+ "strongest_MAE": 10.711619329450379,
+ "models": {
+  "M1_fixed_lag": {
+   "MAE": 10.04612011513849,
+   "improvement": 0.06212872151665949,
+   "DM": 0.3145482785691997,
+   "p_raw": 0.3781042361122808,
+   "p_holm": 0.4842723864539161,
+   "ratio_CI90": [
+    0.6879240214238448,
+    1.2095088601320114
+   ],
+   "pass": false
+  },
+  "M2_distributed_lag": {
+   "MAE": 6.380192761878349,
+   "improvement": 0.40436711148456006,
+   "DM": 3.6399287032437146,
+   "p_raw": 0.000765795242841134,
+   "p_holm": 0.002297385728523402,
+   "ratio_CI90": [
+    0.41561019403889066,
+    0.7130405607891204
+   ],
+   "pass": true
+  },
+  "M4_dom_export_decomposition": {
+   "MAE": 9.153773667367169,
+   "improvement": 0.14543512182141227,
+   "DM": 0.7120462294656598,
+   "p_raw": 0.24213619322695806,
+   "p_holm": 0.4842723864539161,
+   "ratio_CI90": [
+    0.6387714949932977,
+    1.320900776437622
+   ],
+   "pass": false
+  }
+ },
+ "economics": {
+  "best_model": "M2_distributed_lag",
+  "MAE_reduction_usd_t": 4.33142656757203,
+  "median_verified_sales_mt": 6.199999999999999,
+  "revenue_error_reduction_usd_m_per_q": 26.85484471894658,
+  "ebitda_error_reduction_usd_m_per_q": 23.229440681888793,
+  "median_asp_test": 96.4,
+  "reduction_pct_of_median_asp": 0.04493181086692977,
+  "material": true
+ },
+ "classification": "GO"
+}
