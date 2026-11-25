@@ -1,0 +1,46 @@
+{
+ "BBCA_T1": {
+  "n": 15,
+  "best_IM": "IM1_x1.5",
+  "M1_MAE": 1011.8368910197077,
+  "bestIM_MAE": 719.0459333333331,
+  "model_value_improvement": -0.40719367722318145,
+  "p_holm_vs_bestIM": 1.0,
+  "info_value_improvement": -0.28321072721812923,
+  "p_info": 0.8742337769059334,
+  "pass_rule": false
+ },
+ "BBCA_T2": {
+  "n": 15,
+  "best_IM": "IM4_seasonal_runrate",
+  "M1_MAE": 169.40080237878647,
+  "bestIM_MAE": 129.27045122548844,
+  "model_value_improvement": -0.31043715538130234,
+  "p_holm_vs_bestIM": 0.9335951471478435,
+  "info_value_improvement": 0.7633297915151116,
+  "p_info": 0.0010479716674882014,
+  "pass_rule": false
+ },
+ "BBRI_T1": {
+  "n": 23,
+  "best_IM": "IM1_x1.5",
+  "M1_MAE": 1391.0396997695732,
+  "bestIM_MAE": 1555.4274130434787,
+  "model_value_improvement": 0.10568652184948368,
+  "p_holm_vs_bestIM": 0.23609762422937944,
+  "info_value_improvement": -0.06399360762103234,
+  "p_info": 0.5978197369979301,
+  "pass_rule": false
+ },
+ "BBRI_T2": {
+  "n": 23,
+  "best_IM": "IM1_x1.5",
+  "M1_MAE": 1676.892167197976,
+  "bestIM_MAE": 1940.6724130434784,
+  "model_value_improvement": 0.1359220876602385,
+  "p_holm_vs_bestIM": 0.38898486877046184,
+  "info_value_improvement": 0.3103143190975103,
+  "p_info": 0.013440904559912372,
+  "pass_rule": false
+ }
+}

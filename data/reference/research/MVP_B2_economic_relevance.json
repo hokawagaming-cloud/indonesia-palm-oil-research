@@ -1,0 +1,20 @@
+{
+ "BBCA": {
+  "NII_to_NP_ratio_last4q": 1.46,
+  "effective_tax": 0.189,
+  "profit_elasticity_to_NII": 1.19,
+  "IM1_NII_abs_error_pct_median": 1.1,
+  "U1_NII_abs_error_pct_median": 2.4,
+  "implied_profit_error_pct_IM1": 1.3,
+  "implied_profit_error_pct_U1": 2.85
+ },
+ "BBRI": {
+  "NII_to_NP_ratio_last4q": 2.48,
+  "effective_tax": 0.216,
+  "profit_elasticity_to_NII": 1.94,
+  "IM1_NII_abs_error_pct_median": 2.53,
+  "U1_NII_abs_error_pct_median": 4.91,
+  "implied_profit_error_pct_IM1": 4.91,
+  "implied_profit_error_pct_U1": 9.54
+ }
+}

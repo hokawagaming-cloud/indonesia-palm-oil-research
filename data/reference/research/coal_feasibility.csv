@@ -1,0 +1,20 @@
+dataset,company_scope,source_tested,verdict,coverage,publication_lag_and_pit,evidence_2026_11_25
+Newcastle benchmark (GC NEWC proxy),both,World Bank CMO 'Coal Australian' (local S-003),AVAILABLE,1970M01-2026M10 monthly,Published ~2nd business day of next month; single vintage (revisions possible),Column present; 682 observations
+South African benchmark,both,World Bank CMO 'Coal South African' (local),AVAILABLE,1984M01-2026M10,as above,Not directly relevant to Indonesian sub-bituminous
+Indonesian Coal Index (ICI 1-5),both,coalindoenergy.com (Argus/Coalindo),NOT AVAILABLE (subscription),-,-,Site shows Subscribe/Login only
+HBA ESDM reference coal price,both,minerba.esdm.go.id/harga_acuan,NOT VERIFIED (site under maintenance),-,Monthly Kepmen; regime changes 2023 and 2025 (document-based),Page returned 'Sistem sedang dalam perbaikan'
+Realised ASP (export and total),ITMG,ITMG analyst presentations (S-066),AVAILABLE,1Q18-3Q26 (35 quarters; HEAD 200 for every quarter),Presentation published with results; IDX FS timestamps from Aug 2023 (S-060 mirror),Sample 1Q18 and 3Q26: ASP USD/t; GC Newc reference; destination mix
+Sales and production volumes,ITMG,ITMG analyst presentations,AVAILABLE,1Q18-3Q26,as above,Quarterly sales volume (Mt) and production commentary
+Strip ratio,ITMG,ITMG analyst presentations,AVAILABLE,1Q18-3Q26,as above,Quarterly and 9M strip ratio; FY guidance per mine
+Fuel price (company),ITMG,ITMG analyst presentations,AVAILABLE,1Q18-3Q26,as above,Fuel price USD/litre quarterly
+Cost breakdown and royalty,ITMG,ITMG analyst presentations and FS,AVAILABLE,1Q18-3Q26,as above,Mining cost; royalty expense; D&A
+Calorific value / product mix,ITMG,ITMG presentations,PARTIAL,qualitative/brand CV ranges,-,CV GAR ranges by mine; sales mix by CV not consistently tabulated
+Quarterly consolidated FS,ITMG,itmg.co.id/files/investor (S-066),AVAILABLE,3M/6M/9M/12M 2018-2026 (9M25 under a different name),FS filed on IDX; mirror timestamps 2023+,HEAD 200 PDFs
+Quarterly FS and operating data,PTBA,ptba.co.id document API (S-067),PARTIAL (site hosts no quarterly FS or presentations),announcements only (265 documents; quarterly-finance category empty),IDX timestamps 2024+ (mirror); IDX behind Cloudflare -> manual download,API categories: announcement 120; rups 88; information-disclosure 63
+Domestic market obligation (DMO) and price caps,both,Kepmen ESDM (JDIH),PARTIAL (document-based; not compiled),2018+ (USD 70/t cap for power),regulatory dates known from decrees,Requires manual regime table
+Royalty regimes,both,PP 81/2019; PP 15/2022; PP 26/2022; PP 19/2025 (JDIH),PARTIAL (document-based),2018+,regime dates from regulations,Requires manual regime table; ITMG reports royalty expense
+Rainfall at mine locations,both,CHIRPS (existing quant/fetch_chirps.py),PARTIAL,1981+ monthly,~3 weeks lag (prelim) ; final later,Mine coordinates NOT yet verified from IUP/AR documents
+Fuel (diesel) market price,both,World Bank CMO Brent (local); Pertamina industrial diesel,PARTIAL,Brent monthly; Pertamina history not found,-,pertamina.com announcement URL 404
+USD/IDR,both,repository macro_monthly.csv,AVAILABLE,2014+,-,-
+Historical analyst expectations,both,Yahoo/S&P,NOT AVAILABLE (snapshot only),-,forward logging possible,ITMG 6/14 analysts FY26/FY27; PTBA 13/14
+Liquidity,both,Yahoo,AVAILABLE,-,-,60d median traded value ITMG IDR 38bn; PTBA 107bn

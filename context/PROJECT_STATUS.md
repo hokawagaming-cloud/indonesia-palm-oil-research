@@ -4,10 +4,10 @@ _Last updated: 2026-11-24_
 
 ## Current phase
 
-**Phase X complete (2026-11-25).** Palm oil: NO TRADE unchanged (TAPG/LSIP/DSNG WATCH, STAA AVOID).
-- **Banking MVP-B1:** BBCA NO-GO, BBRI NO-GO on quarterly consolidated profit (D-034). Monthly data help NII forecasts, but that is public information, not alpha. Event study designed only. No BMRI/BBNI.
-- **Poultry:** H1 killed; H2 frozen for prospective test from 2026Q4.
-- **Open:** hurdle reassessment (D-030c); resolutions Feb-Mar 2027 (palm C-020, CPIN H2, MVP-B1 prospective rows).
+**Phase XI complete (2026-11-25).** Palm oil: NO TRADE unchanged (TAPG/LSIP/DSNG WATCH, STAA AVOID); monitoring and frozen forecasts unchanged.
+- **Banking:** MVP-B1 NO-GO confirmed after audit (D-035). MVP-B2 (NII) frozen; first prospective forecasts at the Nov-2026 month-2 publications (Dec 2026); final verdict no earlier than 2029Q3.
+- **Coal:** ITMG CONDITIONAL GO for C1 (export-ASP nowcast), pending user approval to download ~35 presentations and a decree regime table; PTBA NO-GO (D-037). ITMG/PTBA added to consensus snapshots.
+- **Open:** hurdle reassessment (D-030c); Feb-Mar 2027 resolutions (palm C-020, CPIN H2, MVP-B1/B2 rows).
 
 ## Done
 
@@ -122,6 +122,11 @@ _Last updated: 2026-11-24_
 - [x] **Phase X (2026-11-25):**
   - 227 BBCA/BBRI IR documents downloaded and parsed (scopes separated, integrity checks); pre-registered spec committed before modelling.
   - Walk-forward vs 4 unconditional + 4 information-matched benchmarks with DM/Holm/bootstrap; both banks NO-GO. Tests 52 passing.
+
+- [x] **Phase XI (2026-11-25):**
+  - MVP-B1 audit (impairment reversals corrected separately, PBT reconciliation, Internet Archive timestamp check, Holm/Bonferroni).
+  - MVP-B2 frozen.
+  - Coal data tested (ITMG IR 35 quarters, PTBA API, CMO Newcastle, ICI/HBA unavailable). Tests 56 passing.
 
 ## Not resolved (sources tried and failed)
 

@@ -1,0 +1,115 @@
+{
+ "impairment": {
+  "negative_raw_documents": 5,
+  "by_class": {
+   "possible genuine reversal": 3,
+   "sign convention": 2
+  },
+  "negative_standalone_months_preserved": [
+   {
+    "bank": "BBCA",
+    "month": "2018-06",
+    "standalone_impairment_bn": -203.314
+   },
+   {
+    "bank": "BBCA",
+    "month": "2020-08",
+    "standalone_impairment_bn": -140.061
+   },
+   {
+    "bank": "BBCA",
+    "month": "2021-11",
+    "standalone_impairment_bn": -277.455
+   },
+   {
+    "bank": "BBCA",
+    "month": "2022-05",
+    "standalone_impairment_bn": -219.805
+   },
+   {
+    "bank": "BBCA",
+    "month": "2023-02",
+    "standalone_impairment_bn": -119.001
+   },
+   {
+    "bank": "BBCA",
+    "month": "2023-05",
+    "standalone_impairment_bn": -17.525
+   },
+   {
+    "bank": "BBCA",
+    "month": "2023-11",
+    "standalone_impairment_bn": -214.268
+   },
+   {
+    "bank": "BBRI",
+    "month": "2020-04",
+    "standalone_impairment_bn": -1319.336
+   }
+  ]
+ },
+ "pbt_substitution": {
+  "documents_using_pbt": 37,
+  "reconciled_within_0.1pct": 37,
+  "max_abs_gap_mn": 0.0
+ },
+ "T2_pairs_significant_after_holm16_bonf4": {
+  "BBCA": 7,
+  "BBRI": 5
+ },
+ "T2_best_pairs": [
+  {
+   "bank": "BBCA",
+   "IM": "IM4_seasonal_runrate",
+   "U": "U3_expanding_mean",
+   "p_raw": 5.511349700095738e-12,
+   "p_holm16": 8.818159520153181e-11,
+   "p_holm16_bonf4": 3.5272638080612725e-10
+  },
+  {
+   "bank": "BBCA",
+   "IM": "IM1_x1.5",
+   "U": "U3_expanding_mean",
+   "p_raw": 8.093190386217371e-12,
+   "p_holm16": 1.2139785579326057e-10,
+   "p_holm16_bonf4": 4.855914231730423e-10
+  },
+  {
+   "bank": "BBCA",
+   "IM": "IM2_hist_avg_m3",
+   "U": "U3_expanding_mean",
+   "p_raw": 1.847772919206102e-11,
+   "p_holm16": 2.5868820868885426e-10,
+   "p_holm16_bonf4": 1.034752834755417e-09
+  },
+  {
+   "bank": "BBRI",
+   "IM": "IM1_x1.5",
+   "U": "U3_expanding_mean",
+   "p_raw": 2.9326011175071548e-09,
+   "p_holm16": 4.6921617880114476e-08,
+   "p_holm16_bonf4": 1.876864715204579e-07
+  },
+  {
+   "bank": "BBRI",
+   "IM": "IM2_hist_avg_m3",
+   "U": "U3_expanding_mean",
+   "p_raw": 3.792435311752206e-09,
+   "p_holm16": 5.6886529676283086e-08,
+   "p_holm16_bonf4": 2.2754611870513235e-07
+  },
+  {
+   "bank": "BBRI",
+   "IM": "IM3_last_year_m3",
+   "U": "U3_expanding_mean",
+   "p_raw": 2.785723209510895e-08,
+   "p_holm16": 3.900012493315253e-07,
+   "p_holm16_bonf4": 1.5600049973261012e-06
+  }
+ ],
+ "wayback": {
+  "n": 16,
+  "captures_before_claimed_date": 0,
+  "median_days_after": 532.0
+ }
+}

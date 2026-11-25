@@ -1,0 +1,29 @@
+{
+  "id": "MVP-B2",
+  "registered_on": "2026-11-25",
+  "status": "FROZEN prospective hypothesis. Historical MVP-B1 T2 results are HYPOTHESIS-DISCOVERY evidence only (same data selected the rule), not confirmation.",
+  "hypothesis": "Publicly available monthly bank-only NII (months 1-2 of a quarter) improves forecasts of quarterly CONSOLIDATED NII relative to unconditional benchmarks.",
+  "banks": ["BBCA", "BBRI"],
+  "pooling": "none; each bank evaluated separately",
+  "target": "consolidated net interest income, standalone quarter (quarterly publication CONSOLIDATED column; Q1 = YTD, Qn = YTD_n - YTD_(n-1)), IDR bn",
+  "forecast_formula": "NII_cons_hat(q) = 1.5 x NII_BO2(q) + AdjNII(latest quarter with consolidated and bank-only NII available at origin)",
+  "rule_choice": "IM1 (x1.5) = the simplest information-matched run-rate rule; chosen ex ante for BOTH banks (no bank-specific selection). IM4 is NOT the registered rule.",
+  "eligible_inputs": {
+    "NII_BO2": "bank-only YTD NII at month 2 minus bank-only YTD NII at previous quarter end (0 for Q1); previous quarter end from the quarterly publication INDIVIDUAL column",
+    "AdjNII": "consolidated NII minus bank-only NII of the latest available quarter"
+  },
+  "forecast_origin": "verified publication date of the quarter's month-2 monthly report (BBRI: IR posting date; BBCA: filename date prefix, or an archived listing date recorded at the time). Forecasts are computed and journaled ON the origin date (or the first working session after it) BEFORE the quarterly result is published.",
+  "point_in_time": "only documents available at the origin; original (first-listed) vintages; no revisions",
+  "benchmarks": {
+    "U1_last_quarter": "consolidated NII of the latest available quarter",
+    "U2_seasonal": "consolidated NII of q-4",
+    "U4_AR1": "OLS NII_t = a + b NII_(t-1) on all available history since 2018Q1, one-step forecast"
+  },
+  "metrics": ["MAE", "RMSE", "bias", "MAE ratio vs each benchmark", "directional accuracy vs q-4", "n", "Diebold-Mariano (absolute loss, Newey-West, HLN), one-sided"],
+  "evaluation_window": "first quarter 2026Q4; only quarters whose forecast was journaled before the result was published",
+  "interim_review": "at n = 8 per bank: KILL if MAE(rule) >= MAE of the best of U1/U2/U4",
+  "final_test": "at n = 12 per bank: PASS if MAE(rule) <= 0.85 x MAE of EACH of U1, U2, U4 AND Holm-adjusted (3 comparisons) one-sided DM p <= 0.05 vs each",
+  "multiple_testing_note": "two banks tested independently; a PASS is claimed per bank; Bonferroni x2 reported alongside",
+  "interpretation_limits": "a PASS demonstrates forecasting accuracy only; it does not demonstrate that markets or analysts under-react (see MVP_B1_event_study_design.json); no trading or BUY implications",
+  "change_policy": "frozen; any variant is a new registration"
+}

@@ -21,6 +21,7 @@ PL = ["nii", "net_profit", "op_profit", "impairment", "pbt"]
 BCA_MISSING = ["2019Q4", "2020Q1", "2020Q4", "2021Q1", "2021Q2"]
 TEST_FROM, TEST_TO = pd.Period("2021Q1", "Q"), pd.Period("2026Q3", "Q")
 REGIMES = {"R1": ("2021Q1", "2022Q2"), "R2": ("2022Q3", "2023Q4"), "R3": ("2024Q1", "2025Q4"), "R4": ("2026Q1", "2026Q3")}
+MONTHLY_FILE = "bank_monthly_extract.csv"   # Phase XI correction runs point this to the _v2 file
 IM = ["IM1_x1.5", "IM2_hist_avg_m3", "IM3_last_year_m3", "IM4_seasonal_runrate"]
 UNC = ["U1_last_quarter", "U2_seasonal", "U3_expanding_mean", "U4_AR1"]
 
@@ -29,7 +30,7 @@ UNC = ["U1_last_quarter", "U2_seasonal", "U3_expanding_mean", "U4_AR1"]
 def load(mode: str) -> tuple[pd.DataFrame, pd.DataFrame]:
     """mode 'primary' uses verified dates (unverified -> NaT except quarterly docs, which get the conservative date);
     'conservative' uses the conservative dates throughout."""
-    M = pd.read_csv(OUT / "bank_monthly_extract.csv", parse_dates=["avail_verified", "avail_conservative"])
+    M = pd.read_csv(OUT / MONTHLY_FILE, parse_dates=["avail_verified", "avail_conservative"])
     Q = pd.read_csv(OUT / "bank_quarterly_extract.csv", parse_dates=["avail_verified", "avail_conservative"])
     M["period"] = pd.PeriodIndex(M.period, freq="M")
     Q["period"] = pd.PeriodIndex(Q.period, freq="Q")

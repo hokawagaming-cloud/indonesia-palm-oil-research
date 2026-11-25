@@ -89,6 +89,8 @@ Find **earnings surprises and underappreciated catalysts** in Indonesian palm oi
 - **Frozen hypotheses:** a frozen spec (parameters, predictors, benchmarks, pass/kill rules) is stored as JSON and evaluated prospectively only; every pre-registered benchmark is compared, not just the weakest.
 - **Pre-registration order:** the specification is committed before any model is run; data-layer fixes may follow only before results are computed and are committed separately. Variants are registered anew and evaluated prospectively.
 - **Information-matched benchmarks:** when a model uses a new data source, it must beat simple rules using the SAME information (e.g. 2 months × 1.5), not only unconditional benchmarks; report information value and model value separately.
+- **Discovery vs confirmation:** a rule selected on historical data (even a simple one) is registered as a frozen prospective hypothesis; historical results are discovery evidence only. Multiplicity across all compared pairs (Holm) and across banks/targets (Bonferroni) is applied before any 'information value' claim.
+- **Commodity-linked hypotheses:** the benchmark must already contain the commodity signal (price-scaled naive); correlation with a public benchmark price is not incremental information.
 - Methodology map: `outputs/quant_methodology_2026-11-25.png` (regenerate with `outputs/make_methodology_diagram.py`).
 
 ## 6. Data integrity rules
@@ -112,3 +114,4 @@ Find **earnings surprises and underappreciated catalysts** in Indonesian palm oi
 | VIII | Audit, methodology map, poultry feasibility | Done: conditional GO, CPIN only (D-029); H1 killed (D-031) |
 | IX | CPIN PIT audit v2; banking feasibility | Done: H2 frozen (D-032); banking CONDITIONAL GO for MVP-B1 (D-033) |
 | X | MVP-B1 banking validation (BBCA, BBRI) | Done: both NO-GO on profit (D-034); NII information value documented |
+| XI | Banking audit; MVP-B2; coal feasibility | Done: audit (D-035); MVP-B2 frozen prospective (D-036); ITMG conditional GO, PTBA NO-GO (D-037) |
