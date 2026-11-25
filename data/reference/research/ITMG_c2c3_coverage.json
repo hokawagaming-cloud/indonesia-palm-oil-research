@@ -1,0 +1,22 @@
+{
+ "implied_volume_reconciliation": {
+  "n": 9,
+  "median_abs_pct_gap": 0.0037574511819118417,
+  "max_abs_pct_gap": 0.01127687361864571
+ },
+ "implied_sales_mt_quarters": 33,
+ "quarters": 35,
+ "sales_mt": 9,
+ "prod_mt": 25,
+ "next_target_mt": 14,
+ "fy_sales_target_mt": 33,
+ "fs_quarters_standalone": {
+  "mining": 35,
+  "royalty": 35,
+  "coal_purchase": 35,
+  "transport": 35,
+  "fuel": 32,
+  "salaries": 35,
+  "cost_of_revenue": 35
+ }
+}

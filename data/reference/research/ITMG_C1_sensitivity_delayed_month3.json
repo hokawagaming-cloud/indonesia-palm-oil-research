@@ -1,0 +1,22 @@
+{
+ "n": 22,
+ "strongest": "B4_price_scaled",
+ "strongest_MAE": 10.231442764369149,
+ "models": {
+  "M1_fixed_lag": {
+   "MAE": 10.04612011513849,
+   "improvement": 0.018113051453118922,
+   "p_holm": 0.7091237006802731
+  },
+  "M2_distributed_lag": {
+   "MAE": 6.2147773178962264,
+   "improvement": 0.3925805518319373,
+   "p_holm": 0.0087025134679867
+  },
+  "M4_dom_export_decomposition": {
+   "MAE": 9.652928523282599,
+   "improvement": 0.0565427823240352,
+   "p_holm": 0.7091237006802731
+  }
+ }
+}

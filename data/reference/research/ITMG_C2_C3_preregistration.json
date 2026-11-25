@@ -1,0 +1,51 @@
+{
+  "registered_on": "2026-11-25",
+  "status": "PRE-REGISTERED before any C2/C3 model or benchmark error was computed (data extraction, reconciliation and coverage checks only)",
+  "common": {
+    "forecast_origin": "quarter end + 10 days (same as ITMG-C1). Nowcast of the just-ended quarter, before ITMG's release (39-57 days after quarter end).",
+    "information_set": "ITMG decks and FS for quarters published before the origin (q-1 and earlier), including sales guidance printed in deck q-1; World Bank CMO monthly Newcastle and Brent through the quarter's last month",
+    "data_scope_exclusions": {
+      "production_volume": "excluded: deck charts do not yield a reliable quarterly series by automated extraction (mine-level vs total ambiguity)",
+      "strip_ratio": "excluded: chart-only, not reliably extractable",
+      "mine_rainfall": "excluded: mine coordinates not verified (decks show regions only); no satellite rainfall used",
+      "RKAB_and_disruptions": "excluded: text-only, not quantifiable PIT",
+      "production_to_sales_conversion_benchmark": "NOT TESTABLE (requires production series)"
+    },
+    "inference": "Diebold-Mariano (absolute loss, Newey-West lag floor(n^(1/3)), HLN correction, one-sided); 90% moving-block bootstrap CI of the MAE ratio (block 4, 5000 reps, seed 20261125)",
+    "pass_rule": "n >= 16 AND MAE(model) <= 0.85 x MAE(strongest benchmark) AND Holm-adjusted (within experiment) one-sided DM p <= 0.05",
+    "programme_multiplicity": "results also reported with Holm across all programme tests (programme_multiplicity.csv); a pass that does not survive is labelled CONDITIONAL",
+    "change_policy": "no changes after results; variants need new registration and prospective evaluation"
+  },
+  "C2": {
+    "target": "quarterly coal sales volume (Mt) = standalone coal revenue (FS Note 'Net revenue': coal third + related parties, USD k) / first-reported ASP (USD/t). Reconciled to deck-reported sales volume in 8 quarters: median gap 0.4%, max 1.1%. Production volume is NOT the target.",
+    "guidance_rule": "from deck q-1: FY target (year of q) -> remaining = target - sales YTD through q-1; Q target for q -> that value; H1 target (year of q, used for Q2) -> H1 - Q1 sales; if no guidance for q's year is known at the origin -> guidance-based forecasts are missing for that quarter",
+    "benchmarks": {
+      "B1_last": "sales(q-1)",
+      "B2_seasonal": "sales(q-4)",
+      "B3_mean": "expanding mean of sales since 2018Q1",
+      "B4_guidance_runrate": "remaining guidance spread evenly over the remaining quarters of the year (Q/H1 types as per guidance_rule)"
+    },
+    "models": {
+      "C2_M1_guidance_seasonal_allocation": "remaining guidance allocated to quarter q by the expanding average historical share of q in the remaining quarters of the year (shares from completed years before the origin)",
+      "C2_M2_guidance_regression": "OLS sales_t = a + b B4_t + c sales_(t-1), expanding window (min 12 obs)"
+    },
+    "materiality": "MAE reduction (Mt) x first-reported ASP(q-1) x (1 - 0.12 royalty) >= 2% of the median quarterly gross profit (FS revenue - cost of revenue) of the test sample"
+  },
+  "C3": {
+    "target": "unit cost of revenue excluding royalty (USD/t) = (cost of revenue - royalty) / C2 sales volume, standalone quarter. Includes purchased coal and inventory change (both on a sold-tonne basis) so numerator and denominator are consistent; royalty excluded because it is a price-linked regulatory charge (modelled separately in any integrated model).",
+    "benchmarks": {
+      "B1_last": "UC(q-1)",
+      "B2_seasonal": "UC(q-4)",
+      "B3_mean": "expanding mean",
+      "B4_rolling4": "mean of the last 4 reported quarters",
+      "B5_brent_scaled": "UC(q-1) x Brent_q / Brent_(q-1) (quarterly averages)"
+    },
+    "models": {
+      "C3_M1_commodity_regression": "dlog UC_t = a + b1 dlog Newcastle_t + b2 dlog Brent_t, OLS expanding window (min 12 obs); forecast UC(q-1) x exp(fitted)",
+      "C3_M2_component_scaling": "UC_hat = [UC(q-1) - PC(q-1)] + PC(q-1) x Newcastle_q / Newcastle_(q-1), PC = coal purchases / sales volume (commodity-linked purchased coal scaled; other costs held at last quarter)"
+    },
+    "materiality": "MAE reduction (USD/t) x median sales volume >= 2% of the median quarterly gross profit of the test sample"
+  },
+  "evaluation_window": "common sample per experiment where all benchmarks and models exist, 2021Q1 or later; n reported",
+  "royalty_note": "Effective royalty rate (royalty / coal revenue) is reported descriptively; entity regimes (CCOW 13.5% vs IUP/IUPK progressive) documented in coal_regulatory_regimes.csv; royalty is not part of C3 to avoid double-counting."
+}
