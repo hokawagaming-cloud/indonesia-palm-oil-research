@@ -4,9 +4,9 @@ _Last updated: 2026-11-25_
 
 ## Current phase
 
-**Phase XIV complete (2026-11-25).** Palm oil NO TRADE unchanged; CPIN H2, MVP-B2, ITMG C1 (GO) and I1 (CONDITIONAL GO) frozen.
-- **Scheduled (desktop app, Auto mode, verified by a scheduled dry run):** `itmg-prospective-forecast-2026q4` on **2027-01-10 10:00 WIB**; `itmg-prospective-evaluation-2026q4` on **2027-03-08 10:00 WIB**. They run only while the app is open (else at next launch).
-- **Direct return research:** R1–R3 pre-registered (`DR_preregistration.json`); no backtest yet. Next: execute R1 as registered.
+**Phase XV complete (2026-11-25).** DR-R1 (palm CPO-impulse timing) executed exactly as registered: **NO-GO** on all four criteria (−5.0%/yr vs palm basket, Holm p 1.0); experiment stopped, no paper tracking. Palm oil NO TRADE; CPIN H2, MVP-B2, ITMG C1 (GO) and I1 (CONDITIONAL GO) unchanged.
+- **Scheduled (desktop app, Auto mode, verified):** ITMG forecast **2027-01-10 10:00 WIB**; evaluation **2027-03-08 10:00 WIB**.
+- **Registered, untested:** DR R2 (coal Newcastle impulse; needs coal OHLCV) and R3 (liquid IDX momentum; needs survivorship assessment).
 - No valuation, no BUY.
 
 ## Done
@@ -141,6 +141,8 @@ _Last updated: 2026-11-25_
 - [x] **Phase XIV (2026-11-25):**
   - Prospective run/eval scripts; scheduled tasks verified; WB availability clarification and risk register.
   - Direct-return feasibility inventory and R1–R3 pre-registration (design only).
+
+- [x] **Phase XV (2026-11-25):** R1 PIT audit, BI-Rate history (S-072), implementation note before returns, backtest, attribution, robustness; NO-GO (D-045). Tests 73 passing.
 
 ## Not resolved (sources tried and failed)
 
