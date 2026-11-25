@@ -1,0 +1,7 @@
+bank,scope,n,nii_identity_ok,np_lt_pbt_ok,missing_np,missing_nii,missing_cons_owner,np_match_share,nii_match_share
+BBCA,monthly_bo,81,1.0,1.0,0.0,0.0,0.0,,
+BBRI,monthly_bo,81,1.0,1.0,0.0,0.0,0.0,,
+BBCA,quarterly,29,1.0,1.0,0.0,0.0,0.0,,
+BBRI,quarterly,35,1.0,1.0,0.0,0.0,0.0,,
+BBCA,monthly_qe_vs_quarterly_bo,7,,,,,,1.0,1.0
+BBRI,monthly_qe_vs_quarterly_bo,11,,,,,,0.8181818181818182,0.8181818181818182

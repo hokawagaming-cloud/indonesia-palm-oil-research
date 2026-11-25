@@ -1,0 +1,67 @@
+{
+  "id": "MVP-B1",
+  "registered_on": "2026-11-25",
+  "status": "PRE-REGISTERED before any model performance was computed (data extraction and integrity checks only)",
+  "banks": {"BBCA": "primary pilot", "BBRI": "separate generalisation and consolidation-complexity test"},
+  "pooling": "none; each bank evaluated and classified independently",
+  "units": "IDR billion; standalone quarters reconstructed from YTD (Q1 = YTD; Qn = YTD_n - YTD_(n-1), same-document vintage)",
+  "targets": {
+    "T1_primary": "consolidated profit attributable to owners of the parent, standalone quarter (quarterly publication, CONSOLIDATED column)",
+    "T2_secondary": "consolidated net interest income, standalone quarter"
+  },
+  "scopes": "bank-only (INDIVIDUAL) and consolidated values kept separate; bank-only is mapped to consolidated only through the explicit consolidation adjustment defined below",
+  "vintages": "original (first-listed, non-revised) documents; BBCA quarters without an own publication (2019Q4, 2020Q1, 2020Q4, 2021Q1, 2021Q2) take the prior-period column of the next year's publication and are available for training only from that document's date",
+  "forecast_origin": "verified publication date of the quarter's month-2 bank-only report (Feb/May/Aug/Nov). Primary: observations with unverified month-2 dates are EXCLUDED.",
+  "availability_rules": {
+    "BBRI": "IR posting date (monthly and quarterly)",
+    "BBCA": "YYYYMMDD filename prefix if 5-75 days after period end; else unverified",
+    "unverified_quarterly_docs": "end of the month following quarter end (conservative)",
+    "sensitivity_conservative": "origin = later of (verified date, end of month following month 2); unverified origins included at that conservative date; quarterly docs at the later of verified date and end of month following quarter end"
+  },
+  "information_set_at_origin": "monthly bank-only reports and quarterly publications whose availability date <= origin; nothing published later; no revised figures",
+  "definitions": {
+    "BO2": "bank-only quarter-to-date for months 1-2 = YTD(m2) - YTD(previous quarter end, bank-only; 0 for Q1)",
+    "BOQ": "bank-only standalone quarter from the quarterly publication INDIVIDUAL column",
+    "m3_hist": "BOQ - BO2 for past quarters with both available",
+    "Adj": "T - BOQ (consolidation adjustment: subsidiaries, eliminations, minorities) for past quarters"
+  },
+  "benchmarks": {
+    "unconditional": {
+      "U1_last_quarter": "T(q-1) (latest available)",
+      "U2_seasonal": "T(q-4)",
+      "U3_expanding_mean": "mean of available T since 2018Q1",
+      "U4_AR1": "OLS T_t = a + b T_(t-1) on available history (min 8 obs), one-step forecast"
+    },
+    "information_matched": {
+      "IM1_x1.5": "BOQ_hat = 1.5 x BO2; T_hat = BOQ_hat + Adj(latest available quarter)",
+      "IM2_hist_avg_m3": "BOQ_hat = BO2 + mean(m3_hist over available quarters); + Adj(latest)",
+      "IM3_last_year_m3": "BOQ_hat = BO2 + m3_hist(q-4); + Adj(latest)",
+      "IM4_seasonal_runrate": "BOQ_hat = BO2 x (1 + m3_hist(q-4)/BO2(q-4)); T_hat = BOQ_hat x mean(T/BOQ over last 4 available quarters)"
+    }
+  },
+  "model": {
+    "name": "M1 component model (parsimonious; parameters are medians of past ratios, no optimisation, no ML)",
+    "T1": "T_hat = BO2 + [NII_m3 + CORE_m3 - IMP_m3] x (1 - tax) + ADJ_hat",
+    "NII_m3": "NII(month 2) x days(m3)/days(m2) x (1 + g), g = bank-only loan growth month 2 vs month 1, capped at +/-3%",
+    "CORE_m3": "non-NII operating result before impairment (operating profit - NII + impairment) of month 3 = mean(months 1,2) x rho_core",
+    "IMP_m3": "impairment expense of month 3 = mean(months 1,2) x rho_imp",
+    "rho": "median of past (month-3 value / mean(months 1,2)) for the same quarter-of-year if >= 2 observations, else all past quarters; month-3 values = quarterly bank-only YTD minus month-2 YTD",
+    "tax": "effective rate of months 1-2: 1 - NP/PBT (bank-only)",
+    "ADJ_hat": "mean of Adj over the last 4 available quarters",
+    "T2": "NII_cons_hat = NII_BO2 + NII_m3 + mean(NII Adj over last 4 available quarters)",
+    "minimum_history": "at least 4 past quarters with m3_hist and Adj available, else no forecast for any method at that origin"
+  },
+  "test_period": "2021Q1-2026Q3 quarters with a model forecast and all benchmark forecasts (common sample per bank)",
+  "metrics": ["MAE", "RMSE", "bias (mean forecast - actual)", "relative MAE improvement vs each benchmark", "OOS R2 vs U3 (1 - SSE/SSE_U3) and vs best IM", "directional accuracy: sign(forecast - T(q-4)) == sign(actual - T(q-4))", "n", "90% CI of MAE ratio (moving-block bootstrap, block 4, 5000 reps, seed 20261125)", "Diebold-Mariano (absolute loss, Newey-West lag floor(n^(1/3)), Harvey-Leybourne-Newbold small-sample correction, one-sided)"],
+  "multiple_comparisons": "Holm adjustment across the 4 information-matched comparisons; one model only",
+  "pass_rule_T1": "n >= 16 AND MAE(M1) <= 0.85 x MAE(best IM by MAE) AND Holm-adjusted one-sided DM p <= 0.05 vs that best IM",
+  "classification": {
+    "GO": "pass_rule_T1 on the primary (verified-date) sample AND MAE improvement >= 15% vs best IM in the conservative-date sensitivity",
+    "CONDITIONAL_GO": "pass_rule_T1 fails, but (a) best IM beats best unconditional by >= 15% with DM p <= 0.05 (public monthly information is valuable even if M1 adds nothing), OR (b) M1 passes on T2 only, OR (c) M1 passes primary but not the sensitivity",
+    "NO_GO": "otherwise"
+  },
+  "attribution": "information value = best IM vs best unconditional; model value = M1 vs best IM",
+  "cross_bank": "report correlation of M1 errors between banks on common quarters; no pooling",
+  "regimes_descriptive_only": {"R1": "2021Q1-2022Q2 low BI-rate", "R2": "2022Q3-2023Q4 hiking/high", "R3": "2024Q1-2025Q4", "R4": "2026Q1-2026Q3 hiking"},
+  "change_policy": "no changes after performance is observed; any later variant must be registered separately and evaluated prospectively"
+}
