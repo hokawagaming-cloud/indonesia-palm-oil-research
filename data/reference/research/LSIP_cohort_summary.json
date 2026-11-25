@@ -1,0 +1,117 @@
+{
+ "k_hist_2021_2025_base": 0.663546137013904,
+ "k_mean_2017_2025": 0.702252914403064,
+ "k_by_year": {
+  "2017": 0.6925,
+  "2018": 0.8179,
+  "2019": 0.7874,
+  "2020": 0.7048,
+  "2021": 0.6612,
+  "2022": 0.6513,
+  "2023": 0.6644,
+  "2024": 0.6665,
+  "2025": 0.6742
+ },
+ "hist_planting_rate_2017_2025_ha": 1839.1831759775475,
+ "hist_planting_rate_range_ensemble": [
+  1790.0182818662042,
+  1874.3146336715104
+ ],
+ "sustainable_rate_ha_25y": 3573.24,
+ "sustainable_rate_ha_22y": 4060.5,
+ "implied_cycle_years_at_hist_rate": 49.36865516494288,
+ "fit_max_abs_residual_ha": 3726.1962314831962,
+ "fit_mean_abs_residual_ha": 1061.2967526432317,
+ "old_stock_mean_age_2023": 28.4,
+ "gt20_share_2023_reported": 0.4105,
+ "steady_state_yield_per_planted_ha_k1": 19.62,
+ "steady_state_yield_per_mature_ha_k1": 21.977272727272727,
+ "scenarios": {
+  "A_historical": "Continue the reconstructed 2017-2025 planting pace",
+  "B_accelerated": "Ramp to the sustainable replacement rate (oil-palm area / 25-year cycle) by 2028",
+  "C_deferred": "800 ha/yr 2026-2030 to preserve near-term output and cash, then historical pace",
+  "D_intensive": "5,000 ha/yr oldest-first until no palms older than 25, then the sustainable rate"
+ },
+ "steady_state": {
+  "A_historical": {
+   "replant_ha": 1839.1831759775475,
+   "cycle_years": 48.57101846449825,
+   "ffb_nucleus_kt": 999.5438551544305,
+   "mature_ha": 82038.67346938775,
+   "immature_ha": 7292.326530612245,
+   "avg_age": 24.5,
+   "gt20_ha": 51046.28571428572
+  },
+  "B_accelerated": {
+   "replant_ha": 3573.24,
+   "cycle_years": 25.0,
+   "ffb_nucleus_kt": 1337.4272393435858,
+   "mature_ha": 75038.04,
+   "immature_ha": 14292.96,
+   "avg_age": 12.5,
+   "gt20_ha": 14292.96
+  },
+  "C_deferred": {
+   "replant_ha": 1839.1831759775475,
+   "cycle_years": 48.57101846449825,
+   "ffb_nucleus_kt": 999.5438551544305,
+   "mature_ha": 82038.67346938775,
+   "immature_ha": 7292.326530612245,
+   "avg_age": 24.5,
+   "gt20_ha": 51046.28571428572
+  },
+  "D_intensive": {
+   "replant_ha": 3573.24,
+   "cycle_years": 25.0,
+   "ffb_nucleus_kt": 1337.4272393435858,
+   "mature_ha": 75038.04,
+   "immature_ha": 14292.96,
+   "avg_age": 12.5,
+   "gt20_ha": 14292.96
+  }
+ },
+ "ensemble_ffb_2035_range": {
+  "A_historical": [
+   900.468109071306,
+   968.577014253539,
+   1025.281303751279
+  ],
+  "B_accelerated": [
+   979.1026388606283,
+   1003.4634729757829,
+   1034.8334944498022
+  ],
+  "C_deferred": [
+   830.319600949262,
+   912.0913108557199,
+   982.2311932912845
+  ],
+  "D_intensive": [
+   997.6681546879302,
+   1033.8561783267937,
+   1086.55031653177
+  ]
+ },
+ "ensemble_ffb_2050_range": {
+  "A_historical": [
+   859.8006690812464,
+   948.2931363502704,
+   1025.4027041319855
+  ],
+  "B_accelerated": [
+   1223.4640789301093,
+   1283.0263637944095,
+   1351.3358363149957
+  ],
+  "C_deferred": [
+   795.5802038990935,
+   895.0905989252676,
+   982.8691742094144
+  ],
+  "D_intensive": [
+   1262.6297965049207,
+   1336.4328074258897,
+   1420.8753142404062
+  ]
+ }
+}

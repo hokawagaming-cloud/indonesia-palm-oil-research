@@ -1,0 +1,14 @@
+previous_finding,previous_value,phase17_value,status,evidence
+Cash ~IDR 8.5tn (9M26),8516.2740,8516.2740,CONFIRMED,9M26 FS
+Excess cash IDR 6.3tn,6323.7397,6113.4662,REVISED (method),"v1 deducted one quarter of cash costs + LT employee benefits + full buyback; v2 deducts 2 months' cash costs, a seasonal WC buffer, employee benefits and taxes payable (CIP is in forecast capex, so not deducted); the buyback is shown separately. Buyback is a distribution, not a cost: value per share is unaffected by it at fair prices."
+Historical payout ~30%,0.3000,0.3167,CONFIRMED (30-35%),"Company dividend page: FY21-23 35%, FY24-25 30%; FY20 20%"
+Buyback up to IDR 750bn,750.0000,750.0000,CONFIRMED (authorisation),Disclosure 23 Oct 2026; window 26 Oct-31 Dec 2026
+Buyback execution,,,UNVERIFIED,"No execution report on londonsumatra.com (press/disclosure pages, 25 Nov 2026); IDX blocked from this environment"
+Q4 2026 nowcast IDR 468bn (v1 base),468.1100,534.0410,REVISED (v2),"v1 assumed Q4 volume 0.95x Q3; Q4 is the seasonal peak (Q4'25 = 1.16x Q3'25). v2 base 1.05x, price -3%"
+Consensus-implied Q4 IDR 360bn,360.0000,360.1641,CONFIRMED,"FY26 EPS 308.66 x 6,820mn - 9M 1,745bn (S-036, 25 Nov 2026)"
+Expected total return 17.6% (Phase VII),0.1760,,SUPERSEDED,Market-calibrated multiple frame; Phase XVII replaces it with scenario DCF/DDM (see report)
+"Preferred entry IDR 1,340-1,460",1400.0000,,SUPERSEDED,Recomputed from Phase XVII value range and hurdle
+Related-party bank exposure,665.0160,665.0160,CONFIRMED; history added,"Bank Ina Perdana 15-22% of cash FY21-FY25 (peak 1.64tn, 21.6% at FY25), 7.8% at 9M26"
+Sales to parent SIMP,,0.6326,CONFIRMED,"FY25 FS: SIMP 3,487bn = 63.3% of revenue (v1 cited 76%: not reproduced; 76% unverified)"
+FY2023 average age ~19 years,19.0000,19.0000,CONFIRMED (AR); SR says 18,AR2023 p41 'Average Age: 19 years'; SR2023: 18 years
+FY2023 >20 years share 41%,0.4100,0.4105,CONFIRMED,"AR2023 p7: 37,667 / 91,759 ha"

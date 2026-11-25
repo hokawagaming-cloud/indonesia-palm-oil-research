@@ -1,0 +1,55 @@
+{
+ "risk": {
+  "LSIP": {
+   "ann_vol_daily_5y": 0.32434669671661576,
+   "ann_vol_daily_1y": 0.4004264233119855,
+   "max_drawdown_since_2015": -0.6960922456870678,
+   "max_drawdown_date": "2020-03-19",
+   "drawdown_now": -0.09221902017291062,
+   "monthly_ret_p5": -0.1491021817148187,
+   "monthly_ret_p1": -0.20191739485543658,
+   "worst_month": -0.25217392157549445,
+   "worst_12m": -0.407851230528841,
+   "share_negative_12m": 0.48854961832061067,
+   "beta_mkt_5y_weekly": 0.8161153327270583,
+   "beta_mkt_t": 5.691245748882985,
+   "beta_sector_5y_weekly": 0.986618379295466,
+   "beta_sector_t": 9.08203264611878,
+   "beta_cpo_idr_monthly": 0.47887463352625514,
+   "beta_cpo_t": 3.5423020611121006,
+   "median_daily_value_6m_bn": 11.930835,
+   "p10_daily_value_6m_bn": 6.106287600000001,
+   "days_to_trade_750bn_at_20pct_adv": 314.3116135626719,
+   "corr_LSIP_TAPG_weekly_5y": 0.6090284537175449
+  },
+  "TAPG": {
+   "ann_vol_daily_5y": 0.3928274320843681,
+   "ann_vol_daily_1y": 0.517979585473491,
+   "max_drawdown_since_2015": -0.3826677332792977,
+   "max_drawdown_date": "2023-06-05",
+   "drawdown_now": -0.2711051554387045,
+   "monthly_ret_p5": -0.09919551863704912,
+   "monthly_ret_p1": -0.17929281547492554,
+   "worst_month": -0.2761904730186091,
+   "worst_12m": -0.18882452816884077,
+   "share_negative_12m": 0.25,
+   "beta_mkt_5y_weekly": 0.5504954967727723,
+   "beta_mkt_t": 3.779225701005052,
+   "beta_sector_5y_weekly": 0.9298248021044635,
+   "beta_sector_t": 9.528351921738384,
+   "beta_cpo_idr_monthly": 0.23141462172641306,
+   "beta_cpo_t": 1.2556305374524475
+  }
+ },
+ "hurdle": {
+  "current_hurdle": 0.175,
+  "implied_ke_then": 0.125,
+  "rf_when_set": 0.062,
+  "rf_now": 0.07735,
+  "erp_implied_then": 0.063,
+  "erp_implied_now_if_unchanged": 0.04765,
+  "alpha_margin": 0.05,
+  "proposal": "Restate the hurdle as ke + 5pp with ke = 10y SBN + 0.9 x 6.0% ERP = 13.1% -> 18.1%; adopt only by a separate decision (logged as A-049 proposal), the recommendation is tested at both 17.5% and 18.1%.",
+  "proposed_hurdle": 0.1814
+ }
+}

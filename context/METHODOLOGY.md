@@ -104,6 +104,14 @@ Find **earnings surprises and underappreciated catalysts** in Indonesian palm oi
 - **Workbooks** are built with live formulas from code and verified by an independent formula evaluator when no spreadsheet engine is available; scenario/sensitivity tables are static script outputs and say so.
 - Methodology map: `outputs/quant_methodology_2026-11-25.png` (regenerate with `outputs/make_methodology_diagram.py`).
 
+## 5f. Plantation age-cohort modelling (Phase XVII, D-047)
+
+- Age profiles are reconstructed, not observed, whenever the company stops disclosing bands: NNLS on reported bands with a smoothness penalty, old stock matched to the reported average age, and an ensemble over smoothing, average-age source, old-stock shape and yield decline. Residuals are reported.
+- Age-yield curves are analyst assumptions scaled to the company (k); they are never presented as validated company-specific relationships.
+- Terminal values use each scenario's own steady-state replacement cycle; productivity does not persist without reinvestment.
+- Replanting is funded inside FCFF; it is never also deducted as a cash reserve. Interest income is excluded from FCFF; cash is added once, with an explicit realisation credit for minority access.
+- Minority value is shown separately (DDM at the actual payout) next to intrinsic value (DCF + surplus cash).
+
 ## 6. Data integrity rules
 
 - No fabricated or interpolated data presented as observed. Gaps stay gaps and are documented.
@@ -131,3 +139,4 @@ Find **earnings surprises and underappreciated catalysts** in Indonesian palm oi
 | XIV | Prospective deployment; direct-return design | Done: scheduled and verified (D-042); audit clarification (D-043); DR R1–R3 pre-registered, no backtest (D-044) |
 | XV | DR-R1 palm CPO-impulse timing backtest | Done: NO-GO on all criteria (D-045); experiment stopped |
 | XVI | ITMG flagship equity research; consolidation | Done: HOLD/WATCH, fair value IDR 24,700 (D-046); hypothesis register; cross-sector exploration paused |
+| XVII | LSIP flagship equity research (age-cohort model, integrated model, TAPG comparison) | Done: HOLD/WATCH, base value IDR 1,790; BUY <= 1,473 or on verified capital return (D-047) |

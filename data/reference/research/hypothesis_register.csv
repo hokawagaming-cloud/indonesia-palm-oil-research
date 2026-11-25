@@ -15,3 +15,4 @@ DR-R1,XV,Palm CPO-impulse timing (long-only),D-045,historical backtest,NO-GO (st
 DR-R2,XIV,Coal Newcastle-impulse timing (long-only),D-044,pre-registered,UNTESTED,"Not run (paused, D-046)",,
 DR-R3,XIV,Liquid IDX 12-1 momentum,D-044,pre-registered,UNTESTED,"Not run (paused, D-046)",,
 ITMG-ER,XVI,ITMG equity research valuation (not a statistical hypothesis),D-046,analysis,HOLD/WATCH (see report),Monitoring indicators listed,,
+LSIP-ER,XVII,"LSIP flagship equity research: ageing estate vs trapped cash (valuation, not a statistical hypothesis)",D-047,analysis,"HOLD/WATCH (BUY <= IDR 1,473 or on verified capital return)",Re-test on C-019..C-023; LSIP earnings model and Q4 v2 unvalidated,,

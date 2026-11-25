@@ -1,0 +1,299 @@
+period,check,difference
+FY2020,A = L + E,0.0
+FY2020,L + E = total,0.0
+FY2020,GP = rev + cogs,0.0
+FY2020,PBT - tax = profit,0.0
+FY2020,OP + fin + assoc = PBT,0.0
+FY2020,cash begin + flows = end,0.0
+FY2020,cash end = BS cash,
+FY2021,A = L + E,0.0
+FY2021,L + E = total,0.0
+FY2021,GP = rev + cogs,0.0
+FY2021,PBT - tax = profit,0.0
+FY2021,OP + fin + assoc = PBT,0.0
+FY2021,cash begin + flows = end,0.0
+FY2021,cash end = BS cash,
+FY2022,A = L + E,0.0
+FY2022,L + E = total,0.0
+FY2022,GP = rev + cogs,0.0
+FY2022,PBT - tax = profit,0.0
+FY2022,OP + fin + assoc = PBT,0.0
+FY2022,cash begin + flows = end,0.0
+FY2022,cash end = BS cash,
+FY2023,A = L + E,0.0
+FY2023,L + E = total,0.0
+FY2023,GP = rev + cogs,0.0
+FY2023,PBT - tax = profit,0.0
+FY2023,OP + fin + assoc = PBT,0.0
+FY2023,cash begin + flows = end,0.0
+FY2023,cash end = BS cash,
+FY2024,A = L + E,0.0
+FY2024,L + E = total,0.0
+FY2024,GP = rev + cogs,0.0
+FY2024,PBT - tax = profit,0.0
+FY2024,OP + fin + assoc = PBT,0.0
+FY2024,cash begin + flows = end,0.0
+FY2024,cash end = BS cash,
+FY2025,A = L + E,0.0
+FY2025,L + E = total,0.0
+FY2025,GP = rev + cogs,0.0
+FY2025,PBT - tax = profit,0.0
+FY2025,OP + fin + assoc = PBT,0.0
+FY2025,cash begin + flows = end,0.0
+FY2025,cash end = BS cash,
+9M25,A = L + E,
+9M25,L + E = total,
+9M25,GP = rev + cogs,0.0
+9M25,PBT - tax = profit,0.0
+9M25,OP + fin + assoc = PBT,0.0
+9M25,cash begin + flows = end,0.0
+9M25,cash end = BS cash,
+H126,A = L + E,0.0
+H126,L + E = total,0.0
+H126,GP = rev + cogs,0.0
+H126,PBT - tax = profit,0.0
+H126,OP + fin + assoc = PBT,0.0
+H126,cash begin + flows = end,0.0
+H126,cash end = BS cash,
+9M26,A = L + E,0.0
+9M26,L + E = total,0.0
+9M26,GP = rev + cogs,0.0
+9M26,PBT - tax = profit,0.0
+9M26,OP + fin + assoc = PBT,0.0
+9M26,cash begin + flows = end,0.0
+9M26,cash end = BS cash,
+FY2024,restatement trade_receivables_3p (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement inventories (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement biological_assets (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement total_current_assets (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement fixed_assets_net (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement total_noncurrent_assets (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement total_assets (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement trade_payables_3p (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement total_current_liabilities (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement employee_benefits_lt (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement total_liabilities (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement retained_unappropriated (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement total_equity (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement total_liab_equity (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement revenue (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement cogs (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement gross_profit (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement fv_bio (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement selling (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement ga (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement other_income (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement other_expense (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement operating_profit (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement finance_income (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement finance_cost (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement associates (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement pbt (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement tax (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement profit (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement cash_from_customers (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement paid_employees (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement paid_suppliers (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement interest_received (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement tax_paid (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement cfo (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement capex (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement plasma_receivables (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement cfi (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement dividends_paid (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement cff (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement fx_on_cash (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement cash_begin (LSIP_bilingual_31_des_2025_released),0.0
+FY2024,restatement cash_end (LSIP_bilingual_31_des_2025_released),0.0
+FY2023,restatement trade_receivables_3p (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement inventories (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement biological_assets (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement total_current_assets (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement fixed_assets_net (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement total_noncurrent_assets (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement total_assets (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement trade_payables_3p (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement total_current_liabilities (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement employee_benefits_lt (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement total_liabilities (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement treasury_shares (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement retained_unappropriated (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement total_equity (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement total_liab_equity (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement revenue (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement cogs (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement gross_profit (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement fv_bio (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement selling (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement ga (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement other_income (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement other_expense (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement operating_profit (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement finance_income (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement finance_cost (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement associates (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement pbt (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement tax (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement profit (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement cash_from_customers (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement paid_employees (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement interest_received (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement tax_paid (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement cfo (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement capex (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement cfi (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement dividends_paid (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement cff (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement fx_on_cash (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement cash_begin (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2023,restatement cash_end (pp_london_sumatra_indonesia_bilingual_31_des_2024_released),0.0
+FY2022,restatement inventories (AR2023),0.0
+FY2022,restatement biological_assets (AR2023),0.0
+FY2022,restatement total_current_assets (AR2023),0.0
+FY2022,restatement fixed_assets_net (AR2023),0.0
+FY2022,restatement total_noncurrent_assets (AR2023),0.0
+FY2022,restatement total_assets (AR2023),0.0
+FY2022,restatement total_current_liabilities (AR2023),0.0
+FY2022,restatement employee_benefits_lt (AR2023),0.0
+FY2022,restatement total_liabilities (AR2023),0.0
+FY2022,restatement treasury_shares (AR2023),0.0
+FY2022,restatement retained_unappropriated (AR2023),0.0
+FY2022,restatement total_equity (AR2023),0.0
+FY2022,restatement total_liab_equity (AR2023),0.0
+FY2022,restatement revenue (AR2023),0.0
+FY2022,restatement cogs (AR2023),0.0
+FY2022,restatement gross_profit (AR2023),0.0
+FY2022,restatement fv_bio (AR2023),0.0
+FY2022,restatement selling (AR2023),0.0
+FY2022,restatement ga (AR2023),0.0
+FY2022,restatement other_income (AR2023),0.0
+FY2022,restatement other_expense (AR2023),0.0
+FY2022,restatement operating_profit (AR2023),0.0
+FY2022,restatement finance_income (AR2023),0.0
+FY2022,restatement finance_cost (AR2023),0.0
+FY2022,restatement associates (AR2023),0.0
+FY2022,restatement pbt (AR2023),0.0
+FY2022,restatement tax (AR2023),0.0
+FY2022,restatement profit (AR2023),0.0
+FY2022,restatement cash_from_customers (AR2023),0.0
+FY2022,restatement paid_employees (AR2023),0.0
+FY2022,restatement interest_received (AR2023),0.0
+FY2022,restatement tax_paid (AR2023),0.0
+FY2022,restatement cfo (AR2023),16966.0
+FY2022,restatement capex (AR2023),0.0
+FY2022,restatement cfi (AR2023),-16966.0
+FY2022,restatement dividends_paid (AR2023),0.0
+FY2022,restatement cff (AR2023),0.0
+FY2022,restatement fx_on_cash (AR2023),0.0
+FY2022,restatement cash_begin (AR2023),0.0
+FY2022,restatement cash_end (AR2023),0.0
+FY2021,restatement inventories (AR2022),0.0
+FY2021,restatement biological_assets (AR2022),0.0
+FY2021,restatement total_current_assets (AR2022),0.0
+FY2021,restatement fixed_assets_net (AR2022),0.0
+FY2021,restatement total_noncurrent_assets (AR2022),87.0
+FY2021,restatement total_assets (AR2022),87.0
+FY2021,restatement total_current_liabilities (AR2022),0.0
+FY2021,restatement employee_benefits_lt (AR2022),-24107.0
+FY2021,restatement total_liabilities (AR2022),-18803.0
+FY2021,restatement treasury_shares (AR2022),0.0
+FY2021,restatement retained_unappropriated (AR2022),18890.0
+FY2021,restatement equity_owners (AR2022),18890.0
+FY2021,restatement total_equity (AR2022),18890.0
+FY2021,restatement total_liab_equity (AR2022),87.0
+FY2021,restatement revenue (AR2022),0.0
+FY2021,restatement cogs (AR2022),991.0
+FY2021,restatement gross_profit (AR2022),991.0
+FY2021,restatement fv_bio (AR2022),0.0
+FY2021,restatement selling (AR2022),0.0
+FY2021,restatement ga (AR2022),418.0
+FY2021,restatement other_income (AR2022),0.0
+FY2021,restatement other_expense (AR2022),0.0
+FY2021,restatement operating_profit (AR2022),1409.0
+FY2021,restatement finance_income (AR2022),0.0
+FY2021,restatement finance_cost (AR2022),0.0
+FY2021,restatement associates (AR2022),87.0
+FY2021,restatement pbt (AR2022),1496.0
+FY2021,restatement tax (AR2022),-311.0
+FY2021,restatement profit (AR2022),1185.0
+FY2021,restatement cash_from_customers (AR2022),0.0
+FY2021,restatement paid_employees (AR2022),0.0
+FY2021,restatement interest_received (AR2022),0.0
+FY2021,restatement tax_paid (AR2022),0.0
+FY2021,restatement cfo (AR2022),0.0
+FY2021,restatement capex (AR2022),0.0
+FY2021,restatement cfi (AR2022),0.0
+FY2021,restatement dividends_paid (AR2022),0.0
+FY2021,restatement cff (AR2022),0.0
+FY2021,restatement fx_on_cash (AR2022),0.0
+FY2021,restatement cash_begin (AR2022),0.0
+FY2021,restatement cash_end (AR2022),0.0
+FY2020,restatement inventories (AR2021),0.0
+FY2020,restatement biological_assets (AR2021),0.0
+FY2020,restatement total_current_assets (AR2021),0.0
+FY2020,restatement fixed_assets_net (AR2021),0.0
+FY2020,restatement total_noncurrent_assets (AR2021),0.0
+FY2020,restatement total_assets (AR2021),0.0
+FY2020,restatement total_current_liabilities (AR2021),0.0
+FY2020,restatement employee_benefits_lt (AR2021),0.0
+FY2020,restatement total_liabilities (AR2021),0.0
+FY2020,restatement treasury_shares (AR2021),0.0
+FY2020,restatement retained_unappropriated (AR2021),0.0
+FY2020,restatement equity_owners (AR2021),0.0
+FY2020,restatement total_equity (AR2021),0.0
+FY2020,restatement total_liab_equity (AR2021),0.0
+FY2020,restatement revenue (AR2021),0.0
+FY2020,restatement cogs (AR2021),0.0
+FY2020,restatement gross_profit (AR2021),0.0
+FY2020,restatement fv_bio (AR2021),0.0
+FY2020,restatement selling (AR2021),0.0
+FY2020,restatement ga (AR2021),0.0
+FY2020,restatement other_income (AR2021),0.0
+FY2020,restatement other_expense (AR2021),0.0
+FY2020,restatement operating_profit (AR2021),0.0
+FY2020,restatement finance_income (AR2021),0.0
+FY2020,restatement finance_cost (AR2021),0.0
+FY2020,restatement associates (AR2021),0.0
+FY2020,restatement pbt (AR2021),0.0
+FY2020,restatement tax (AR2021),0.0
+FY2020,restatement profit (AR2021),0.0
+FY2020,restatement cash_from_customers (AR2021),0.0
+FY2020,restatement paid_employees (AR2021),0.0
+FY2020,restatement interest_received (AR2021),0.0
+FY2020,restatement tax_paid (AR2021),0.0
+FY2020,restatement cfo (AR2021),0.0
+FY2020,restatement capex (AR2021),0.0
+FY2020,restatement cfi (AR2021),0.0
+FY2020,restatement dividends_paid (AR2021),0.0
+FY2020,restatement cff (AR2021),0.0
+FY2020,restatement fx_on_cash (AR2021),0.0
+FY2020,restatement cash_begin (AR2021),0.0
+FY2020,restatement cash_end (AR2021),0.0
+9M25,restatement revenue (LSIP_bilingual_30_Sep_2026_Released),0.0
+9M25,restatement cogs (LSIP_bilingual_30_Sep_2026_Released),0.0
+9M25,restatement gross_profit (LSIP_bilingual_30_Sep_2026_Released),0.0
+9M25,restatement fv_bio (LSIP_bilingual_30_Sep_2026_Released),0.0
+9M25,restatement selling (LSIP_bilingual_30_Sep_2026_Released),0.0
+9M25,restatement ga (LSIP_bilingual_30_Sep_2026_Released),0.0
+9M25,restatement other_income (LSIP_bilingual_30_Sep_2026_Released),0.0
+9M25,restatement other_expense (LSIP_bilingual_30_Sep_2026_Released),0.0
+9M25,restatement operating_profit (LSIP_bilingual_30_Sep_2026_Released),0.0
+9M25,restatement finance_income (LSIP_bilingual_30_Sep_2026_Released),0.0
+9M25,restatement finance_cost (LSIP_bilingual_30_Sep_2026_Released),0.0
+9M25,restatement associates (LSIP_bilingual_30_Sep_2026_Released),0.0
+9M25,restatement pbt (LSIP_bilingual_30_Sep_2026_Released),0.0
+9M25,restatement tax (LSIP_bilingual_30_Sep_2026_Released),0.0
+9M25,restatement profit (LSIP_bilingual_30_Sep_2026_Released),0.0
+9M25,restatement cash_from_customers (LSIP_bilingual_30_Sep_2026_Released),0.0
+9M25,restatement paid_employees (LSIP_bilingual_30_Sep_2026_Released),0.0
+9M25,restatement paid_suppliers (LSIP_bilingual_30_Sep_2026_Released),0.0
+9M25,restatement interest_received (LSIP_bilingual_30_Sep_2026_Released),0.0
+9M25,restatement tax_paid (LSIP_bilingual_30_Sep_2026_Released),0.0
+9M25,restatement cfo (LSIP_bilingual_30_Sep_2026_Released),0.0
+9M25,restatement capex (LSIP_bilingual_30_Sep_2026_Released),0.0
+9M25,restatement cfi (LSIP_bilingual_30_Sep_2026_Released),0.0
+9M25,restatement dividends_paid (LSIP_bilingual_30_Sep_2026_Released),0.0
+9M25,restatement cff (LSIP_bilingual_30_Sep_2026_Released),0.0
+9M25,restatement fx_on_cash (LSIP_bilingual_30_Sep_2026_Released),0.0
+9M25,restatement cash_begin (LSIP_bilingual_30_Sep_2026_Released),0.0
+9M25,restatement cash_end (LSIP_bilingual_30_Sep_2026_Released),0.0

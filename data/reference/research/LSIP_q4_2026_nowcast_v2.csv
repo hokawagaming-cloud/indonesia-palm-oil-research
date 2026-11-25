@@ -1,0 +1,4 @@
+scenario,vol,price,release,upkeep_catchup,other,fv,revenue,cogs,gross_profit,pbt,q4_np_owners,fy26_np_owners,consensus_fy26_np,consensus_implied_q4
+bear,0.95,-0.08,0.00,120,40,-30,1080.24,736.97,343.27,352.68,293.08,2037.96,2105.05,360.16
+base,1.05,-0.03,0.50,60,60,0,1453.31,870.07,583.24,642.65,534.04,2278.93,2105.05,360.16
+bull,1.15,0.01,1.00,20,80,20,1840.57,1018.27,822.30,921.70,765.94,2510.82,2105.05,360.16

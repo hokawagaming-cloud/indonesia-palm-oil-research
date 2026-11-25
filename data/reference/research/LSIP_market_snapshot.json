@@ -1,0 +1,330 @@
+{
+ "retrieved": "2026-11-25",
+ "source": "Yahoo Finance quote/financial summary (S-002) and S&P consensus via Yahoo (S-036)",
+ "lsip_info": {
+  "ticker": "LSIP",
+  "name": "PT Perusahaan Perkebunan London Sumatra Indonesia Tbk",
+  "currentPrice": 1575.0,
+  "previousClose": 1570.0,
+  "marketCap": 10741442674688,
+  "sharesOutstanding": 6819963965,
+  "impliedSharesOutstanding": 6819963965,
+  "currency": "IDR",
+  "financialCurrency": "IDR",
+  "trailingPE": 4.5032167,
+  "forwardPE": 8.495146,
+  "priceToBook": 0.70780915,
+  "enterpriseValue": 2220212355072,
+  "enterpriseToEbitda": 0.782,
+  "enterpriseToRevenue": 0.377,
+  "ebitda": 2840056037376,
+  "totalRevenue": 5881494241280,
+  "netIncomeToCommon": 2385268965376,
+  "trailingEps": 349.75,
+  "forwardEps": 185.4,
+  "dividendYield": 5.29,
+  "trailingAnnualDividendYield": 0.052866243,
+  "dividendRate": 83.0,
+  "payoutRatio": 0.2373,
+  "totalCash": 8516274225152,
+  "totalDebt": 0,
+  "returnOnEquity": 0.16711001,
+  "beta": 0.032,
+  "fiftyTwoWeekLow": 1030.0,
+  "fiftyTwoWeekHigh": 1810.0,
+  "targetMeanPrice": 2251.6667,
+  "targetMedianPrice": 2100.0,
+  "targetHighPrice": 2750.0,
+  "targetLowPrice": 1910.0,
+  "numberOfAnalystOpinions": 6,
+  "recommendationKey": "none"
+ },
+ "lsip_price_targets": {
+  "current": 1575.0,
+  "high": 2750.0,
+  "low": 1910.0,
+  "mean": 2251.6667,
+  "median": 2100.0
+ },
+ "lsip_recommendations": [
+  {
+   "period": "0m",
+   "strongBuy": 2,
+   "buy": 4,
+   "hold": 0,
+   "sell": 0,
+   "strongSell": 0
+  },
+  {
+   "period": "-1m",
+   "strongBuy": 2,
+   "buy": 4,
+   "hold": 0,
+   "sell": 0,
+   "strongSell": 0
+  },
+  {
+   "period": "-2m",
+   "strongBuy": 2,
+   "buy": 3,
+   "hold": 0,
+   "sell": 0,
+   "strongSell": 0
+  },
+  {
+   "period": "-3m",
+   "strongBuy": 2,
+   "buy": 3,
+   "hold": 0,
+   "sell": 0,
+   "strongSell": 0
+  }
+ ],
+ "lsip_last_close": {
+  "date": "2026-11-25",
+  "close": 1575.0
+ },
+ "lsip_dividends_idr": {
+  "2006-07-21": 15.0,
+  "2009-05-27": 41.6,
+  "2010-06-18": 41.8,
+  "2011-06-17": 61.0,
+  "2012-06-06": 100.0,
+  "2013-06-17": 66.0,
+  "2014-06-17": 46.0,
+  "2015-05-13": 53.0,
+  "2016-06-10": 37.0,
+  "2017-06-09": 35.0,
+  "2018-06-08": 45.0,
+  "2019-06-14": 19.0,
+  "2020-07-27": 15.0,
+  "2021-09-06": 20.0,
+  "2022-08-01": 51.0,
+  "2023-07-06": 53.0,
+  "2024-07-08": 39.0,
+  "2025-07-01": 65.0,
+  "2026-07-06": 83.0
+ },
+ "tapg_info": {
+  "ticker": "TAPG",
+  "name": "PT Triputra Agro Persada Tbk",
+  "currentPrice": 1720.0,
+  "previousClose": 1710.0,
+  "marketCap": 34146367832064,
+  "sharesOutstanding": 19852540000,
+  "impliedSharesOutstanding": 19852540000,
+  "currency": "IDR",
+  "financialCurrency": "IDR",
+  "trailingPE": 7.5567856,
+  "forwardPE": 7.634096,
+  "priceToBook": 2.9143848,
+  "enterpriseValue": 33082346307584,
+  "enterpriseToEbitda": 6.267,
+  "enterpriseToRevenue": 2.617,
+  "ebitda": 5278956257280,
+  "totalRevenue": 12640984236032,
+  "netIncomeToCommon": 4528252911616,
+  "trailingEps": 227.61,
+  "forwardEps": null,
+  "dividendYield": 12.92,
+  "trailingAnnualDividendYield": 0.088304095,
+  "dividendRate": 221.0,
+  "payoutRatio": 0.8831,
+  "totalCash": 2540225953792,
+  "totalDebt": 964499996672,
+  "returnOnEquity": 0.39415002,
+  "beta": 0.122,
+  "fiftyTwoWeekLow": 1255.0,
+  "fiftyTwoWeekHigh": 2480.0,
+  "targetMeanPrice": 2362.0,
+  "targetMedianPrice": 1980.0,
+  "targetHighPrice": 3200.0,
+  "targetLowPrice": 1800.0,
+  "numberOfAnalystOpinions": 5,
+  "recommendationKey": "none"
+ },
+ "tapg_price_targets": {
+  "current": 1720.0,
+  "high": 3200.0,
+  "low": 1800.0,
+  "mean": 2362.0,
+  "median": 1980.0
+ },
+ "tapg_recommendations": [
+  {
+   "period": "0m",
+   "strongBuy": 1,
+   "buy": 4,
+   "hold": 0,
+   "sell": 0,
+   "strongSell": 0
+  },
+  {
+   "period": "-1m",
+   "strongBuy": 1,
+   "buy": 4,
+   "hold": 0,
+   "sell": 0,
+   "strongSell": 0
+  }
+ ],
+ "tapg_last_close": {
+  "date": "2026-11-25",
+  "close": 1720.0
+ },
+ "tapg_dividends_idr": {
+  "2021-07-06": 15.11,
+  "2022-06-06": 25.0,
+  "2023-05-26": 38.0,
+  "2024-05-15": 91.0,
+  "2024-11-08": 76.0,
+  "2025-05-08": 76.0,
+  "2025-08-12": 39.0,
+  "2025-11-11": 50.0,
+  "2026-06-05": 91.0,
+  "2026-08-12": 60.0,
+  "2026-11-11": 70.0
+ },
+ "consensus": [
+  {
+   "retrieved": "2026-11-25",
+   "ticker": "LSIP",
+   "fy": "FY26",
+   "eps_avg": 308.66,
+   "eps_low": 293.0,
+   "eps_high": 329.5,
+   "n_analysts": 5.0,
+   "year_ago_eps": 277.0
+  },
+  {
+   "retrieved": "2026-11-25",
+   "ticker": "LSIP",
+   "fy": "FY27",
+   "eps_avg": 324.106,
+   "eps_low": 290.0,
+   "eps_high": 348.4,
+   "n_analysts": 5.0,
+   "year_ago_eps": 308.66
+  },
+  {
+   "retrieved": "2026-11-25",
+   "ticker": "TAPG",
+   "fy": "FY26",
+   "eps_avg": 212.8725,
+   "eps_low": 207.0,
+   "eps_high": 223.0,
+   "n_analysts": 4.0,
+   "year_ago_eps": 186.0
+  },
+  {
+   "retrieved": "2026-11-25",
+   "ticker": "TAPG",
+   "fy": "FY27",
+   "eps_avg": 225.305,
+   "eps_low": 212.0,
+   "eps_high": 236.8,
+   "n_analysts": 4.0,
+   "year_ago_eps": 212.8725
+  },
+  {
+   "retrieved": "2026-11-25",
+   "ticker": "AALI",
+   "fy": "FY26",
+   "eps_avg": 1229.6425,
+   "eps_low": 1008.5,
+   "eps_high": 1367.9,
+   "n_analysts": 8.0,
+   "year_ago_eps": 764.65
+  },
+  {
+   "retrieved": "2026-11-25",
+   "ticker": "AALI",
+   "fy": "FY27",
+   "eps_avg": 1164.1575,
+   "eps_low": 808.0,
+   "eps_high": 1479.9,
+   "n_analysts": 8.0,
+   "year_ago_eps": 1229.6425
+  },
+  {
+   "retrieved": "2026-11-25",
+   "ticker": "DSNG",
+   "fy": "FY26",
+   "eps_avg": 213.31,
+   "eps_low": 181.4,
+   "eps_high": 274.9,
+   "n_analysts": 4.0,
+   "year_ago_eps": 173.63
+  },
+  {
+   "retrieved": "2026-11-25",
+   "ticker": "DSNG",
+   "fy": "FY27",
+   "eps_avg": 220.4175,
+   "eps_low": 146.6,
+   "eps_high": 292.1,
+   "n_analysts": 4.0,
+   "year_ago_eps": 213.31
+  },
+  {
+   "retrieved": "2026-11-25",
+   "ticker": "SIMP",
+   "fy": "FY26",
+   "eps_avg": 124.6,
+   "eps_low": 124.6,
+   "eps_high": 124.6,
+   "n_analysts": 1.0,
+   "year_ago_eps": 133.0
+  },
+  {
+   "retrieved": "2026-11-25",
+   "ticker": "SIMP",
+   "fy": "FY27",
+   "eps_avg": 134.1,
+   "eps_low": 134.1,
+   "eps_high": 134.1,
+   "n_analysts": 1.0,
+   "year_ago_eps": 124.6
+  },
+  {
+   "retrieved": "2026-11-25",
+   "ticker": "STAA",
+   "fy": "FY26",
+   "eps_avg": 178.8,
+   "eps_low": 178.8,
+   "eps_high": 178.8,
+   "n_analysts": 1.0,
+   "year_ago_eps": 147.0
+  },
+  {
+   "retrieved": "2026-11-25",
+   "ticker": "STAA",
+   "fy": "FY27",
+   "eps_avg": 195.4,
+   "eps_low": 195.4,
+   "eps_high": 195.4,
+   "n_analysts": 1.0,
+   "year_ago_eps": 178.8
+  },
+  {
+   "retrieved": "2026-11-25",
+   "ticker": "TBLA",
+   "fy": "FY26",
+   "eps_avg": 180.2,
+   "eps_low": 180.2,
+   "eps_high": 180.2,
+   "n_analysts": 1.0,
+   "year_ago_eps": 149.71
+  },
+  {
+   "retrieved": "2026-11-25",
+   "ticker": "TBLA",
+   "fy": "FY27",
+   "eps_avg": 209.0,
+   "eps_low": 209.0,
+   "eps_high": 209.0,
+   "n_analysts": 1.0,
+   "year_ago_eps": 180.2
+  }
+ ]
+}

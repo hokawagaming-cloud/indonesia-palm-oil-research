@@ -1,13 +1,15 @@
 # Project Status
 
-_Last updated: 2026-11-25_
+_Last updated: 2026-11-26_
 
 ## Current phase
 
-**Phase XVI complete (2026-11-25).** ITMG equity research (`research/company/ITMG/2026-11-25_ITMG_equity_research.md`, workbook `outputs/ITMG_model_valuation.xlsx`): **HOLD / WATCH**, base fair value IDR 24,700 vs price IDR 24,650; BUY only at <= IDR 19,800 (D-046). R1 NO-GO accepted; cross-sector exploration paused (R2/R3 untested). Palm oil NO TRADE; CPIN H2, MVP-B2, ITMG C1 (GO) and I1 (CONDITIONAL GO) unchanged.
-- **Scheduled (desktop app, Auto mode, verified):** ITMG forecast **2027-01-10 10:00 WIB**; evaluation **2027-03-08 10:00 WIB**.
-- **ITMG monitoring:** monthly Newcastle and consensus log; quarterly strip ratio/fuel/ASP ratio; RKAB 2027; IMM licence (expires Mar 2028); dividends/buybacks; 9M26 working-capital build.
-- Programme hypothesis register: `data/reference/research/hypothesis_register.csv`.
+**Phase XVII complete (2026-11-26).** LSIP flagship equity research (`research/company/LSIP/2026-11-26_LSIP_equity_research.md`, exec summary, IC memo; workbook `outputs/LSIP_model_valuation.xlsx`): **HOLD / WATCH** — base value IDR 1,790 (80% cash credit) vs price IDR 1,575; 12m target IDR 1,904; BUY at <= IDR 1,473 or on verified capital return (D-047). LSIP preferred over TAPG on risk-adjusted value (base 27% vs -6%). Ageing explains ~1/3 of the yield gap; capital allocation is the binding constraint. ITMG C1/I1, R2/R3 and all registered experiments untouched.
+- **Scheduled (unchanged):** ITMG forecast **2027-01-10 10:00 WIB**; evaluation **2027-03-08 10:00 WIB**; MVP-B2 origins Dec 2026.
+- **LSIP monitoring:** C-019 buyback report (early Jan 2027), C-020 FY2026 results (~26 Feb 2027; Q4 v2 534bn vs v1 468 vs consensus-implied 360), C-021 AGM payout (~Jun 2027), C-022 AR2026 age-profile disclosure (~Apr 2027), C-023 FY27 consensus revision.
+- Previous ITMG notes below remain valid.
+
+Previous phase (XVI): ITMG HOLD/WATCH (D-046).
 
 ## Done
 
@@ -144,6 +146,7 @@ _Last updated: 2026-11-25_
 
 - [x] **Phase XV (2026-11-25):** R1 PIT audit, BI-Rate history (S-072), implementation note before returns, backtest, attribution, robustness; NO-GO (D-045). Tests 73 passing.
 
+- [x] **Phase XVII (2026-11-26):** LSIP primary documents downloaded from londonsumatra.com (S-076: AR2021-25, SR2017-25, expose decks 2016-20); FS extraction FY2020-9M26 (identities pass; PSAK 24 restatement found); notes (COGS, bearer plants, Bank Ina Perdana cash); operating/age dataset FY2017-9M26 (assertion-verified); age-cohort reconstruction + 4 replanting scenarios + 36-member ensemble; integrated 3-statement model and valuation workbook (1,567 formulas, 0 errors); Q4 nowcast v2; prior-figure audit; risk stats; TAPG like-for-like; 13 exhibits; report, summary, IC memo. Tests: `tests/test_phase17.py`.
 - [x] **Phase XVI (2026-11-25):** ITMG FS extraction FY2018-9M26 (identities pass), market/consensus snapshot, integrated model FY2026-30 + mine-life DCF/DDM/relative/reverse DCF, report and exhibits; consolidation note and hypothesis register. Tests 80 passing.
 
 ## Not resolved (sources tried and failed)
@@ -160,7 +163,8 @@ _Last updated: 2026-11-25_
 
 ## Next
 
-- [ ] LSIP re-test triggers: buyback execution report (C-019, early Jan 2027), FY26 results (C-020, late Feb 2027), AGM payout (C-021). Stage 2 only if the gate passes robustly.
+- [ ] LSIP (D-047): re-rate on C-019 (buyback report), C-020 (FY26 results; resolve Q4 v1/v2 out of sample), C-021 (AGM payout), C-022 (age-profile disclosure), C-023 (FY27 consensus). BUY trigger <= IDR 1,473 or verified capital return.
+- [ ] Hurdle restatement proposal (A-049, 18.1%) awaits a separate decision (open item D-030).
 - [ ] Run `tapg_monitor.py` on each data refresh (December HRef decree, monthly WB prices, consensus). Re-evaluate when the trigger hits or assumptions change.
 - [ ] FY2026 results (~Feb–Mar 2027): first expectation-adjusted surprise test across names (C-017); resolve the forecast journal.
 - [ ] Map name-level ENSO exposure from primary sources (estate provinces) before using rainfall as a cross-sectional indicator.

@@ -1,0 +1,116 @@
+{
+ "regression": {
+  "intercept_bn": -3404.9869646571774,
+  "slope_bn_per_idr_kg": 0.49670306101800205,
+  "n": 6,
+  "r2": 0.9408022780427313,
+  "data": {
+   "2020": {
+    "p": 8298,
+    "np": 911.1
+   },
+   "2021": {
+    "p": 9274,
+    "np": 1159.0
+   },
+   "2022": {
+    "p": 12211,
+    "np": 2981.1
+   },
+   "2023": {
+    "p": 11115,
+    "np": 1608.2
+   },
+   "2024": {
+    "p": 13156,
+    "np": 3120.3
+   },
+   "2025": {
+    "p": 14220,
+    "np": 3702.3
+   }
+  }
+ },
+ "price": 1720.0,
+ "shares_mn": 19852.54,
+ "net_cash_bn": 1575.72595712,
+ "ke": 0.1314,
+ "g": 0.025,
+ "haircut": 0.9,
+ "conversion": 0.9,
+ "cases": {
+  "bear": {
+   "lr_price": 12000,
+   "np_sustainable_bn": 2555.449767558847,
+   "fv_ps": 1059.3006151461086,
+   "tr12": -0.3103338073577371,
+   "implied_dividend_yield": 0.06735430066587232
+  },
+  "base": {
+   "lr_price": 14000,
+   "np_sustainable_bn": 3548.8558895948513,
+   "fv_ps": 1440.2384800092536,
+   "tr12": -0.06232114396737243,
+   "implied_dividend_yield": 0.09353762677791279
+  },
+  "bull": {
+   "lr_price": 16500,
+   "np_sustainable_bn": 4790.613542139858,
+   "fv_ps": 1916.4108110881855,
+   "tr12": 0.24769468527058391,
+   "implied_dividend_yield": 0.1262667844179634
+  }
+ },
+ "implied_np_at_price": 4278.415306768435,
+ "implied_lr_price": 15468.803948335526,
+ "lsip_cases_credit80_scenA": {
+  "bear": {
+   "fv_ps": 1202.9198436386318,
+   "tr12": -0.14472792785596167
+  },
+  "base": {
+   "fv_ps": 1789.6122365814933,
+   "tr12": 0.27240844351320614
+  },
+  "bull": {
+   "fv_ps": 2491.301332680049,
+   "tr12": 0.7713070944871401
+  }
+ },
+ "LSIP_base_return_per_vol": 0.8398680987684346,
+ "LSIP_bear_return": -0.14472792785596167,
+ "LSIP_bull_return": 0.7713070944871401,
+ "TAPG_base_return_per_vol": -0.15864763730142864,
+ "TAPG_bear_return": -0.3103338073577371,
+ "TAPG_bull_return": 0.24769468527058391,
+ "yield_gap_fy2025": {
+  "lsip_actual": 13.4405,
+  "tapg_actual": 24.3,
+  "lsip_standard_potential_for_age_mix": 19.934951146983856,
+  "tapg_standard_potential_for_age_mix": 23.658931675960293,
+  "gap_total": 10.8595,
+  "gap_due_to_age_mix": 3.723980528976437,
+  "gap_due_to_productivity_factor": 7.135519471023564,
+  "k_lsip": 0.6742178549072361,
+  "k_tapg": 1.0270962498569238,
+  "note": "TAPG age bands and yield are group-wide incl. associates; LSIP is nucleus. Standard curve is an assumption."
+ },
+ "ev_per_planted_ha_idr_m": {
+  "LSIP_cash100": 51.92910909846527,
+  "LSIP_cash80": 67.29548807105037,
+  "TAPG": 245.23501169214092,
+  "LSIP_model_base_ops": 62.015719135064096
+ },
+ "op_profit_per_mature_ha_fy2025_idr_m": {
+  "LSIP": 23.69947134900406,
+  "TAPG": 28.300524756192043
+ },
+ "aging_value": {
+  "B_minus_A_ops_per_share": 68.63744629759685,
+  "D_minus_A_ops_per_share": 9.07486027816526,
+  "C_minus_A_ops_per_share": -33.40116938928861,
+  "value_of_10pct_yield_per_share": 313.71537958813065,
+  "age_mix_yield_deficit_vs_25y_steady_state": 0.09292879993041392
+ },
+ "note": "TAPG frame is a single-stage perpetuity on a 5-point regression; it is a like-for-like price-deck check, not a TAPG target price. Earlier TAPG work (Phases II-V, reverse_valuation.md) is unchanged."
+}

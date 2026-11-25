@@ -1,0 +1,14 @@
+item,idr_bn,basis
+"Cash and equivalents, 30 Sep 2026",8516.27,9M26 FS
+"  of which at related-party bank (Bank Ina Perdana, Salim group)",665.02,9M26 FS note 5
+Restricted cash,0.00,none disclosed in cash note
+Minimum operating cash (~2 months of cash costs),-591.90,"9M26 cash costs 2,664bn / 9 x 2"
+Seasonal working-capital buffer (finished-goods swing),-300.00,FG 421 -> 593bn in 9M26; Q3 build 221bn
+Committed capex in progress (CIP balance) - memo,0.00,FY25 CIP 102bn is inside forecast maintenance capex (DCF); not deducted twice
+Employee benefits liability (debt-like),-552.11,9M26 FS
+Taxes payable (FY25 level),-208.80,FY25 FS
+Replanting funding,0.00,inside the DCF (FCFF); NOT reserved here to avoid double counting
+Distributable surplus cash (before buyback),6863.47,sum of the above (related-party line is a memo)
+  per share (IDR),1006.38,"6,820.0mn shares"
+  as % of share price,0.64,"price 1,575"
+"Buyback authorised (Oct-Dec 2026), max",-750.00,disclosure 23 Oct 2026; execution UNVERIFIED
