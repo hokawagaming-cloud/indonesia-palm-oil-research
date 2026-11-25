@@ -84,14 +84,15 @@ STAGES = [
 
 VALIDATION_FACTS = [
     "Empirically validated signals: NONE yet (no indicator has an out-of-sample record).",
-    "Engineering tests: 39 unit tests (identities, PIT ordering, idempotent journal, bounds); they test code, not forecasting skill.",
+    "Engineering tests: 43 unit tests (identities, PIT ordering, idempotent journal, bounds); they test code, not forecasting skill.",
+    "CPIN H1 (pre-registered, PIT walk-forward, n = 20): broiler-margin MAE 7.06pp vs mean 5.80pp, DM t -0.76 -> FAILED (D-031).",
     "Measured so far (PIT, TAPG profit, n = 2): MAPE 23.5% (price_last), 27.2% (last_q); bias negative (under-forecast).",
 ]
 PLANNED = [
     "Resolve journal vs FY2026 actuals (C-020; Feb-Mar 2027): first real out-of-sample errors for TAPG/LSIP nowcasts",
     "Extend PIT history (2021-25 interim vintages) to n >= 12 quarters before any signal is called validated",
     "Forecast-error decomposition (volume / price / cost / inventory) on resolved quarters",
-    "Poultry pilot (conditional, CPIN only): segment margins vs PIHPS producer chicken price, world maize/SBM in IDR",
+    "Poultry H2 (levels, post-hoc): forward test on CPIN (2026Q4 logged) and replication on JPFA before any use",
 ]
 
 
@@ -149,7 +150,7 @@ def main() -> None:
     ax.add_patch(FancyBboxPatch((0.02, 0.02), 0.47, 0.125, boxstyle="round,pad=0.008", edgecolor=edge, facecolor=fill, lw=1.8))
     ax.text(0.03, 0.135, "Evidence status", fontsize=11.5, weight="bold", va="top")
     for i, t in enumerate(VALIDATION_FACTS):
-        ax.text(0.03, 0.108 - i * 0.03, "• " + t, fontsize=8.7, va="top", wrap=True)
+        ax.text(0.03, 0.11 - i * 0.024, "• " + t, fontsize=8.7, va="top", wrap=True)
     edge, fill = ST["PLANNED"]
     ax.add_patch(FancyBboxPatch((0.51, 0.02), 0.47, 0.125, boxstyle="round,pad=0.008", edgecolor=edge, facecolor=fill, lw=1.8, ls="--"))
     ax.text(0.52, 0.135, "Planned research improvements (not implemented)", fontsize=11.5, weight="bold", va="top")

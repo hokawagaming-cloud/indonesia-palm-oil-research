@@ -83,6 +83,7 @@ Find **earnings surprises and underappreciated catalysts** in Indonesian palm oi
 - **Empirical validation** means out-of-sample (PIT, walk-forward) errors against naive benchmarks, reporting MAE, RMSE, bias, n and HAC/Diebold-Mariano uncertainty. Below 12 out-of-sample observations a model is EXPLORATORY.
 - Regression t-stats use Newey-West standard errors (`quant/stats_utils.ols_nw`).
 - **New-sector pilots** must pass a tested (not listed) data-feasibility screen first. Each needs a pre-registered hypothesis, benchmarks and a kill criterion before modelling. No machine learning unless a simple model beats the benchmarks.
+- Post-hoc specifications (chosen after seeing a failed test on the same data) are never evidence. They may only be registered for forward testing or for replication on independent data (D-031).
 - Methodology map: `outputs/quant_methodology_2026-11-25.png` (regenerate with `outputs/make_methodology_diagram.py`).
 
 ## 6. Data integrity rules

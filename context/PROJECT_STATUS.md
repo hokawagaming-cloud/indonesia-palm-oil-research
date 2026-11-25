@@ -5,7 +5,8 @@ _Last updated: 2026-11-24_
 ## Current phase
 
 **Phase VIII complete (2026-11-25):** checkpoint audit, methodology map, poultry feasibility. Decision **NO TRADE** unchanged (D-028): TAPG/LSIP/DSNG WATCH, STAA AVOID.
-- **Poultry:** CONDITIONAL GO, CPIN only (D-029). Next milestone M-VIII-1 (CPIN segment-margin walk-forward) **awaits user approval** to download about 33 CPIN interim PDFs from cp.co.id.
+- **Poultry:** M-VIII-1 done. Pre-registered H1 **failed** the kill rule, so the pilot stopped (D-031). H2 (levels) is registered for forward test only; CPIN 2026Q4 forecast is in the journal.
+- **Next (user choice):** JPFA independent replication of H2 (needs JPFA quarterly FS from IDX) or banking feasibility.
 - **Open:** hurdle reassessment (D-030c). First palm out-of-sample resolution: FY2026 results, Feb–Mar 2027 (C-020).
 
 ## Done
@@ -109,6 +110,10 @@ _Last updated: 2026-11-24_
   - Methodology PNG produced.
   - Poultry data tested: PIHPS available 2017+; livebird/DOC/domestic corn unavailable or unverified; CPIN filings 2018+ reachable.
   - Feasibility verdict: conditional GO.
+
+- [x] **M-VIII-1 (2026-11-25):**
+  - 34 CPIN FS downloaded; 35-quarter segment dataset built (reconciled; FY2020 basis break handled).
+  - PIT walk-forward over 20 out-of-sample quarters: H1 killed. Tests 43 passing.
 
 ## Not resolved (sources tried and failed)
 

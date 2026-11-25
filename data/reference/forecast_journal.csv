@@ -38,3 +38,6 @@ made_on,model_commit,target,scenario,value_idr_bn,status,resolves_with,actual_id
 2026-11-25,ca40d81+lsip-s1,"LSIP 12m total return from IDR 1,570",expected,,open,price + dividends at 2027-11-25,,+17.9%; P(>17.5%)=51%; gate NOT passed (borderline)
 2026-11-25,ffc7178+phase7,"LSIP 12m total return from IDR 1,570 (ex-interest, after div tax)",expected,,open,price + dividends at 2027-11-25,,+18.2% gross / +17.6% net of costs; P(>17.5%)=54%; joint adverse -37%; decision WATCH
 2026-11-25,ffc7178+phase7,Final decision 2026-11-25,decision,,open,12m returns of TAPG/LSIP/DSNG/STAA vs money-market 5.5%,,"NO TRADE (TAPG/LSIP/DSNG WATCH, STAA AVOID)"
+2026-11-25,3009cfe+m-viii-1,CPIN 2026Q4 broiler segment margin (result/sales),"H2 levels (post-hoc spec, forward test only)",,open,CPIN FY2026 FS segment note (~Mar 2027),,"0.0999; spread partial: chicken Oct-Nov, feed proxy Oct"
+2026-11-25,3009cfe+m-viii-1,CPIN 2026Q4 broiler segment margin (result/sales),benchmark: expanding mean,,open,CPIN FY2026 FS segment note (~Mar 2027),,0.0225; new basis 2020Q1-2026Q3
+2026-11-25,3009cfe+m-viii-1,CPIN 2026Q4 broiler segment margin (result/sales),benchmark: last_q,,open,CPIN FY2026 FS segment note (~Mar 2027),,0.1113; 2026Q3 actual
