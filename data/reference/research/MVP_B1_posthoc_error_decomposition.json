@@ -1,0 +1,18 @@
+{
+ "BBCA": {
+  "n": 19,
+  "MAE_bankonly_part_bn": 631,
+  "MAE_consolidation_part_bn": 887,
+  "bias_bankonly_bn": 127,
+  "m3_share_of_quarter_mean": 0.317,
+  "m3_share_sd": 0.058
+ },
+ "BBRI": {
+  "n": 23,
+  "MAE_bankonly_part_bn": 1150,
+  "MAE_consolidation_part_bn": 1376,
+  "bias_bankonly_bn": -943,
+  "m3_share_of_quarter_mean": 0.385,
+  "m3_share_sd": 0.066
+ }
+}

@@ -87,6 +87,8 @@ Find **earnings surprises and underappreciated catalysts** in Indonesian palm oi
 - **Three kinds of evidence are always reported separately:** (1) automated software tests; (2) predictive forecasting accuracy (out of sample, against benchmarks); (3) realised investment alpha (returns earned after costs). Neither (1) nor (2) implies (3).
 - **Availability dates:** record the regulatory deadline and the actual filing timestamp separately; use the actual date only where verified (A-018 rule), else the deadline, flagged. Comparative (restated) figures are dated to the document that publishes them unless the original is independently verified.
 - **Frozen hypotheses:** a frozen spec (parameters, predictors, benchmarks, pass/kill rules) is stored as JSON and evaluated prospectively only; every pre-registered benchmark is compared, not just the weakest.
+- **Pre-registration order:** the specification is committed before any model is run; data-layer fixes may follow only before results are computed and are committed separately. Variants are registered anew and evaluated prospectively.
+- **Information-matched benchmarks:** when a model uses a new data source, it must beat simple rules using the SAME information (e.g. 2 months × 1.5), not only unconditional benchmarks; report information value and model value separately.
 - Methodology map: `outputs/quant_methodology_2026-11-25.png` (regenerate with `outputs/make_methodology_diagram.py`).
 
 ## 6. Data integrity rules
@@ -109,3 +111,4 @@ Find **earnings surprises and underappreciated catalysts** in Indonesian palm oi
 | VI–VII | LSIP deep-dive; institutional decision | Done: NO TRADE (D-027, D-028) |
 | VIII | Audit, methodology map, poultry feasibility | Done: conditional GO, CPIN only (D-029); H1 killed (D-031) |
 | IX | CPIN PIT audit v2; banking feasibility | Done: H2 frozen (D-032); banking CONDITIONAL GO for MVP-B1 (D-033) |
+| X | MVP-B1 banking validation (BBCA, BBRI) | Done: both NO-GO on profit (D-034); NII information value documented |

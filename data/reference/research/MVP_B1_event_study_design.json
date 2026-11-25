@@ -1,0 +1,22 @@
+{
+  "id": "MVP-B1-ES",
+  "registered_on": "2026-11-25",
+  "status": "DESIGNED, NOT EXECUTED. Precondition (MVP-B1 predictive accuracy on T1) NOT met for either bank (D-034); execute only if a separately registered forecasting test passes first.",
+  "question": "Are public monthly bank-only disclosures already incorporated into BBCA/BBRI prices, and is any residual information tradable after costs?",
+  "events": {
+    "BBRI": "monthly report IR posting dates 2018+ (S-062); if a report is posted after 16:00 WIB or time unknown, event day = next trading day",
+    "BBCA": "monthly report filename-date prefixes 2020+ (S-063); pre-2020 dates excluded (unverified)",
+    "quarterly": "consolidated quarterly results (IDX timestamps 2024+, IR dates otherwise) as the resolution events"
+  },
+  "surprise_measures": {
+    "S1_monthly": "(BO YTD growth y/y at the reported month) minus (trailing 12-month BO growth known before the event); sign and standardised magnitude",
+    "S2_quarter_nowcast_gap": "information-matched nowcast (best pre-registered IM rule) minus consensus-implied quarter (requires consensus history; prospective only from 2026-11-24 snapshots)"
+  },
+  "returns": "daily total returns (Yahoo adjusted; S-002), abnormal = stock minus EW large-bank index ex-self (BBCA, BBRI, BMRI, BBNI) and minus IHSG",
+  "windows": {"announcement": "CAR[0,+1]", "short_drift": "CAR[+2,+10]", "to_quarterly_result": "CAR[+2, quarterly results day -1]", "quarterly_reaction": "CAR[0,+1] at results vs S2"},
+  "analyst_revisions": "change in consensus FY EPS over [event, event+10 trading days] from the append-only consensus log (forward only; no history exists)",
+  "costs": "round trip 0.40% for BBCA/BBRI (0.15% buy + 0.25% sell incl. 0.10% sales tax; EST large-cap) plus 0.05% slippage; returns reported gross and net",
+  "inference": "per bank, no pooling; Newey-West HAC or moving-block bootstrap (block 3 events); Holm across the 4 windows; minimum 40 events per bank",
+  "pass_rule": "mean net CAR[+2,+10] in the direction of S1 > 0 with Holm-adjusted p <= 0.05 for a bank; otherwise disclosures are deemed priced in",
+  "non_goals": "no trading system, no position sizing, no valuation model; accuracy is not alpha"
+}

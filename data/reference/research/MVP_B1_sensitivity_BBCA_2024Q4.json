@@ -1,0 +1,28 @@
+{
+ "T1": {
+  "n": 16,
+  "best_IM": "IM4_seasonal_runrate",
+  "best_unconditional": "U1_last_quarter",
+  "M1_MAE": 1105.8382608483657,
+  "bestIM_MAE": 741.1998143227775,
+  "bestU_MAE": 552.5295625,
+  "model_value_improvement": -0.4919570127776578,
+  "p_holm_vs_bestIM": 1.0,
+  "info_value_improvement": -0.34146634791650166,
+  "p_info": 0.9517197171693912,
+  "pass_rule": false
+ },
+ "T2": {
+  "n": 16,
+  "best_IM": "IM4_seasonal_runrate",
+  "best_unconditional": "U1_last_quarter",
+  "M1_MAE": 163.81428388291283,
+  "bestIM_MAE": 127.59613808549841,
+  "bestU_MAE": 530.9190624999998,
+  "model_value_improvement": -0.28384985894436476,
+  "p_holm_vs_bestIM": 0.9123913089146037,
+  "info_value_improvement": 0.759669322316905,
+  "p_info": 0.0010391397678001398,
+  "pass_rule": false
+ }
+}

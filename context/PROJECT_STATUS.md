@@ -4,10 +4,10 @@ _Last updated: 2026-11-24_
 
 ## Current phase
 
-**Phase IX complete (2026-11-25).** Palm oil: NO TRADE unchanged (TAPG/LSIP/DSNG WATCH, STAA AVOID); triggers and catalysts as before.
-- **Poultry:** H1 killed (D-031); H2 frozen for prospective test from 2026Q4 (D-032). JPFA and MAIN not pursued.
-- **Banking:** CONDITIONAL GO for one pre-registered MVP-B1 (BBCA, BBRI; D-033), **not started**. Bank tickers added to consensus snapshots.
-- **Open:** hurdle reassessment (D-030c); FY2026 resolutions Feb-Mar 2027 (palm C-020; CPIN H2 2026Q4).
+**Phase X complete (2026-11-25).** Palm oil: NO TRADE unchanged (TAPG/LSIP/DSNG WATCH, STAA AVOID).
+- **Banking MVP-B1:** BBCA NO-GO, BBRI NO-GO on quarterly consolidated profit (D-034). Monthly data help NII forecasts, but that is public information, not alpha. Event study designed only. No BMRI/BBNI.
+- **Poultry:** H1 killed; H2 frozen for prospective test from 2026Q4.
+- **Open:** hurdle reassessment (D-030c); resolutions Feb-Mar 2027 (palm C-020, CPIN H2, MVP-B1 prospective rows).
 
 ## Done
 
@@ -118,6 +118,10 @@ _Last updated: 2026-11-24_
 - [x] **Phase IX (2026-11-25):**
   - CPIN v2 PIT audit (actual filing dates, FY2023 vintage fix, predictor timing); H1/H2 rerun; H2 frozen.
   - Banking: IR access tested for 4 banks 2018-26; inventory with publication lags; sample content and reconciliation checked; hypotheses B1-B6; gate decided. Tests 48 passing.
+
+- [x] **Phase X (2026-11-25):**
+  - 227 BBCA/BBRI IR documents downloaded and parsed (scopes separated, integrity checks); pre-registered spec committed before modelling.
+  - Walk-forward vs 4 unconditional + 4 information-matched benchmarks with DM/Holm/bootstrap; both banks NO-GO. Tests 52 passing.
 
 ## Not resolved (sources tried and failed)
 
