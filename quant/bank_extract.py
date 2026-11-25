@@ -78,12 +78,23 @@ def extract_doc(path: Path, k: int) -> dict:
                 out[key] = [x + y for x, y in zip(a, b)] if a and b else None
             else:
                 out[key] = nums_after(t, q, k)
-    q = find(t, r"(?:\(IMPAIRMENT\)|IMPAIRMENT (?:LOSSES? )?(?:ON|OF|FOR) (?:FINANCIAL )?ASSETS|PENURUNAN NILAI ASET KEUANGAN \(IMPAIRMENT\))(?= \(?\d)", max(p, 0))
+    q = find(t, r"(?:\(IMPAIRMENT\)|(?:LOSS )?IMPAIRMENT (?:LOSSES? )?(?:ON|OF|FOR) (?:FINANCIAL )?ASSETS|PENURUNAN NILAI ASET KEUANGAN \(IMPAIRMENT\))(?= \(?\d)", max(p, 0))
     out["impairment"] = nums_after(t, q, k) if q > 0 else None
-    q = find(t, r"(?<!NON )(?<!NON-)(?:OPERATIONAL|OPERATING) (?:PROFIT|INCOME) \(LOSS\)(?= \(?\d)|(?<!NON )LABA \(RUGI\) OPERASIONAL(?= \(?\d)", max(p, 0))
+    if out["impairment"] is None:   # older layout: 'E. IMPAIRMENT I. SECURITIES x II. LOANS y III. SHARIA z IV. OTHER w' (no total)
+        q = find(t, r"E\. IMPAIRMENT(?: (?:ON|OF) FINANCIAL ASSETS)? (?=I\. )", max(p, 0))
+        if q > 0:
+            v = nums_after(t, q, 4 * k, window=600)
+            out["impairment"] = list(np.array(v).reshape(4, k).sum(axis=0)) if v else None
+    q = find(t, r"(?<!NON )(?<!NON-)(?:OPERATIONAL|OPERATING) (?:PROFIT|INCOME) \(LOSS\)(?= \(?\d)|(?<!NON )LABA \(RUGI\) OPERASIONAL(?= \(?\d)"
+                r"|(?:INCOME|PROFIT)(?: \(LOSS\))? FROM OPERATIONS(?= \(?\d)", max(p, 0))
     out["op_profit"] = nums_after(t, q, k) if q > 0 else None
     pbt = find(t, r"BEFORE (?:INCOME )?TAX(?:ES)?(?= \(?\d)|SEBELUM PAJAK(?: PENGHASILAN)?(?= \(?\d)", max(p, 0))
     out["pbt"] = nums_after(t, pbt, k) if pbt > 0 else None
+    out["op_from_pbt"] = None
+    if out["impairment"] is not None:   # expense line: some months print expenses in parentheses
+        out["impairment"] = [abs(x) for x in out["impairment"]]
+    if out["op_profit"] is None and out["pbt"] is not None and not re.search(r"NON[ -]OPERA(?:TING|TIONAL|SIONAL)", t):
+        out["op_profit"] = list(out["pbt"]); out["op_from_pbt"] = [1.0] * k   # layout without a non-operating section
     q = find(t, r"(?:NET )?PROFIT(?: \(LOSS\))? (?:AFTER (?:INCOME )?TAX(?: - NET)?|CURRENT PERIOD|CURRENT YEAR|FOR THE (?:CURRENT )?(?:PERIOD|YEAR))(?= \(?\d)"
                 r"|LABA \(RUGI\) BERSIH(?: PERIODE BERJALAN| TAHUN BERJALAN)?(?= \(?\d)|NET INCOME(?: \(LOSS\))?(?: FOR THE (?:CURRENT )?PERIOD| CURRENT PERIOD)?(?= \(?\d)", max(pbt, 0))
     out["net_profit"] = nums_after(t, q, k) if q > 0 else None
