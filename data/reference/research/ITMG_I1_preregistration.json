@@ -1,0 +1,20 @@
+{
+  "id": "ITMG-I1 (integrated)",
+  "registered_on": "2026-11-25",
+  "status": "PRE-REGISTERED after C1/C2/C3 evaluation and BEFORE any integrated forecast error was computed",
+  "component_choice": "validated components only: ASP from C1-M2 (pass). Failed components use their strongest benchmark: sales volume = C2 B2 seasonal (q-4); unit cost ex-royalty = C3 B1 last quarter. Royalty = effective royalty rate of q-1 x forecast coal revenue.",
+  "target": "quarterly gross profit on coal revenue basis (USD m) = FS coal revenue - FS cost of revenue (incl. royalty), standalone quarter. Narrowed scope: EBITDA, operating profit and net profit to owners are NOT tested (D&A, SG&A, other income and tax lines not extracted).",
+  "forecast": "GP_hat = V_hat x ASP_hat x (1 - r_(q-1)) - V_hat x UC_hat, with V in Mt, ASP and UC in USD/t",
+  "benchmarks": {
+    "G1_last": "GP(q-1)",
+    "G2_seasonal": "GP(q-4)",
+    "G3_same_structure_without_C1": "identical formula but ASP_hat = C1 strongest benchmark B4 (last ASP x Newcastle change) - isolates C1's contribution",
+    "G4_mean": "expanding mean of GP"
+  },
+  "origin": "quarter end + 10 days; same information set as C1/C2/C3; no actual future volumes or costs",
+  "evaluation": "common sample (>= 2021Q1); MAE, RMSE, bias, OOS R2, directional accuracy vs q-1; DM (HAC, HLN) one-sided vs strongest benchmark and separately vs G3; bootstrap CI",
+  "uncertainty": "empirical 10/90% quantiles of walk-forward GP errors reported (joint error of components, no independence assumption)",
+  "pass_rule": "n >= 16 AND MAE(I1) <= 0.85 x MAE(strongest benchmark) AND one-sided DM p <= 0.05 (single model; programme-wide Holm reported)",
+  "C1_translation": "C1 translates materially if MAE(I1) <= 0.85 x MAE(G3) with DM p <= 0.05",
+  "change_policy": "no changes after results"
+}
