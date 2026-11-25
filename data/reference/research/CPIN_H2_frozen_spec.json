@@ -1,0 +1,34 @@
+{
+  "id": "CPIN-H2",
+  "status": "FROZEN exploratory hypothesis (post-hoc origin; NOT validated)",
+  "frozen_on": "2026-11-25",
+  "target": "CPIN broiler segment margin = segment result / total broiler segment sales, standalone quarter, new (FY2020) basis",
+  "model": "m_q = a + b * spread_q",
+  "a": -0.559299732809225,
+  "b_per_idr_kg": 2.584748563402474e-05,
+  "fit_sample": "2020Q1..2026Q3 (n=27, values available by 2026-11-25)",
+  "predictors": {
+    "spread_q": "mean over the 3 months of q of [PIHPS national producer 'Daging Ayam Ras Segar' (IDR/kg) - (0.55*WB CMO maize + 0.25*WB CMO soybean meal, USD/t) * monthly-average USD/IDR / 1000]",
+    "sources": [
+      "S-054 PIHPS",
+      "S-003 World Bank CMO",
+      "S-002 USD/IDR"
+    ]
+  },
+  "forecast_timing": "day before CPIN's actual IDX filing for q (availability rule A-018); predictors must be published by then",
+  "benchmarks": [
+    "last_q: m_(q-1)",
+    "seasonal: m_(q-4)",
+    "mean: expanding mean of new-basis actuals known at forecast date"
+  ],
+  "parameters_frozen": true,
+  "re_estimation": "none (a, b fixed); benchmarks update with new actuals as they become available",
+  "evaluation": {
+    "first_quarter": "2026Q4",
+    "interim_review_n": 8,
+    "final_n": 12,
+    "pass_rule": "on n>=12 prospective quarters: MAE(H2) <= 0.85 x MAE of EACH benchmark AND Diebold-Mariano t (HAC, absolute loss) >= 1.65 vs the best benchmark",
+    "kill_rule": "fails pass_rule at n=12, or MAE(H2) > MAE(best benchmark) at the n=8 interim review"
+  },
+  "journal_note": "The 2026-11-25 journal entry (10.0%) used a partial-quarter spread and is kept as logged; the frozen-rule forecast for 2026Q4 is computed at its forecast date."
+}

@@ -41,3 +41,5 @@ made_on,model_commit,target,scenario,value_idr_bn,status,resolves_with,actual_id
 2026-11-25,3009cfe+m-viii-1,CPIN 2026Q4 broiler segment margin (result/sales),"H2 levels (post-hoc spec, forward test only)",,open,CPIN FY2026 FS segment note (~Mar 2027),,"0.0999; spread partial: chicken Oct-Nov, feed proxy Oct"
 2026-11-25,3009cfe+m-viii-1,CPIN 2026Q4 broiler segment margin (result/sales),benchmark: expanding mean,,open,CPIN FY2026 FS segment note (~Mar 2027),,0.0225; new basis 2020Q1-2026Q3
 2026-11-25,3009cfe+m-viii-1,CPIN 2026Q4 broiler segment margin (result/sales),benchmark: last_q,,open,CPIN FY2026 FS segment note (~Mar 2027),,0.1113; 2026Q3 actual
+2026-11-25,e03cf3b+phase9,CPIN 2026Q4 broiler segment margin (result/sales),"benchmark: seasonal (m_q-4, 2025Q4)",,open,CPIN FY2026 FS segment note (~Mar 2027),,0.1581; added Phase IX so H2 is compared with ALL pre-registered benchmarks
+2026-11-25,e03cf3b+phase9,CPIN 2026Q4 broiler segment margin (result/sales),H2 frozen rule (CPIN_H2_frozen_spec.json),,pending: computed at forecast date,CPIN FY2026 FS segment note (~Mar 2027),,"a=-0.5593, b=2.5847e-05 per IDR/kg; full-quarter spread at day before filing"

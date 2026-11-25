@@ -1,0 +1,33 @@
+target,role,hypothesis,method,n,MAE_pp,RMSE_pp,bias_pp,best_benchmark,mae_ratio,dm_t,pass
+broiler,primary,H1 (pre-registered),model,18.0000,6.7952,8.9815,-2.4934,,,,
+broiler,primary,H1 (pre-registered),last_q,18.0000,7.4328,9.3020,-0.6594,,,,
+broiler,primary,H1 (pre-registered),seasonal,18.0000,6.2150,8.9866,-1.1561,,,,
+broiler,primary,H1 (pre-registered),mean,18.0000,5.4849,6.9801,-2.6754,,,,
+broiler,primary,H1 (pre-registered),VERDICT,18.0000,,,,mean,1.2389,-0.7341,False
+broiler,primary,"H2 (post-hoc levels, diagnostic)",H2_vs_last_q,13.0000,4.4299,,,last_q,0.6456,2.4066,
+broiler,primary,"H2 (post-hoc levels, diagnostic)",H2_vs_seasonal,13.0000,4.4299,,,seasonal,1.1536,-0.5241,
+broiler,primary,"H2 (post-hoc levels, diagnostic)",H2_vs_mean,13.0000,4.4299,,,mean,0.7292,1.3063,
+consolidated,secondary,H1 (pre-registered),model,18.0000,3.3408,4.3849,-1.2479,,,,
+consolidated,secondary,H1 (pre-registered),last_q,18.0000,4.9433,5.8201,-0.1033,,,,
+consolidated,secondary,H1 (pre-registered),seasonal,18.0000,4.7067,5.3317,0.2544,,,,
+consolidated,secondary,H1 (pre-registered),mean,18.0000,3.9324,4.8469,0.6010,,,,
+consolidated,secondary,H1 (pre-registered),VERDICT,18.0000,,,,mean,0.8496,0.6263,False
+consolidated,secondary,"H2 (post-hoc levels, diagnostic)",H2_vs_last_q,13.0000,3.8444,,,last_q,0.7565,1.8485,
+consolidated,secondary,"H2 (post-hoc levels, diagnostic)",H2_vs_seasonal,13.0000,3.8444,,,seasonal,0.9572,0.2523,
+consolidated,secondary,"H2 (post-hoc levels, diagnostic)",H2_vs_mean,13.0000,3.8444,,,mean,0.9397,0.3663,
+doc,secondary,H1 (pre-registered),model,18.0000,10.4490,13.3092,-0.1144,,,,
+doc,secondary,H1 (pre-registered),last_q,18.0000,12.7761,15.2159,0.6761,,,,
+doc,secondary,H1 (pre-registered),seasonal,18.0000,13.7211,17.5573,3.4889,,,,
+doc,secondary,H1 (pre-registered),mean,18.0000,10.3467,13.5090,1.9730,,,,
+doc,secondary,H1 (pre-registered),VERDICT,18.0000,,,,mean,1.0099,-0.0541,False
+doc,secondary,"H2 (post-hoc levels, diagnostic)",H2_vs_last_q,13.0000,9.6840,,,last_q,0.7454,1.0431,
+doc,secondary,"H2 (post-hoc levels, diagnostic)",H2_vs_seasonal,13.0000,9.6840,,,seasonal,0.7440,1.4883,
+doc,secondary,"H2 (post-hoc levels, diagnostic)",H2_vs_mean,13.0000,9.6840,,,mean,0.9639,0.2635,
+feed,secondary,H1 (pre-registered),model,18.0000,1.7676,2.3647,0.0131,,,,
+feed,secondary,H1 (pre-registered),last_q,18.0000,1.6439,2.2188,0.0761,,,,
+feed,secondary,H1 (pre-registered),seasonal,18.0000,1.8750,2.5111,0.4439,,,,
+feed,secondary,H1 (pre-registered),mean,18.0000,1.8557,2.3414,1.7159,,,,
+feed,secondary,H1 (pre-registered),VERDICT,18.0000,,,,last_q,1.0753,-1.2219,False
+feed,secondary,"H2 (post-hoc levels, diagnostic)",H2_vs_last_q,13.0000,0.9410,,,last_q,0.8682,0.4838,
+feed,secondary,"H2 (post-hoc levels, diagnostic)",H2_vs_seasonal,13.0000,0.9410,,,seasonal,0.6166,1.6530,
+feed,secondary,"H2 (post-hoc levels, diagnostic)",H2_vs_mean,13.0000,0.9410,,,mean,0.6577,2.7138,
