@@ -4,10 +4,10 @@ _Last updated: 2026-11-24_
 
 ## Current phase
 
-**Phase VIII complete (2026-11-25):** checkpoint audit, methodology map, poultry feasibility. Decision **NO TRADE** unchanged (D-028): TAPG/LSIP/DSNG WATCH, STAA AVOID.
-- **Poultry:** M-VIII-1 done. Pre-registered H1 **failed** the kill rule, so the pilot stopped (D-031). H2 (levels) is registered for forward test only; CPIN 2026Q4 forecast is in the journal.
-- **Next (user choice):** JPFA independent replication of H2 (needs JPFA quarterly FS from IDX) or banking feasibility.
-- **Open:** hurdle reassessment (D-030c). First palm out-of-sample resolution: FY2026 results, Feb–Mar 2027 (C-020).
+**Phase IX complete (2026-11-25).** Palm oil: NO TRADE unchanged (TAPG/LSIP/DSNG WATCH, STAA AVOID); triggers and catalysts as before.
+- **Poultry:** H1 killed (D-031); H2 frozen for prospective test from 2026Q4 (D-032). JPFA and MAIN not pursued.
+- **Banking:** CONDITIONAL GO for one pre-registered MVP-B1 (BBCA, BBRI; D-033), **not started**. Bank tickers added to consensus snapshots.
+- **Open:** hurdle reassessment (D-030c); FY2026 resolutions Feb-Mar 2027 (palm C-020; CPIN H2 2026Q4).
 
 ## Done
 
@@ -114,6 +114,10 @@ _Last updated: 2026-11-24_
 - [x] **M-VIII-1 (2026-11-25):**
   - 34 CPIN FS downloaded; 35-quarter segment dataset built (reconciled; FY2020 basis break handled).
   - PIT walk-forward over 20 out-of-sample quarters: H1 killed. Tests 43 passing.
+
+- [x] **Phase IX (2026-11-25):**
+  - CPIN v2 PIT audit (actual filing dates, FY2023 vintage fix, predictor timing); H1/H2 rerun; H2 frozen.
+  - Banking: IR access tested for 4 banks 2018-26; inventory with publication lags; sample content and reconciliation checked; hypotheses B1-B6; gate decided. Tests 48 passing.
 
 ## Not resolved (sources tried and failed)
 

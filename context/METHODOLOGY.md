@@ -84,6 +84,9 @@ Find **earnings surprises and underappreciated catalysts** in Indonesian palm oi
 - Regression t-stats use Newey-West standard errors (`quant/stats_utils.ols_nw`).
 - **New-sector pilots** must pass a tested (not listed) data-feasibility screen first. Each needs a pre-registered hypothesis, benchmarks and a kill criterion before modelling. No machine learning unless a simple model beats the benchmarks.
 - Post-hoc specifications (chosen after seeing a failed test on the same data) are never evidence. They may only be registered for forward testing or for replication on independent data (D-031).
+- **Three kinds of evidence are always reported separately:** (1) automated software tests; (2) predictive forecasting accuracy (out of sample, against benchmarks); (3) realised investment alpha (returns earned after costs). Neither (1) nor (2) implies (3).
+- **Availability dates:** record the regulatory deadline and the actual filing timestamp separately; use the actual date only where verified (A-018 rule), else the deadline, flagged. Comparative (restated) figures are dated to the document that publishes them unless the original is independently verified.
+- **Frozen hypotheses:** a frozen spec (parameters, predictors, benchmarks, pass/kill rules) is stored as JSON and evaluated prospectively only; every pre-registered benchmark is compared, not just the weakest.
 - Methodology map: `outputs/quant_methodology_2026-11-25.png` (regenerate with `outputs/make_methodology_diagram.py`).
 
 ## 6. Data integrity rules
@@ -104,4 +107,5 @@ Find **earnings surprises and underappreciated catalysts** in Indonesian palm oi
 | IV | Signal design and backtests | Not started |
 | V | Synthesis: catalysts and theses | Not started |
 | VI–VII | LSIP deep-dive; institutional decision | Done: NO TRADE (D-027, D-028) |
-| VIII | Audit, methodology map, poultry feasibility | Done: conditional GO, CPIN only (D-029) |
+| VIII | Audit, methodology map, poultry feasibility | Done: conditional GO, CPIN only (D-029); H1 killed (D-031) |
+| IX | CPIN PIT audit v2; banking feasibility | Done: H2 frozen (D-032); banking CONDITIONAL GO for MVP-B1 (D-033) |

@@ -41,6 +41,8 @@ Every assumption used in models, valuations or backtests goes here with its sour
 | A-036 | Allocation | Scorecard and catalyst probabilities | Scores 1-5 per SCORE_RULES in quant/final_decision.py; P(buyback >= 25% executed) 45%, P(Q4 > 450bn) 50%, P(payout >= 50%) 15% | Judgement; not validated probabilities | 2026-11-25 | — |
 | A-037 | Poultry | Feed-cost proxy | feed_proxy (IDR/kg) = (0.55 x World Bank maize + 0.25 x soybean meal, USD/t) x USD/IDR / 1000; a proxy for index co-movement only, not a cost model; domestic corn (import-restricted) not observed | EST typical broiler-feed inclusion shares | 2026-11-25 | — |
 | A-038 | Poultry | CPIN availability dates | Report available on its regulatory deadline (Q1/H1/9M: +1 month; FY: +3 months); FY2023 (not on cp.co.id) assumed filed by 31 Mar 2024 with values equal to the FY2024 comparatives; restated 2020 values available only from the 2021 filings | OJK deadlines; FY2023 equality EST | 2026-11-25 | — |
+| A-039 | Banking | Monthly report availability | BBRI: IR posting date; BBCA: filename date prefix (2020+), else end of following month; BMRI: ?t= upload epoch (last-modified, an upper bound), else end of following month; BBNI: end of following month (POJK 37/2019 deadline) | IR listings (S-062..S-065); regulation | 2026-11-25 | — |
+| A-040 | CPIN | Revised availability (supersedes A-038 for FY2023) | FY2023 values available only from the FY2024 IDX filing (19 Mar 2025); quarters before Jul 2023 at regulatory deadline (actual unverified) | S-060, S-061 | 2026-11-25 | — |
 | A-008 | Backtest | Backtest start | 2016-01 or the first month all required inputs exist, whichever is later | User mandate (D-003); see the Phase I audit | 2026-11-24 | — |
 
 ## Still to set (before the first backtest)

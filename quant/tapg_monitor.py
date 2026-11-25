@@ -28,7 +28,8 @@ REF = ROOT / "data" / "reference"
 sys.path.insert(0, str(ROOT / "valuation"))
 TRIGGER_PRICE = 1525.0  # D-024 (was 1,530 before forward-dividend update)
 SHARES = 19852.54
-UNIVERSE = ["TAPG", "DSNG", "STAA", "AALI", "LSIP", "SSMS", "SIMP", "BWPT", "TBLA", "NSSS", "MGRO", "GZCO", "ANJT", "SGRO", "SMAR", "CSRA", "PSGO"]
+UNIVERSE = ["TAPG", "DSNG", "STAA", "AALI", "LSIP", "SSMS", "SIMP", "BWPT", "TBLA", "NSSS", "MGRO", "GZCO", "ANJT", "SGRO", "SMAR", "CSRA", "PSGO",
+            "BBCA", "BBRI", "BMRI", "BBNI"]  # Phase IX (D-033): forward consensus history for banking hypothesis B6
 
 
 def consensus_snapshot(run_date: str) -> pd.DataFrame:
