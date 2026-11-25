@@ -1,0 +1,35 @@
+{
+ "id": "DR-R1 implementation note",
+ "written_on": "2026-11-25",
+ "status": "Committed BEFORE any R1 strategy or benchmark return was computed. Interprets ambiguous points of DR_preregistration.json; does not change signal, threshold, universe, construction, period or pass rule.",
+ "registration": "DR_preregistration.json (committed 4a94d00)",
+ "holding_months": "2016-03 .. 2026-10 (128 months; 2026-11 incomplete)",
+ "signal": {
+  "formation": "close of the last IHSG trading day of month t (t = holding month - 1)",
+  "value": "ln(CPO_IDR[t-1] / CPO_IDR[t-2]), CPO_IDR = World Bank palm oil USD/t x month-average USD/IDR (macro_monthly.csv, current CMO vintage)",
+  "rule": "signal > 0 -> hold basket for month t+1; otherwise off-asset (strict inequality, as registered)"
+ },
+ "universe_and_weights": "all tickers with liquidity_band == core_liquidity at month-end t in pit_universe_monthly.csv (same membership as benchmarks.py); equal weight at the t close, buy-and-hold inside the month on daily Yahoo Adj Close; a missing/zero-volume day is a 0% return (benchmarks.ew_buy_and_hold)",
+ "execution_price": "close of the formation day (signal inputs were published >= 1 week earlier; see DR_R1_pit_audit.json)",
+ "primary_benchmark": "the same PIT basket held every month, with the same cost model",
+ "costs": {
+  "name_level_one_way": "median ADV at t >= IDR 10bn: buy 0.20%, sell 0.25% (0.45% round trip); < IDR 10bn: buy 0.45%, sell 0.55% (1.0% round trip)",
+  "entry_from_cash": "sum_i w_i x buy_i",
+  "exit_to_cash": "sum_i w_drift_i x sell_i (drifted weights at the exit close)",
+  "rebalance_while_invested": "0.3% x sum_i |w_target_i - w_drift_i| (applies to strategy months that follow an invested month, and to every benchmark month)",
+  "start_end": "both portfolios start in cash at 2016-02-29 (benchmark pays entry); no terminal liquidation for either"
+ },
+ "off_asset": "(BI-Rate in effect on the formation date - 0.5pp) / 12 per month; before the first BI 7-Day RR decision (21 Apr 2016) the first value (5.50%) is used for 2016-03/04 (flag: the old BI Rate was 6.75%)",
+ "statistics": {
+  "excess": "monthly net strategy return - monthly net benchmark return",
+  "annualised_excess": "12 x mean monthly excess (arithmetic); geometric CAGR difference also reported",
+  "hac": "Newey-West HAC t on mean excess, lag 3; one-sided p for H1: mean > 0 (programme convention); two-sided also reported",
+  "holm": "family = R1, R2, R3; R2 and R3 untested are treated as p = 1, so Holm-adjusted p(R1) = min(1, 3 p) when R1 is first; never reduced to a family of 1",
+  "halves": "months 1-64 and 65-128; 'positive' = mean monthly excess > 0 in each half",
+  "max_drawdown": "on month-end net wealth; pass if strategy MDD >= benchmark MDD (i.e. not deeper)",
+  "bootstrap": "moving-block bootstrap of the mean excess, block 6 months, 5000 reps, seed 20261125, 90% and 95% CI"
+ },
+ "attribution": "OLS (HAC lag 3) of strategy excess over cash on IHSG excess over cash (market), basket-minus-IHSG (sector), and contemporaneous CPO_IDR log change (commodity); Treynor-Mazuy and Henriksson-Merton timing regressions vs the basket; comparison with a constant-mix basket/cash portfolio at the strategy's average time invested",
+ "robustness_report_only": ["execution delayed one trading day (enter/exit at the close of the first trading day of the month)", "all costs x2", "exclude palm-exposure-unverified names (BTEK, PALM)", "exclude member-months with >= 3 zero-volume sessions in the holding month (diagnostic; uses ex-post info)", "cash = BI-Rate, cash = FRED call money, cash = 0", "survivorship: qualitative (GOLL, MAGP suspended before/at their eligibility; unknown delisted names)"],
+ "decision": "GO only if every registered pass condition holds AND no unresolved material data bias; a statistical pass with material unresolved bias = CONDITIONAL GO (provisional) -> freeze and 12-month paper tracking; otherwise NO-GO, preserve results, stop, no optimisation"
+}

@@ -1,0 +1,1151 @@
+{
+ "cpo_publication": {
+  "vintages": [
+   {
+    "captured_utc": "2026-02-09 13:38:58",
+    "latest_month": "2026-01",
+    "days_after_month_end": 8
+   },
+   {
+    "captured_utc": "2026-03-24 20:37:31",
+    "latest_month": "2026-02",
+    "days_after_month_end": 23
+   },
+   {
+    "captured_utc": "2026-06-11 05:55:05",
+    "latest_month": "2026-05",
+    "days_after_month_end": 10
+   },
+   {
+    "captured_utc": "2026-07-10 07:04:35",
+    "latest_month": "2026-06",
+    "days_after_month_end": 9
+   },
+   {
+    "captured_utc": "2026-10-15 19:45:51",
+    "latest_month": "2026-09",
+    "days_after_month_end": 14
+   },
+   {
+    "captured_utc": "2026-11-04 01:56:48",
+    "latest_month": "2026-10",
+    "days_after_month_end": 3
+   },
+   {
+    "captured_utc": "2026-11-25 06:34:20",
+    "latest_month": "2026-10",
+    "days_after_month_end": 24
+   },
+   {
+    "captured_utc": "2026-11-25 06:35:29",
+    "latest_month": "2026-10",
+    "days_after_month_end": 24
+   }
+  ],
+  "max_abs_revision_usd_t_since_2015_12": 58.3900000000001,
+  "rule": "signal for holding month t+1 uses CPO(t-1)/CPO(t-2); month t-1 must be published before the last trading day of month t",
+  "evidence": "all archived vintages show month m-1 present 9-15 days after its end (2026 only); pre-2026 release dates not archived in repo"
+ },
+ "dates": {
+  "signal_and_execution": "close of the last IHSG trading day of month t (signal inputs published >= ~2 weeks earlier)",
+  "pit_dates_equal_month_ends": true,
+  "pit_rule": "membership at t uses seasoning >= 60 sessions, trading in last 20 sessions, 63-session median traded value up to t (build_universe.py)"
+ },
+ "corporate_actions": {
+  "price_field": "Yahoo 'Adj Close' (split- and dividend-adjusted, gross of the 10% dividend tax)",
+  "per_ticker": [
+   {
+    "ticker": "AALI",
+    "dividend_like_factor_changes": 21,
+    "moves_beyond_35pct": {}
+   },
+   {
+    "ticker": "ANJT",
+    "dividend_like_factor_changes": 7,
+    "moves_beyond_35pct": {}
+   },
+   {
+    "ticker": "BTEK",
+    "dividend_like_factor_changes": 0,
+    "moves_beyond_35pct": {
+     "2019-03-26": 0.354,
+     "2024-05-27": 0.5,
+     "2024-06-05": -0.5,
+     "2024-06-10": 1.0,
+     "2024-06-14": -0.5,
+     "2024-06-19": 1.0,
+     "2024-06-21": -0.5,
+     "2024-06-24": 1.0,
+     "2024-06-27": -0.5,
+     "2024-07-01": 1.0,
+     "2024-07-08": 0.5,
+     "2024-07-12": 0.5,
+     "2024-11-13": 0.5
+    }
+   },
+   {
+    "ticker": "BWPT",
+    "dividend_like_factor_changes": 1,
+    "moves_beyond_35pct": {}
+   },
+   {
+    "ticker": "CBUT",
+    "dividend_like_factor_changes": 1,
+    "moves_beyond_35pct": {}
+   },
+   {
+    "ticker": "CSRA",
+    "dividend_like_factor_changes": 6,
+    "moves_beyond_35pct": {}
+   },
+   {
+    "ticker": "DSNG",
+    "dividend_like_factor_changes": 12,
+    "moves_beyond_35pct": {}
+   },
+   {
+    "ticker": "GZCO",
+    "dividend_like_factor_changes": 0,
+    "moves_beyond_35pct": {}
+   },
+   {
+    "ticker": "JAWA",
+    "dividend_like_factor_changes": 1,
+    "moves_beyond_35pct": {
+     "2025-06-13": 0.35
+    }
+   },
+   {
+    "ticker": "LSIP",
+    "dividend_like_factor_changes": 12,
+    "moves_beyond_35pct": {}
+   },
+   {
+    "ticker": "MGRO",
+    "dividend_like_factor_changes": 2,
+    "moves_beyond_35pct": {}
+   },
+   {
+    "ticker": "NSSS",
+    "dividend_like_factor_changes": 2,
+    "moves_beyond_35pct": {}
+   },
+   {
+    "ticker": "PALM",
+    "dividend_like_factor_changes": 7,
+    "moves_beyond_35pct": {}
+   },
+   {
+    "ticker": "PSGO",
+    "dividend_like_factor_changes": 3,
+    "moves_beyond_35pct": {}
+   },
+   {
+    "ticker": "SGRO",
+    "dividend_like_factor_changes": 9,
+    "moves_beyond_35pct": {}
+   },
+   {
+    "ticker": "SIMP",
+    "dividend_like_factor_changes": 10,
+    "moves_beyond_35pct": {}
+   },
+   {
+    "ticker": "SSMS",
+    "dividend_like_factor_changes": 12,
+    "moves_beyond_35pct": {}
+   },
+   {
+    "ticker": "STAA",
+    "dividend_like_factor_changes": 5,
+    "moves_beyond_35pct": {}
+   },
+   {
+    "ticker": "TAPG",
+    "dividend_like_factor_changes": 11,
+    "moves_beyond_35pct": {}
+   },
+   {
+    "ticker": "TBLA",
+    "dividend_like_factor_changes": 17,
+    "moves_beyond_35pct": {}
+   },
+   {
+    "ticker": "UNSP",
+    "dividend_like_factor_changes": 0,
+    "moves_beyond_35pct": {}
+   }
+  ]
+ },
+ "stale_members": {
+  "count_member_months_with_zero_volume_days": 158,
+  "member_months_total": 1045,
+  "cases": [
+   {
+    "ticker": "AALI",
+    "formation": "2016-02-29",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 21
+   },
+   {
+    "ticker": "AALI",
+    "formation": "2016-03-31",
+    "zero_volume_days_in_holding_month": 6,
+    "sessions": 21
+   },
+   {
+    "ticker": "AALI",
+    "formation": "2016-12-30",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 22
+   },
+   {
+    "ticker": "AALI",
+    "formation": "2017-01-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 20
+   },
+   {
+    "ticker": "AALI",
+    "formation": "2017-03-31",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 18
+   },
+   {
+    "ticker": "AALI",
+    "formation": "2017-05-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 16
+   },
+   {
+    "ticker": "AALI",
+    "formation": "2017-06-22",
+    "zero_volume_days_in_holding_month": 6,
+    "sessions": 27
+   },
+   {
+    "ticker": "AALI",
+    "formation": "2017-07-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 23
+   },
+   {
+    "ticker": "AALI",
+    "formation": "2017-08-31",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 21
+   },
+   {
+    "ticker": "AALI",
+    "formation": "2017-11-30",
+    "zero_volume_days_in_holding_month": 3,
+    "sessions": 21
+   },
+   {
+    "ticker": "AALI",
+    "formation": "2017-12-29",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 23
+   },
+   {
+    "ticker": "AALI",
+    "formation": "2018-01-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 20
+   },
+   {
+    "ticker": "AALI",
+    "formation": "2018-03-29",
+    "zero_volume_days_in_holding_month": 8,
+    "sessions": 22
+   },
+   {
+    "ticker": "AALI",
+    "formation": "2018-04-30",
+    "zero_volume_days_in_holding_month": 3,
+    "sessions": 23
+   },
+   {
+    "ticker": "AALI",
+    "formation": "2018-05-31",
+    "zero_volume_days_in_holding_month": 8,
+    "sessions": 21
+   },
+   {
+    "ticker": "AALI",
+    "formation": "2018-07-31",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 23
+   },
+   {
+    "ticker": "AALI",
+    "formation": "2018-08-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 20
+   },
+   {
+    "ticker": "AALI",
+    "formation": "2018-10-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 22
+   },
+   {
+    "ticker": "AALI",
+    "formation": "2018-11-30",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 20
+   },
+   {
+    "ticker": "AALI",
+    "formation": "2018-12-28",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 24
+   },
+   {
+    "ticker": "AALI",
+    "formation": "2019-01-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 20
+   },
+   {
+    "ticker": "AALI",
+    "formation": "2019-02-28",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 21
+   },
+   {
+    "ticker": "AALI",
+    "formation": "2019-03-29",
+    "zero_volume_days_in_holding_month": 3,
+    "sessions": 22
+   },
+   {
+    "ticker": "AALI",
+    "formation": "2019-04-30",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 23
+   },
+   {
+    "ticker": "AALI",
+    "formation": "2019-05-31",
+    "zero_volume_days_in_holding_month": 5,
+    "sessions": 20
+   },
+   {
+    "ticker": "AALI",
+    "formation": "2020-02-28",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 21
+   },
+   {
+    "ticker": "BTEK",
+    "formation": "2016-02-29",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 21
+   },
+   {
+    "ticker": "BTEK",
+    "formation": "2016-03-31",
+    "zero_volume_days_in_holding_month": 6,
+    "sessions": 21
+   },
+   {
+    "ticker": "BTEK",
+    "formation": "2016-12-30",
+    "zero_volume_days_in_holding_month": 4,
+    "sessions": 22
+   },
+   {
+    "ticker": "BTEK",
+    "formation": "2017-01-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 20
+   },
+   {
+    "ticker": "BTEK",
+    "formation": "2017-11-30",
+    "zero_volume_days_in_holding_month": 3,
+    "sessions": 21
+   },
+   {
+    "ticker": "BTEK",
+    "formation": "2017-12-29",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 23
+   },
+   {
+    "ticker": "BTEK",
+    "formation": "2019-11-29",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 19
+   },
+   {
+    "ticker": "BWPT",
+    "formation": "2016-02-29",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 21
+   },
+   {
+    "ticker": "BWPT",
+    "formation": "2016-03-31",
+    "zero_volume_days_in_holding_month": 6,
+    "sessions": 21
+   },
+   {
+    "ticker": "BWPT",
+    "formation": "2016-12-30",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 22
+   },
+   {
+    "ticker": "BWPT",
+    "formation": "2017-01-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 20
+   },
+   {
+    "ticker": "BWPT",
+    "formation": "2017-03-31",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 18
+   },
+   {
+    "ticker": "BWPT",
+    "formation": "2017-05-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 16
+   },
+   {
+    "ticker": "BWPT",
+    "formation": "2017-06-22",
+    "zero_volume_days_in_holding_month": 7,
+    "sessions": 27
+   },
+   {
+    "ticker": "BWPT",
+    "formation": "2017-07-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 23
+   },
+   {
+    "ticker": "BWPT",
+    "formation": "2017-08-31",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 21
+   },
+   {
+    "ticker": "BWPT",
+    "formation": "2017-11-30",
+    "zero_volume_days_in_holding_month": 3,
+    "sessions": 21
+   },
+   {
+    "ticker": "BWPT",
+    "formation": "2017-12-29",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 23
+   },
+   {
+    "ticker": "BWPT",
+    "formation": "2018-01-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 20
+   },
+   {
+    "ticker": "BWPT",
+    "formation": "2018-03-29",
+    "zero_volume_days_in_holding_month": 8,
+    "sessions": 22
+   },
+   {
+    "ticker": "BWPT",
+    "formation": "2018-04-30",
+    "zero_volume_days_in_holding_month": 3,
+    "sessions": 23
+   },
+   {
+    "ticker": "BWPT",
+    "formation": "2018-05-31",
+    "zero_volume_days_in_holding_month": 8,
+    "sessions": 21
+   },
+   {
+    "ticker": "BWPT",
+    "formation": "2018-07-31",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 23
+   },
+   {
+    "ticker": "BWPT",
+    "formation": "2018-08-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 20
+   },
+   {
+    "ticker": "BWPT",
+    "formation": "2018-10-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 22
+   },
+   {
+    "ticker": "BWPT",
+    "formation": "2018-11-30",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 20
+   },
+   {
+    "ticker": "BWPT",
+    "formation": "2018-12-28",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 24
+   },
+   {
+    "ticker": "BWPT",
+    "formation": "2019-01-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 20
+   },
+   {
+    "ticker": "BWPT",
+    "formation": "2019-02-28",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 21
+   },
+   {
+    "ticker": "BWPT",
+    "formation": "2019-03-29",
+    "zero_volume_days_in_holding_month": 3,
+    "sessions": 22
+   },
+   {
+    "ticker": "BWPT",
+    "formation": "2019-04-30",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 23
+   },
+   {
+    "ticker": "BWPT",
+    "formation": "2020-02-28",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 21
+   },
+   {
+    "ticker": "GZCO",
+    "formation": "2017-03-31",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 18
+   },
+   {
+    "ticker": "GZCO",
+    "formation": "2022-01-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 18
+   },
+   {
+    "ticker": "LSIP",
+    "formation": "2016-02-29",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 21
+   },
+   {
+    "ticker": "LSIP",
+    "formation": "2016-03-31",
+    "zero_volume_days_in_holding_month": 6,
+    "sessions": 21
+   },
+   {
+    "ticker": "LSIP",
+    "formation": "2016-12-30",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 22
+   },
+   {
+    "ticker": "LSIP",
+    "formation": "2017-01-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 20
+   },
+   {
+    "ticker": "LSIP",
+    "formation": "2017-03-31",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 18
+   },
+   {
+    "ticker": "LSIP",
+    "formation": "2017-05-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 16
+   },
+   {
+    "ticker": "LSIP",
+    "formation": "2017-06-22",
+    "zero_volume_days_in_holding_month": 7,
+    "sessions": 27
+   },
+   {
+    "ticker": "LSIP",
+    "formation": "2017-07-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 23
+   },
+   {
+    "ticker": "LSIP",
+    "formation": "2017-08-31",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 21
+   },
+   {
+    "ticker": "LSIP",
+    "formation": "2017-11-30",
+    "zero_volume_days_in_holding_month": 3,
+    "sessions": 21
+   },
+   {
+    "ticker": "LSIP",
+    "formation": "2017-12-29",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 23
+   },
+   {
+    "ticker": "LSIP",
+    "formation": "2018-01-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 20
+   },
+   {
+    "ticker": "LSIP",
+    "formation": "2018-03-29",
+    "zero_volume_days_in_holding_month": 8,
+    "sessions": 22
+   },
+   {
+    "ticker": "LSIP",
+    "formation": "2018-04-30",
+    "zero_volume_days_in_holding_month": 3,
+    "sessions": 23
+   },
+   {
+    "ticker": "LSIP",
+    "formation": "2018-05-31",
+    "zero_volume_days_in_holding_month": 8,
+    "sessions": 21
+   },
+   {
+    "ticker": "LSIP",
+    "formation": "2018-07-31",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 23
+   },
+   {
+    "ticker": "LSIP",
+    "formation": "2018-08-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 20
+   },
+   {
+    "ticker": "LSIP",
+    "formation": "2018-10-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 22
+   },
+   {
+    "ticker": "LSIP",
+    "formation": "2018-11-30",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 20
+   },
+   {
+    "ticker": "LSIP",
+    "formation": "2018-12-28",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 24
+   },
+   {
+    "ticker": "LSIP",
+    "formation": "2019-01-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 20
+   },
+   {
+    "ticker": "LSIP",
+    "formation": "2019-02-28",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 21
+   },
+   {
+    "ticker": "LSIP",
+    "formation": "2019-03-29",
+    "zero_volume_days_in_holding_month": 3,
+    "sessions": 22
+   },
+   {
+    "ticker": "LSIP",
+    "formation": "2019-04-30",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 23
+   },
+   {
+    "ticker": "LSIP",
+    "formation": "2019-05-31",
+    "zero_volume_days_in_holding_month": 5,
+    "sessions": 19
+   },
+   {
+    "ticker": "MGRO",
+    "formation": "2018-12-28",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 24
+   },
+   {
+    "ticker": "MGRO",
+    "formation": "2019-01-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 20
+   },
+   {
+    "ticker": "MGRO",
+    "formation": "2019-02-28",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 21
+   },
+   {
+    "ticker": "MGRO",
+    "formation": "2019-03-29",
+    "zero_volume_days_in_holding_month": 3,
+    "sessions": 22
+   },
+   {
+    "ticker": "MGRO",
+    "formation": "2019-04-30",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 23
+   },
+   {
+    "ticker": "MGRO",
+    "formation": "2019-05-31",
+    "zero_volume_days_in_holding_month": 5,
+    "sessions": 19
+   },
+   {
+    "ticker": "NSSS",
+    "formation": "2023-10-31",
+    "zero_volume_days_in_holding_month": 22,
+    "sessions": 22
+   },
+   {
+    "ticker": "NSSS",
+    "formation": "2023-12-29",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 22
+   },
+   {
+    "ticker": "NSSS",
+    "formation": "2024-02-29",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 18
+   },
+   {
+    "ticker": "NSSS",
+    "formation": "2024-11-29",
+    "zero_volume_days_in_holding_month": 19,
+    "sessions": 19
+   },
+   {
+    "ticker": "NSSS",
+    "formation": "2025-12-30",
+    "zero_volume_days_in_holding_month": 7,
+    "sessions": 20
+   },
+   {
+    "ticker": "SIMP",
+    "formation": "2016-03-31",
+    "zero_volume_days_in_holding_month": 6,
+    "sessions": 21
+   },
+   {
+    "ticker": "SIMP",
+    "formation": "2016-12-30",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 22
+   },
+   {
+    "ticker": "SIMP",
+    "formation": "2017-01-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 20
+   },
+   {
+    "ticker": "SIMP",
+    "formation": "2017-03-31",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 18
+   },
+   {
+    "ticker": "SIMP",
+    "formation": "2017-05-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 16
+   },
+   {
+    "ticker": "SIMP",
+    "formation": "2017-06-22",
+    "zero_volume_days_in_holding_month": 6,
+    "sessions": 27
+   },
+   {
+    "ticker": "SIMP",
+    "formation": "2017-07-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 23
+   },
+   {
+    "ticker": "SIMP",
+    "formation": "2017-08-31",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 21
+   },
+   {
+    "ticker": "SIMP",
+    "formation": "2017-11-30",
+    "zero_volume_days_in_holding_month": 3,
+    "sessions": 21
+   },
+   {
+    "ticker": "SIMP",
+    "formation": "2017-12-29",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 23
+   },
+   {
+    "ticker": "SIMP",
+    "formation": "2018-03-29",
+    "zero_volume_days_in_holding_month": 8,
+    "sessions": 22
+   },
+   {
+    "ticker": "SIMP",
+    "formation": "2018-04-30",
+    "zero_volume_days_in_holding_month": 3,
+    "sessions": 23
+   },
+   {
+    "ticker": "SIMP",
+    "formation": "2018-05-31",
+    "zero_volume_days_in_holding_month": 8,
+    "sessions": 21
+   },
+   {
+    "ticker": "SIMP",
+    "formation": "2018-07-31",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 23
+   },
+   {
+    "ticker": "SIMP",
+    "formation": "2018-08-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 20
+   },
+   {
+    "ticker": "SIMP",
+    "formation": "2018-10-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 22
+   },
+   {
+    "ticker": "SSMS",
+    "formation": "2016-03-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 16
+   },
+   {
+    "ticker": "SSMS",
+    "formation": "2016-12-30",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 22
+   },
+   {
+    "ticker": "SSMS",
+    "formation": "2017-01-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 20
+   },
+   {
+    "ticker": "SSMS",
+    "formation": "2017-03-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 17
+   },
+   {
+    "ticker": "SSMS",
+    "formation": "2017-05-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 16
+   },
+   {
+    "ticker": "SSMS",
+    "formation": "2017-06-22",
+    "zero_volume_days_in_holding_month": 6,
+    "sessions": 27
+   },
+   {
+    "ticker": "SSMS",
+    "formation": "2017-07-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 23
+   },
+   {
+    "ticker": "SSMS",
+    "formation": "2017-08-31",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 21
+   },
+   {
+    "ticker": "SSMS",
+    "formation": "2017-11-30",
+    "zero_volume_days_in_holding_month": 3,
+    "sessions": 21
+   },
+   {
+    "ticker": "SSMS",
+    "formation": "2017-12-29",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 23
+   },
+   {
+    "ticker": "SSMS",
+    "formation": "2018-01-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 20
+   },
+   {
+    "ticker": "SSMS",
+    "formation": "2018-03-29",
+    "zero_volume_days_in_holding_month": 8,
+    "sessions": 22
+   },
+   {
+    "ticker": "SSMS",
+    "formation": "2018-04-30",
+    "zero_volume_days_in_holding_month": 3,
+    "sessions": 23
+   },
+   {
+    "ticker": "SSMS",
+    "formation": "2018-05-31",
+    "zero_volume_days_in_holding_month": 8,
+    "sessions": 21
+   },
+   {
+    "ticker": "SSMS",
+    "formation": "2018-07-31",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 23
+   },
+   {
+    "ticker": "SSMS",
+    "formation": "2018-08-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 20
+   },
+   {
+    "ticker": "SSMS",
+    "formation": "2018-10-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 22
+   },
+   {
+    "ticker": "SSMS",
+    "formation": "2018-11-30",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 20
+   },
+   {
+    "ticker": "SSMS",
+    "formation": "2018-12-28",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 24
+   },
+   {
+    "ticker": "SSMS",
+    "formation": "2019-01-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 20
+   },
+   {
+    "ticker": "SSMS",
+    "formation": "2019-02-28",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 21
+   },
+   {
+    "ticker": "SSMS",
+    "formation": "2019-03-29",
+    "zero_volume_days_in_holding_month": 3,
+    "sessions": 22
+   },
+   {
+    "ticker": "SSMS",
+    "formation": "2019-04-30",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 23
+   },
+   {
+    "ticker": "SSMS",
+    "formation": "2019-05-31",
+    "zero_volume_days_in_holding_month": 5,
+    "sessions": 19
+   },
+   {
+    "ticker": "SSMS",
+    "formation": "2020-02-28",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 21
+   },
+   {
+    "ticker": "SSMS",
+    "formation": "2025-01-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 20
+   },
+   {
+    "ticker": "STAA",
+    "formation": "2023-12-29",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 22
+   },
+   {
+    "ticker": "STAA",
+    "formation": "2024-02-29",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 18
+   },
+   {
+    "ticker": "TAPG",
+    "formation": "2022-02-25",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 22
+   },
+   {
+    "ticker": "TAPG",
+    "formation": "2023-12-29",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 22
+   },
+   {
+    "ticker": "TAPG",
+    "formation": "2024-02-29",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 18
+   },
+   {
+    "ticker": "TBLA",
+    "formation": "2016-12-30",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 22
+   },
+   {
+    "ticker": "TBLA",
+    "formation": "2017-01-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 20
+   },
+   {
+    "ticker": "TBLA",
+    "formation": "2017-03-31",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 18
+   },
+   {
+    "ticker": "TBLA",
+    "formation": "2017-05-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 16
+   },
+   {
+    "ticker": "TBLA",
+    "formation": "2017-06-22",
+    "zero_volume_days_in_holding_month": 6,
+    "sessions": 27
+   },
+   {
+    "ticker": "TBLA",
+    "formation": "2017-07-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 23
+   },
+   {
+    "ticker": "TBLA",
+    "formation": "2017-08-31",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 21
+   },
+   {
+    "ticker": "TBLA",
+    "formation": "2018-08-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 20
+   },
+   {
+    "ticker": "TBLA",
+    "formation": "2018-10-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 22
+   },
+   {
+    "ticker": "TBLA",
+    "formation": "2018-11-30",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 20
+   },
+   {
+    "ticker": "TBLA",
+    "formation": "2018-12-28",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 24
+   },
+   {
+    "ticker": "TBLA",
+    "formation": "2019-01-31",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 20
+   },
+   {
+    "ticker": "TBLA",
+    "formation": "2019-02-28",
+    "zero_volume_days_in_holding_month": 1,
+    "sessions": 21
+   },
+   {
+    "ticker": "TBLA",
+    "formation": "2019-03-29",
+    "zero_volume_days_in_holding_month": 3,
+    "sessions": 22
+   },
+   {
+    "ticker": "UNSP",
+    "formation": "2017-03-31",
+    "zero_volume_days_in_holding_month": 2,
+    "sessions": 18
+   }
+  ],
+  "treatment": "a zero-volume day is a 0% return at the last price (benchmarks.py); exit at a stale price may be non-executable"
+ },
+ "survivorship": {
+  "listings_without_prices": [
+   "GOLL",
+   "MAGP"
+  ],
+  "notes": {
+   "GOLL": "Suspended since 2019-01-30; delisted effective 2026-11-10 (per press reports citing IDX announcements)",
+   "MAGP": "Suspended since 2022-07-18; on IDX delisting watch (press reports 2024-2026)"
+  },
+  "unknown_unknowns": "the candidate list was compiled in 2026; palm names delisted before 2015 or absent from Yahoo would be missing entirely",
+  "palm_exposure_unverified_members": [
+   "BTEK",
+   "PALM"
+  ]
+ },
+ "ihsg_total_return": "not available: ^JKSE is a price index (Adj Close = Close); IHSG comparisons are price-only"
+}
